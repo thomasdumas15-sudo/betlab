@@ -406,7 +406,11 @@ class OddsPapi:
                 if not isinstance(pl, dict) or not pl.get("price") or not pl.get("active", True):
                     continue
                 d = players.setdefault(str(pid), {"name": None, "prices": {}})
-                d["name"] = pl.get("playerName") or d["name"]
+                nm = str(pl.get("playerName") or "")
+                if "," in nm:      # "Reid, Naz" -> "Naz Reid"
+                    last, first = nm.split(",", 1)
+                    nm = f"{first.strip()} {last.strip()}"
+                d["name"] = nm or d["name"]
                 d["prices"][side] = float(pl["price"])
         rows = []
         for pid, d in players.items():

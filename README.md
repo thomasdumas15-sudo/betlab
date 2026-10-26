@@ -1,6 +1,6 @@
 # BetLab — agent de paris sportifs simulés
 
-Un agent autonome qui relève les cotes, applique six stratégies de paris sur une bankroll **fictive**,
+Un agent autonome qui relève les cotes, applique sept stratégies de paris (vainqueur du match et stats joueurs NBA) sur une bankroll **fictive**,
 règle les paris automatiquement et mesure ce qui compte vraiment : le **CLV** (Closing Line Value).
 Il tourne gratuitement sur GitHub Actions, toutes les heures, et publie un dashboard sur GitHub Pages.
 
@@ -21,7 +21,7 @@ Il tourne gratuitement sur GitHub Actions, toutes les heures, et publie un dashb
 Un **gestionnaire de budget** répartit les quotas gratuits sur le mois (NBA en priorité) : l'agent ne tombe jamais
 en panne de crédits en fin de mois, il relève simplement moins.
 
-## Les six stratégies (1 000 € fictifs chacune)
+## Les sept stratégies (1 000 € fictifs chacune)
 
 | Clé | Nom | Idée |
 |---|---|---|
@@ -31,6 +31,7 @@ en panne de crédits en fin de mois, il relève simplement moins.
 | `basket` | Basket spécialiste | Valeur Pinnacle sur NBA / Euroleague / Betclic Élite seulement, edge ≥ 3 %, Kelly 20 %. |
 | `steam` | Mouvement sharp | Pinnacle a bougé d'au moins 3 pts vers un camp depuis l'ouverture et Winamax n'a pas suivi. |
 | `control` | Témoin | Hasard reproductible (graine fixe), mise fixe 1 %. Toute stratégie doit le battre. |
+| `player_props` | Stats joueurs | Points, rebonds, passes, 3 pts et combinés NBA en plus/moins de X : même joueur et même ligne chez Pinnacle et Winamax, edge ≥ 4 %, 2 paris max par match, réglé par la feuille de match ESPN. |
 
 Tout est réglable dans `config.yaml` (seuils, plafonds, sports, créneaux). Ajouter une stratégie = une classe de
 30 lignes dans `betlab/strategies/builtin.py` + une entrée dans la config.
@@ -89,7 +90,7 @@ betlab/
   budget.py                 répartition mensuelle des quotas gratuits
   report.py / review.py     stats, dashboard.json, revue Markdown
   providers/                oddspapi.py, theoddsapi.py, espn.py
-  strategies/               base.py, builtin.py (les six stratégies)
+  strategies/               base.py, builtin.py (les sept stratégies)
 data/                       events.json, bets.json, state.json, odds/AAAA-MM-JJ.jsonl, cache/
 docs/                       index.html (dashboard), data/dashboard.json, review.md
 .github/workflows/          betlab.yml (toutes les heures)
