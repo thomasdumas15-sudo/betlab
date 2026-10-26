@@ -45,7 +45,10 @@ class Engine:
             if not quotes or self.bet_book not in quotes:
                 continue
             for strat in self.strategies:
-                if not strat.applies_to(ev) or self.ledger.already_bet(strat.key, ev["id"]):
+                if not strat.applies_to(ev):
+                    continue
+                n_done = self.ledger.bets_on_event(strat.key, ev["id"])
+                if n_done >= strat.max_per_event:
                     continue
                 bankroll = bankrolls[strat.key]
                 available = bankroll - exposures[strat.key]
@@ -58,13 +61,19 @@ class Engine:
                 except Exception as e:  # une stratégie ne doit jamais bloquer les autres
                     self.log(f"  ! stratégie {strat.key} sur {ev['id']}: {e}")
                     continue
-                for c in cands[:1]:
-                    if c.stake <= 0:
+                for c in cands:
+                    if n_done >= strat.max_per_event:
+                        break
+                    if c.stake <= 0 or self.ledger.already_bet(strat.key, ev["id"], c.market):
                         continue
+                    available = bankroll - exposures[strat.key]
+                    if available <= 0:
+                        break
                     if c.stake > available:
                         c.stake = round(available, 2)
                     bet = self.ledger.place(strat.key, ev, c, self.bet_book, quotes, note=c.note)
                     exposures[strat.key] += bet["stake"]
+                    n_done += 1
                     placed.append(bet)
                     self.log(f"  + {strat.label}: {bet['match']} → {bet['selection_name']} @ {bet['odds']} "
                              f"mise {bet['stake']} € (edge {bet['edge'] * 100:+.1f} %)")

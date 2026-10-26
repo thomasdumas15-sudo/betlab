@@ -20,6 +20,9 @@ _MONEYLINE_NAMES = re.compile(
 _PARTIAL_PERIOD = re.compile(r"half|1st|2nd|3rd|4th|quarter|set|period|inning|map|round|overtime_only|first|second", re.I)
 _SPREAD_TYPES = {"handicap", "spread", "asian_handicap", "asian handicap", "spreads", "point_spread"}
 _TOTAL_TYPES = {"totals", "total", "over_under", "over/under", "ou"}
+# stats joueurs (plus/moins de X, match complet prolongation incluse) : marketType "playertotals-<clé>"
+PROP_STATS = {"points": "points", "rebounds": "rebounds", "assists": "assists", "3pointers": "threes",
+              "ptsreb": "pts_reb", "ptsass": "pts_ast", "ptsassreb": "pts_reb_ast", "assreb": "reb_ast"}
 
 
 def _get(d: dict, *keys, default=None):
@@ -282,6 +285,7 @@ class OddsPapi:
         """-> (événements, lignes de cotes, tournamentIds dont il manque des noms)."""
         events, rows, missing_names = [], [], set()
         names: dict = self.store.cache_get("oddspapi_participants") or {}
+        prop_sample: dict = {}
         for fx in fixtures:
             try:
                 tid = int(fx.get("tournamentId"))
@@ -334,7 +338,13 @@ class OddsPapi:
                 # --- spreads / totals (ligne principale) : stockés pour plus tard
                 for mid, mm in markets.items():
                     cat = self.markets_index().get(int(mid)) if str(mid).isdigit() else None
-                    if not cat or cat.get("playerProp"):
+                    if not cat:
+                        continue
+                    if cat.get("playerProp"):
+                        n = len(rows)
+                        rows.extend(self._parse_prop(ev["id"], canon, cat, mm, ts))
+                        if len(rows) > n and canon not in prop_sample:
+                            prop_sample[canon] = {"marketId": mid, "raw": mm, "parsed": rows[n]}
                         continue
                     mtype = str(cat.get("marketType", "")).lower()
                     mname = str(cat.get("marketName", "")).lower()
@@ -367,7 +377,45 @@ class OddsPapi:
                         if over and under:
                             rows.append({"ts": ts, "event_id": ev["id"], "provider": "oddspapi", "book": canon,
                                          "market": "totals", "line": line, "prices": {"over": over, "under": under}})
+        if prop_sample:
+            self.store.cache_set("oddspapi_props_sample", prop_sample)   # aide au diagnostic du format
         return events, rows, missing_names
+
+    @staticmethod
+    def _parse_prop(event_id: str, book: str, cat: dict, mm: dict, ts: str) -> list[dict]:
+        """Stat joueur plus/moins de X -> une ligne par joueur, market = "prop:<stat>:<joueur>:<ligne>"."""
+        mtype = str(cat.get("marketType", "")).lower()
+        if str(cat.get("period", "")).lower() != "result" or not mtype.startswith("playertotals-"):
+            return []
+        stat = PROP_STATS.get(mtype.split("-", 1)[1])
+        try:
+            line = float(cat.get("handicap"))
+        except (TypeError, ValueError):
+            return []
+        if not stat or line <= 0:
+            return []
+        out_names = {int(o["outcomeId"]): str(o.get("outcomeName", "")).lower()
+                     for o in (cat.get("outcomes") or []) if "outcomeId" in o}
+        players: dict[str, dict] = {}
+        for oid, o in (mm.get("outcomes") or {}).items():
+            onm = out_names.get(int(oid), "") if str(oid).isdigit() else ""
+            side = "over" if "over" in onm else "under" if "under" in onm else None
+            if not side:
+                continue
+            for pid, pl in (o.get("players") or {}).items():
+                if not isinstance(pl, dict) or not pl.get("price") or not pl.get("active", True):
+                    continue
+                d = players.setdefault(str(pid), {"name": None, "prices": {}})
+                d["name"] = pl.get("playerName") or d["name"]
+                d["prices"][side] = float(pl["price"])
+        rows = []
+        for pid, d in players.items():
+            if not d["name"] or pid == "0":
+                continue
+            rows.append({"ts": ts, "event_id": event_id, "provider": "oddspapi", "book": book,
+                         "market": f"prop:{stat}:{pid}:{line:g}", "line": line, "prices": d["prices"],
+                         "player": d["name"], "player_id": pid, "stat": stat})
+        return rows
 
     def fetch_names(self, tournament_id: int, priority: int = 3) -> dict[str, str]:
         """1 requête : noms des participants de tous les matchs à venir d'un tournoi."""

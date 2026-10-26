@@ -57,3 +57,35 @@ class Espn:
                           "state": status.get("state"), "detail": status.get("description") or status.get("name")})
         self._cache[key] = games
         return games
+
+    def boxscore(self, path: str, game_id: str) -> dict[str, dict] | None:
+        """-> {nom du joueur: {"points", "rebounds", "assists", "threes", "played"}} ; None si indisponible."""
+        try:
+            _, body, _ = self.http.get(f"{BASE}/{path}/summary", {"event": game_id}, endpoint=f"espn:{path}:summary",
+                                       cooldown=0.5, fixture_name=f"summary_{path.replace('/', '_')}_{game_id}")
+        except ProviderError as e:
+            self.log(f"  espn boxscore {game_id}: {e}")
+            return None
+        out: dict[str, dict] = {}
+        for team in ((body or {}).get("boxscore") or {}).get("players") or []:
+            for block in team.get("statistics") or []:
+                labels = [str(x).upper() for x in (block.get("labels") or block.get("names") or [])]
+                for a in block.get("athletes") or []:
+                    name = (a.get("athlete") or {}).get("displayName")
+                    if not name:
+                        continue
+                    stats = a.get("stats") or []
+                    if a.get("didNotPlay") or not stats:
+                        out[name] = {"played": False}
+                        continue
+                    row = dict(zip(labels, stats))
+
+                    def num(k):
+                        v = str(row.get(k, "")).split("-")[0]
+                        try:
+                            return int(float(v))
+                        except ValueError:
+                            return None
+                    out[name] = {"played": True, "points": num("PTS"), "rebounds": num("REB"),
+                                 "assists": num("AST"), "threes": num("3PT")}
+        return out or None

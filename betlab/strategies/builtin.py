@@ -1,4 +1,4 @@
-"""Les six stratégies livrées. Chacune est volontairement simple et lisible :
+"""Les stratégies livrées. Chacune est volontairement simple et lisible :
 la performance vient des données (Pinnacle vs Winamax) et de la discipline, pas de la complexité.
 """
 from __future__ import annotations
@@ -136,6 +136,56 @@ class Control(Strategy):
         return [c] if c.stake > 0 else []
 
 
+STAT_LABELS = {"points": "points", "rebounds": "rebonds", "assists": "passes", "threes": "paniers à 3 pts",
+               "pts_reb": "points + rebonds", "pts_ast": "points + passes", "pts_reb_ast": "points + rebonds + passes",
+               "reb_ast": "rebonds + passes"}
+
+
+def prop_label(player: str, stat: str, line: float, side: str) -> str:
+    sens = "plus de" if side == "over" else "moins de"
+    return f"{player} — {sens} {str(line).replace('.', ',')} {STAT_LABELS.get(stat, stat)}"
+
+
+class PlayerProps(Strategy):
+    """Stats joueurs (points, rebonds, passes…) : Pinnacle dé-margé vs Winamax, même joueur et même ligne."""
+    max_per_event = 2
+
+    def __init__(self, key: str, params: dict):
+        super().__init__(key, params)
+        self.max_per_event = int(params.get("max_per_event", 2))
+
+    def candidates(self, ctx: Context) -> list[Candidate]:
+        out = []
+        ref_book = ctx.quotes.get(ctx.ref_book) or {}
+        stats = set(self.params.get("stats") or [])
+        for mkey, bet_q in (ctx.quotes.get(ctx.bet_book) or {}).items():
+            if not mkey.startswith("prop:") or not ctx.fresh(bet_q):
+                continue
+            stat = mkey.split(":")[1]
+            if stats and stat not in stats:
+                continue
+            ref_q = ref_book.get(mkey)
+            if not ctx.fresh(ref_q, bet_q) or len(ref_q["prices"]) != 2:
+                continue
+            probs = devig(ref_q["prices"])
+            for side, p in probs.items():
+                odds = bet_q["prices"].get(side)
+                if not odds or odds < self.params["min_odds"] or odds > self.params["max_odds"]:
+                    continue
+                edge = p * odds - 1.0
+                if edge < self.params["min_edge"]:
+                    continue
+                player = bet_q.get("player") or ref_q.get("player") or "?"
+                c = Candidate(side, float(odds), float(p), float(edge), 0.0,
+                              f"Pinnacle {ref_q['prices'].get('over')}/{ref_q['prices'].get('under')} p={p:.3f}",
+                              market=mkey, label=prop_label(player, stat, float(bet_q.get("line") or 0), side))
+                c.stake = self.kelly(ctx, c)
+                if c.stake > 0:
+                    out.append(c)
+        out.sort(key=lambda c: -c.edge)
+        return out
+
+
 REGISTRY = {
     "value_sharp": ValueSharp,
     "value_consensus": ValueConsensus,
@@ -143,6 +193,7 @@ REGISTRY = {
     "basket": Basket,
     "steam": Steam,
     "control": Control,
+    "player_props": PlayerProps,
 }
 
 

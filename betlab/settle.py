@@ -5,7 +5,33 @@ from datetime import timedelta
 
 from .matching import match_event
 from .providers.base import ProviderError
-from .util import iso, now_utc, parse_iso
+from .util import iso, name_similarity, now_utc, parse_iso
+
+_PROP_PARTS = {"points": ["points"], "rebounds": ["rebounds"], "assists": ["assists"], "threes": ["threes"],
+               "pts_reb": ["points", "rebounds"], "pts_ast": ["points", "assists"],
+               "pts_reb_ast": ["points", "rebounds", "assists"], "reb_ast": ["rebounds", "assists"]}
+
+
+def _is_prop(bet: dict) -> bool:
+    return str(bet.get("market", "")).startswith("prop:")
+
+
+def _prop_value(stats: dict, stat: str | None) -> int | None:
+    parts = [stats.get(k) for k in _PROP_PARTS.get(stat or "", [])]
+    if not parts or any(v is None for v in parts):
+        return None
+    return sum(parts)
+
+
+def _find_player(box: dict, name: str | None) -> str | None:
+    if not name:
+        return None
+    best, score = None, 0.0
+    for n in box:
+        s = name_similarity(n, name)
+        if s > score:
+            best, score = n, s
+    return best if score >= 0.8 else None
 
 
 def winner_from_scores(kind: str, hs: int | None, as_: int | None) -> str | None:
@@ -68,22 +94,64 @@ class Settler:
                 ev["result"] = result
                 ev["status"] = "cancelled" if result.get("status") == "cancelled" else "finished"
                 for b in self.store.bets:
-                    if b["event_id"] == ev["id"] and b["status"] == "open":
+                    if b["event_id"] == ev["id"] and b["status"] == "open" and not _is_prop(b):
                         self.ledger.settle(b, result.get("winner"), result.get("status", "settled"))
                         settled += 1
                         self.log(f"  = {b['strategy']}: {b['match']} → {b['result']} ({b['pnl']:+.2f} €)")
-                continue
+                settled += self._settle_props(ev, result)
             st = parse_iso(ev.get("start"))
+            if result and not any(b["event_id"] == ev["id"] and b["status"] == "open" for b in self.store.bets):
+                continue
             if st and now_utc() - st > void_after:
                 for b in self.store.bets:
                     if b["event_id"] == ev["id"] and b["status"] == "open":
                         self.ledger.void(b, "aucun résultat trouvé")
                         settled += 1
-                ev["status"] = "unknown"
+                if not result:
+                    ev["status"] = "unknown"
         return settled
 
+    # ------------------------------------------------------------ stats joueurs
+    def _settle_props(self, ev: dict, result: dict) -> int:
+        bets = [b for b in self.store.bets if b["event_id"] == ev["id"] and b["status"] == "open" and _is_prop(b)]
+        if not bets:
+            return 0
+        if result.get("status") == "cancelled":
+            for b in bets:
+                self.ledger.settle(b, None, "cancelled")
+            return len(bets)
+        path = self.cfg.sports.get(ev.get("sport"), {}).get("espn")
+        if not path or self.espn is None:
+            return 0
+        gid = result.get("espn_id")
+        if not gid:
+            g = self._espn_game(ev)
+            gid = g["id"] if g else None
+        box = self.espn.boxscore(path, gid) if gid else None
+        if not box:
+            return 0
+        n = 0
+        for b in bets:
+            player = _find_player(box, b.get("player"))
+            stats = box.get(player) if player else None
+            if stats is None or not stats.get("played"):
+                self.ledger.void(b, "joueur absent de la feuille de match")
+                n += 1
+                continue
+            value = _prop_value(stats, b.get("stat"))
+            if value is None:
+                continue
+            line = float(b["line"])
+            winner = "push" if value == line else ("over" if value > line else "under")
+            self.ledger.settle(b, winner)
+            b["result_value"] = value
+            n += 1
+            self.log(f"  = {b['strategy']}: {b['selection_name']} → {value} ({b['pnl']:+.2f} €)")
+        return n
+
     # ------------------------------------------------------------ sources
-    def _espn(self, ev: dict) -> dict | None:
+    def _espn_game(self, ev: dict) -> dict | None:
+        """Match ESPN correspondant (avec "_swapped" si domicile/extérieur sont inversés)."""
         path = self.cfg.sports.get(ev.get("sport"), {}).get("espn")
         if not path or self.espn is None:
             return None
@@ -98,16 +166,21 @@ class Settler:
         m, swapped = match_event(cands, ev["home"], ev["away"], ev["start"], tolerance_hours=4)
         if not m:
             return None
-        g = m["_g"]
-        if not g.get("completed"):
+        return {**m["_g"], "_swapped": swapped}
+
+    def _espn(self, ev: dict) -> dict | None:
+        g = self._espn_game(ev)
+        if not g or not g.get("completed"):
             return None
+        swapped = g["_swapped"]
         hs, as_ = g["home_score"], g["away_score"]
         if swapped:
             hs, as_ = as_, hs
         w = winner_from_scores(ev.get("kind", ""), hs, as_)
         if w is None:
             return None
-        return {"winner": w, "status": "settled", "home_score": hs, "away_score": as_, "source": "espn", "at": iso(now_utc())}
+        return {"winner": w, "status": "settled", "home_score": hs, "away_score": as_, "source": "espn",
+                "espn_id": g.get("id"), "at": iso(now_utc())}
 
     def _theoddsapi(self, ev: dict, cache: dict) -> dict | None:
         spec = self.cfg.sports.get(ev.get("sport"), {}).get("theoddsapi") or {}

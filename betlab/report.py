@@ -116,7 +116,8 @@ def build_dashboard(cfg, store, budget, extra: dict | None = None) -> dict:
 def _bet_view(b: dict, sports_labels: dict) -> dict:
     return {k: b.get(k) for k in ("id", "strategy", "sport", "match", "start", "selection", "selection_name", "odds",
                                    "fair_prob", "edge", "stake", "placed_at", "status", "result", "pnl",
-                                   "clv", "clv_book", "closing_odds", "note")} | {"sport_label": sports_labels.get(b.get("sport"), b.get("sport"))}
+                                   "clv", "clv_book", "closing_odds", "note", "market", "line", "player", "stat",
+                                   "result_value", "settled_at")} | {"sport_label": sports_labels.get(b.get("sport"), b.get("sport"))}
 
 
 def write_dashboard(cfg, data: dict) -> Path:

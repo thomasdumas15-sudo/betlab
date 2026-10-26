@@ -53,9 +53,11 @@ def make_fixtures(fx: Path, t0: datetime) -> dict:
          "outcomes": [{"outcomeId": 203, "outcomeName": "1"}, {"outcomeId": 204, "outcomeName": "X"}, {"outcomeId": 205, "outcomeName": "2"}]},
         {"marketId": 250, "marketLength": 2, "marketName": "Over Under (incl. OT)", "playerProp": False, "sportId": 2, "handicap": 224.5, "period": "fulltime", "marketType": "totals",
          "outcomes": [{"outcomeId": 250, "outcomeName": "Over"}, {"outcomeId": 251, "outcomeName": "Under"}]},
+        {"marketId": 300, "marketLength": 2, "marketName": "Over Under Player Points (incl. overtime)", "playerProp": True, "sportId": 2, "handicap": 24.5, "period": "result", "marketType": "playertotals-points",
+         "outcomes": [{"outcomeId": 301, "outcomeName": "Under"}, {"outcomeId": 300, "outcomeName": "Over"}]},
     ])
 
-    def book(ml_home, ml_away, over=None, under=None, main=True):
+    def book(ml_home, ml_away, over=None, under=None, main=True, prop=None):
         m = {"201": {"bookmakerMarketId": "x", "marketActive": True, "outcomes": {
             "201": {"players": {"0": _player(ml_home, outcome="home")}},
             "202": {"players": {"0": _player(ml_away, outcome="away")}}}}}
@@ -63,13 +65,18 @@ def make_fixtures(fx: Path, t0: datetime) -> dict:
             m["250"] = {"bookmakerMarketId": "y", "marketActive": True, "outcomes": {
                 "250": {"players": {"0": _player(over, main=main, outcome="224.5/over")}},
                 "251": {"players": {"0": _player(under, main=main, outcome="224.5/under")}}}}
+        if prop:   # stat joueur : LeBron James plus/moins de 24,5 points
+            pl = lambda price: {"777": {**_player(price), "playerName": "LeBron James"}}
+            m["300"] = {"bookmakerMarketId": "z", "marketActive": True, "outcomes": {
+                "300": {"players": pl(prop[0])}, **({"301": {"players": pl(prop[1])}} if prop[1] else {})}}
         return {"bookmakerIsActive": True, "bookmakerFixtureId": "1", "fixturePath": "", "suspended": False, "markets": m}
 
     fixtures = [
         {"fixtureId": "id9001", "participant1Id": 11, "participant2Id": 12, "sportId": 2, "tournamentId": 300, "seasonId": 1,
          "statusId": 0, "hasOdds": True, "startTime": start_iso, "trueStartTime": None, "trueEndTime": None, "updatedAt": start_iso,
          # Pinnacle: 1.80 / 2.05 -> p_home 0.533 ; Winamax home 2.00 -> edge +6.6 %
-         "bookmakerOdds": {"pinnacle": book(1.80, 2.05, 1.92, 1.92), "winamax.fr": book(2.00, 1.78, 1.85, 1.85), "betclic.fr": book(1.95, 1.80)}},
+         "bookmakerOdds": {"pinnacle": book(1.80, 2.05, 1.92, 1.92, prop=(1.80, 2.05)), "winamax.fr": book(2.00, 1.78, 1.85, 1.85, prop=(2.00, None)),
+                           "betclic.fr": book(1.95, 1.80)}},
         {"fixtureId": "id9002", "participant1Id": 13, "participant2Id": 14, "sportId": 2, "tournamentId": 300, "seasonId": 1,
          "statusId": 0, "hasOdds": True, "startTime": start_iso, "trueStartTime": None, "trueEndTime": None, "updatedAt": start_iso,
          # gros favori : Pinnacle 1.30 / 3.60 ; Winamax 1.33 / 3.20 -> Favoris prudents (p=0.735, cote 1.33 <1.35 ?) -> 1.36
@@ -113,6 +120,11 @@ def make_fixtures(fx: Path, t0: datetime) -> dict:
     ]}
     for d in {start.strftime("%Y%m%d"), (start - timedelta(hours=8)).strftime("%Y%m%d")}:
         _w(espn / f"scoreboard_basketball_nba_{d}.json", games)
+    labels = ["MIN", "FG", "3PT", "FT", "OREB", "DREB", "REB", "AST", "STL", "BLK", "TO", "PF", "+/-", "PTS"]
+    _w(espn / "summary_basketball_nba_e1.json", {"boxscore": {"players": [{"team": {"displayName": "Los Angeles Lakers"}, "statistics": [{
+        "labels": labels, "athletes": [
+            {"athlete": {"displayName": "LeBron James"}, "stats": ["36", "11-20", "3-6", "3-4", "1", "7", "8", "9", "1", "0", "3", "2", "+7", "28"]},
+            {"athlete": {"displayName": "Anthony Davis"}, "stats": [], "didNotPlay": True}]}]}]}})
 
     # The Odds API : consensus FR
     toa = fx / "theoddsapi"
@@ -192,6 +204,10 @@ def test_full_pipeline(lab):
     assert by[("value_sharp", "op:id9001")]["stake"] == 16.23     # Kelly/4 : (0.5325×1 − 0.4675)/4 = 1,62 %
     assert ("basket", "op:id9001") in by
     assert ("favorites", "op:id9002") in by and by[("favorites", "op:id9002")]["stake"] == 10.0
+    props = [b for b in store.bets if b["strategy"] == "player_props"]
+    assert len(props) == 1 and props[0]["selection"] == "over" and props[0]["odds"] == 2.0
+    assert props[0]["selection_name"] == "LeBron James — plus de 24,5 points" and props[0]["stake"] == 10.0   # plafond 1 %
+    assert quotes["pinnacle"]["prop:points:777:24.5"]["prices"] == {"over": 1.80, "under": 2.05}
     # consensus de 6 books (Pinnacle + 5 FR) : les books mous diluent Pinnacle -> pas d'edge, pas de pari
     assert ("value_consensus", "op:id9001") not in by
     assert store.state["slots"]["basketball:matin"] == "2026-11-03"
@@ -213,6 +229,9 @@ def test_full_pipeline(lab):
     vs = bets[("value_sharp", "op:id9001")]
     assert vs["status"] == "won" and vs["pnl"] == 16.23
     assert vs["closing_odds"] == 1.90 and vs["clv"] is not None and vs["clv"] > 0.08   # 2.00 × p_close(0.559) − 1
+    pp = bets[("player_props", "op:id9001")]
+    assert pp["status"] == "won" and pp["pnl"] == 10.0 and pp["result_value"] == 28
+    assert pp["clv"] is not None and abs(pp["clv"] - 0.065) < 0.001     # clôture = dernier relevé Pinnacle
     fav = bets[("favorites", "op:id9002")]
     assert fav["status"] == "lost" and fav["pnl"] == -10.0
     assert s3["settled"] >= 3 and s3["closing"] >= 2

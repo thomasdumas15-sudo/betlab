@@ -24,11 +24,16 @@ class Ledger:
         return any(b["strategy"] == strategy and b["event_id"] == event_id and b.get("market", "h2h") == market
                    for b in self.store.bets)
 
+    def bets_on_event(self, strategy: str, event_id: str) -> int:
+        return sum(1 for b in self.store.bets if b["strategy"] == strategy and b["event_id"] == event_id)
+
     # ------------------------------------------------------------ placement
     def place(self, strategy: str, event: dict, cand, bet_book: str, quotes: dict, note: str = "") -> dict:
         ref = self.cfg.get("reference_bookmaker", "pinnacle")
-        ref_q = (quotes.get(ref) or {}).get("h2h") or {}
-        bet_q = (quotes.get(bet_book) or {}).get("h2h") or {}
+        market = getattr(cand, "market", "h2h") or "h2h"
+        ref_q = (quotes.get(ref) or {}).get(market) or {}
+        bet_q = (quotes.get(bet_book) or {}).get(market) or {}
+        names = {"home": event.get("home"), "away": event.get("away"), "draw": "Nul"}
         bet = {
             "id": uuid.uuid4().hex[:12],
             "strategy": strategy,
@@ -36,9 +41,12 @@ class Ledger:
             "sport": event.get("sport"),
             "match": f"{event.get('home')} – {event.get('away')}",
             "start": event.get("start"),
-            "market": "h2h",
+            "market": market,
+            "line": bet_q.get("line") if market != "h2h" else None,
+            "player": bet_q.get("player"),
+            "stat": bet_q.get("stat"),
             "selection": cand.selection,
-            "selection_name": {"home": event.get("home"), "away": event.get("away"), "draw": "Nul"}.get(cand.selection, cand.selection),
+            "selection_name": getattr(cand, "label", "") or names.get(cand.selection, cand.selection),
             "book": bet_book,
             "odds": round(float(cand.odds), 3),
             "fair_prob": round(float(cand.fair_prob), 4),
@@ -64,7 +72,7 @@ class Ledger:
 
     # ------------------------------------------------------------ règlement
     def settle(self, bet: dict, winner: str | None, status: str = "settled") -> None:
-        """winner: 'home' | 'away' | 'draw' | 'push' ; status 'cancelled' -> remboursé."""
+        """winner: 'home' | 'away' | 'draw' | 'over' | 'under' | 'push' ; status 'cancelled' -> remboursé."""
         if bet["status"] != "open":
             return
         stake, odds = float(bet["stake"]), float(bet["odds"])
@@ -89,7 +97,7 @@ class Ledger:
         sel = bet["selection"]
         ref_close = closing.get(ref)
         if ref_close:
-            prices = {k: v for k, v in ref_close.items() if k in ("home", "away", "draw")}
+            prices = {k: v for k, v in ref_close.items() if k in ("home", "away", "draw", "over", "under")}
             probs = devig(prices)
             if sel in probs:
                 bet["closing_ref"] = prices

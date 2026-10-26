@@ -55,16 +55,22 @@ class Closing:
                 ev["closing"] = closing
                 ev["closing_source"] = source
                 for b in self.store.bets:
-                    if b["event_id"] == ev["id"] and b.get("clv") is None:
+                    if b["event_id"] == ev["id"] and b.get("clv") is None and b.get("market", "h2h") == "h2h":
                         self.ledger.apply_closing(b, closing, source)
+            # stats joueurs : pas d'historique, clôture = dernier relevé avant le coup d'envoi
+            for b in self.store.bets:
+                if b["event_id"] == ev["id"] and b.get("clv") is None and str(b.get("market", "")).startswith("prop:"):
+                    pc = self._from_snapshots(ev, b["market"])
+                    if pc:
+                        self.ledger.apply_closing(b, pc, "snapshot")
             ev["closing_fetched"] = iso(now_utc())
         return done
 
-    def _from_snapshots(self, ev: dict) -> dict:
+    def _from_snapshots(self, ev: dict, market: str = "h2h") -> dict:
         start = parse_iso(ev.get("start"))
         out = {}
         for book in {self.cfg.get("reference_bookmaker", "pinnacle"), self.cfg.get("bet_bookmaker", "winamax")}:
-            q = self.store.last_quote_before(ev["id"], book, start)
+            q = self.store.last_quote_before(ev["id"], book, start, market=market)
             if q:
                 out[book] = {**q["prices"], "ts": q["ts"]}
         return out

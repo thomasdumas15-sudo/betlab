@@ -100,7 +100,7 @@ class Store:
 
     def latest_quotes(self, days_back: int = 3) -> dict[str, dict]:
         """event_id -> { book -> { market_key -> {"ts":..., "prices":{...}, "line":...} } }
-        market_key = "h2h" | "spreads" | "totals" (ligne principale uniquement).
+        market_key = "h2h" | "spreads" | "totals" (ligne principale) | "prop:<stat>:<joueur>:<ligne>".
         """
         out: dict[str, dict] = {}
         for r in self.iter_odds(days_back):
@@ -110,6 +110,8 @@ class Store:
             if prev is None or r["ts"] >= prev["ts"]:
                 bk[r["market"]] = {"ts": r["ts"], "prices": r["prices"], "line": r.get("line"),
                                    "provider": r.get("provider")}
+                if r.get("player"):
+                    bk[r["market"]].update(player=r["player"], stat=r.get("stat"))
         return out
 
     def first_quotes(self, event_ids: set[str], book: str, days_back: int = 10) -> dict[str, dict]:
@@ -122,10 +124,11 @@ class Store:
                     out[r["event_id"]] = {"ts": r["ts"], "prices": r["prices"]}
         return out
 
-    def last_quote_before(self, event_id: str, book: str, before: datetime, days_back: int = 10) -> dict | None:
+    def last_quote_before(self, event_id: str, book: str, before: datetime, days_back: int = 10,
+                          market: str = "h2h") -> dict | None:
         best = None
         for r in self.iter_odds(days_back):
-            if r["event_id"] != event_id or r["book"] != book or r["market"] != "h2h":
+            if r["event_id"] != event_id or r["book"] != book or r["market"] != market:
                 continue
             ts = parse_iso(r["ts"])
             if ts and ts <= before and (best is None or r["ts"] > best["ts"]):

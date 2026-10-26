@@ -232,6 +232,23 @@ strategies:
     one_in: 3
     flat_stake_pct: 0.01
 
+  player_props:
+    label: Stats joueurs
+    enabled: true
+    description:
+      - "Points, rebonds, passes, paniers à 3 pts et combinés (P+R+A…) des joueurs NBA, en plus/moins de X."
+      - "Même joueur, même ligne chez Pinnacle et Winamax : parie si edge ≥ 4 % et cote entre 1,60 et 2,60."
+      - "Au plus 2 paris par match. Mise : Kelly au quart, plafonnée à 1 % de la bankroll. Réglé avec la feuille de match ESPN."
+    sports: [nba]
+    stats: [points, rebounds, assists, threes, pts_reb, pts_ast, pts_reb_ast, reb_ast]
+    max_per_event: 2
+    min_edge: 0.04
+    min_odds: 1.60
+    max_odds: 2.60
+    kelly_fraction: 0.25
+    max_stake_pct: 0.01
+    min_stake_pct: 0.0025
+
 # Règles communes de placement
 betting:
   min_minutes_before_start: 15      # pas de pari si le match commence dans < 15 min

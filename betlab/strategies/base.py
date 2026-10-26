@@ -44,6 +44,19 @@ class Context:
                 return None
         return q
 
+    def fresh(self, q: dict | None, other: dict | None = None) -> bool:
+        """Cote assez récente (et, si `other` est donné, relevée à moins de max_ref_gap_minutes de lui)."""
+        if not q:
+            return False
+        ts = parse_iso(q["ts"])
+        if not ts or self.now - ts > timedelta(hours=float(self.settings.get("max_quote_age_hours", 14))):
+            return False
+        if other:
+            ots = parse_iso(other["ts"])
+            if ots and abs((ots - ts).total_seconds()) > 60 * float(self.settings.get("max_ref_gap_minutes", 180)):
+                return False
+        return True
+
     def ref_probs(self, bet_q: dict | None = None) -> dict[str, float]:
         q = self.ref_quote(bet_q)
         return devig(q["prices"]) if q else {}
@@ -75,16 +88,19 @@ class Context:
 
 @dataclass
 class Candidate:
-    selection: str          # home | away | draw
+    selection: str          # home | away | draw | over | under
     odds: float
     fair_prob: float
     edge: float
     stake: float
     note: str = ""
+    market: str = "h2h"     # ou "prop:<stat>:<joueur>:<ligne>"
+    label: str = ""         # libellé lisible de la sélection (stats joueurs)
 
 
 class Strategy:
     key = "base"
+    max_per_event = 1       # paris max par match ; > 1 seulement pour les marchés joueurs
 
     def __init__(self, key: str, params: dict):
         self.key = key
