@@ -1,0 +1,68 @@
+name: BetLab — agent horaire
+
+on:
+  schedule:
+    - cron: "7 * * * *"        # toutes les heures (UTC). Les créneaux de relevé sont décidés en heure de Paris par l'agent.
+  workflow_dispatch:
+    inputs:
+      command:
+        description: "Commande (run | doctor | collect | settle | closing | report)"
+        default: "run"
+      group:
+        description: "Groupe à relever (collect uniquement) : basketball | football | us | tennis"
+        default: "basketball"
+
+permissions:
+  contents: write
+  actions: write
+
+concurrency:
+  group: betlab
+  cancel-in-progress: false
+
+jobs:
+  agent:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - name: Exécution de l'agent
+        env:
+          ODDSPAPI_KEY: ${{ secrets.ODDSPAPI_KEY }}
+          THEODDSAPI_KEY: ${{ secrets.THEODDSAPI_KEY }}
+        run: |
+          CMD="${{ github.event.inputs.command || 'run' }}"
+          if [ "$CMD" = "collect" ]; then
+            python -m betlab collect --group "${{ github.event.inputs.group || 'basketball' }}"
+          else
+            python -m betlab "$CMD"
+          fi
+
+      - name: Sauvegarde des données et du dashboard
+        run: |
+          git config user.name "betlab-bot"
+          git config user.email "betlab-bot@users.noreply.github.com"
+          git add -A data docs
+          if git diff --cached --quiet; then
+            echo "Rien à sauvegarder."
+          else
+            git commit -m "agent: $(date -u +'%Y-%m-%d %H:%M UTC')"
+            git pull --rebase --autostash origin "${GITHUB_REF_NAME}" || true
+            git push
+          fi
+
+      # GitHub désactive les workflows planifiés après 60 jours sans activité humaine :
+      # cette action maintient le planning actif.
+      - uses: gautamkrishnar/keepalive-workflow@v2
+        with:
+          use_api: true

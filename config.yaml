@@ -1,0 +1,246 @@
+# ============================================================
+#  BetLab — configuration
+#  Tout est modifiable ici. Les clés API ne sont PAS ici : elles
+#  vont dans les Secrets GitHub (ODDSPAPI_KEY, THEODDSAPI_KEY)
+#  ou dans un fichier .env en local.
+# ============================================================
+
+timezone: Europe/Paris
+bankroll_start: 1000          # bankroll simulée de départ, par stratégie (€)
+
+# Bookmaker sur lequel on "parie" (cotes réellement jouables en France)
+bet_bookmaker: winamax
+# Bookmaker de référence "sharp" (le marché efficient) pour la juste probabilité
+reference_bookmaker: pinnacle
+
+# Correspondance nom canonique -> identifiants chez chaque fournisseur
+bookmakers:
+  pinnacle:     { oddspapi: pinnacle,         theoddsapi: pinnacle,         label: Pinnacle }
+  winamax:      { oddspapi: winamax.fr,       theoddsapi: winamax_fr,       label: Winamax }
+  betclic:      { oddspapi: betclic.fr,       theoddsapi: betclic_fr,       label: Betclic }
+  unibet:       { oddspapi: unibet.fr,        theoddsapi: unibet_fr,        label: Unibet }
+  parionssport: { oddspapi: parionssport.fr,  theoddsapi: parionssport_fr,  label: ParionsSport }
+  pmu:          { oddspapi: pmu.fr,           theoddsapi: pmu_fr,           label: PMU }
+  netbet:       { oddspapi: netbet.fr,        theoddsapi: netbet_fr,        label: NetBet }
+
+# Bookmakers demandés à OddsPapi (max 3 par requête — c'est la limite de l'API)
+oddspapi_bookmakers: [pinnacle, winamax, betclic]
+
+# ------------------------------------------------------------
+# Sports suivis. priority : 1 = le plus important pour le budget.
+# group : les sports d'un même groupe sont relevés en une seule requête OddsPapi.
+# ------------------------------------------------------------
+sports:
+  nba:
+    label: NBA
+    kind: basketball
+    group: basketball
+    priority: 1
+    duration_min: 170
+    oddspapi: { sport: Basketball, match: [nba], category: [usa, united states, north america], exclude: [summer, preseason, "g league", wnba] }
+    theoddsapi: { key: basketball_nba, regions: [fr] }     # consensus des books FR (1 crédit/relevé)
+    espn: basketball/nba
+  euroleague:
+    label: Euroleague
+    kind: basketball
+    group: basketball
+    priority: 2
+    duration_min: 150
+    oddspapi: { sport: Basketball, match: [euroleague], category: [europe, international], exclude: [women, u18] }
+    theoddsapi: { key: basketball_euroleague, scores_only: true }
+  lnb:
+    label: Betclic Élite
+    kind: basketball
+    group: basketball
+    priority: 6
+    duration_min: 150
+    oddspapi: { sport: Basketball, match: [betclic, "pro a", "elite", lnb], category: [france], exclude: [women, feminine, "pro b", espoirs] }
+  nfl:
+    label: NFL
+    kind: american_football
+    group: us
+    priority: 3
+    duration_min: 220
+    oddspapi: { sport: American Football, match: [nfl], category: [usa, united states], exclude: [preseason] }
+    theoddsapi: { key: americanfootball_nfl, scores_only: true }
+    espn: football/nfl
+  nhl:
+    label: NHL
+    kind: ice_hockey
+    group: us
+    priority: 4
+    duration_min: 180
+    oddspapi: { sport: Ice Hockey, match: [nhl], category: [usa, united states, north america], exclude: [preseason] }
+    theoddsapi: { key: icehockey_nhl, scores_only: true }
+    espn: hockey/nhl
+  ligue1:
+    label: Ligue 1
+    kind: soccer
+    group: football
+    priority: 5
+    duration_min: 125
+    oddspapi: { sport: Soccer, match: ["ligue 1", ligue1, "ligue-1"], category: [france], exclude: [women, u19, feminine] }
+    theoddsapi: { key: soccer_france_ligue_one, regions: [fr] }
+    espn: soccer/fra.1
+  premier_league:
+    label: Premier League
+    kind: soccer
+    group: football
+    priority: 5
+    duration_min: 125
+    oddspapi: { sport: Soccer, match: [premier league, premier-league], category: [england], exclude: [women, u21, u18, "2"] }
+    theoddsapi: { key: soccer_epl, regions: [fr] }
+    espn: soccer/eng.1
+  laliga:
+    label: LaLiga
+    kind: soccer
+    group: football
+    priority: 5
+    duration_min: 125
+    oddspapi: { sport: Soccer, match: [laliga, la liga], category: [spain], exclude: [women, "2", segunda, hypermotion] }
+    theoddsapi: { key: soccer_spain_la_liga, regions: [fr] }
+    espn: soccer/esp.1
+  serie_a:
+    label: Serie A
+    kind: soccer
+    group: football
+    priority: 5
+    duration_min: 125
+    oddspapi: { sport: Soccer, match: [serie a, serie-a], category: [italy], exclude: [women, "serie b", "serie c", primavera] }
+    theoddsapi: { key: soccer_italy_serie_a, regions: [fr] }
+    espn: soccer/ita.1
+  bundesliga:
+    label: Bundesliga
+    kind: soccer
+    group: football
+    priority: 5
+    duration_min: 125
+    oddspapi: { sport: Soccer, match: [bundesliga], category: [germany], exclude: [women, "2.", "2 ", zweite, frauen] }
+    theoddsapi: { key: soccer_germany_bundesliga, regions: [fr] }
+    espn: soccer/ger.1
+  atp:
+    label: ATP
+    kind: tennis
+    group: tennis
+    priority: 7
+    duration_min: 150
+    oddspapi: { sport: Tennis, match: [atp], category: [], exclude: [challenger, doubles, double, itf, qualif, "next gen"], multi: true, max: 4 }
+  wta:
+    label: WTA
+    kind: tennis
+    group: tennis
+    priority: 7
+    duration_min: 140
+    oddspapi: { sport: Tennis, match: [wta], category: [], exclude: [doubles, double, itf, qualif, "125"], multi: true, max: 4 }
+
+# ------------------------------------------------------------
+# Créneaux de relevé (heure de Paris). Un créneau = 1 requête OddsPapi
+# pour tout le groupe (+ éventuellement des crédits The Odds API).
+# Chaque créneau s'exécute au plus une fois par jour, au premier passage
+# de l'agent dans la fenêtre.
+# ------------------------------------------------------------
+slots:
+  - { group: basketball, name: matin,   window: "09:00-12:00", priority: 1 }   # cotes "d'ouverture" du jour
+  - { group: basketball, name: soir,    window: "22:00-23:59", priority: 1 }   # ~1-3 h avant les tip-off NBA
+  - { group: us,         name: soir,    window: "18:00-21:00", priority: 3 }
+  - { group: football,   name: midi,    window: "11:00-14:00", priority: 5 }
+  - { group: tennis,     name: matin,   window: "07:30-10:00", priority: 7 }
+
+# Budgets mensuels des fournisseurs (quotas gratuits) et réserve de sécurité
+providers:
+  oddspapi:   { monthly_quota: 250, reserve: 25 }
+  theoddsapi: { monthly_quota: 500, reserve: 80 }
+
+# ------------------------------------------------------------
+# Stratégies. Chaque stratégie a sa propre bankroll de 1000 €.
+# ------------------------------------------------------------
+strategies:
+  value_sharp:
+    label: Valeur Pinnacle
+    enabled: true
+    description:
+      - "Retire la marge de Pinnacle (le book le plus efficient) pour estimer la vraie probabilité."
+      - "Parie chez Winamax si edge ≥ 4 % et cote entre 1,50 et 4,50."
+      - "Mise : Kelly au quart, plafonnée à 2 % de la bankroll (plancher 0,25 %)."
+    min_edge: 0.04
+    min_odds: 1.50
+    max_odds: 4.50
+    kelly_fraction: 0.25
+    max_stake_pct: 0.02
+    min_stake_pct: 0.0025
+  value_consensus:
+    label: Valeur consensus
+    enabled: true
+    description:
+      - "Retire la marge de chaque bookmaker (FR + Pinnacle) puis calcule la probabilité consensus."
+      - "Parie si edge ≥ 4 % et cote entre 1,50 et 4,50 (il faut ≥ 3 bookmakers)."
+      - "Mise : Kelly au quart, plafonnée à 2 % de la bankroll (plancher 0,25 %)."
+    min_edge: 0.04
+    min_odds: 1.50
+    max_odds: 4.50
+    min_books: 3
+    kelly_fraction: 0.25
+    max_stake_pct: 0.02
+    min_stake_pct: 0.0025
+  favorites:
+    label: Favoris prudents
+    enabled: true
+    description:
+      - "Parie le favori quand sa probabilité (Pinnacle) atteint 58 %."
+      - "Cote Winamax entre 1,35 et 1,90."
+      - "Mise fixe : 1 % de la bankroll. Témoin du « parieur raisonnable » : attendu légèrement perdant."
+    min_prob: 0.58
+    min_odds: 1.35
+    max_odds: 1.90
+    flat_stake_pct: 0.01
+  basket:
+    label: Basket spécialiste
+    enabled: true
+    description:
+      - "Même logique que Valeur Pinnacle, uniquement sur le basket (NBA, Euroleague, Betclic Élite)."
+      - "Parie si edge ≥ 3 % et cote entre 1,50 et 4,50."
+      - "Mise : Kelly à 20 %, plafonnée à 1,5 % de la bankroll."
+    sports: [nba, euroleague, lnb]
+    min_edge: 0.03
+    min_odds: 1.50
+    max_odds: 4.50
+    kelly_fraction: 0.20
+    max_stake_pct: 0.015
+    min_stake_pct: 0.0025
+  steam:
+    label: Mouvement sharp
+    enabled: true
+    description:
+      - "Compare la cote Pinnacle actuelle à sa cote d'ouverture : si le marché a bougé d'au moins 3 pts de probabilité vers un camp…"
+      - "…et que Winamax n'a pas suivi (edge ≥ 2 % contre Pinnacle actuel), parie ce camp."
+      - "Mise : Kelly au quart, plafonnée à 1,5 % de la bankroll."
+    min_move: 0.03
+    min_edge: 0.02
+    min_odds: 1.30
+    max_odds: 5.00
+    kelly_fraction: 0.25
+    max_stake_pct: 0.015
+    min_stake_pct: 0.0025
+  control:
+    label: Témoin
+    enabled: true
+    description:
+      - "Groupe de contrôle : parie au hasard (graine fixe) un match éligible sur trois, côté tiré au sort."
+      - "Mise fixe : 1 % de la bankroll."
+      - "Si aucune stratégie ne bat le Témoin, c'est qu'elle ne vaut pas mieux que le hasard."
+    seed: 20261026
+    one_in: 3
+    flat_stake_pct: 0.01
+
+# Règles communes de placement
+betting:
+  min_minutes_before_start: 15      # pas de pari si le match commence dans < 15 min
+  max_hours_before_start: 40        # pas de pari sur un match à plus de 40 h
+  max_quote_age_hours: 14           # une cote plus vieille que ça n'est plus jouable
+  max_ref_gap_minutes: 180          # écart max entre la cote Winamax et la cote Pinnacle utilisées
+  void_after_days: 5                # pari annulé si aucun résultat 5 jours après le match
+
+# Limites de sécurité par exécution (pour ne jamais exploser un quota)
+limits:
+  closing_fetch_per_run: 12         # appels historique OddsPapi (gratuits, 5 s de cooldown chacun)
+  settlement_fallback_per_run: 3    # appels payants de secours pour les scores
