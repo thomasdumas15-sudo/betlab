@@ -62,7 +62,8 @@ jobs:
           fi
 
       # GitHub désactive les workflows planifiés après 60 jours sans activité humaine :
-      # cette action maintient le planning actif.
-      - uses: gautamkrishnar/keepalive-workflow@v2
-        with:
-          use_api: true
+      # on ré-active le workflow via l'API à chaque passage pour maintenir le planning actif.
+      - name: Maintien du planning
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh api -X PUT "repos/${{ github.repository }}/actions/workflows/betlab.yml/enable" || true
