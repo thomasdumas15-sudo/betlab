@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-26T22:36:06Z",
+ "generated_at": "2026-10-26T23:31:59Z",
  "bankroll_start": 1000.0,
  "bet_bookmaker": "Winamax",
  "reference_bookmaker": "Pinnacle",
@@ -97,11 +97,11 @@
    "staked": 0,
    "exposure": 50.0,
    "max_drawdown": 0.0,
-   "clv": null,
-   "clv_n": 0,
-   "clv_se": null,
-   "clv_z": null,
-   "clv_book": null,
+   "clv": -0.0704,
+   "clv_n": 2,
+   "clv_se": 0.0406,
+   "clv_z": -1.73,
+   "clv_book": -0.0308,
    "by_sport": {},
    "equity": [],
    "vs_control_pnl": 0
@@ -199,11 +199,11 @@
    "staked": 0,
    "exposure": 20.0,
    "max_drawdown": 0.0,
-   "clv": null,
-   "clv_n": 0,
+   "clv": -0.0405,
+   "clv_n": 1,
    "clv_se": null,
    "clv_z": null,
-   "clv_book": null,
+   "clv_book": 0.0,
    "by_sport": {},
    "equity": [],
    "vs_control_pnl": null
@@ -258,7 +258,7 @@
   "wta": "WTA"
  },
  "upcoming_events": {
-  "nba": 15,
+  "nba": 11,
   "euroleague": 16,
   "lnb": 1
  },
@@ -310,14 +310,14 @@
    }
   ]
  },
- "last_run": "2026-10-26T22:36:06Z",
+ "last_run": "2026-10-26T23:31:59Z",
  "run": {
   "collect": {
    "slots": [],
    "events": 0,
    "rows": 0
   },
-  "closing": 0,
+  "closing": 3,
   "settled": 0,
   "placed": 0,
   "errors": []
@@ -339,9 +339,9 @@
    "status": "open",
    "result": null,
    "pnl": null,
-   "clv": null,
-   "clv_book": null,
-   "closing_odds": null,
+   "clv": -0.0298,
+   "clv_book": 0.0,
+   "closing_odds": 1.64,
    "note": "favori p=0.581",
    "market": "h2h",
    "line": null,
@@ -367,9 +367,9 @@
    "status": "open",
    "result": null,
    "pnl": null,
-   "clv": null,
-   "clv_book": null,
-   "closing_odds": null,
+   "clv": -0.111,
+   "clv_book": -0.0617,
+   "closing_odds": 1.62,
    "note": "favori p=0.599",
    "market": "h2h",
    "line": null,
@@ -395,9 +395,9 @@
    "status": "open",
    "result": null,
    "pnl": null,
-   "clv": null,
-   "clv_book": null,
-   "closing_odds": null,
+   "clv": -0.0405,
+   "clv_book": 0.0,
+   "closing_odds": 3.15,
    "note": "tirage au sort",
    "market": "h2h",
    "line": null,
