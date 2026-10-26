@@ -1,99 +1,43 @@
 {
- "fetched_at": "2026-10-26T20:44:59Z",
+ "fetched_at": "2026-10-26T21:35:46Z",
  "data": {
   "pinnacle": {
-   "marketId": "111796",
+   "marketId": "111690",
    "raw": {
-    "bookmakerMarketId": "1638793230/6568889558/1639311948",
+    "bookmakerMarketId": "1638793230/6568682314/1639311966",
     "marketActive": true,
     "outcomes": {
-     "111796": {
+     "111691": {
       "players": {
-       "1796560": {
+       "2866507": {
         "active": true,
         "betslip": null,
-        "bookmakerOutcomeId": "1639311928",
-        "bookmakerChangedAt": null,
-        "changedAt": "2026-10-26T20:24:22.756Z",
-        "limit": 230.0,
-        "playerName": "Reid, Naz",
-        "price": 1.813,
-        "priceAmerican": "-123",
-        "priceFractional": "74/91",
-        "mainLine": false,
-        "exchangeMeta": null
-       },
-       "1300846": {
-        "active": true,
-        "betslip": null,
-        "bookmakerOutcomeId": "1639311949",
-        "bookmakerChangedAt": null,
-        "changedAt": "2026-10-26T20:34:42.531Z",
-        "limit": 187.0,
-        "playerName": "Young, Trae",
-        "price": 2.02,
-        "priceAmerican": "102",
-        "priceFractional": "51/50",
-        "mainLine": false,
-        "exchangeMeta": null
-       },
-       "1497615": {
-        "active": true,
-        "betslip": null,
-        "bookmakerOutcomeId": "1639311848",
+        "bookmakerOutcomeId": "1639311968",
         "bookmakerChangedAt": null,
         "changedAt": "2026-10-26T19:36:03.148Z",
-        "limit": 328.0,
-        "playerName": "Allen, Grayson",
-        "price": 1.571,
-        "priceAmerican": "-175",
-        "priceFractional": "4/7",
+        "limit": 219.0,
+        "playerName": "Johnson, Tre",
+        "price": 1.854,
+        "priceAmerican": "-117",
+        "priceFractional": "76/89",
         "mainLine": false,
         "exchangeMeta": null
        }
       }
      },
-     "111797": {
+     "111690": {
       "players": {
-       "1300846": {
+       "2866507": {
         "active": true,
         "betslip": null,
-        "bookmakerOutcomeId": "1639311950",
-        "bookmakerChangedAt": null,
-        "changedAt": "2026-10-26T20:34:42.531Z",
-        "limit": 253.0,
-        "playerName": "Young, Trae",
-        "price": 1.74,
-        "priceAmerican": "-135",
-        "priceFractional": "37/50",
-        "mainLine": false,
-        "exchangeMeta": null
-       },
-       "1497615": {
-        "active": true,
-        "betslip": null,
-        "bookmakerOutcomeId": "1639311849",
+        "bookmakerOutcomeId": "1639311967",
         "bookmakerChangedAt": null,
         "changedAt": "2026-10-26T19:36:03.148Z",
-        "limit": 187.0,
-        "playerName": "Allen, Grayson",
-        "price": 2.31,
-        "priceAmerican": "131",
-        "priceFractional": "131/100",
-        "mainLine": false,
-        "exchangeMeta": null
-       },
-       "1796560": {
-        "active": true,
-        "betslip": null,
-        "bookmakerOutcomeId": "1639311929",
-        "bookmakerChangedAt": null,
-        "changedAt": "2026-10-26T20:24:22.756Z",
-        "limit": 200.0,
-        "playerName": "Reid, Naz",
-        "price": 1.934,
-        "priceAmerican": "-107",
-        "priceFractional": "85/91",
+        "limit": 212.0,
+        "playerName": "Johnson, Tre",
+        "price": 1.884,
+        "priceAmerican": "-113",
+        "priceFractional": "61/69",
         "mainLine": false,
         "exchangeMeta": null
        }
@@ -102,58 +46,114 @@
     }
    },
    "parsed": {
-    "ts": "2026-10-26T20:44:53Z",
+    "ts": "2026-10-26T21:35:40Z",
     "event_id": "op:id1100013273719402",
     "provider": "oddspapi",
     "book": "pinnacle",
-    "market": "prop:threes:1796560:2.5",
-    "line": 2.5,
+    "market": "prop:points:2866507:10.5",
+    "line": 10.5,
     "prices": {
-     "over": 1.813,
-     "under": 1.934
+     "under": 1.854,
+     "over": 1.884
     },
-    "player": "Reid, Naz",
-    "player_id": "1796560",
-    "stat": "threes"
+    "player": "Tre Johnson",
+    "player_id": "2866507",
+    "stat": "points"
    }
   },
   "winamax": {
-   "marketId": "111774",
+   "marketId": "111770",
    "raw": {
-    "bookmakerMarketId": "728119117",
+    "bookmakerMarketId": "728598041",
     "marketActive": true,
     "outcomes": {
-     "111774": {
+     "111770": {
       "players": {
-       "2683073": {
+       "1296680": {
         "active": true,
         "betslip": null,
-        "bookmakerOutcomeId": "2256664401",
+        "bookmakerOutcomeId": "2258054232",
         "bookmakerChangedAt": null,
-        "changedAt": "2026-10-26T07:30:43.478Z",
+        "changedAt": "2026-10-26T21:23:11.862Z",
         "limit": null,
-        "playerName": "Sarr, Alexandre",
-        "price": 2.0,
-        "priceAmerican": "100",
-        "priceFractional": "1/1",
+        "playerName": "Ayton, Deandre",
+        "price": 1.72,
+        "priceAmerican": "-139",
+        "priceFractional": "18/25",
+        "mainLine": false,
+        "exchangeMeta": null
+       },
+       "2652539": {
+        "active": true,
+        "betslip": null,
+        "bookmakerOutcomeId": "2256663140",
+        "bookmakerChangedAt": null,
+        "changedAt": "2026-10-26T07:29:41.202Z",
+        "limit": null,
+        "playerName": "George, Kyshawn",
+        "price": 1.98,
+        "priceAmerican": "-102",
+        "priceFractional": "49/50",
+        "mainLine": false,
+        "exchangeMeta": null
+       },
+       "2075373": {
+        "active": true,
+        "betslip": null,
+        "bookmakerOutcomeId": "2256672458",
+        "bookmakerChangedAt": null,
+        "changedAt": "2026-10-26T07:37:32.751Z",
+        "limit": null,
+        "playerName": "Kalkbrenner, Ryan",
+        "price": 1.54,
+        "priceAmerican": "-185",
+        "priceFractional": "27/50",
         "mainLine": false,
         "exchangeMeta": null
        }
       }
      },
-     "111775": {
+     "111771": {
       "players": {
-       "2683073": {
+       "2652539": {
         "active": true,
         "betslip": null,
-        "bookmakerOutcomeId": "2256664402",
+        "bookmakerOutcomeId": "2256663141",
         "bookmakerChangedAt": null,
-        "changedAt": "2026-10-26T07:30:43.478Z",
+        "changedAt": "2026-10-26T07:29:41.202Z",
         "limit": null,
-        "playerName": "Sarr, Alexandre",
-        "price": 1.49,
-        "priceAmerican": "-204",
-        "priceFractional": "49/100",
+        "playerName": "George, Kyshawn",
+        "price": 1.52,
+        "priceAmerican": "-192",
+        "priceFractional": "13/25",
+        "mainLine": false,
+        "exchangeMeta": null
+       },
+       "1296680": {
+        "active": true,
+        "betslip": null,
+        "bookmakerOutcomeId": "2258054233",
+        "bookmakerChangedAt": null,
+        "changedAt": "2026-10-26T21:23:11.862Z",
+        "limit": null,
+        "playerName": "Ayton, Deandre",
+        "price": 1.72,
+        "priceAmerican": "-139",
+        "priceFractional": "18/25",
+        "mainLine": false,
+        "exchangeMeta": null
+       },
+       "2075373": {
+        "active": true,
+        "betslip": null,
+        "bookmakerOutcomeId": "2256672459",
+        "bookmakerChangedAt": null,
+        "changedAt": "2026-10-26T07:37:32.751Z",
+        "limit": null,
+        "playerName": "Kalkbrenner, Ryan",
+        "price": 1.96,
+        "priceAmerican": "-104",
+        "priceFractional": "24/25",
         "mainLine": false,
         "exchangeMeta": null
        }
@@ -162,18 +162,18 @@
     }
    },
    "parsed": {
-    "ts": "2026-10-26T20:44:53Z",
+    "ts": "2026-10-26T21:35:40Z",
     "event_id": "op:id1100013273719402",
     "provider": "oddspapi",
     "book": "winamax",
-    "market": "prop:rebounds:2683073:6.5",
-    "line": 6.5,
+    "market": "prop:rebounds:1296680:4.5",
+    "line": 4.5,
     "prices": {
-     "over": 2.0,
-     "under": 1.49
+     "over": 1.72,
+     "under": 1.72
     },
-    "player": "Sarr, Alexandre",
-    "player_id": "2683073",
+    "player": "Deandre Ayton",
+    "player_id": "1296680",
     "stat": "rebounds"
    }
   }

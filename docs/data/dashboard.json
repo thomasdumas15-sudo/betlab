@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-26T20:44:59Z",
+ "generated_at": "2026-10-26T21:35:46Z",
  "bankroll_start": 1000.0,
  "bet_bookmaker": "Winamax",
  "reference_bookmaker": "Pinnacle",
@@ -258,19 +258,19 @@
   "wta": "WTA"
  },
  "upcoming_events": {
-  "nba": 14,
+  "nba": 15,
   "euroleague": 16,
   "lnb": 1
  },
- "events_tracked": 31,
+ "events_tracked": 32,
  "bets_total": 7,
  "budget": {
   "oddspapi": {
    "quota": 250,
-   "used": 12,
-   "remaining": 238,
-   "used_today": 12,
-   "daily_allowance": 35.5,
+   "used": 14,
+   "remaining": 236,
+   "used_today": 14,
+   "daily_allowance": 35.2,
    "reserve": 25,
    "denied": 0
   },
@@ -284,7 +284,9 @@
    "denied": 0
   }
  },
- "slots_done": {},
+ "slots_done": {
+  "basketball:soir": "2026-10-26"
+ },
  "tournaments": {
   "nba": [
    {
@@ -308,23 +310,23 @@
    }
   ]
  },
- "last_run": "2026-10-26T20:44:59Z",
+ "last_run": "2026-10-26T21:35:46Z",
  "run": {
   "collect": {
    "slots": [
     {
-     "slot": "basketball:manuel",
-     "events": 31,
-     "rows": 689,
+     "slot": "basketball:soir",
+     "events": 32,
+     "rows": 755,
      "ok": true
     }
    ],
-   "events": 31,
-   "rows": 689
+   "events": 32,
+   "rows": 755
   },
   "closing": 0,
   "settled": 0,
-  "placed": 1,
+  "placed": 0,
   "errors": []
  },
  "recent_bets": [

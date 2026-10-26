@@ -525,5 +525,22 @@
   },
   "status": "scheduled",
   "names_resolved": true
+ },
+ "op:id1100013273682658": {
+  "id": "op:id1100013273682658",
+  "sport": "nba",
+  "kind": "basketball",
+  "home": "Boston Celtics",
+  "away": "Miami Heat",
+  "start": "2026-12-25T19:30:00Z",
+  "ids": {
+   "oddspapi": "id1100013273682658",
+   "oddspapi_p1": "3422",
+   "oddspapi_p2": "3435",
+   "oddspapi_tournament": 132,
+   "oddspapi_sport_id": 11
+  },
+  "status": "scheduled",
+  "names_resolved": true
  }
 }
