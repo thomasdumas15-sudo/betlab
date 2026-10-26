@@ -2,9 +2,9 @@
  "budget": {
   "oddspapi": {
    "month": "2026-10",
-   "used": 8,
+   "used": 10,
    "today": "2026-10-26",
-   "used_today": 8,
+   "used_today": 10,
    "reported_remaining": null,
    "denied": 0
   }
@@ -16,7 +16,7 @@
    "winamax.fr"
   ]
  },
- "last_saved": "2026-10-26T20:36:23Z",
+ "last_saved": "2026-10-26T20:37:39Z",
  "slots": {},
  "oddspapi_tournaments": {
   "nba": [
@@ -41,23 +41,23 @@
    }
   ]
  },
- "last_run": "2026-10-26T20:36:23Z",
+ "last_run": "2026-10-26T20:37:39Z",
  "last_run_summary": {
   "collect": {
    "slots": [
     {
      "slot": "basketball:manuel",
-     "events": 0,
-     "rows": 0,
-     "ok": false
+     "events": 31,
+     "rows": 247,
+     "ok": true
     }
    ],
-   "events": 0,
-   "rows": 0
+   "events": 31,
+   "rows": 247
   },
   "closing": 0,
   "settled": 0,
-  "placed": 0,
+  "placed": 6,
   "errors": []
  }
 }

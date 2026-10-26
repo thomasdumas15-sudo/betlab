@@ -1,1 +1,529 @@
-{}
+{
+ "op:id1100013273719402": {
+  "id": "op:id1100013273719402",
+  "sport": "nba",
+  "kind": "basketball",
+  "home": "Charlotte Hornets",
+  "away": "Washington Wizards",
+  "start": "2026-10-26T23:00:00Z",
+  "ids": {
+   "oddspapi": "id1100013273719402",
+   "oddspapi_p1": "3430",
+   "oddspapi_p2": "3431",
+   "oddspapi_tournament": 132,
+   "oddspapi_sport_id": 11
+  },
+  "status": "scheduled",
+  "names_resolved": true
+ },
+ "op:id1100013273719404": {
+  "id": "op:id1100013273719404",
+  "sport": "nba",
+  "kind": "basketball",
+  "home": "Cleveland Cavaliers",
+  "away": "Minnesota Timberwolves",
+  "start": "2026-10-26T23:00:00Z",
+  "ids": {
+   "oddspapi": "id1100013273719404",
+   "oddspapi_p1": "3432",
+   "oddspapi_p2": "3426",
+   "oddspapi_tournament": 132,
+   "oddspapi_sport_id": 11
+  },
+  "status": "scheduled",
+  "names_resolved": true
+ },
+ "op:id1100013273719406": {
+  "id": "op:id1100013273719406",
+  "sport": "nba",
+  "kind": "basketball",
+  "home": "Boston Celtics",
+  "away": "Chicago Bulls",
+  "start": "2026-10-26T23:30:00Z",
+  "ids": {
+   "oddspapi": "id1100013273719406",
+   "oddspapi_p1": "3422",
+   "oddspapi_p2": "3409",
+   "oddspapi_tournament": 132,
+   "oddspapi_sport_id": 11
+  },
+  "status": "scheduled",
+  "names_resolved": true
+ },
+ "op:id1100013273719408": {
+  "id": "op:id1100013273719408",
+  "sport": "nba",
+  "kind": "basketball",
+  "home": "Miami Heat",
+  "away": "Dallas Mavericks",
+  "start": "2026-10-26T23:30:00Z",
+  "ids": {
+   "oddspapi": "id1100013273719408",
+   "oddspapi_p1": "3435",
+   "oddspapi_p2": "3411",
+   "oddspapi_tournament": 132,
+   "oddspapi_sport_id": 11
+  },
+  "status": "scheduled",
+  "names_resolved": true
+ },
+ "op:id1100013273719410": {
+  "id": "op:id1100013273719410",
+  "sport": "nba",
+  "kind": "basketball",
+  "home": "Milwaukee Bucks",
+  "away": "Indiana Pacers",
+  "start": "2026-10-27T00:00:00Z",
+  "ids": {
+   "oddspapi": "id1100013273719410",
+   "oddspapi_p1": "3410",
+   "oddspapi_p2": "3419",
+   "oddspapi_tournament": 132,
+   "oddspapi_sport_id": 11
+  },
+  "status": "scheduled",
+  "names_resolved": true
+ },
+ "op:id1100013273719412": {
+  "id": "op:id1100013273719412",
+  "sport": "nba",
+  "kind": "basketball",
+  "home": "Oklahoma City Thunder",
+  "away": "Phoenix Suns",
+  "start": "2026-10-27T00:00:00Z",
+  "ids": {
+   "oddspapi": "id1100013273719412",
+   "oddspapi_p1": "3418",
+   "oddspapi_p2": "3416",
+   "oddspapi_tournament": 132,
+   "oddspapi_sport_id": 11
+  },
+  "status": "scheduled",
+  "names_resolved": true
+ },
+ "op:id1100013273719414": {
+  "id": "op:id1100013273719414",
+  "sport": "nba",
+  "kind": "basketball",
+  "home": "Houston Rockets",
+  "away": "Atlanta Hawks",
+  "start": "2026-10-27T00:30:00Z",
+  "ids": {
+   "oddspapi": "id1100013273719414",
+   "oddspapi_p1": "3412",
+   "oddspapi_p2": "3423",
+   "oddspapi_tournament": 132,
+   "oddspapi_sport_id": 11
+  },
+  "status": "scheduled",
+  "names_resolved": true
+ },
+ "op:id1100013273719416": {
+  "id": "op:id1100013273719416",
+  "sport": "nba",
+  "kind": "basketball",
+  "home": "Utah Jazz",
+  "away": "Memphis Grizzlies",
+  "start": "2026-10-27T01:00:00Z",
+  "ids": {
+   "oddspapi": "id1100013273719416",
+   "oddspapi_p1": "3434",
+   "oddspapi_p2": "3415",
+   "oddspapi_tournament": 132,
+   "oddspapi_sport_id": 11
+  },
+  "status": "scheduled",
+  "names_resolved": true
+ },
+ "op:id1100013273719418": {
+  "id": "op:id1100013273719418",
+  "sport": "nba",
+  "kind": "basketball",
+  "home": "Denver Nuggets",
+  "away": "Golden State Warriors",
+  "start": "2026-10-27T02:00:00Z",
+  "ids": {
+   "oddspapi": "id1100013273719418",
+   "oddspapi_p1": "3417",
+   "oddspapi_p2": "3428",
+   "oddspapi_tournament": 132,
+   "oddspapi_sport_id": 11
+  },
+  "status": "scheduled",
+  "names_resolved": true
+ },
+ "op:id1100013873263078": {
+  "id": "op:id1100013873263078",
+  "sport": "euroleague",
+  "kind": "basketball",
+  "home": "Dubai Basketball",
+  "away": "Paris Basketball",
+  "start": "2026-10-27T16:00:00Z",
+  "ids": {
+   "oddspapi": "id1100013873263078",
+   "oddspapi_p1": "1149035",
+   "oddspapi_p2": "476414",
+   "oddspapi_tournament": 138,
+   "oddspapi_sport_id": 11
+  },
+  "status": "scheduled",
+  "names_resolved": true
+ },
+ "op:id1100013873263080": {
+  "id": "op:id1100013873263080",
+  "sport": "euroleague",
+  "kind": "basketball",
+  "home": "KK Crvena zvezda Belgrade",
+  "away": "Maccabi Tel-Aviv",
+  "start": "2026-10-27T19:00:00Z",
+  "ids": {
+   "oddspapi": "id1100013873263080",
+   "oddspapi_p1": "57183",
+   "oddspapi_p2": "6655",
+   "oddspapi_tournament": 138,
+   "oddspapi_sport_id": 11
+  },
+  "status": "scheduled",
+  "names_resolved": true
+ },
+ "op:id1100013873263084": {
+  "id": "op:id1100013873263084",
+  "sport": "euroleague",
+  "kind": "basketball",
+  "home": "Bayern Munich",
+  "away": "FC Barcelona",
+  "start": "2026-10-27T19:00:00Z",
+  "ids": {
+   "oddspapi": "id1100013873263084",
+   "oddspapi_p1": "26071",
+   "oddspapi_p2": "3543",
+   "oddspapi_tournament": 138,
+   "oddspapi_sport_id": 11
+  },
+  "status": "scheduled",
+  "names_resolved": true
+ },
+ "op:id1100015674295880": {
+  "id": "op:id1100015674295880",
+  "sport": "lnb",
+  "kind": "basketball",
+  "home": "Saint Quentin",
+  "away": "SIG Strasbourg",
+  "start": "2026-10-27T19:00:00Z",
+  "ids": {
+   "oddspapi": "id1100015674295880",
+   "oddspapi_p1": "81901",
+   "oddspapi_p2": "3535",
+   "oddspapi_tournament": 156,
+   "oddspapi_sport_id": 11
+  },
+  "status": "scheduled",
+  "names_resolved": true
+ },
+ "op:id1100013873263082": {
+  "id": "op:id1100013873263082",
+  "sport": "euroleague",
+  "kind": "basketball",
+  "home": "Panathinaikos BC",
+  "away": "Olimpia Milano",
+  "start": "2026-10-27T19:15:00Z",
+  "ids": {
+   "oddspapi": "id1100013873263082",
+   "oddspapi_p1": "3508",
+   "oddspapi_p2": "3580",
+   "oddspapi_tournament": 138,
+   "oddspapi_sport_id": 11
+  },
+  "status": "scheduled",
+  "names_resolved": true
+ },
+ "op:id1100013873263086": {
+  "id": "op:id1100013873263086",
+  "sport": "euroleague",
+  "kind": "basketball",
+  "home": "Valencia Basket",
+  "away": "Fenerbahce Istanbul",
+  "start": "2026-10-27T19:30:00Z",
+  "ids": {
+   "oddspapi": "id1100013873263086",
+   "oddspapi_p1": "3545",
+   "oddspapi_p2": "3514",
+   "oddspapi_tournament": 138,
+   "oddspapi_sport_id": 11
+  },
+  "status": "scheduled",
+  "names_resolved": true
+ },
+ "op:id1100013873263088": {
+  "id": "op:id1100013873263088",
+  "sport": "euroleague",
+  "kind": "basketball",
+  "home": "Baskonia Vitoria-Gasteiz",
+  "away": "Real Madrid",
+  "start": "2026-10-27T20:00:00Z",
+  "ids": {
+   "oddspapi": "id1100013873263088",
+   "oddspapi_p1": "3553",
+   "oddspapi_p2": "3540",
+   "oddspapi_tournament": 138,
+   "oddspapi_sport_id": 11
+  },
+  "status": "scheduled",
+  "names_resolved": true
+ },
+ "op:id1100013873263092": {
+  "id": "op:id1100013873263092",
+  "sport": "euroleague",
+  "kind": "basketball",
+  "home": "Besiktas JK",
+  "away": "BC Olympiakos Piraeus",
+  "start": "2026-10-28T17:30:00Z",
+  "ids": {
+   "oddspapi": "id1100013873263092",
+   "oddspapi_p1": "6678",
+   "oddspapi_p2": "3501",
+   "oddspapi_tournament": 138,
+   "oddspapi_sport_id": 11
+  },
+  "status": "scheduled",
+  "names_resolved": true
+ },
+ "op:id1100013873263090": {
+  "id": "op:id1100013873263090",
+  "sport": "euroleague",
+  "kind": "basketball",
+  "home": "Hapoel Tel-Aviv",
+  "away": "Anadolu Efes SK",
+  "start": "2026-10-28T18:00:00Z",
+  "ids": {
+   "oddspapi": "id1100013873263090",
+   "oddspapi_p1": "82179",
+   "oddspapi_p2": "3515",
+   "oddspapi_tournament": 138,
+   "oddspapi_sport_id": 11
+  },
+  "status": "scheduled",
+  "names_resolved": true
+ },
+ "op:id1100013873263094": {
+  "id": "op:id1100013873263094",
+  "sport": "euroleague",
+  "kind": "basketball",
+  "home": "ASVEL Lyon-Villeurbanne",
+  "away": "KK Partizan Belgrade",
+  "start": "2026-10-28T19:00:00Z",
+  "ids": {
+   "oddspapi": "id1100013873263094",
+   "oddspapi_p1": "3536",
+   "oddspapi_p2": "6637",
+   "oddspapi_tournament": 138,
+   "oddspapi_sport_id": 11
+  },
+  "status": "scheduled",
+  "names_resolved": true
+ },
+ "op:id1100013873263096": {
+  "id": "op:id1100013873263096",
+  "sport": "euroleague",
+  "kind": "basketball",
+  "home": "Virtus Bologna",
+  "away": "BC Zalgiris Kaunas",
+  "start": "2026-10-28T19:30:00Z",
+  "ids": {
+   "oddspapi": "id1100013873263096",
+   "oddspapi_p1": "5621",
+   "oddspapi_p2": "6662",
+   "oddspapi_tournament": 138,
+   "oddspapi_sport_id": 11
+  },
+  "status": "scheduled",
+  "names_resolved": true
+ },
+ "op:id1100013273719434": {
+  "id": "op:id1100013273719434",
+  "sport": "nba",
+  "kind": "basketball",
+  "home": "Indiana Pacers",
+  "away": "Philadelphia 76ers",
+  "start": "2026-10-28T23:00:00Z",
+  "ids": {
+   "oddspapi": "id1100013273719434",
+   "oddspapi_p1": "3419",
+   "oddspapi_p2": "3420",
+   "oddspapi_tournament": 132,
+   "oddspapi_sport_id": 11
+  },
+  "status": "scheduled",
+  "names_resolved": true
+ },
+ "op:id1100013873263098": {
+  "id": "op:id1100013873263098",
+  "sport": "euroleague",
+  "kind": "basketball",
+  "home": "KK Crvena zvezda Belgrade",
+  "away": "Bayern Munich",
+  "start": "2026-10-29T19:00:00Z",
+  "ids": {
+   "oddspapi": "id1100013873263098",
+   "oddspapi_p1": "57183",
+   "oddspapi_p2": "26071",
+   "oddspapi_tournament": 138,
+   "oddspapi_sport_id": 11
+  },
+  "status": "scheduled",
+  "names_resolved": true
+ },
+ "op:id1100013873263100": {
+  "id": "op:id1100013873263100",
+  "sport": "euroleague",
+  "kind": "basketball",
+  "home": "Maccabi Tel-Aviv",
+  "away": "Paris Basketball",
+  "start": "2026-10-29T19:05:00Z",
+  "ids": {
+   "oddspapi": "id1100013873263100",
+   "oddspapi_p1": "6655",
+   "oddspapi_p2": "476414",
+   "oddspapi_tournament": 138,
+   "oddspapi_sport_id": 11
+  },
+  "status": "scheduled",
+  "names_resolved": true
+ },
+ "op:id1100013873263102": {
+  "id": "op:id1100013873263102",
+  "sport": "euroleague",
+  "kind": "basketball",
+  "home": "Real Madrid",
+  "away": "Fenerbahce Istanbul",
+  "start": "2026-10-29T19:45:00Z",
+  "ids": {
+   "oddspapi": "id1100013873263102",
+   "oddspapi_p1": "3540",
+   "oddspapi_p2": "3514",
+   "oddspapi_tournament": 138,
+   "oddspapi_sport_id": 11
+  },
+  "status": "scheduled",
+  "names_resolved": true
+ },
+ "op:id1100013873263106": {
+  "id": "op:id1100013873263106",
+  "sport": "euroleague",
+  "kind": "basketball",
+  "home": "Anadolu Efes SK",
+  "away": "Panathinaikos BC",
+  "start": "2026-10-30T17:30:00Z",
+  "ids": {
+   "oddspapi": "id1100013873263106",
+   "oddspapi_p1": "3515",
+   "oddspapi_p2": "3508",
+   "oddspapi_tournament": 138,
+   "oddspapi_sport_id": 11
+  },
+  "status": "scheduled",
+  "names_resolved": true
+ },
+ "op:id1100013873263110": {
+  "id": "op:id1100013873263110",
+  "sport": "euroleague",
+  "kind": "basketball",
+  "home": "ASVEL Lyon-Villeurbanne",
+  "away": "Baskonia Vitoria-Gasteiz",
+  "start": "2026-10-30T19:00:00Z",
+  "ids": {
+   "oddspapi": "id1100013873263110",
+   "oddspapi_p1": "3536",
+   "oddspapi_p2": "3553",
+   "oddspapi_tournament": 138,
+   "oddspapi_sport_id": 11
+  },
+  "status": "scheduled",
+  "names_resolved": true
+ },
+ "op:id1100013873263112": {
+  "id": "op:id1100013873263112",
+  "sport": "euroleague",
+  "kind": "basketball",
+  "home": "BC Olympiakos Piraeus",
+  "away": "Olimpia Milano",
+  "start": "2026-10-30T19:15:00Z",
+  "ids": {
+   "oddspapi": "id1100013873263112",
+   "oddspapi_p1": "3501",
+   "oddspapi_p2": "3580",
+   "oddspapi_tournament": 138,
+   "oddspapi_sport_id": 11
+  },
+  "status": "scheduled",
+  "names_resolved": true
+ },
+ "op:id1100013273696960": {
+  "id": "op:id1100013273696960",
+  "sport": "nba",
+  "kind": "basketball",
+  "home": "Miami Heat",
+  "away": "Indiana Pacers",
+  "start": "2026-10-31T00:00:00Z",
+  "ids": {
+   "oddspapi": "id1100013273696960",
+   "oddspapi_p1": "3435",
+   "oddspapi_p2": "3419",
+   "oddspapi_tournament": 132,
+   "oddspapi_sport_id": 11
+  },
+  "status": "scheduled",
+  "names_resolved": true
+ },
+ "op:id1100013273696962": {
+  "id": "op:id1100013273696962",
+  "sport": "nba",
+  "kind": "basketball",
+  "home": "Phoenix Suns",
+  "away": "Denver Nuggets",
+  "start": "2026-10-31T02:00:00Z",
+  "ids": {
+   "oddspapi": "id1100013273696962",
+   "oddspapi_p1": "3416",
+   "oddspapi_p2": "3417",
+   "oddspapi_tournament": 132,
+   "oddspapi_sport_id": 11
+  },
+  "status": "scheduled",
+  "names_resolved": true
+ },
+ "op:id1100013273696964": {
+  "id": "op:id1100013273696964",
+  "sport": "nba",
+  "kind": "basketball",
+  "home": "Golden State Warriors",
+  "away": "Los Angeles Lakers",
+  "start": "2026-10-31T02:00:00Z",
+  "ids": {
+   "oddspapi": "id1100013273696964",
+   "oddspapi_p1": "3428",
+   "oddspapi_p2": "3427",
+   "oddspapi_tournament": 132,
+   "oddspapi_sport_id": 11
+  },
+  "status": "scheduled",
+  "names_resolved": true
+ },
+ "op:id1100013273682600": {
+  "id": "op:id1100013273682600",
+  "sport": "nba",
+  "kind": "basketball",
+  "home": "New York Knicks",
+  "away": "San Antonio Spurs",
+  "start": "2026-12-25T17:00:00Z",
+  "ids": {
+   "oddspapi": "id1100013273682600",
+   "oddspapi_p1": "3421",
+   "oddspapi_p2": "3429",
+   "oddspapi_tournament": 132,
+   "oddspapi_sport_id": 11
+  },
+  "status": "scheduled",
+  "names_resolved": true
+ }
+}
