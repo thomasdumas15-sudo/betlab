@@ -1,0 +1,20 @@
+{
+ "budget": {
+  "oddspapi": {
+   "month": "2026-10",
+   "used": 8,
+   "today": "2026-10-26",
+   "used_today": 8,
+   "reported_remaining": null,
+   "denied": 0
+  }
+ },
+ "oddspapi_slugs": {
+  "month": "2026-10",
+  "slugs": [
+   "pinnacle",
+   "winamax.fr"
+  ]
+ },
+ "last_saved": "2026-10-26T20:34:02Z"
+}
