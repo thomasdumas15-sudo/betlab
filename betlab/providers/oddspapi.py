@@ -257,16 +257,25 @@ class OddsPapi:
     # ------------------------------------------------------------ relevé
     def snapshot(self, tournament_ids: list[int], book_slugs: list[str], priority: int = 5,
                  what: str = "") -> list[dict]:
+        """L'API n'accepte qu'un bookmaker par requête : 1 appel par book, fusionnés par fixtureId."""
         if not tournament_ids:
             return []
-        params = {"tournamentIds": ",".join(str(t) for t in tournament_ids),
-                  "bookmakers": ",".join(book_slugs[:3]), "language": "en", "verbosity": 3}
-        fixture = "odds_by_tournaments"
-        body = self._call("/odds-by-tournaments", params, billable=True, cooldown=1, fixture=fixture,
-                          priority=priority, what=what or "relevé")
-        if isinstance(body, dict):
-            body = body.get("fixtures") or body.get("data") or [body]
-        return body or []
+        merged: dict[str, dict] = {}
+        for slug in book_slugs[:3]:
+            params = {"tournamentIds": ",".join(str(t) for t in tournament_ids),
+                      "bookmaker": slug, "language": "en", "verbosity": 3}
+            body = self._call("/odds-by-tournaments", params, billable=True, cooldown=1, fixture="odds_by_tournaments",
+                              priority=priority, what=f"{what or 'relevé'} [{slug}]")
+            if isinstance(body, dict):
+                body = body.get("fixtures") or body.get("data") or [body]
+            for fx in body or []:
+                fid = str(fx.get("fixtureId"))
+                cur = merged.get(fid)
+                if cur is None:
+                    merged[fid] = {**fx, "bookmakerOdds": dict(fx.get("bookmakerOdds") or {})}
+                else:
+                    cur["bookmakerOdds"].update(fx.get("bookmakerOdds") or {})
+        return list(merged.values())
 
     def parse_snapshot(self, fixtures: list[dict], sport_lookup: dict[int, tuple[str, dict]],
                        ts: str) -> tuple[list[dict], list[dict], set[int]]:

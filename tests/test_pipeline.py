@@ -220,4 +220,4 @@ def test_full_pipeline(lab):
     st = {x["key"]: x for x in dash["strategies"]}
     assert st["value_sharp"]["bankroll"] == 1016.23 and st["favorites"]["bankroll"] == 990.0
     assert st["value_sharp"]["clv_n"] == 1
-    assert dash["budget"]["oddspapi"]["used"] == used_before + 1   # un seul relevé le lendemain (catalogues en cache)
+    assert dash["budget"]["oddspapi"]["used"] == used_before + 3   # un relevé par bookmaker le lendemain (catalogues en cache)
