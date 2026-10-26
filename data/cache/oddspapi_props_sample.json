@@ -1,0 +1,181 @@
+{
+ "fetched_at": "2026-10-26T20:44:59Z",
+ "data": {
+  "pinnacle": {
+   "marketId": "111796",
+   "raw": {
+    "bookmakerMarketId": "1638793230/6568889558/1639311948",
+    "marketActive": true,
+    "outcomes": {
+     "111796": {
+      "players": {
+       "1796560": {
+        "active": true,
+        "betslip": null,
+        "bookmakerOutcomeId": "1639311928",
+        "bookmakerChangedAt": null,
+        "changedAt": "2026-10-26T20:24:22.756Z",
+        "limit": 230.0,
+        "playerName": "Reid, Naz",
+        "price": 1.813,
+        "priceAmerican": "-123",
+        "priceFractional": "74/91",
+        "mainLine": false,
+        "exchangeMeta": null
+       },
+       "1300846": {
+        "active": true,
+        "betslip": null,
+        "bookmakerOutcomeId": "1639311949",
+        "bookmakerChangedAt": null,
+        "changedAt": "2026-10-26T20:34:42.531Z",
+        "limit": 187.0,
+        "playerName": "Young, Trae",
+        "price": 2.02,
+        "priceAmerican": "102",
+        "priceFractional": "51/50",
+        "mainLine": false,
+        "exchangeMeta": null
+       },
+       "1497615": {
+        "active": true,
+        "betslip": null,
+        "bookmakerOutcomeId": "1639311848",
+        "bookmakerChangedAt": null,
+        "changedAt": "2026-10-26T19:36:03.148Z",
+        "limit": 328.0,
+        "playerName": "Allen, Grayson",
+        "price": 1.571,
+        "priceAmerican": "-175",
+        "priceFractional": "4/7",
+        "mainLine": false,
+        "exchangeMeta": null
+       }
+      }
+     },
+     "111797": {
+      "players": {
+       "1300846": {
+        "active": true,
+        "betslip": null,
+        "bookmakerOutcomeId": "1639311950",
+        "bookmakerChangedAt": null,
+        "changedAt": "2026-10-26T20:34:42.531Z",
+        "limit": 253.0,
+        "playerName": "Young, Trae",
+        "price": 1.74,
+        "priceAmerican": "-135",
+        "priceFractional": "37/50",
+        "mainLine": false,
+        "exchangeMeta": null
+       },
+       "1497615": {
+        "active": true,
+        "betslip": null,
+        "bookmakerOutcomeId": "1639311849",
+        "bookmakerChangedAt": null,
+        "changedAt": "2026-10-26T19:36:03.148Z",
+        "limit": 187.0,
+        "playerName": "Allen, Grayson",
+        "price": 2.31,
+        "priceAmerican": "131",
+        "priceFractional": "131/100",
+        "mainLine": false,
+        "exchangeMeta": null
+       },
+       "1796560": {
+        "active": true,
+        "betslip": null,
+        "bookmakerOutcomeId": "1639311929",
+        "bookmakerChangedAt": null,
+        "changedAt": "2026-10-26T20:24:22.756Z",
+        "limit": 200.0,
+        "playerName": "Reid, Naz",
+        "price": 1.934,
+        "priceAmerican": "-107",
+        "priceFractional": "85/91",
+        "mainLine": false,
+        "exchangeMeta": null
+       }
+      }
+     }
+    }
+   },
+   "parsed": {
+    "ts": "2026-10-26T20:44:53Z",
+    "event_id": "op:id1100013273719402",
+    "provider": "oddspapi",
+    "book": "pinnacle",
+    "market": "prop:threes:1796560:2.5",
+    "line": 2.5,
+    "prices": {
+     "over": 1.813,
+     "under": 1.934
+    },
+    "player": "Reid, Naz",
+    "player_id": "1796560",
+    "stat": "threes"
+   }
+  },
+  "winamax": {
+   "marketId": "111774",
+   "raw": {
+    "bookmakerMarketId": "728119117",
+    "marketActive": true,
+    "outcomes": {
+     "111774": {
+      "players": {
+       "2683073": {
+        "active": true,
+        "betslip": null,
+        "bookmakerOutcomeId": "2256664401",
+        "bookmakerChangedAt": null,
+        "changedAt": "2026-10-26T07:30:43.478Z",
+        "limit": null,
+        "playerName": "Sarr, Alexandre",
+        "price": 2.0,
+        "priceAmerican": "100",
+        "priceFractional": "1/1",
+        "mainLine": false,
+        "exchangeMeta": null
+       }
+      }
+     },
+     "111775": {
+      "players": {
+       "2683073": {
+        "active": true,
+        "betslip": null,
+        "bookmakerOutcomeId": "2256664402",
+        "bookmakerChangedAt": null,
+        "changedAt": "2026-10-26T07:30:43.478Z",
+        "limit": null,
+        "playerName": "Sarr, Alexandre",
+        "price": 1.49,
+        "priceAmerican": "-204",
+        "priceFractional": "49/100",
+        "mainLine": false,
+        "exchangeMeta": null
+       }
+      }
+     }
+    }
+   },
+   "parsed": {
+    "ts": "2026-10-26T20:44:53Z",
+    "event_id": "op:id1100013273719402",
+    "provider": "oddspapi",
+    "book": "winamax",
+    "market": "prop:rebounds:2683073:6.5",
+    "line": 6.5,
+    "prices": {
+     "over": 2.0,
+     "under": 1.49
+    },
+    "player": "Sarr, Alexandre",
+    "player_id": "2683073",
+    "stat": "rebounds"
+   }
+  }
+ }
+}

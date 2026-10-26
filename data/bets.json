@@ -196,5 +196,41 @@
   "clv": null,
   "clv_book": null,
   "closing_source": null
+ },
+ {
+  "id": "af1c11f290c1",
+  "strategy": "favorites",
+  "event_id": "op:id1100013273719402",
+  "sport": "nba",
+  "match": "Charlotte Hornets – Washington Wizards",
+  "start": "2026-10-26T23:00:00Z",
+  "market": "h2h",
+  "line": null,
+  "player": null,
+  "stat": null,
+  "selection": "home",
+  "selection_name": "Charlotte Hornets",
+  "book": "winamax",
+  "odds": 1.64,
+  "fair_prob": 0.5808,
+  "edge": -0.0475,
+  "stake": 10.0,
+  "bankroll_before": 1000.0,
+  "placed_at": "2026-10-26T20:44:59Z",
+  "quote_ts": "2026-10-26T20:44:53Z",
+  "ref_prices": {
+   "away": 2.34,
+   "home": 1.689
+  },
+  "note": "favori p=0.581",
+  "status": "open",
+  "pnl": null,
+  "settled_at": null,
+  "result": null,
+  "closing_odds": null,
+  "closing_ref": null,
+  "clv": null,
+  "clv_book": null,
+  "closing_source": null
  }
 ]
