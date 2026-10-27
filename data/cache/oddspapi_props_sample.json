@@ -1,159 +1,43 @@
 {
- "fetched_at": "2026-10-26T21:35:46Z",
+ "fetched_at": "2026-10-27T08:43:25Z",
  "data": {
-  "pinnacle": {
-   "marketId": "111690",
-   "raw": {
-    "bookmakerMarketId": "1638793230/6568682314/1639311966",
-    "marketActive": true,
-    "outcomes": {
-     "111691": {
-      "players": {
-       "2866507": {
-        "active": true,
-        "betslip": null,
-        "bookmakerOutcomeId": "1639311968",
-        "bookmakerChangedAt": null,
-        "changedAt": "2026-10-26T19:36:03.148Z",
-        "limit": 219.0,
-        "playerName": "Johnson, Tre",
-        "price": 1.854,
-        "priceAmerican": "-117",
-        "priceFractional": "76/89",
-        "mainLine": false,
-        "exchangeMeta": null
-       }
-      }
-     },
-     "111690": {
-      "players": {
-       "2866507": {
-        "active": true,
-        "betslip": null,
-        "bookmakerOutcomeId": "1639311967",
-        "bookmakerChangedAt": null,
-        "changedAt": "2026-10-26T19:36:03.148Z",
-        "limit": 212.0,
-        "playerName": "Johnson, Tre",
-        "price": 1.884,
-        "priceAmerican": "-113",
-        "priceFractional": "61/69",
-        "mainLine": false,
-        "exchangeMeta": null
-       }
-      }
-     }
-    }
-   },
-   "parsed": {
-    "ts": "2026-10-26T21:35:40Z",
-    "event_id": "op:id1100013273719402",
-    "provider": "oddspapi",
-    "book": "pinnacle",
-    "market": "prop:points:2866507:10.5",
-    "line": 10.5,
-    "prices": {
-     "under": 1.854,
-     "over": 1.884
-    },
-    "player": "Tre Johnson",
-    "player_id": "2866507",
-    "stat": "points"
-   }
-  },
   "winamax": {
-   "marketId": "111770",
+   "marketId": "111774",
    "raw": {
-    "bookmakerMarketId": "728598041",
+    "bookmakerMarketId": "728847142",
     "marketActive": true,
     "outcomes": {
-     "111770": {
+     "111775": {
       "players": {
-       "1296680": {
+       "1160384": {
         "active": true,
         "betslip": null,
-        "bookmakerOutcomeId": "2258054232",
+        "bookmakerOutcomeId": "2259072503",
         "bookmakerChangedAt": null,
-        "changedAt": "2026-10-26T21:23:11.862Z",
+        "changedAt": "2026-10-27T08:36:41.490Z",
         "limit": null,
-        "playerName": "Ayton, Deandre",
-        "price": 1.72,
-        "priceAmerican": "-139",
-        "priceFractional": "18/25",
-        "mainLine": false,
-        "exchangeMeta": null
-       },
-       "2652539": {
-        "active": true,
-        "betslip": null,
-        "bookmakerOutcomeId": "2256663140",
-        "bookmakerChangedAt": null,
-        "changedAt": "2026-10-26T07:29:41.202Z",
-        "limit": null,
-        "playerName": "George, Kyshawn",
-        "price": 1.98,
-        "priceAmerican": "-102",
-        "priceFractional": "49/50",
-        "mainLine": false,
-        "exchangeMeta": null
-       },
-       "2075373": {
-        "active": true,
-        "betslip": null,
-        "bookmakerOutcomeId": "2256672458",
-        "bookmakerChangedAt": null,
-        "changedAt": "2026-10-26T07:37:32.751Z",
-        "limit": null,
-        "playerName": "Kalkbrenner, Ryan",
-        "price": 1.54,
-        "priceAmerican": "-185",
-        "priceFractional": "27/50",
+        "playerName": "Kabengele, Mfiondu",
+        "price": 1.86,
+        "priceAmerican": "-116",
+        "priceFractional": "43/50",
         "mainLine": false,
         "exchangeMeta": null
        }
       }
      },
-     "111771": {
+     "111774": {
       "players": {
-       "2652539": {
+       "1160384": {
         "active": true,
         "betslip": null,
-        "bookmakerOutcomeId": "2256663141",
+        "bookmakerOutcomeId": "2259072502",
         "bookmakerChangedAt": null,
-        "changedAt": "2026-10-26T07:29:41.202Z",
+        "changedAt": "2026-10-27T08:36:41.490Z",
         "limit": null,
-        "playerName": "George, Kyshawn",
-        "price": 1.52,
-        "priceAmerican": "-192",
-        "priceFractional": "13/25",
-        "mainLine": false,
-        "exchangeMeta": null
-       },
-       "1296680": {
-        "active": true,
-        "betslip": null,
-        "bookmakerOutcomeId": "2258054233",
-        "bookmakerChangedAt": null,
-        "changedAt": "2026-10-26T21:23:11.862Z",
-        "limit": null,
-        "playerName": "Ayton, Deandre",
-        "price": 1.72,
-        "priceAmerican": "-139",
-        "priceFractional": "18/25",
-        "mainLine": false,
-        "exchangeMeta": null
-       },
-       "2075373": {
-        "active": true,
-        "betslip": null,
-        "bookmakerOutcomeId": "2256672459",
-        "bookmakerChangedAt": null,
-        "changedAt": "2026-10-26T07:37:32.751Z",
-        "limit": null,
-        "playerName": "Kalkbrenner, Ryan",
-        "price": 1.96,
-        "priceAmerican": "-104",
-        "priceFractional": "24/25",
+        "playerName": "Kabengele, Mfiondu",
+        "price": 1.6,
+        "priceAmerican": "-167",
+        "priceFractional": "3/5",
         "mainLine": false,
         "exchangeMeta": null
        }
@@ -162,19 +46,79 @@
     }
    },
    "parsed": {
-    "ts": "2026-10-26T21:35:40Z",
-    "event_id": "op:id1100013273719402",
+    "ts": "2026-10-27T08:43:18Z",
+    "event_id": "op:id1100013873263078",
     "provider": "oddspapi",
     "book": "winamax",
-    "market": "prop:rebounds:1296680:4.5",
-    "line": 4.5,
+    "market": "prop:rebounds:1160384:6.5",
+    "line": 6.5,
     "prices": {
-     "over": 1.72,
-     "under": 1.72
+     "under": 1.86,
+     "over": 1.6
     },
-    "player": "Deandre Ayton",
-    "player_id": "1296680",
+    "player": "Mfiondu Kabengele",
+    "player_id": "1160384",
     "stat": "rebounds"
+   }
+  },
+  "pinnacle": {
+   "marketId": "111682",
+   "raw": {
+    "bookmakerMarketId": "1639313817/6569495963/1639343954",
+    "marketActive": true,
+    "outcomes": {
+     "111682": {
+      "players": {
+       "2077979": {
+        "active": true,
+        "betslip": null,
+        "bookmakerOutcomeId": "1639343955",
+        "bookmakerChangedAt": null,
+        "changedAt": "2026-10-27T08:26:32.664Z",
+        "limit": 247.0,
+        "playerName": "Ellis, Keon",
+        "price": 1.757,
+        "priceAmerican": "-132",
+        "priceFractional": "53/70",
+        "mainLine": false,
+        "exchangeMeta": null
+       }
+      }
+     },
+     "111683": {
+      "players": {
+       "2077979": {
+        "active": true,
+        "betslip": null,
+        "bookmakerOutcomeId": "1639343956",
+        "bookmakerChangedAt": null,
+        "changedAt": "2026-10-27T08:26:32.664Z",
+        "limit": 187.0,
+        "playerName": "Ellis, Keon",
+        "price": 2.0,
+        "priceAmerican": "100",
+        "priceFractional": "1/1",
+        "mainLine": false,
+        "exchangeMeta": null
+       }
+      }
+     }
+    }
+   },
+   "parsed": {
+    "ts": "2026-10-27T08:43:18Z",
+    "event_id": "op:id1100013273719420",
+    "provider": "oddspapi",
+    "book": "pinnacle",
+    "market": "prop:points:2077979:6.5",
+    "line": 6.5,
+    "prices": {
+     "over": 1.757,
+     "under": 2.0
+    },
+    "player": "Keon Ellis",
+    "player_id": "2077979",
+    "stat": "points"
    }
   }
  }
