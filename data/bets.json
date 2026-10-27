@@ -433,11 +433,15 @@
   "pnl": null,
   "settled_at": null,
   "result": null,
-  "closing_odds": null,
-  "closing_ref": null,
-  "clv": null,
-  "clv_book": null,
-  "closing_source": null
+  "closing_odds": 1.88,
+  "closing_ref": {
+   "home": 3.89,
+   "draw": 3.71,
+   "away": 1.99
+  },
+  "clv": -0.0234,
+  "clv_book": 0.0638,
+  "closing_source": "oddspapi_history"
  },
  {
   "id": "e429a0862133",

@@ -1,6 +1,6 @@
 # BetLab — revue
 
-_Générée le 2026-10-27T16:48:47Z — simulation, aucun argent réel._
+_Générée le 2026-10-27T17:45:40Z — simulation, aucun argent réel._
 
 ## Stratégies
 
@@ -11,7 +11,7 @@ _Générée le 2026-10-27T16:48:47Z — simulation, aucun argent réel._
 | Favoris prudents | 996,60 € | -3,40 € | -6,8 % | 7 (5) | 60 % | -7,0 % (5) | -4,3 | -1,5 % |
 | Basket spécialiste | 1000,00 € | 0,00 € | — | 0 (0) | — | — (0) | — | +0,0 % |
 | Mouvement sharp | 1000,00 € | 0,00 € | — | 0 (0) | — | — (0) | — | +0,0 % |
-| Témoin | 1011,50 € | 11,50 € | +57,5 % | 6 (2) | 50 % | -5,1 % (2) | -4,8 | -1,0 % |
+| Témoin | 1011,50 € | 11,50 € | +57,5 % | 6 (2) | 50 % | -4,2 % (3) | -3,8 | -1,0 % |
 | Stats joueurs | 1000,00 € | 0,00 € | — | 0 (0) | — | — (0) | — | +0,0 % |
 
 ## Lecture
@@ -25,11 +25,11 @@ _Générée le 2026-10-27T16:48:47Z — simulation, aucun argent réel._
 
 ## Meilleurs CLV récents
 
+- Sassuolo Calcio – Lazio Rome → Lazio Rome @ 2.0 (control) : CLV -2,3 %
 - Charlotte Hornets – Washington Wizards → Charlotte Hornets @ 1.64 (favorites) : CLV -3,0 %
 - Miami Heat – Dallas Mavericks → Dallas Mavericks @ 3.15 (control) : CLV -4,0 %
 - Houston Rockets – Atlanta Hawks → Houston Rockets @ 1.5 (favorites) : CLV -4,3 %
 - Denver Nuggets – Golden State Warriors → Denver Nuggets @ 1.35 (favorites) : CLV -6,2 %
-- Denver Nuggets – Golden State Warriors → Denver Nuggets @ 1.35 (control) : CLV -6,2 %
 
 ## Pires CLV récents
 
@@ -41,7 +41,7 @@ _Générée le 2026-10-27T16:48:47Z — simulation, aucun argent réel._
 
 ## Budget données
 
-- oddspapi : 18/250 ce mois (refus : 0)
+- oddspapi : 20/250 ce mois (refus : 0)
 - theoddsapi : 0/500 ce mois (refus : 0)
 
 ## Questions à se poser
