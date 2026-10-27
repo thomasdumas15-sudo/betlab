@@ -3029,5 +3029,124 @@
   },
   "status": "scheduled",
   "names_resolved": true
+ },
+ "op:id1100015674295704": {
+  "id": "op:id1100015674295704",
+  "sport": "lnb",
+  "kind": "basketball",
+  "home": "JDA Dijon Basket",
+  "away": "Sluc Nancy Basket",
+  "start": "2026-10-30T19:00:00Z",
+  "ids": {
+   "oddspapi": "id1100015674295704",
+   "oddspapi_p1": "5627",
+   "oddspapi_p2": "5632",
+   "oddspapi_tournament": 156,
+   "oddspapi_sport_id": 11
+  },
+  "status": "scheduled",
+  "names_resolved": true
+ },
+ "op:id1100015674295706": {
+  "id": "op:id1100015674295706",
+  "sport": "lnb",
+  "kind": "basketball",
+  "home": "BCM Gravelines Dunkerque",
+  "away": "Roanne Chorale",
+  "start": "2026-10-31T17:00:00Z",
+  "ids": {
+   "oddspapi": "id1100015674295706",
+   "oddspapi_p1": "3532",
+   "oddspapi_p2": "5631",
+   "oddspapi_tournament": 156,
+   "oddspapi_sport_id": 11
+  },
+  "status": "scheduled",
+  "names_resolved": true
+ },
+ "op:id1100015674295708": {
+  "id": "op:id1100015674295708",
+  "sport": "lnb",
+  "kind": "basketball",
+  "home": "Le Mans Sarthe Basket",
+  "away": "Elan Bearnais Pau-Lacq-Orthez",
+  "start": "2026-10-31T17:00:00Z",
+  "ids": {
+   "oddspapi": "id1100015674295708",
+   "oddspapi_p1": "3537",
+   "oddspapi_p2": "3533",
+   "oddspapi_tournament": 156,
+   "oddspapi_sport_id": 11
+  },
+  "status": "scheduled",
+  "names_resolved": true
+ },
+ "op:id1100015674295710": {
+  "id": "op:id1100015674295710",
+  "sport": "lnb",
+  "kind": "basketball",
+  "home": "Limoges CSP",
+  "away": "Boulazac Basket Dordogne",
+  "start": "2026-10-31T17:30:00Z",
+  "ids": {
+   "oddspapi": "id1100015674295710",
+   "oddspapi_p1": "44238",
+   "oddspapi_p2": "75779",
+   "oddspapi_tournament": 156,
+   "oddspapi_sport_id": 11
+  },
+  "status": "scheduled",
+  "names_resolved": true
+ },
+ "op:id1100015674295712": {
+  "id": "op:id1100015674295712",
+  "sport": "lnb",
+  "kind": "basketball",
+  "home": "SIG Strasbourg",
+  "away": "Cholet Basket",
+  "start": "2026-10-31T17:30:00Z",
+  "ids": {
+   "oddspapi": "id1100015674295712",
+   "oddspapi_p1": "3535",
+   "oddspapi_p2": "3539",
+   "oddspapi_tournament": 156,
+   "oddspapi_sport_id": 11
+  },
+  "status": "scheduled",
+  "names_resolved": true
+ },
+ "op:id1100015674295714": {
+  "id": "op:id1100015674295714",
+  "sport": "lnb",
+  "kind": "basketball",
+  "home": "JL Bourg Basket",
+  "away": "Nanterre 92",
+  "start": "2026-10-31T19:30:00Z",
+  "ids": {
+   "oddspapi": "id1100015674295714",
+   "oddspapi_p1": "5628",
+   "oddspapi_p2": "53125",
+   "oddspapi_tournament": 156,
+   "oddspapi_sport_id": 11
+  },
+  "status": "scheduled",
+  "names_resolved": true
+ },
+ "op:id1100015674295718": {
+  "id": "op:id1100015674295718",
+  "sport": "lnb",
+  "kind": "basketball",
+  "home": "Paris Basketball",
+  "away": "Elan Chalon",
+  "start": "2026-11-01T18:00:00Z",
+  "ids": {
+   "oddspapi": "id1100015674295718",
+   "oddspapi_p1": "476414",
+   "oddspapi_p2": "3538",
+   "oddspapi_tournament": 156,
+   "oddspapi_sport_id": 11
+  },
+  "status": "scheduled",
+  "names_resolved": true
  }
 }
