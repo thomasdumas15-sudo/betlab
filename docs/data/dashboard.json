@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-27T19:41:45Z",
+ "generated_at": "2026-10-27T20:38:38Z",
  "bankroll_start": 1000.0,
  "bet_bookmaker": "Winamax",
  "reference_bookmaker": "Pinnacle",
@@ -312,9 +312,9 @@
   "wta": "WTA"
  },
  "upcoming_events": {
-  "euroleague": 11,
+  "euroleague": 10,
   "nba": 13,
-  "serie_a": 19,
+  "serie_a": 17,
   "ligue1": 18,
   "bundesliga": 18,
   "laliga": 20,
@@ -466,15 +466,15 @@
    }
   ]
  },
- "last_run": "2026-10-27T19:41:45Z",
+ "last_run": "2026-10-27T20:38:38Z",
  "run": {
   "collect": {
    "slots": [],
    "events": 0,
    "rows": 0
   },
-  "closing": 1,
-  "settled": 1,
+  "closing": 0,
+  "settled": 0,
   "placed": 0,
   "errors": []
  },
