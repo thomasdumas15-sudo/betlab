@@ -13,7 +13,7 @@
    "oddspapi_tournament": 132,
    "oddspapi_sport_id": 11
   },
-  "status": "scheduled",
+  "status": "finished",
   "names_resolved": true,
   "closing": {
    "pinnacle": {
@@ -36,7 +36,16 @@
    }
   },
   "closing_source": "oddspapi_history",
-  "closing_fetched": "2026-10-26T23:31:41Z"
+  "closing_fetched": "2026-10-26T23:31:41Z",
+  "result": {
+   "winner": "home",
+   "status": "settled",
+   "home_score": 110,
+   "away_score": 103,
+   "source": "espn",
+   "espn_id": "401909868",
+   "at": "2026-10-27T02:34:12Z"
+  }
  },
  "op:id1100013273719404": {
   "id": "op:id1100013273719404",
@@ -52,7 +61,7 @@
    "oddspapi_tournament": 132,
    "oddspapi_sport_id": 11
   },
-  "status": "scheduled",
+  "status": "finished",
   "names_resolved": true,
   "closing": {
    "pinnacle": {
@@ -75,7 +84,16 @@
    }
   },
   "closing_source": "oddspapi_history",
-  "closing_fetched": "2026-10-26T23:31:53Z"
+  "closing_fetched": "2026-10-26T23:31:53Z",
+  "result": {
+   "winner": "home",
+   "status": "settled",
+   "home_score": 127,
+   "away_score": 125,
+   "source": "espn",
+   "espn_id": "401909869",
+   "at": "2026-10-27T02:34:12Z"
+  }
  },
  "op:id1100013273719406": {
   "id": "op:id1100013273719406",
@@ -108,7 +126,7 @@
    "oddspapi_tournament": 132,
    "oddspapi_sport_id": 11
   },
-  "status": "scheduled",
+  "status": "finished",
   "names_resolved": true,
   "closing": {
    "pinnacle": {
@@ -131,7 +149,16 @@
    }
   },
   "closing_source": "oddspapi_history",
-  "closing_fetched": "2026-10-26T23:31:59Z"
+  "closing_fetched": "2026-10-26T23:31:59Z",
+  "result": {
+   "winner": "away",
+   "status": "settled",
+   "home_score": 109,
+   "away_score": 113,
+   "source": "espn",
+   "espn_id": "401909871",
+   "at": "2026-10-27T02:34:12Z"
+  }
  },
  "op:id1100013273719410": {
   "id": "op:id1100013273719410",
@@ -260,7 +287,29 @@
    "oddspapi_sport_id": 11
   },
   "status": "scheduled",
-  "names_resolved": true
+  "names_resolved": true,
+  "closing": {
+   "pinnacle": {
+    "home": 1.4,
+    "away": 3.19,
+    "ts": "2026-10-27T01:59:05Z",
+    "open": {
+     "home": 1.487,
+     "away": 2.7
+    }
+   },
+   "winamax": {
+    "home": 1.33,
+    "away": 3.1,
+    "ts": "2026-10-27T01:59:32Z",
+    "open": {
+     "home": 1.34,
+     "away": 2.5
+    }
+   }
+  },
+  "closing_source": "oddspapi_history",
+  "closing_fetched": "2026-10-27T02:34:12Z"
  },
  "op:id1100013873263078": {
   "id": "op:id1100013873263078",
