@@ -2,9 +2,9 @@
  "budget": {
   "oddspapi": {
    "month": "2026-10",
-   "used": 16,
+   "used": 18,
    "today": "2026-10-27",
-   "used_today": 2,
+   "used_today": 4,
    "reported_remaining": null,
    "denied": 0
   }
@@ -16,10 +16,11 @@
    "winamax.fr"
   ]
  },
- "last_saved": "2026-10-27T09:41:11Z",
+ "last_saved": "2026-10-27T10:39:51Z",
  "slots": {
   "basketball:soir": "2026-10-26",
-  "basketball:matin": "2026-10-27"
+  "basketball:matin": "2026-10-27",
+  "football:midi": "2026-10-27"
  },
  "oddspapi_tournaments": {
   "nba": [
@@ -86,18 +87,60 @@
     "name": "WTA Osaka, Japan Women Singles",
     "future": 5
    }
+  ],
+  "ligue1": [
+   {
+    "id": 34,
+    "name": "Ligue 1",
+    "future": 243
+   }
+  ],
+  "premier_league": [
+   {
+    "id": 17,
+    "name": "Premier League",
+    "future": 310
+   }
+  ],
+  "laliga": [
+   {
+    "id": 8,
+    "name": "LaLiga",
+    "future": 290
+   }
+  ],
+  "serie_a": [
+   {
+    "id": 23,
+    "name": "Serie A",
+    "future": 310
+   }
+  ],
+  "bundesliga": [
+   {
+    "id": 35,
+    "name": "Bundesliga",
+    "future": 252
+   }
   ]
  },
- "last_run": "2026-10-27T09:41:11Z",
+ "last_run": "2026-10-27T10:39:51Z",
  "last_run_summary": {
   "collect": {
-   "slots": [],
-   "events": 0,
-   "rows": 0
+   "slots": [
+    {
+     "slot": "football:midi",
+     "events": 96,
+     "rows": 944,
+     "ok": true
+    }
+   ],
+   "events": 96,
+   "rows": 944
   },
   "closing": 0,
   "settled": 0,
-  "placed": 0,
+  "placed": 2,
   "errors": []
  }
 }
