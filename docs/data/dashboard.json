@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-27T18:44:29Z",
+ "generated_at": "2026-10-27T19:41:45Z",
  "bankroll_start": 1000.0,
  "bet_bookmaker": "Winamax",
  "reference_bookmaker": "Pinnacle",
@@ -36,7 +36,7 @@
    "clv_book": null,
    "by_sport": {},
    "equity": [],
-   "vs_control_pnl": -11.5
+   "vs_control_pnl": -21.62
   },
   {
    "key": "value_consensus",
@@ -70,7 +70,7 @@
    "clv_book": null,
    "by_sport": {},
    "equity": [],
-   "vs_control_pnl": -11.5
+   "vs_control_pnl": -21.62
   },
   {
    "key": "favorites",
@@ -132,7 +132,7 @@
      996.6
     ]
    ],
-   "vs_control_pnl": -14.9
+   "vs_control_pnl": -25.02
   },
   {
    "key": "basket",
@@ -166,7 +166,7 @@
    "clv_book": null,
    "by_sport": {},
    "equity": [],
-   "vs_control_pnl": -11.5
+   "vs_control_pnl": -21.62
   },
   {
    "key": "steam",
@@ -200,7 +200,7 @@
    "clv_book": null,
    "by_sport": {},
    "equity": [],
-   "vs_control_pnl": -11.5
+   "vs_control_pnl": -21.62
   },
   {
    "key": "control",
@@ -210,34 +210,40 @@
     "Mise fixe : 1 % de la bankroll.",
     "Si aucune stratégie ne bat le Témoin, c'est qu'elle ne vaut pas mieux que le hasard."
    ],
-   "bankroll": 1011.5,
-   "pnl": 11.5,
-   "pnl_pct": 0.0115,
-   "roi": 0.575,
-   "roi_se": 1.575,
-   "z": 0.37,
+   "bankroll": 1021.62,
+   "pnl": 21.62,
+   "pnl_pct": 0.0216,
+   "roi": 0.7178,
+   "roi_se": 0.9203,
+   "z": 0.78,
    "bets": 6,
-   "open": 4,
-   "settled": 2,
+   "open": 3,
+   "settled": 3,
    "void": 0,
-   "won": 1,
-   "win_rate": 0.5,
-   "avg_odds": 2.25,
+   "won": 2,
+   "win_rate": 0.6667,
+   "avg_odds": 2.167,
    "avg_edge": -0.0541,
-   "staked": 20.0,
-   "exposure": 40.48,
+   "staked": 30.12,
+   "exposure": 30.36,
    "max_drawdown": -0.0098,
-   "clv": -0.0419,
-   "clv_n": 3,
-   "clv_se": 0.0111,
-   "clv_z": -3.77,
-   "clv_book": 0.0263,
+   "clv": -0.0413,
+   "clv_n": 4,
+   "clv_se": 0.0079,
+   "clv_z": -5.25,
+   "clv_book": 0.0155,
    "by_sport": {
     "nba": {
      "n": 2,
      "pnl": 11.5,
      "staked": 20.0,
      "roi": 0.575
+    },
+    "serie_a": {
+     "n": 1,
+     "pnl": 10.12,
+     "staked": 10.12,
+     "roi": 1.0
     }
    },
    "equity": [
@@ -248,6 +254,10 @@
     [
      "2026-10-27",
      1011.5
+    ],
+    [
+     "2026-10-27",
+     1021.62
     ]
    ],
    "vs_control_pnl": null
@@ -284,7 +294,7 @@
    "clv_book": null,
    "by_sport": {},
    "equity": [],
-   "vs_control_pnl": -11.5
+   "vs_control_pnl": -21.62
   }
  ],
  "sports": {
@@ -302,8 +312,7 @@
   "wta": "WTA"
  },
  "upcoming_events": {
-  "euroleague": 15,
-  "lnb": 1,
+  "euroleague": 11,
   "nba": 13,
   "serie_a": 19,
   "ligue1": 18,
@@ -457,15 +466,15 @@
    }
   ]
  },
- "last_run": "2026-10-27T18:44:29Z",
+ "last_run": "2026-10-27T19:41:45Z",
  "run": {
   "collect": {
    "slots": [],
    "events": 0,
    "rows": 0
   },
-  "closing": 0,
-  "settled": 0,
+  "closing": 1,
+  "settled": 1,
   "placed": 0,
   "errors": []
  },
@@ -483,9 +492,9 @@
    "edge": -0.0907,
    "stake": 10.12,
    "placed_at": "2026-10-27T10:39:51Z",
-   "status": "open",
-   "result": null,
-   "pnl": null,
+   "status": "won",
+   "result": "gagné",
+   "pnl": 10.12,
    "clv": -0.0234,
    "clv_book": 0.0638,
    "closing_odds": 1.88,
@@ -495,7 +504,7 @@
    "player": null,
    "stat": null,
    "result_value": null,
-   "settled_at": null,
+   "settled_at": "2026-10-27T19:41:45Z",
    "sport_label": "Serie A"
   },
   {
@@ -542,9 +551,9 @@
    "status": "open",
    "result": null,
    "pnl": null,
-   "clv": null,
-   "clv_book": null,
-   "closing_odds": null,
+   "clv": -0.0396,
+   "clv_book": -0.0169,
+   "closing_odds": 5.9,
    "note": "tirage au sort",
    "market": "h2h",
    "line": null,
