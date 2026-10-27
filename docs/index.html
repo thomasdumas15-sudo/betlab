@@ -78,6 +78,11 @@
   .match{color:var(--muted);font-size:13px}
   .spark{width:110px;height:30px;display:block}
   .empty{padding:28px 16px;text-align:center;color:var(--muted)}
+  .signals{border-color:var(--good);box-shadow:inset 4px 0 0 var(--good)}
+  .muted-tbl tbody tr{opacity:.55}
+  .muted-tbl tbody tr:hover{opacity:.85}
+  .muted-tbl tbody tr td.empty{opacity:1}
+  h2 .chip{vertical-align:middle;margin-left:6px;font-size:12px}
   /* filtres */
   .filters{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 12px}
   .filters select{font:inherit;font-size:13.5px;padding:7px 10px;border-radius:8px;border:1px solid var(--line);background:var(--card);color:var(--text)}
@@ -116,10 +121,18 @@
   <div class="kpis" id="kpis"></div>
 
   <section>
-    <h2>Paris en cours</h2>
-    <p class="lead" id="open-lead">Paris simulés placés sur des matchs pas encore réglés.</p>
-    <div class="card tbl"><table id="open"><thead><tr>
-      <th>Match</th><th>Pari</th><th>Stratégie</th><th class="r">Cote</th><th class="r">Edge</th><th class="r">Mise</th>
+    <h2>Signaux à suivre</h2>
+    <p class="lead" id="sig-lead">Paris des stratégies de valeur avec un edge d'au moins +4 %. Vérifie que la cote Winamax est toujours au moins aussi haute avant de jouer.</p>
+    <div class="card tbl signals"><table id="signals"><thead><tr>
+      <th>Match</th><th>Pari</th><th>Stratégie</th><th class="r">Cote mini</th><th class="r">Edge</th><th class="r">Mise simulée</th>
+    </tr></thead><tbody></tbody></table></div>
+  </section>
+
+  <section>
+    <h2>Paris témoins <span class="chip void">Ne pas jouer</span></h2>
+    <p class="lead" id="open-lead">Paris simulés qui servent seulement de comparaison : groupes témoins ou edge trop faible.</p>
+    <div class="card tbl muted-tbl"><table id="open"><thead><tr>
+      <th>Match</th><th>Pari</th><th>Stratégie</th><th class="r">Cote</th><th class="r">Edge</th><th class="r">Pourquoi</th>
     </tr></thead><tbody></tbody></table></div>
   </section>
 
@@ -237,25 +250,35 @@ function render(d){
   const up=Object.values(d.upcoming_events||{}).reduce((a,b)=>a+b,0);
   const B=d.budget||{}, op=B.oddspapi;
   document.getElementById('kpis').innerHTML=[
-    ['Paris en cours', open.length, `${settled} déjà réglés`],
+    ['Signaux à suivre', open.filter(b=>!['control','favorites'].includes(b.strategy)&&b.edge>=0.04-1e-9).length, `${open.length} paris simulés en cours`],
     ['Matchs suivis', up, 'à venir dans les données'],
     ['Meilleur CLV', best?`<span class="${tone(best.clv)}">${pct(best.clv)}</span>`:'—', best?esc(best.label):'il faut ≥ 30 paris clôturés'],
     ['Témoin (hasard)', ctrl?`<span class="${tone(ctrl.pnl)}">${eur(ctrl.pnl)}</span>`:'—', 'la référence à battre'],
     ['Requêtes ce mois', op?`${op.used}<span class="h"> / ${op.quota}</span>`:'—', 'OddsPapi (gratuit)'],
   ].map(([l,v,h])=>`<div class="card kpi"><div class="l">${l}</div><div class="v tnum">${v}</div><div class="h">${h}</div></div>`).join('');
 
-  // paris en cours
-  const ob=document.querySelector('#open tbody');
+  // paris en cours : signaux à suivre / témoins
+  const CONTROLS=new Set(['control','favorites']), MIN_EDGE=0.04;
   const openSorted=[...open].sort((a,b)=>(a.start||'').localeCompare(b.start||''));
-  document.getElementById('open-lead').textContent = open.length
-    ? `${open.length} pari${open.length>1?'s':''} simulé${open.length>1?'s':''} en attente du résultat, du plus proche au plus lointain.`
-    : 'Aucun pari en cours.';
-  ob.innerHTML = openSorted.length ? openSorted.map(b=>`<tr>
+  const isSignal=b=>!CONTROLS.has(b.strategy)&&b.edge!=null&&b.edge>=MIN_EDGE-1e-9;
+  const sig=openSorted.filter(isSignal), ctl=openSorted.filter(b=>!isSignal(b));
+  const why=b=>CONTROLS.has(b.strategy)?'Groupe témoin':'Edge < +4 %';
+  const row=(b,last)=>`<tr>
       <td class="nowrap"><b class="tnum">${hour(b.start)}</b> <span class="match">${esc(b.sport_label)}</span><div class="match">${esc(b.match)}</div></td>
       <td>${betCell(b)}</td>
       <td><span class="strat" style="--c:${col(b.strategy)};min-width:0"><span class="dot"></span>${esc(labels[b.strategy]||b.strategy)}</span></td>
-      <td class="r num"><b>${num(b.odds)}</b></td><td class="r num ${tone(b.edge)}">${pct(b.edge)}</td><td class="r num">${eur(b.stake)}</td></tr>`).join('')
-    : `<tr><td colspan="6" class="empty">Aucun pari en cours. L'agent ne parie que lorsqu'une cote ${esc(d.bet_bookmaker)} dépasse le juste prix.</td></tr>`;
+      <td class="r num"><b>${num(b.odds)}</b></td><td class="r num ${tone(b.edge)}">${pct(b.edge)}</td><td class="r ${last[1]||''}">${last[0](b)}</td></tr>`;
+  const plural=(n,w)=>`${n} ${w}${n>1?'s':''}`;
+  document.getElementById('sig-lead').textContent = sig.length
+    ? `${plural(sig.length,'signal')} en cours, du plus proche au plus lointain. Ne joue que si la cote ${d.bet_bookmaker} est toujours au moins égale à la cote mini.`
+    : 'Aucun signal en ce moment : la bonne décision est de ne rien jouer.';
+  document.querySelector('#signals tbody').innerHTML = sig.length ? sig.map(b=>row(b,[b=>eur(b.stake),'num'])).join('')
+    : `<tr><td colspan="6" class="empty">Rien à jouer. L'agent ne signale un pari que lorsqu'une cote ${esc(d.bet_bookmaker)} dépasse le juste prix d'au moins 4 %.</td></tr>`;
+  document.getElementById('open-lead').textContent = ctl.length
+    ? `${plural(ctl.length,'pari')} de comparaison (groupes témoins ou edge trop faible). Ils servent à mesurer si les vraies stratégies font mieux que le hasard : ne les joue pas.`
+    : 'Aucun pari témoin en cours.';
+  document.querySelector('#open tbody').innerHTML = ctl.length ? ctl.map(b=>row(b,[why,'match'])).join('')
+    : `<tr><td colspan="6" class="empty">Aucun pari témoin en cours.</td></tr>`;
 
   // classement
   const ranked=[...S].sort((a,b)=>b.bankroll-a.bankroll);
