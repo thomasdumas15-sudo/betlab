@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-28T09:50:52Z",
+ "generated_at": "2026-10-28T10:47:05Z",
  "bankroll_start": 1000.0,
  "bet_bookmaker": "Winamax",
  "reference_bookmaker": "Pinnacle",
@@ -336,10 +336,10 @@
  "budget": {
   "oddspapi": {
    "quota": 250,
-   "used": 28,
-   "remaining": 222,
-   "used_today": 6,
-   "daily_allowance": 49.2,
+   "used": 30,
+   "remaining": 220,
+   "used_today": 8,
+   "daily_allowance": 48.8,
    "reserve": 25,
    "denied": 0
   },
@@ -356,7 +356,7 @@
  "slots_done": {
   "basketball:soir": "2026-10-27",
   "basketball:matin": "2026-10-28",
-  "football:midi": "2026-10-27",
+  "football:midi": "2026-10-28",
   "us:soir": "2026-10-27"
  },
  "tournaments": {
@@ -475,12 +475,19 @@
    }
   ]
  },
- "last_run": "2026-10-28T09:50:52Z",
+ "last_run": "2026-10-28T10:47:05Z",
  "run": {
   "collect": {
-   "slots": [],
-   "events": 0,
-   "rows": 0
+   "slots": [
+    {
+     "slot": "football:midi",
+     "events": 93,
+     "rows": 933,
+     "ok": true
+    }
+   ],
+   "events": 93,
+   "rows": 933
   },
   "closing": 0,
   "settled": 0,

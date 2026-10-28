@@ -1779,3 +1779,936 @@
 {"ts": "2026-10-28T08:53:03Z", "event_id": "op:id1100013273682660", "provider": "oddspapi", "book": "winamax", "market": "h2h", "line": null, "prices": {"away": 1.8, "home": 1.7}}
 {"ts": "2026-10-28T08:53:03Z", "event_id": "op:id1100013273682660", "provider": "oddspapi", "book": "winamax", "market": "spreads", "line": -1.5, "prices": {"home": 1.76, "away": 1.7}}
 {"ts": "2026-10-28T08:53:03Z", "event_id": "op:id1100013273682660", "provider": "oddspapi", "book": "winamax", "market": "totals", "line": 233.5, "prices": {"over": 1.74, "under": 1.72}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000002371945352", "provider": "oddspapi", "book": "pinnacle", "market": "h2h", "line": null, "prices": {"home": 1.746, "draw": 3.76, "away": 5.14}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000002371945352", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": -1.0, "prices": {"home": 1.952, "away": 1.826}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000002371945352", "provider": "oddspapi", "book": "pinnacle", "market": "totals", "line": 2.25, "prices": {"over": 1.862, "under": 2.05}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000002371945352", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": -0.25, "prices": {"home": 1.847, "away": 2.05}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000002371945352", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": -0.75, "prices": {"home": 1.98, "away": 1.943}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000002371945352", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": -2.0, "prices": {"home": 1.943, "away": 1.877}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000002371945352", "provider": "oddspapi", "book": "pinnacle", "market": "totals", "line": 1.0, "prices": {"over": 2.01, "under": 1.847}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000002371945352", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": 0.5, "prices": {"home": 1.735, "away": 2.03}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000002371945352", "provider": "oddspapi", "book": "winamax", "market": "h2h", "line": null, "prices": {"away": 4.5, "draw": 3.6, "home": 1.64}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000002371945352", "provider": "oddspapi", "book": "winamax", "market": "spreads", "line": -0.5, "prices": {"home": 2.05, "away": 1.5}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000002371945352", "provider": "oddspapi", "book": "winamax", "market": "totals", "line": 1.0, "prices": {"over": 1.78, "under": 1.68}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000002371945352", "provider": "oddspapi", "book": "winamax", "market": "totals", "line": 2.5, "prices": {"over": 1.9, "under": 1.6}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000002371945352", "provider": "oddspapi", "book": "winamax", "market": "spreads", "line": -1.5, "prices": {"home": 2.7, "away": 1.31}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000002371945356", "provider": "oddspapi", "book": "pinnacle", "market": "h2h", "line": null, "prices": {"home": 2.82, "draw": 3.18, "away": 2.79}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000002371945356", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": 0.5, "prices": {"home": 1.833, "away": 1.98}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000002371945356", "provider": "oddspapi", "book": "pinnacle", "market": "totals", "line": 1.0, "prices": {"over": 2.03, "under": 1.833}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000002371945356", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": 0.5, "prices": {"home": 1.719, "away": 2.05}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000002371945356", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": 0.0, "prices": {"home": 2.04, "away": 1.74}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000002371945356", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": 0.0, "prices": {"home": 1.943, "away": 1.943}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000002371945356", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": 0.0, "prices": {"home": 1.97, "away": 1.952}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000002371945356", "provider": "oddspapi", "book": "pinnacle", "market": "totals", "line": 2.25, "prices": {"over": 1.819, "under": 2.1}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000002371945364", "provider": "oddspapi", "book": "pinnacle", "market": "h2h", "line": null, "prices": {"draw": 5.75, "away": 1.361, "home": 7.89}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000002371945364", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": 2.5, "prices": {"home": 1.925, "away": 1.892}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000002371945364", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": -0.5, "prices": {"home": 1.884, "away": 1.854}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000002371945364", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": 1.5, "prices": {"home": 1.751, "away": 2.03}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000002371945364", "provider": "oddspapi", "book": "pinnacle", "market": "totals", "line": 3.5, "prices": {"over": 2.0, "under": 1.9}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000002371945364", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": 0.75, "prices": {"home": 1.847, "away": 2.05}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000002371945364", "provider": "oddspapi", "book": "pinnacle", "market": "totals", "line": 1.5, "prices": {"over": 2.04, "under": 1.819}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000002371945364", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": 1.5, "prices": {"home": 1.961, "away": 1.961}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000002371945350", "provider": "oddspapi", "book": "pinnacle", "market": "h2h", "line": null, "prices": {"away": 1.787, "home": 5.35, "draw": 3.48}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000002371945350", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": 2.0, "prices": {"home": 1.9, "away": 1.9}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000002371945350", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": 0.0, "prices": {"home": 1.869, "away": 1.869}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000002371945350", "provider": "oddspapi", "book": "pinnacle", "market": "totals", "line": 0.75, "prices": {"over": 1.769, "under": 2.11}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000002371945350", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": 0.75, "prices": {"home": 1.869, "away": 2.06}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000002371945350", "provider": "oddspapi", "book": "pinnacle", "market": "totals", "line": 2.0, "prices": {"over": 1.84, "under": 2.08}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000002371945350", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": 0.25, "prices": {"home": 1.98, "away": 1.909}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000002371945350", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": 1.0, "prices": {"home": 1.892, "away": 1.877}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000002371945350", "provider": "oddspapi", "book": "winamax", "market": "h2h", "line": null, "prices": {"home": 4.7, "away": 1.66, "draw": 3.4}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000002371945350", "provider": "oddspapi", "book": "winamax", "market": "spreads", "line": 0.5, "prices": {"home": 1.47, "away": 2.15}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000002371945350", "provider": "oddspapi", "book": "winamax", "market": "totals", "line": 2.5, "prices": {"over": 2.15, "under": 1.46}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000002371945350", "provider": "oddspapi", "book": "winamax", "market": "spreads", "line": 1.5, "prices": {"home": 1.28, "away": 2.85}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000002371945350", "provider": "oddspapi", "book": "winamax", "market": "totals", "line": 0.5, "prices": {"over": 1.41, "under": 2.3}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000002371945354", "provider": "oddspapi", "book": "pinnacle", "market": "h2h", "line": null, "prices": {"draw": 3.99, "away": 1.787, "home": 4.49}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000002371945354", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": 0.75, "prices": {"home": 1.909, "away": 2.02}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000002371945354", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": 1.5, "prices": {"home": 1.854, "away": 1.943}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000002371945354", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": 0.0, "prices": {"home": 1.751, "away": 2.0}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000002371945354", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": 0.5, "prices": {"home": 2.02, "away": 1.746}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000002371945354", "provider": "oddspapi", "book": "pinnacle", "market": "totals", "line": 1.25, "prices": {"over": 2.08, "under": 1.793}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000002371945354", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": 0.25, "prices": {"home": 2.02, "away": 1.869}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000002371945354", "provider": "oddspapi", "book": "pinnacle", "market": "totals", "line": 2.75, "prices": {"over": 1.862, "under": 2.05}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000002371945354", "provider": "oddspapi", "book": "winamax", "market": "h2h", "line": null, "prices": {"draw": 3.85, "away": 1.68, "home": 4.0}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000002371945354", "provider": "oddspapi", "book": "winamax", "market": "totals", "line": 3.5, "prices": {"over": 2.35, "under": 1.39}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000002371945354", "provider": "oddspapi", "book": "winamax", "market": "spreads", "line": 0.0, "prices": {"home": 2.6, "away": 1.32}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000002371945354", "provider": "oddspapi", "book": "winamax", "market": "totals", "line": 1.0, "prices": {"over": 1.49, "under": 2.1}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000002371945354", "provider": "oddspapi", "book": "winamax", "market": "totals", "line": 0.5, "prices": {"over": 1.24, "under": 3.1}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000002371945354", "provider": "oddspapi", "book": "winamax", "market": "spreads", "line": 0.5, "prices": {"home": 1.52, "away": 2.0}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000002371945354", "provider": "oddspapi", "book": "winamax", "market": "spreads", "line": 1.5, "prices": {"home": 1.33, "away": 2.6}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000002371945348", "provider": "oddspapi", "book": "pinnacle", "market": "h2h", "line": null, "prices": {"away": 4.87, "draw": 4.2, "home": 1.684}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000002371945348", "provider": "oddspapi", "book": "pinnacle", "market": "totals", "line": 3.25, "prices": {"over": 1.943, "under": 1.943}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000002371945348", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": -0.25, "prices": {"home": 1.769, "away": 2.14}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000002371945348", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": -2.0, "prices": {"home": 1.862, "away": 1.934}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000002371945348", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": 0.5, "prices": {"home": 1.862, "away": 1.862}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000002371945348", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": -1.0, "prices": {"home": 1.892, "away": 1.877}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000002371945348", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": -0.75, "prices": {"home": 1.869, "away": 2.04}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000002371945348", "provider": "oddspapi", "book": "pinnacle", "market": "totals", "line": 1.25, "prices": {"over": 1.787, "under": 2.07}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000002371945348", "provider": "oddspapi", "book": "winamax", "market": "h2h", "line": null, "prices": {"home": 1.62, "draw": 3.9, "away": 4.3}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000002371945348", "provider": "oddspapi", "book": "winamax", "market": "spreads", "line": -1.5, "prices": {"home": 2.35, "away": 1.39}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000002371945348", "provider": "oddspapi", "book": "winamax", "market": "spreads", "line": -0.5, "prices": {"home": 1.88, "away": 1.6}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000002371945348", "provider": "oddspapi", "book": "winamax", "market": "totals", "line": 1.5, "prices": {"over": 1.9, "under": 1.6}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000002371945348", "provider": "oddspapi", "book": "winamax", "market": "totals", "line": 3.5, "prices": {"over": 1.92, "under": 1.58}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000002371945346", "provider": "oddspapi", "book": "pinnacle", "market": "h2h", "line": null, "prices": {"home": 2.27, "draw": 3.73, "away": 3.07}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000002371945346", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": 0.5, "prices": {"home": 1.787, "away": 1.943}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000002371945346", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": 0.0, "prices": {"home": 1.833, "away": 1.925}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000002371945346", "provider": "oddspapi", "book": "pinnacle", "market": "totals", "line": 2.75, "prices": {"over": 1.781, "under": 2.14}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000002371945346", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": 0.0, "prices": {"home": 1.8, "away": 1.99}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000002371945346", "provider": "oddspapi", "book": "pinnacle", "market": "totals", "line": 1.25, "prices": {"over": 2.02, "under": 1.819}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000002371945346", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": -0.25, "prices": {"home": 1.99, "away": 1.917}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000002371945346", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": 0.0, "prices": {"home": 1.724, "away": 2.2}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000002371945346", "provider": "oddspapi", "book": "winamax", "market": "h2h", "line": null, "prices": {"draw": 3.55, "home": 2.1, "away": 2.85}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000002371945346", "provider": "oddspapi", "book": "winamax", "market": "spreads", "line": -1.5, "prices": {"home": 3.6, "away": 1.19}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000002371945346", "provider": "oddspapi", "book": "winamax", "market": "totals", "line": 3.0, "prices": {"over": 1.78, "under": 1.7}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000002371945346", "provider": "oddspapi", "book": "winamax", "market": "spreads", "line": 0.0, "prices": {"home": 1.56, "away": 1.96}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000002371945346", "provider": "oddspapi", "book": "winamax", "market": "totals", "line": 1.5, "prices": {"over": 2.1, "under": 1.49}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036256", "provider": "oddspapi", "book": "pinnacle", "market": "h2h", "line": null, "prices": {"draw": 7.1, "home": 10.24, "away": 1.241}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036256", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": 3.0, "prices": {"home": 1.917, "away": 1.869}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036256", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": 0.75, "prices": {"home": 2.01, "away": 1.847}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036256", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": 1.5, "prices": {"home": 1.934, "away": 1.833}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036256", "provider": "oddspapi", "book": "pinnacle", "market": "totals", "line": 3.5, "prices": {"over": 1.909, "under": 1.961}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036256", "provider": "oddspapi", "book": "pinnacle", "market": "totals", "line": 1.5, "prices": {"over": 2.0, "under": 1.826}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036256", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": 2.0, "prices": {"home": 1.806, "away": 2.1}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036256", "provider": "oddspapi", "book": "winamax", "market": "h2h", "line": null, "prices": {"home": 8.5, "draw": 7.0, "away": 1.19}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036256", "provider": "oddspapi", "book": "winamax", "market": "spreads", "line": 1.5, "prices": {"home": 2.1, "away": 1.48}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036256", "provider": "oddspapi", "book": "winamax", "market": "totals", "line": 1.5, "prices": {"over": 1.7, "under": 1.76}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036256", "provider": "oddspapi", "book": "winamax", "market": "totals", "line": 3.5, "prices": {"over": 1.68, "under": 1.8}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036256", "provider": "oddspapi", "book": "winamax", "market": "spreads", "line": 1.0, "prices": {"home": 1.56, "away": 1.96}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036266", "provider": "oddspapi", "book": "pinnacle", "market": "h2h", "line": null, "prices": {"home": 2.79, "draw": 3.84, "away": 2.41}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036266", "provider": "oddspapi", "book": "pinnacle", "market": "totals", "line": 1.25, "prices": {"over": 1.925, "under": 1.909}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036266", "provider": "oddspapi", "book": "pinnacle", "market": "totals", "line": 3.0, "prices": {"over": 1.909, "under": 1.98}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036266", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": 0.0, "prices": {"home": 2.11, "away": 1.819}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036266", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": 0.0, "prices": {"home": 1.813, "away": 1.961}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036266", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": 0.0, "prices": {"home": 1.819, "away": 1.943}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036266", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": 0.0, "prices": {"home": 2.05, "away": 1.826}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036266", "provider": "oddspapi", "book": "winamax", "market": "h2h", "line": null, "prices": {"home": 2.6, "away": 2.25, "draw": 3.7}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036266", "provider": "oddspapi", "book": "winamax", "market": "totals", "line": 1.5, "prices": {"over": 2.05, "under": 1.5}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036266", "provider": "oddspapi", "book": "winamax", "market": "spreads", "line": 0.0, "prices": {"home": 1.84, "away": 1.64}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036266", "provider": "oddspapi", "book": "winamax", "market": "spreads", "line": 1.5, "prices": {"home": 1.16, "away": 3.85}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036266", "provider": "oddspapi", "book": "winamax", "market": "totals", "line": 3.0, "prices": {"over": 1.7, "under": 1.76}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003572513290", "provider": "oddspapi", "book": "pinnacle", "market": "h2h", "line": null, "prices": {"away": 2.15, "home": 3.17, "draw": 3.94}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003572513290", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": 0.25, "prices": {"home": 1.757, "away": 2.15}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003572513290", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": 0.5, "prices": {"home": 1.729, "away": 2.04}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003572513290", "provider": "oddspapi", "book": "pinnacle", "market": "totals", "line": 3.25, "prices": {"over": 1.97, "under": 1.917}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003572513290", "provider": "oddspapi", "book": "pinnacle", "market": "totals", "line": 1.25, "prices": {"over": 1.806, "under": 2.04}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003572513290", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": 0.25, "prices": {"home": 2.01, "away": 1.9}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003572513290", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": 0.5, "prices": {"home": 1.862, "away": 1.925}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003572513290", "provider": "oddspapi", "book": "winamax", "market": "h2h", "line": null, "prices": {"home": 2.9, "draw": 3.7, "away": 2.0}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003572513290", "provider": "oddspapi", "book": "winamax", "market": "totals", "line": 3.0, "prices": {"over": 1.58, "under": 1.92}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003572513290", "provider": "oddspapi", "book": "winamax", "market": "spreads", "line": 0.0, "prices": {"home": 2.0, "away": 1.52}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003572513290", "provider": "oddspapi", "book": "winamax", "market": "totals", "line": 1.5, "prices": {"over": 1.94, "under": 1.56}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003572513290", "provider": "oddspapi", "book": "winamax", "market": "spreads", "line": 1.5, "prices": {"home": 1.22, "away": 3.3}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478684", "provider": "oddspapi", "book": "pinnacle", "market": "h2h", "line": null, "prices": {"away": 7.06, "draw": 5.16, "home": 1.421}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478684", "provider": "oddspapi", "book": "pinnacle", "market": "totals", "line": 1.25, "prices": {"over": 2.0, "under": 1.84}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478684", "provider": "oddspapi", "book": "pinnacle", "market": "totals", "line": 3.0, "prices": {"over": 1.819, "under": 2.09}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478684", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": -3.0, "prices": {"home": 1.917, "away": 1.884}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478684", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": -1.25, "prices": {"home": 1.934, "away": 1.97}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478684", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": -1.5, "prices": {"home": 1.943, "away": 1.819}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478684", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": -0.5, "prices": {"home": 1.934, "away": 1.934}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478684", "provider": "oddspapi", "book": "winamax", "market": "h2h", "line": null, "prices": {"away": 5.7, "draw": 4.8, "home": 1.38}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478684", "provider": "oddspapi", "book": "winamax", "market": "totals", "line": 4.5, "prices": {"over": 3.45, "under": 1.2}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478684", "provider": "oddspapi", "book": "winamax", "market": "totals", "line": 1.5, "prices": {"over": 1.96, "under": 1.56}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478684", "provider": "oddspapi", "book": "winamax", "market": "spreads", "line": -2.5, "prices": {"home": 3.3, "away": 1.22}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478684", "provider": "oddspapi", "book": "winamax", "market": "spreads", "line": -1.5, "prices": {"home": 1.92, "away": 1.58}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478684", "provider": "oddspapi", "book": "winamax", "market": "spreads", "line": -0.5, "prices": {"home": 1.7, "away": 1.76}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036258", "provider": "oddspapi", "book": "pinnacle", "market": "h2h", "line": null, "prices": {"draw": 3.56, "away": 2.72, "home": 2.6}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036258", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": 0.0, "prices": {"home": 1.917, "away": 1.847}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036258", "provider": "oddspapi", "book": "pinnacle", "market": "totals", "line": 1.25, "prices": {"over": 2.12, "under": 1.751}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036258", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": 0.0, "prices": {"home": 1.909, "away": 2.0}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036258", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": 0.0, "prices": {"home": 1.909, "away": 1.961}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036258", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": 0.0, "prices": {"home": 1.943, "away": 1.833}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036258", "provider": "oddspapi", "book": "pinnacle", "market": "totals", "line": 2.75, "prices": {"over": 1.925, "under": 1.961}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036258", "provider": "oddspapi", "book": "winamax", "market": "h2h", "line": null, "prices": {"home": 2.35, "away": 2.55, "draw": 3.55}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036258", "provider": "oddspapi", "book": "winamax", "market": "spreads", "line": -1.5, "prices": {"home": 4.1, "away": 1.14}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036258", "provider": "oddspapi", "book": "winamax", "market": "totals", "line": 3.0, "prices": {"over": 1.96, "under": 1.56}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036258", "provider": "oddspapi", "book": "winamax", "market": "totals", "line": 1.0, "prices": {"over": 1.54, "under": 2.0}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036258", "provider": "oddspapi", "book": "winamax", "market": "spreads", "line": 0.0, "prices": {"home": 1.68, "away": 1.8}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221358", "provider": "oddspapi", "book": "pinnacle", "market": "h2h", "line": null, "prices": {"draw": 4.01, "home": 1.813, "away": 4.27}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221358", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": -0.5, "prices": {"home": 1.869, "away": 1.9}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221358", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": -1.0, "prices": {"home": 1.84, "away": 1.952}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221358", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": -0.5, "prices": {"home": 1.819, "away": 2.11}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221358", "provider": "oddspapi", "book": "pinnacle", "market": "totals", "line": 1.25, "prices": {"over": 2.0, "under": 1.84}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221358", "provider": "oddspapi", "book": "pinnacle", "market": "totals", "line": 3.0, "prices": {"over": 2.0, "under": 1.884}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221358", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": -0.25, "prices": {"home": 1.952, "away": 1.917}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221358", "provider": "oddspapi", "book": "winamax", "market": "spreads", "line": -1.5, "prices": {"home": 2.7, "away": 1.3}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221358", "provider": "oddspapi", "book": "winamax", "market": "spreads", "line": -0.5, "prices": {"home": 2.05, "away": 1.5}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221358", "provider": "oddspapi", "book": "winamax", "market": "spreads", "line": 0.0, "prices": {"home": 1.36, "away": 2.45}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221358", "provider": "oddspapi", "book": "winamax", "market": "totals", "line": 3.0, "prices": {"over": 1.78, "under": 1.68}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221358", "provider": "oddspapi", "book": "winamax", "market": "totals", "line": 1.5, "prices": {"over": 2.1, "under": 1.49}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478678", "provider": "oddspapi", "book": "pinnacle", "market": "h2h", "line": null, "prices": {"home": 4.93, "away": 1.598, "draw": 4.78}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478678", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": 1.0, "prices": {"home": 1.917, "away": 1.98}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478678", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": 0.5, "prices": {"home": 2.02, "away": 1.746}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478678", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": 0.25, "prices": {"home": 2.13, "away": 1.775}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478678", "provider": "oddspapi", "book": "pinnacle", "market": "totals", "line": 3.0, "prices": {"over": 1.925, "under": 1.961}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478678", "provider": "oddspapi", "book": "pinnacle", "market": "totals", "line": 1.25, "prices": {"over": 1.943, "under": 1.892}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478678", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": 1.5, "prices": {"home": 1.869, "away": 1.925}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478678", "provider": "oddspapi", "book": "winamax", "market": "h2h", "line": null, "prices": {"home": 4.4, "away": 1.54, "draw": 4.3}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478678", "provider": "oddspapi", "book": "winamax", "market": "totals", "line": 3.0, "prices": {"over": 1.7, "under": 1.76}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478678", "provider": "oddspapi", "book": "winamax", "market": "totals", "line": 1.5, "prices": {"over": 2.0, "under": 1.52}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478678", "provider": "oddspapi", "book": "winamax", "market": "spreads", "line": 0.5, "prices": {"home": 1.6, "away": 1.88}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478678", "provider": "oddspapi", "book": "winamax", "market": "spreads", "line": 1.5, "prices": {"home": 1.42, "away": 2.25}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000002371945368", "provider": "oddspapi", "book": "pinnacle", "market": "h2h", "line": null, "prices": {"away": 4.47, "draw": 3.81, "home": 1.763}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000002371945368", "provider": "oddspapi", "book": "pinnacle", "market": "totals", "line": 1.0, "prices": {"over": 1.769, "under": 2.03}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000002371945368", "provider": "oddspapi", "book": "pinnacle", "market": "totals", "line": 2.5, "prices": {"over": 1.862, "under": 1.98}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000002371945368", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": -0.75, "prices": {"home": 2.0, "away": 1.862}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000002371945368", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": -0.25, "prices": {"home": 1.847, "away": 1.97}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000002371945368", "provider": "oddspapi", "book": "winamax", "market": "h2h", "line": null, "prices": {"away": 4.1, "home": 1.7, "draw": 3.6}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000002371945368", "provider": "oddspapi", "book": "winamax", "market": "spreads", "line": -1.5, "prices": {"home": 2.75, "away": 1.3}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000002371945368", "provider": "oddspapi", "book": "winamax", "market": "spreads", "line": -0.5, "prices": {"home": 2.1, "away": 1.49}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000002371945368", "provider": "oddspapi", "book": "winamax", "market": "totals", "line": 1.0, "prices": {"over": 1.64, "under": 1.84}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000002371945368", "provider": "oddspapi", "book": "winamax", "market": "totals", "line": 2.5, "prices": {"over": 1.7, "under": 1.76}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003572513276", "provider": "oddspapi", "book": "pinnacle", "market": "h2h", "line": null, "prices": {"away": 3.76, "draw": 4.47, "home": 1.833}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003572513276", "provider": "oddspapi", "book": "pinnacle", "market": "totals", "line": 1.5, "prices": {"over": 1.869, "under": 1.961}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003572513276", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": -0.25, "prices": {"home": 1.862, "away": 2.01}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003572513276", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": -1.5, "prices": {"home": 1.8, "away": 1.98}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003572513276", "provider": "oddspapi", "book": "pinnacle", "market": "totals", "line": 3.5, "prices": {"over": 1.787, "under": 2.13}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003572513276", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": -1.0, "prices": {"home": 2.02, "away": 1.751}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003572513276", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": -0.75, "prices": {"home": 2.04, "away": 1.869}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003572513276", "provider": "oddspapi", "book": "winamax", "market": "h2h", "line": null, "prices": {"draw": 4.2, "away": 3.45, "home": 1.72}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003572513276", "provider": "oddspapi", "book": "winamax", "market": "spreads", "line": -1.5, "prices": {"home": 2.5, "away": 1.34}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003572513276", "provider": "oddspapi", "book": "winamax", "market": "totals", "line": 1.5, "prices": {"over": 1.7, "under": 1.76}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003572513276", "provider": "oddspapi", "book": "winamax", "market": "spreads", "line": -0.5, "prices": {"home": 2.0, "away": 1.54}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003572513276", "provider": "oddspapi", "book": "winamax", "market": "totals", "line": 3.5, "prices": {"over": 1.64, "under": 1.84}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003572513280", "provider": "oddspapi", "book": "pinnacle", "market": "h2h", "line": null, "prices": {"away": 2.15, "draw": 3.94, "home": 3.17}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003572513280", "provider": "oddspapi", "book": "pinnacle", "market": "totals", "line": 1.25, "prices": {"over": 1.793, "under": 2.06}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003572513280", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": 0.0, "prices": {"home": 1.884, "away": 1.884}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003572513280", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": 0.25, "prices": {"home": 2.01, "away": 1.9}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003572513280", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": 0.25, "prices": {"home": 1.757, "away": 2.15}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003572513280", "provider": "oddspapi", "book": "pinnacle", "market": "totals", "line": 3.25, "prices": {"over": 1.952, "under": 1.934}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003572513280", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": 0.0, "prices": {"home": 1.909, "away": 1.869}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003572513280", "provider": "oddspapi", "book": "winamax", "market": "h2h", "line": null, "prices": {"draw": 3.7, "home": 2.9, "away": 2.0}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003572513280", "provider": "oddspapi", "book": "winamax", "market": "spreads", "line": 1.5, "prices": {"home": 1.21, "away": 3.35}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003572513280", "provider": "oddspapi", "book": "winamax", "market": "totals", "line": 1.5, "prices": {"over": 1.94, "under": 1.56}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003572513280", "provider": "oddspapi", "book": "winamax", "market": "spreads", "line": 0.0, "prices": {"home": 2.0, "away": 1.52}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003572513280", "provider": "oddspapi", "book": "winamax", "market": "totals", "line": 3.0, "prices": {"over": 1.58, "under": 1.92}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003572513284", "provider": "oddspapi", "book": "pinnacle", "market": "h2h", "line": null, "prices": {"away": 3.49, "draw": 4.04, "home": 2.0}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003572513284", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": -0.25, "prices": {"home": 2.03, "away": 1.847}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003572513284", "provider": "oddspapi", "book": "pinnacle", "market": "totals", "line": 1.25, "prices": {"over": 1.847, "under": 2.0}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003572513284", "provider": "oddspapi", "book": "pinnacle", "market": "totals", "line": 3.25, "prices": {"over": 2.01, "under": 1.877}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003572513284", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": -0.5, "prices": {"home": 2.01, "away": 1.9}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003572513284", "provider": "oddspapi", "book": "winamax", "market": "h2h", "line": null, "prices": {"home": 1.88, "draw": 3.8, "away": 3.2}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003572513284", "provider": "oddspapi", "book": "winamax", "market": "spreads", "line": -1.5, "prices": {"home": 3.0, "away": 1.26}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003572513284", "provider": "oddspapi", "book": "winamax", "market": "spreads", "line": 0.0, "prices": {"home": 1.45, "away": 2.2}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003572513284", "provider": "oddspapi", "book": "winamax", "market": "totals", "line": 1.5, "prices": {"over": 1.98, "under": 1.54}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003572513284", "provider": "oddspapi", "book": "winamax", "market": "totals", "line": 3.0, "prices": {"over": 1.62, "under": 1.86}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003572513286", "provider": "oddspapi", "book": "pinnacle", "market": "h2h", "line": null, "prices": {"home": 2.9, "away": 2.27, "draw": 4.02}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003572513286", "provider": "oddspapi", "book": "pinnacle", "market": "totals", "line": 3.25, "prices": {"over": 1.84, "under": 2.06}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003572513286", "provider": "oddspapi", "book": "pinnacle", "market": "totals", "line": 1.5, "prices": {"over": 2.07, "under": 1.787}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003572513286", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": 0.25, "prices": {"home": 1.892, "away": 2.01}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003572513286", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": 0.5, "prices": {"home": 1.769, "away": 1.99}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003572513286", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": 0.0, "prices": {"home": 2.14, "away": 1.763}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003572513286", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": 0.5, "prices": {"home": 1.884, "away": 1.9}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003572513286", "provider": "oddspapi", "book": "winamax", "market": "h2h", "line": null, "prices": {"away": 2.15, "draw": 3.75, "home": 2.65}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003572513286", "provider": "oddspapi", "book": "winamax", "market": "spreads", "line": 1.5, "prices": {"home": 1.19, "away": 3.5}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003572513286", "provider": "oddspapi", "book": "winamax", "market": "totals", "line": 1.5, "prices": {"over": 1.84, "under": 1.64}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003572513286", "provider": "oddspapi", "book": "winamax", "market": "spreads", "line": 0.0, "prices": {"home": 1.9, "away": 1.6}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003572513286", "provider": "oddspapi", "book": "winamax", "market": "totals", "line": 3.5, "prices": {"over": 1.82, "under": 1.66}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003572513288", "provider": "oddspapi", "book": "pinnacle", "market": "h2h", "line": null, "prices": {"away": 1.909, "draw": 3.76, "home": 4.08}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003572513288", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": 0.25, "prices": {"home": 1.862, "away": 2.01}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003572513288", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": 0.5, "prices": {"home": 1.99, "away": 1.917}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003572513288", "provider": "oddspapi", "book": "pinnacle", "market": "totals", "line": 3.5, "prices": {"over": 2.14, "under": 1.781}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003572513288", "provider": "oddspapi", "book": "pinnacle", "market": "totals", "line": 1.25, "prices": {"over": 1.8, "under": 2.05}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003572513288", "provider": "oddspapi", "book": "winamax", "market": "h2h", "line": null, "prices": {"away": 1.8, "home": 3.7, "draw": 3.55}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003572513288", "provider": "oddspapi", "book": "winamax", "market": "spreads", "line": 0.5, "prices": {"home": 1.5, "away": 2.05}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003572513288", "provider": "oddspapi", "book": "winamax", "market": "totals", "line": 1.5, "prices": {"over": 1.9, "under": 1.6}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003572513288", "provider": "oddspapi", "book": "winamax", "market": "spreads", "line": 1.5, "prices": {"home": 1.3, "away": 2.75}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003572513288", "provider": "oddspapi", "book": "winamax", "market": "totals", "line": 3.5, "prices": {"over": 1.92, "under": 1.58}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221354", "provider": "oddspapi", "book": "pinnacle", "market": "h2h", "line": null, "prices": {"home": 2.18, "draw": 3.42, "away": 3.53}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221354", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": -0.25, "prices": {"home": 2.21, "away": 1.719}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221354", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": -2.0, "prices": {"home": 1.961, "away": 1.833}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221354", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": -0.25, "prices": {"home": 1.884, "away": 2.03}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221354", "provider": "oddspapi", "book": "pinnacle", "market": "totals", "line": 1.0, "prices": {"over": 1.813, "under": 2.03}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221354", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": -1.0, "prices": {"home": 1.97, "away": 1.787}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221354", "provider": "oddspapi", "book": "pinnacle", "market": "totals", "line": 2.5, "prices": {"over": 1.917, "under": 1.97}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221354", "provider": "oddspapi", "book": "winamax", "market": "spreads", "line": 0.0, "prices": {"home": 1.46, "away": 2.15}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221354", "provider": "oddspapi", "book": "winamax", "market": "spreads", "line": -1.5, "prices": {"home": 3.45, "away": 1.2}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221354", "provider": "oddspapi", "book": "winamax", "market": "totals", "line": 2.5, "prices": {"over": 1.7, "under": 1.76}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221354", "provider": "oddspapi", "book": "winamax", "market": "totals", "line": 1.0, "prices": {"over": 1.64, "under": 1.84}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221356", "provider": "oddspapi", "book": "pinnacle", "market": "h2h", "line": null, "prices": {"draw": 3.77, "away": 3.49, "home": 2.07}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221356", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": -0.5, "prices": {"home": 2.08, "away": 1.833}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221356", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": -0.5, "prices": {"home": 1.847, "away": 1.917}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221356", "provider": "oddspapi", "book": "pinnacle", "market": "totals", "line": 2.75, "prices": {"over": 1.97, "under": 1.917}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221356", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": -1.0, "prices": {"home": 1.84, "away": 1.952}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221356", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": -0.25, "prices": {"home": 2.17, "away": 1.746}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221356", "provider": "oddspapi", "book": "pinnacle", "market": "totals", "line": 1.25, "prices": {"over": 2.18, "under": 1.714}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221356", "provider": "oddspapi", "book": "winamax", "market": "spreads", "line": 0.0, "prices": {"home": 1.47, "away": 2.15}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221356", "provider": "oddspapi", "book": "winamax", "market": "totals", "line": 1.0, "prices": {"over": 1.54, "under": 2.0}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221356", "provider": "oddspapi", "book": "winamax", "market": "totals", "line": 2.5, "prices": {"over": 1.58, "under": 1.92}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221356", "provider": "oddspapi", "book": "winamax", "market": "spreads", "line": -1.5, "prices": {"home": 3.3, "away": 1.22}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221360", "provider": "oddspapi", "book": "pinnacle", "market": "h2h", "line": null, "prices": {"away": 2.38, "draw": 3.38, "home": 3.16}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221360", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": 0.25, "prices": {"home": 1.862, "away": 2.05}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221360", "provider": "oddspapi", "book": "pinnacle", "market": "totals", "line": 2.5, "prices": {"over": 2.03, "under": 1.862}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221360", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": 0.0, "prices": {"home": 2.24, "away": 1.704}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221360", "provider": "oddspapi", "book": "pinnacle", "market": "totals", "line": 1.0, "prices": {"over": 1.934, "under": 1.9}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221360", "provider": "oddspapi", "book": "winamax", "market": "spreads", "line": 0.0, "prices": {"home": 1.9, "away": 1.6}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221360", "provider": "oddspapi", "book": "winamax", "market": "spreads", "line": 1.5, "prices": {"home": 1.14, "away": 4.0}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221360", "provider": "oddspapi", "book": "winamax", "market": "totals", "line": 2.5, "prices": {"over": 1.76, "under": 1.7}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221360", "provider": "oddspapi", "book": "winamax", "market": "totals", "line": 1.0, "prices": {"over": 1.7, "under": 1.76}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221362", "provider": "oddspapi", "book": "pinnacle", "market": "h2h", "line": null, "prices": {"draw": 3.41, "away": 2.72, "home": 2.69}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221362", "provider": "oddspapi", "book": "pinnacle", "market": "totals", "line": 2.5, "prices": {"over": 1.892, "under": 1.99}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221362", "provider": "oddspapi", "book": "pinnacle", "market": "totals", "line": 1.0, "prices": {"over": 1.793, "under": 2.06}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221362", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": 0.0, "prices": {"home": 1.925, "away": 1.943}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221362", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": 0.0, "prices": {"home": 1.943, "away": 1.961}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221362", "provider": "oddspapi", "book": "winamax", "market": "totals", "line": 1.0, "prices": {"over": 1.62, "under": 1.88}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221362", "provider": "oddspapi", "book": "winamax", "market": "spreads", "line": 1.5, "prices": {"home": 1.11, "away": 4.6}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221362", "provider": "oddspapi", "book": "winamax", "market": "spreads", "line": 0.0, "prices": {"home": 1.72, "away": 1.72}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221362", "provider": "oddspapi", "book": "winamax", "market": "totals", "line": 2.5, "prices": {"over": 1.66, "under": 1.8}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221366", "provider": "oddspapi", "book": "pinnacle", "market": "h2h", "line": null, "prices": {"draw": 4.51, "away": 4.63, "home": 1.666}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221366", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": -0.75, "prices": {"home": 1.84, "away": 2.08}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221366", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": -2.5, "prices": {"home": 1.892, "away": 1.909}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221366", "provider": "oddspapi", "book": "pinnacle", "market": "totals", "line": 1.25, "prices": {"over": 1.787, "under": 2.06}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221366", "provider": "oddspapi", "book": "pinnacle", "market": "totals", "line": 3.25, "prices": {"over": 1.925, "under": 1.961}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221366", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": -0.25, "prices": {"home": 1.769, "away": 2.14}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221366", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": -1.0, "prices": {"home": 1.74, "away": 2.03}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221366", "provider": "oddspapi", "book": "winamax", "market": "spreads", "line": -1.5, "prices": {"home": 2.3, "away": 1.4}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221366", "provider": "oddspapi", "book": "winamax", "market": "spreads", "line": -0.5, "prices": {"home": 1.9, "away": 1.6}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221366", "provider": "oddspapi", "book": "winamax", "market": "totals", "line": 1.5, "prices": {"over": 1.9, "under": 1.6}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221366", "provider": "oddspapi", "book": "winamax", "market": "totals", "line": 3.5, "prices": {"over": 1.92, "under": 1.58}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478682", "provider": "oddspapi", "book": "pinnacle", "market": "h2h", "line": null, "prices": {"home": 2.42, "draw": 3.37, "away": 3.1}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478682", "provider": "oddspapi", "book": "pinnacle", "market": "totals", "line": 1.0, "prices": {"over": 2.07, "under": 1.781}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478682", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": -0.25, "prices": {"home": 2.08, "away": 1.833}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478682", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": 0.0, "prices": {"home": 1.751, "away": 2.16}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478682", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": -0.5, "prices": {"home": 1.787, "away": 1.98}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478682", "provider": "oddspapi", "book": "pinnacle", "market": "totals", "line": 2.25, "prices": {"over": 1.934, "under": 1.952}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478682", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": -1.5, "prices": {"home": 1.917, "away": 1.884}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478682", "provider": "oddspapi", "book": "winamax", "market": "h2h", "line": null, "prices": {"away": 2.85, "home": 2.25, "draw": 3.2}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478682", "provider": "oddspapi", "book": "winamax", "market": "totals", "line": 2.5, "prices": {"over": 1.92, "under": 1.58}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478682", "provider": "oddspapi", "book": "winamax", "market": "spreads", "line": -1.5, "prices": {"home": 4.2, "away": 1.14}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478682", "provider": "oddspapi", "book": "winamax", "market": "totals", "line": 1.0, "prices": {"over": 1.84, "under": 1.64}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478682", "provider": "oddspapi", "book": "winamax", "market": "spreads", "line": 0.0, "prices": {"home": 1.58, "away": 1.92}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000002371945384", "provider": "oddspapi", "book": "pinnacle", "market": "h2h", "line": null, "prices": {"away": 1.549, "draw": 4.39, "home": 5.47}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000002371945384", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": 0.5, "prices": {"home": 1.787, "away": 2.05}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000002371945384", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": 1.0, "prices": {"home": 1.909, "away": 1.943}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000002371945384", "provider": "oddspapi", "book": "pinnacle", "market": "totals", "line": 2.75, "prices": {"over": 1.8, "under": 2.06}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000002371945384", "provider": "oddspapi", "book": "pinnacle", "market": "totals", "line": 1.25, "prices": {"over": 2.02, "under": 1.781}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478668", "provider": "oddspapi", "book": "pinnacle", "market": "h2h", "line": null, "prices": {"home": 1.354, "away": 8.08, "draw": 5.67}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478668", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": -0.5, "prices": {"home": 1.8, "away": 2.09}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478668", "provider": "oddspapi", "book": "pinnacle", "market": "totals", "line": 3.0, "prices": {"over": 1.806, "under": 2.1}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478668", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": -2.5, "prices": {"home": 1.884, "away": 1.917}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478668", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": -1.25, "prices": {"home": 1.787, "away": 2.15}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478668", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": -1.0, "prices": {"home": 1.74, "away": 2.02}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478668", "provider": "oddspapi", "book": "pinnacle", "market": "totals", "line": 1.25, "prices": {"over": 1.877, "under": 1.961}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478668", "provider": "oddspapi", "book": "winamax", "market": "h2h", "line": null, "prices": {"draw": 5.1, "away": 6.25, "home": 1.32}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478668", "provider": "oddspapi", "book": "winamax", "market": "spreads", "line": -1.5, "prices": {"home": 1.8, "away": 1.68}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478668", "provider": "oddspapi", "book": "winamax", "market": "totals", "line": 1.5, "prices": {"over": 1.96, "under": 1.56}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478668", "provider": "oddspapi", "book": "winamax", "market": "spreads", "line": -0.5, "prices": {"home": 1.64, "away": 1.84}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478668", "provider": "oddspapi", "book": "winamax", "market": "totals", "line": 3.0, "prices": {"over": 1.64, "under": 1.84}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221370", "provider": "oddspapi", "book": "pinnacle", "market": "h2h", "line": null, "prices": {"away": 5.54, "draw": 4.65, "home": 1.555}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221370", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": -3.0, "prices": {"home": 1.884, "away": 1.917}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221370", "provider": "oddspapi", "book": "pinnacle", "market": "totals", "line": 1.25, "prices": {"over": 2.0, "under": 1.84}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221370", "provider": "oddspapi", "book": "pinnacle", "market": "totals", "line": 3.0, "prices": {"over": 2.01, "under": 1.884}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221370", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": -0.5, "prices": {"home": 2.06, "away": 1.826}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221370", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": -1.0, "prices": {"home": 1.917, "away": 1.99}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221370", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": -1.5, "prices": {"home": 1.925, "away": 1.84}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221370", "provider": "oddspapi", "book": "winamax", "market": "totals", "line": 3.0, "prices": {"over": 1.76, "under": 1.7}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221370", "provider": "oddspapi", "book": "winamax", "market": "spreads", "line": -0.5, "prices": {"home": 1.84, "away": 1.64}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221370", "provider": "oddspapi", "book": "winamax", "market": "totals", "line": 1.5, "prices": {"over": 2.05, "under": 1.5}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221370", "provider": "oddspapi", "book": "winamax", "market": "spreads", "line": -1.5, "prices": {"home": 2.15, "away": 1.45}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003572513274", "provider": "oddspapi", "book": "pinnacle", "market": "h2h", "line": null, "prices": {"draw": 5.51, "away": 7.83, "home": 1.371}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003572513274", "provider": "oddspapi", "book": "pinnacle", "market": "totals", "line": 4.0, "prices": {"over": 2.05, "under": 1.847}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003572513274", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": -0.75, "prices": {"home": 1.952, "away": 1.917}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003572513274", "provider": "oddspapi", "book": "pinnacle", "market": "totals", "line": 1.5, "prices": {"over": 1.8, "under": 2.05}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003572513274", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": -1.5, "prices": {"home": 1.877, "away": 2.03}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003572513274", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": -3.5, "prices": {"home": 1.847, "away": 1.934}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003572513274", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": -1.5, "prices": {"home": 1.819, "away": 1.943}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003572513274", "provider": "oddspapi", "book": "winamax", "market": "h2h", "line": null, "prices": {"away": 6.5, "draw": 5.2, "home": 1.31}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003572513274", "provider": "oddspapi", "book": "winamax", "market": "totals", "line": 4.0, "prices": {"over": 1.82, "under": 1.66}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003572513274", "provider": "oddspapi", "book": "winamax", "market": "spreads", "line": -1.5, "prices": {"home": 1.66, "away": 1.8}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003572513274", "provider": "oddspapi", "book": "winamax", "market": "spreads", "line": -0.5, "prices": {"home": 1.54, "away": 2.0}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003572513274", "provider": "oddspapi", "book": "winamax", "market": "totals", "line": 1.5, "prices": {"over": 1.6, "under": 1.9}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036272", "provider": "oddspapi", "book": "pinnacle", "market": "h2h", "line": null, "prices": {"away": 3.06, "home": 2.37, "draw": 3.51}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036272", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": -0.25, "prices": {"home": 2.06, "away": 1.854}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036272", "provider": "oddspapi", "book": "pinnacle", "market": "totals", "line": 2.75, "prices": {"over": 2.09, "under": 1.813}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036272", "provider": "oddspapi", "book": "pinnacle", "market": "totals", "line": 1.0, "prices": {"over": 1.769, "under": 2.09}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036272", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": 0.0, "prices": {"home": 1.746, "away": 2.17}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036272", "provider": "oddspapi", "book": "winamax", "market": "h2h", "line": null, "prices": {"away": 2.9, "home": 2.15, "draw": 3.45}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036272", "provider": "oddspapi", "book": "winamax", "market": "totals", "line": 1.0, "prices": {"over": 1.6, "under": 1.88}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036272", "provider": "oddspapi", "book": "winamax", "market": "spreads", "line": 0.0, "prices": {"home": 1.56, "away": 1.94}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036272", "provider": "oddspapi", "book": "winamax", "market": "spreads", "line": -1.5, "prices": {"home": 3.8, "away": 1.16}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036272", "provider": "oddspapi", "book": "winamax", "market": "totals", "line": 2.5, "prices": {"over": 1.64, "under": 1.82}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478674", "provider": "oddspapi", "book": "pinnacle", "market": "h2h", "line": null, "prices": {"draw": 8.34, "away": 33.4, "home": 1.126}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478674", "provider": "oddspapi", "book": "pinnacle", "market": "totals", "line": 4.0, "prices": {"over": 1.9, "under": 1.97}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478674", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": -2.5, "prices": {"home": 1.819, "away": 2.08}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478674", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": -4.5, "prices": {"home": 1.877, "away": 1.84}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478674", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": -1.25, "prices": {"home": 2.07, "away": 1.8}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478674", "provider": "oddspapi", "book": "pinnacle", "market": "totals", "line": 1.75, "prices": {"over": 1.99, "under": 1.833}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478674", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": -2.0, "prices": {"home": 1.714, "away": 1.98}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478674", "provider": "oddspapi", "book": "winamax", "market": "h2h", "line": null, "prices": {"home": 1.08, "away": 18.0, "draw": 7.75}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478674", "provider": "oddspapi", "book": "winamax", "market": "totals", "line": 4.0, "prices": {"over": 1.7, "under": 1.76}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478674", "provider": "oddspapi", "book": "winamax", "market": "spreads", "line": -1.5, "prices": {"home": 1.98, "away": 1.54}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478674", "provider": "oddspapi", "book": "winamax", "market": "totals", "line": 2.0, "prices": {"over": 2.0, "under": 1.52}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478674", "provider": "oddspapi", "book": "winamax", "market": "spreads", "line": -2.5, "prices": {"home": 1.56, "away": 1.96}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221352", "provider": "oddspapi", "book": "pinnacle", "market": "h2h", "line": null, "prices": {"home": 2.03, "draw": 3.74, "away": 3.64}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221352", "provider": "oddspapi", "book": "pinnacle", "market": "totals", "line": 2.75, "prices": {"over": 1.9, "under": 1.99}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221352", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": -1.0, "prices": {"home": 1.934, "away": 1.869}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221352", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": -0.5, "prices": {"home": 1.925, "away": 1.833}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221352", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": -0.25, "prices": {"home": 2.16, "away": 1.751}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221352", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": -0.5, "prices": {"home": 2.04, "away": 1.869}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221352", "provider": "oddspapi", "book": "pinnacle", "market": "totals", "line": 1.25, "prices": {"over": 2.12, "under": 1.751}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221352", "provider": "oddspapi", "book": "winamax", "market": "totals", "line": 1.0, "prices": {"over": 1.52, "under": 2.05}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221352", "provider": "oddspapi", "book": "winamax", "market": "spreads", "line": -1.5, "prices": {"home": 3.15, "away": 1.23}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221352", "provider": "oddspapi", "book": "winamax", "market": "spreads", "line": 0.0, "prices": {"home": 1.44, "away": 2.2}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221352", "provider": "oddspapi", "book": "winamax", "market": "totals", "line": 3.0, "prices": {"over": 1.92, "under": 1.58}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000002371945370", "provider": "oddspapi", "book": "pinnacle", "market": "h2h", "line": null, "prices": {"away": 8.17, "draw": 5.88, "home": 1.307}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000002371945370", "provider": "oddspapi", "book": "pinnacle", "market": "totals", "line": 3.5, "prices": {"over": 2.06, "under": 1.793}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000002371945370", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": -1.5, "prices": {"home": 1.869, "away": 1.98}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000002371945370", "provider": "oddspapi", "book": "pinnacle", "market": "totals", "line": 1.5, "prices": {"over": 2.06, "under": 1.751}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000002371945370", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": -0.75, "prices": {"home": 1.943, "away": 1.869}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000002371945370", "provider": "oddspapi", "book": "winamax", "market": "h2h", "line": null, "prices": {"home": 1.29, "draw": 5.5, "away": 6.75}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000002371945370", "provider": "oddspapi", "book": "winamax", "market": "totals", "line": 3.5, "prices": {"over": 1.82, "under": 1.66}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000002371945370", "provider": "oddspapi", "book": "winamax", "market": "spreads", "line": -0.5, "prices": {"home": 1.58, "away": 1.94}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000002371945370", "provider": "oddspapi", "book": "winamax", "market": "totals", "line": 1.5, "prices": {"over": 1.8, "under": 1.66}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000002371945370", "provider": "oddspapi", "book": "winamax", "market": "spreads", "line": -1.5, "prices": {"home": 1.7, "away": 1.78}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478676", "provider": "oddspapi", "book": "pinnacle", "market": "h2h", "line": null, "prices": {"home": 3.33, "draw": 3.04, "away": 2.47}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478676", "provider": "oddspapi", "book": "pinnacle", "market": "totals", "line": 0.75, "prices": {"over": 1.9, "under": 1.934}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478676", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": 0.0, "prices": {"home": 1.8, "away": 1.961}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478676", "provider": "oddspapi", "book": "pinnacle", "market": "totals", "line": 2.0, "prices": {"over": 2.08, "under": 1.826}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478676", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": 0.25, "prices": {"home": 1.833, "away": 2.09}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478676", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": 0.0, "prices": {"home": 2.2, "away": 1.724}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478676", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": -0.5, "prices": {"home": 1.952, "away": 1.84}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478676", "provider": "oddspapi", "book": "winamax", "market": "h2h", "line": null, "prices": {"away": 2.35, "draw": 2.95, "home": 2.95}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478676", "provider": "oddspapi", "book": "winamax", "market": "totals", "line": 0.5, "prices": {"over": 1.5, "under": 2.05}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478676", "provider": "oddspapi", "book": "winamax", "market": "totals", "line": 2.0, "prices": {"over": 1.84, "under": 1.64}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478676", "provider": "oddspapi", "book": "winamax", "market": "spreads", "line": 0.0, "prices": {"home": 1.92, "away": 1.58}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478676", "provider": "oddspapi", "book": "winamax", "market": "spreads", "line": 1.5, "prices": {"home": 1.11, "away": 4.7}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000002371945372", "provider": "oddspapi", "book": "pinnacle", "market": "h2h", "line": null, "prices": {"draw": 3.84, "away": 2.96, "home": 2.21}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000002371945372", "provider": "oddspapi", "book": "pinnacle", "market": "totals", "line": 1.25, "prices": {"over": 1.847, "under": 1.934}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000002371945372", "provider": "oddspapi", "book": "pinnacle", "market": "totals", "line": 3.0, "prices": {"over": 1.813, "under": 2.04}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000002371945372", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": 0.0, "prices": {"home": 1.699, "away": 2.18}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000002371945372", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": -0.25, "prices": {"home": 1.952, "away": 1.9}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000002371945372", "provider": "oddspapi", "book": "winamax", "market": "h2h", "line": null, "prices": {"home": 2.05, "away": 2.85, "draw": 3.65}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000002371945372", "provider": "oddspapi", "book": "winamax", "market": "spreads", "line": 0.0, "prices": {"home": 1.56, "away": 1.98}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000002371945372", "provider": "oddspapi", "book": "winamax", "market": "spreads", "line": -1.5, "prices": {"home": 3.45, "away": 1.2}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000002371945372", "provider": "oddspapi", "book": "winamax", "market": "totals", "line": 3.0, "prices": {"over": 1.66, "under": 1.8}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000002371945372", "provider": "oddspapi", "book": "winamax", "market": "totals", "line": 1.5, "prices": {"over": 2.0, "under": 1.52}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000002371945376", "provider": "oddspapi", "book": "pinnacle", "market": "h2h", "line": null, "prices": {"draw": 4.4, "home": 1.458, "away": 6.95}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000002371945376", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": -2.5, "prices": {"home": 1.98, "away": 1.819}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000002371945376", "provider": "oddspapi", "book": "pinnacle", "market": "totals", "line": 1.0, "prices": {"over": 1.806, "under": 1.99}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000002371945376", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": -1.0, "prices": {"home": 1.869, "away": 1.9}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000002371945376", "provider": "oddspapi", "book": "pinnacle", "market": "totals", "line": 2.5, "prices": {"over": 1.892, "under": 1.943}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000002371945376", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": -0.5, "prices": {"home": 1.952, "away": 1.869}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000002371945376", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": -1.25, "prices": {"home": 2.07, "away": 1.8}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000002371945376", "provider": "oddspapi", "book": "winamax", "market": "h2h", "line": null, "prices": {"draw": 4.4, "home": 1.39, "away": 6.0}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000002371945376", "provider": "oddspapi", "book": "winamax", "market": "spreads", "line": -0.5, "prices": {"home": 1.76, "away": 1.7}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000002371945376", "provider": "oddspapi", "book": "winamax", "market": "totals", "line": 2.5, "prices": {"over": 1.66, "under": 1.8}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000002371945376", "provider": "oddspapi", "book": "winamax", "market": "spreads", "line": -1.5, "prices": {"home": 2.0, "away": 1.52}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000002371945376", "provider": "oddspapi", "book": "winamax", "market": "totals", "line": 1.0, "prices": {"over": 1.58, "under": 1.92}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036270", "provider": "oddspapi", "book": "pinnacle", "market": "h2h", "line": null, "prices": {"home": 1.833, "draw": 4.15, "away": 4.01}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036270", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": -0.25, "prices": {"home": 1.9, "away": 1.97}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036270", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": -0.5, "prices": {"home": 1.84, "away": 1.925}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036270", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": -1.5, "prices": {"home": 1.97, "away": 1.806}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036270", "provider": "oddspapi", "book": "pinnacle", "market": "totals", "line": 3.0, "prices": {"over": 1.917, "under": 1.97}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036270", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": -0.75, "prices": {"home": 2.07, "away": 1.847}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036270", "provider": "oddspapi", "book": "pinnacle", "market": "totals", "line": 1.25, "prices": {"over": 1.934, "under": 1.9}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036270", "provider": "oddspapi", "book": "winamax", "market": "h2h", "line": null, "prices": {"home": 1.74, "away": 3.75, "draw": 3.95}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036270", "provider": "oddspapi", "book": "winamax", "market": "totals", "line": 3.0, "prices": {"over": 1.72, "under": 1.74}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036270", "provider": "oddspapi", "book": "winamax", "market": "totals", "line": 1.5, "prices": {"over": 2.05, "under": 1.5}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036270", "provider": "oddspapi", "book": "winamax", "market": "spreads", "line": -0.5, "prices": {"home": 2.05, "away": 1.5}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036270", "provider": "oddspapi", "book": "winamax", "market": "spreads", "line": -1.5, "prices": {"home": 2.65, "away": 1.31}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478680", "provider": "oddspapi", "book": "pinnacle", "market": "h2h", "line": null, "prices": {"home": 11.0, "draw": 8.11, "away": 1.206}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478680", "provider": "oddspapi", "book": "pinnacle", "market": "totals", "line": 4.0, "prices": {"over": 1.884, "under": 1.99}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478680", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": 3.0, "prices": {"home": 1.813, "away": 1.98}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478680", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": 1.5, "prices": {"home": 1.793, "away": 1.97}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478680", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": 2.0, "prices": {"home": 2.05, "away": 1.847}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478680", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": 1.0, "prices": {"home": 1.781, "away": 2.1}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478680", "provider": "oddspapi", "book": "pinnacle", "market": "totals", "line": 1.75, "prices": {"over": 2.0, "under": 1.826}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478680", "provider": "oddspapi", "book": "winamax", "market": "h2h", "line": null, "prices": {"away": 1.18, "draw": 7.25, "home": 8.5}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478680", "provider": "oddspapi", "book": "winamax", "market": "totals", "line": 4.0, "prices": {"over": 1.64, "under": 1.82}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478680", "provider": "oddspapi", "book": "winamax", "market": "spreads", "line": 1.0, "prices": {"home": 1.66, "away": 1.82}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478680", "provider": "oddspapi", "book": "winamax", "market": "totals", "line": 2.0, "prices": {"over": 2.0, "under": 1.52}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478680", "provider": "oddspapi", "book": "winamax", "market": "spreads", "line": 2.5, "prices": {"home": 1.52, "away": 2.0}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036262", "provider": "oddspapi", "book": "pinnacle", "market": "h2h", "line": null, "prices": {"away": 7.55, "home": 1.395, "draw": 5.29}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036262", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": -0.5, "prices": {"home": 1.813, "away": 2.07}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036262", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": -2.5, "prices": {"home": 1.884, "away": 1.9}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036262", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": -1.25, "prices": {"home": 1.854, "away": 2.06}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036262", "provider": "oddspapi", "book": "pinnacle", "market": "totals", "line": 1.25, "prices": {"over": 1.917, "under": 1.917}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036262", "provider": "oddspapi", "book": "pinnacle", "market": "totals", "line": 3.0, "prices": {"over": 1.892, "under": 2.0}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036262", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": -1.5, "prices": {"home": 2.01, "away": 1.757}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036262", "provider": "oddspapi", "book": "winamax", "market": "h2h", "line": null, "prices": {"draw": 5.1, "home": 1.34, "away": 6.5}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036262", "provider": "oddspapi", "book": "winamax", "market": "totals", "line": 1.5, "prices": {"over": 2.0, "under": 1.52}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036262", "provider": "oddspapi", "book": "winamax", "market": "spreads", "line": -1.5, "prices": {"home": 1.82, "away": 1.64}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036262", "provider": "oddspapi", "book": "winamax", "market": "spreads", "line": -0.5, "prices": {"home": 1.64, "away": 1.82}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036262", "provider": "oddspapi", "book": "winamax", "market": "totals", "line": 3.0, "prices": {"over": 1.7, "under": 1.76}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036268", "provider": "oddspapi", "book": "pinnacle", "market": "h2h", "line": null, "prices": {"away": 3.08, "home": 2.34, "draw": 3.57}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036268", "provider": "oddspapi", "book": "pinnacle", "market": "totals", "line": 1.25, "prices": {"over": 2.17, "under": 1.714}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036268", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": 0.0, "prices": {"home": 1.746, "away": 2.17}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036268", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": 0.0, "prices": {"home": 1.819, "away": 1.961}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036268", "provider": "oddspapi", "book": "pinnacle", "market": "totals", "line": 2.5, "prices": {"over": 1.84, "under": 2.06}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036268", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": 0.0, "prices": {"home": 1.862, "away": 1.9}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036268", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": -0.25, "prices": {"home": 2.03, "away": 1.877}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036268", "provider": "oddspapi", "book": "winamax", "market": "h2h", "line": null, "prices": {"away": 2.85, "draw": 3.45, "home": 2.15}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036268", "provider": "oddspapi", "book": "winamax", "market": "totals", "line": 1.0, "prices": {"over": 1.6, "under": 1.9}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036268", "provider": "oddspapi", "book": "winamax", "market": "spreads", "line": -1.5, "prices": {"home": 3.8, "away": 1.16}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036268", "provider": "oddspapi", "book": "winamax", "market": "spreads", "line": 0.0, "prices": {"home": 1.58, "away": 1.94}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036268", "provider": "oddspapi", "book": "winamax", "market": "totals", "line": 2.5, "prices": {"over": 1.64, "under": 1.84}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221364", "provider": "oddspapi", "book": "pinnacle", "market": "h2h", "line": null, "prices": {"home": 3.04, "draw": 3.58, "away": 2.35}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221364", "provider": "oddspapi", "book": "pinnacle", "market": "totals", "line": 1.0, "prices": {"over": 1.775, "under": 2.08}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221364", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": 0.0, "prices": {"home": 1.961, "away": 1.8}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221364", "provider": "oddspapi", "book": "pinnacle", "market": "totals", "line": 2.75, "prices": {"over": 2.1, "under": 1.806}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221364", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": 0.0, "prices": {"home": 1.925, "away": 1.869}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221364", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": 0.25, "prices": {"home": 1.869, "away": 2.05}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221364", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": 0.0, "prices": {"home": 2.19, "away": 1.735}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003572513278", "provider": "oddspapi", "book": "pinnacle", "market": "h2h", "line": null, "prices": {"away": 4.9, "draw": 4.52, "home": 1.632}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003572513278", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": -2.5, "prices": {"home": 1.813, "away": 1.961}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003572513278", "provider": "oddspapi", "book": "pinnacle", "market": "totals", "line": 1.5, "prices": {"over": 2.1, "under": 1.763}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003572513278", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": -0.5, "prices": {"home": 2.07, "away": 1.819}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003572513278", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": -1.0, "prices": {"home": 1.751, "away": 2.01}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003572513278", "provider": "oddspapi", "book": "pinnacle", "market": "totals", "line": 3.25, "prices": {"over": 1.877, "under": 2.01}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003572513278", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": -0.75, "prices": {"home": 1.793, "away": 2.14}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003572513278", "provider": "oddspapi", "book": "winamax", "market": "h2h", "line": null, "prices": {"away": 4.2, "home": 1.58, "draw": 4.2}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003572513278", "provider": "oddspapi", "book": "winamax", "market": "spreads", "line": -1.5, "prices": {"home": 2.3, "away": 1.41}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003572513278", "provider": "oddspapi", "book": "winamax", "market": "spreads", "line": -0.5, "prices": {"home": 1.9, "away": 1.6}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003572513278", "provider": "oddspapi", "book": "winamax", "market": "totals", "line": 1.5, "prices": {"over": 1.9, "under": 1.6}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003572513278", "provider": "oddspapi", "book": "winamax", "market": "totals", "line": 3.5, "prices": {"over": 1.92, "under": 1.58}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000002371945378", "provider": "oddspapi", "book": "pinnacle", "market": "h2h", "line": null, "prices": {"draw": 3.11, "home": 2.73, "away": 2.77}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000002371945378", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": 0.0, "prices": {"home": 1.892, "away": 1.925}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000002371945378", "provider": "oddspapi", "book": "pinnacle", "market": "totals", "line": 0.75, "prices": {"over": 1.719, "under": 2.1}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000002371945378", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": 0.0, "prices": {"home": 1.909, "away": 1.943}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000002371945378", "provider": "oddspapi", "book": "pinnacle", "market": "totals", "line": 2.0, "prices": {"over": 1.769, "under": 2.09}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000002371945378", "provider": "oddspapi", "book": "winamax", "market": "h2h", "line": null, "prices": {"home": 2.55, "draw": 3.05, "away": 2.55}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000002371945378", "provider": "oddspapi", "book": "winamax", "market": "totals", "line": 1.0, "prices": {"over": 2.05, "under": 1.5}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000002371945378", "provider": "oddspapi", "book": "winamax", "market": "spreads", "line": -1.5, "prices": {"home": 5.2, "away": 1.09}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000002371945378", "provider": "oddspapi", "book": "winamax", "market": "spreads", "line": 0.0, "prices": {"home": 1.72, "away": 1.74}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000002371945378", "provider": "oddspapi", "book": "winamax", "market": "totals", "line": 2.0, "prices": {"over": 1.62, "under": 1.86}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478672", "provider": "oddspapi", "book": "pinnacle", "market": "h2h", "line": null, "prices": {"draw": 3.41, "away": 3.06, "home": 2.42}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478672", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": -0.5, "prices": {"home": 1.854, "away": 1.917}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478672", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": -1.5, "prices": {"home": 1.961, "away": 1.833}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478672", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": -0.25, "prices": {"home": 2.09, "away": 1.833}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478672", "provider": "oddspapi", "book": "pinnacle", "market": "totals", "line": 1.0, "prices": {"over": 1.98, "under": 1.862}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478672", "provider": "oddspapi", "book": "pinnacle", "market": "totals", "line": 2.5, "prices": {"over": 2.05, "under": 1.847}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478672", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": 0.0, "prices": {"home": 1.757, "away": 2.15}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478672", "provider": "oddspapi", "book": "winamax", "market": "h2h", "line": null, "prices": {"draw": 3.3, "away": 2.75, "home": 2.25}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478672", "provider": "oddspapi", "book": "winamax", "market": "totals", "line": 1.0, "prices": {"over": 1.7, "under": 1.76}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478672", "provider": "oddspapi", "book": "winamax", "market": "totals", "line": 2.5, "prices": {"over": 1.76, "under": 1.7}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478672", "provider": "oddspapi", "book": "winamax", "market": "spreads", "line": 0.0, "prices": {"home": 1.6, "away": 1.88}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478672", "provider": "oddspapi", "book": "winamax", "market": "spreads", "line": -1.5, "prices": {"home": 4.1, "away": 1.14}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000002371945374", "provider": "oddspapi", "book": "pinnacle", "market": "h2h", "line": null, "prices": {"away": 4.38, "draw": 3.6, "home": 1.826}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000002371945374", "provider": "oddspapi", "book": "pinnacle", "market": "totals", "line": 2.5, "prices": {"over": 1.961, "under": 1.877}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000002371945374", "provider": "oddspapi", "book": "pinnacle", "market": "totals", "line": 1.0, "prices": {"over": 1.854, "under": 1.925}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000002371945374", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": -0.75, "prices": {"home": 2.1, "away": 1.781}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000002371945374", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": -0.25, "prices": {"home": 1.9, "away": 1.917}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000002371945374", "provider": "oddspapi", "book": "winamax", "market": "h2h", "line": null, "prices": {"draw": 3.5, "home": 1.74, "away": 4.0}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000002371945374", "provider": "oddspapi", "book": "winamax", "market": "totals", "line": 2.5, "prices": {"over": 1.76, "under": 1.7}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000002371945374", "provider": "oddspapi", "book": "winamax", "market": "totals", "line": 1.0, "prices": {"over": 1.68, "under": 1.78}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000002371945374", "provider": "oddspapi", "book": "winamax", "market": "spreads", "line": -1.5, "prices": {"home": 2.85, "away": 1.28}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000002371945374", "provider": "oddspapi", "book": "winamax", "market": "spreads", "line": -0.5, "prices": {"home": 2.15, "away": 1.47}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036264", "provider": "oddspapi", "book": "pinnacle", "market": "h2h", "line": null, "prices": {"draw": 4.15, "home": 1.917, "away": 3.68}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036264", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": -1.0, "prices": {"home": 1.98, "away": 1.781}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036264", "provider": "oddspapi", "book": "pinnacle", "market": "totals", "line": 1.25, "prices": {"over": 1.9, "under": 1.934}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036264", "provider": "oddspapi", "book": "pinnacle", "market": "totals", "line": 3.0, "prices": {"over": 1.869, "under": 2.02}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036264", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": -0.5, "prices": {"home": 1.925, "away": 1.98}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036264", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": -2.0, "prices": {"home": 1.952, "away": 1.826}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036264", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": -0.25, "prices": {"home": 1.99, "away": 1.884}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478666", "provider": "oddspapi", "book": "pinnacle", "market": "h2h", "line": null, "prices": {"draw": 3.66, "home": 2.17, "away": 3.34}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478666", "provider": "oddspapi", "book": "pinnacle", "market": "totals", "line": 1.0, "prices": {"over": 1.775, "under": 2.09}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478666", "provider": "oddspapi", "book": "pinnacle", "market": "totals", "line": 2.75, "prices": {"over": 1.97, "under": 1.917}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478666", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": -1.0, "prices": {"home": 1.909, "away": 1.854}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478666", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": -2.0, "prices": {"home": 1.877, "away": 1.917}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478666", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": -0.25, "prices": {"home": 2.19, "away": 1.729}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478666", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": -0.25, "prices": {"home": 1.892, "away": 2.02}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478666", "provider": "oddspapi", "book": "winamax", "market": "h2h", "line": null, "prices": {"away": 3.05, "draw": 3.6, "home": 2.0}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478666", "provider": "oddspapi", "book": "winamax", "market": "spreads", "line": 0.0, "prices": {"home": 1.5, "away": 2.05}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478666", "provider": "oddspapi", "book": "winamax", "market": "spreads", "line": -1.5, "prices": {"home": 3.45, "away": 1.2}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478666", "provider": "oddspapi", "book": "winamax", "market": "totals", "line": 1.0, "prices": {"over": 1.54, "under": 1.98}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478666", "provider": "oddspapi", "book": "winamax", "market": "totals", "line": 2.5, "prices": {"over": 1.58, "under": 1.92}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000002371945382", "provider": "oddspapi", "book": "pinnacle", "market": "h2h", "line": null, "prices": {"draw": 3.7, "away": 2.32, "home": 2.87}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000002371945382", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": 0.0, "prices": {"home": 2.09, "away": 1.757}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000002371945382", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": 0.25, "prices": {"home": 1.826, "away": 2.04}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000002371945382", "provider": "oddspapi", "book": "pinnacle", "market": "totals", "line": 1.25, "prices": {"over": 1.97, "under": 1.819}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000002371945382", "provider": "oddspapi", "book": "pinnacle", "market": "totals", "line": 2.75, "prices": {"over": 1.769, "under": 2.1}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000002371945382", "provider": "oddspapi", "book": "winamax", "market": "h2h", "line": null, "prices": {"home": 2.6, "away": 2.25, "draw": 3.55}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000002371945382", "provider": "oddspapi", "book": "winamax", "market": "totals", "line": 1.0, "prices": {"over": 1.47, "under": 2.1}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000002371945382", "provider": "oddspapi", "book": "winamax", "market": "spreads", "line": 0.0, "prices": {"home": 1.82, "away": 1.64}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000002371945382", "provider": "oddspapi", "book": "winamax", "market": "spreads", "line": 1.5, "prices": {"home": 1.15, "away": 3.95}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000002371945382", "provider": "oddspapi", "book": "winamax", "market": "totals", "line": 3.0, "prices": {"over": 1.8, "under": 1.66}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000002371945366", "provider": "oddspapi", "book": "pinnacle", "market": "h2h", "line": null, "prices": {"home": 1.431, "away": 6.78, "draw": 4.74}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000002371945366", "provider": "oddspapi", "book": "pinnacle", "market": "totals", "line": 1.25, "prices": {"over": 2.07, "under": 1.746}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000002371945366", "provider": "oddspapi", "book": "pinnacle", "market": "totals", "line": 2.75, "prices": {"over": 1.862, "under": 1.97}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000002371945366", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": -1.25, "prices": {"home": 1.99, "away": 1.869}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000002371945366", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": -0.5, "prices": {"home": 1.892, "away": 1.925}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000002371945366", "provider": "oddspapi", "book": "winamax", "market": "h2h", "line": null, "prices": {"draw": 4.4, "away": 5.8, "home": 1.41}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000002371945366", "provider": "oddspapi", "book": "winamax", "market": "totals", "line": 1.0, "prices": {"over": 1.5, "under": 2.05}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000002371945366", "provider": "oddspapi", "book": "winamax", "market": "totals", "line": 2.5, "prices": {"over": 1.58, "under": 1.92}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000002371945366", "provider": "oddspapi", "book": "winamax", "market": "spreads", "line": -1.5, "prices": {"home": 2.05, "away": 1.52}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000002371945366", "provider": "oddspapi", "book": "winamax", "market": "spreads", "line": -0.5, "prices": {"home": 1.76, "away": 1.7}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036260", "provider": "oddspapi", "book": "pinnacle", "market": "h2h", "line": null, "prices": {"home": 2.41, "draw": 3.3, "away": 3.01}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036260", "provider": "oddspapi", "book": "pinnacle", "market": "totals", "line": 2.5, "prices": {"over": 2.03, "under": 1.819}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036260", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": -0.25, "prices": {"home": 2.08, "away": 1.793}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036260", "provider": "oddspapi", "book": "pinnacle", "market": "totals", "line": 1.0, "prices": {"over": 1.9, "under": 1.884}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036260", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": 0.0, "prices": {"home": 1.769, "away": 1.99}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036260", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": -0.5, "prices": {"home": 1.917, "away": 1.869}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036260", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": 0.0, "prices": {"home": 1.74, "away": 2.11}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036260", "provider": "oddspapi", "book": "winamax", "market": "h2h", "line": null, "prices": {"away": 2.75, "home": 2.3, "draw": 3.25}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036260", "provider": "oddspapi", "book": "winamax", "market": "totals", "line": 1.0, "prices": {"over": 1.78, "under": 1.68}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036260", "provider": "oddspapi", "book": "winamax", "market": "spreads", "line": -1.5, "prices": {"home": 4.3, "away": 1.13}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036260", "provider": "oddspapi", "book": "winamax", "market": "spreads", "line": 0.0, "prices": {"home": 1.62, "away": 1.86}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036260", "provider": "oddspapi", "book": "winamax", "market": "totals", "line": 2.5, "prices": {"over": 1.86, "under": 1.62}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036260", "provider": "oddspapi", "book": "winamax", "market": "spreads", "line": 2.5, "prices": {"home": 1.02, "away": 11.0}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478670", "provider": "oddspapi", "book": "pinnacle", "market": "h2h", "line": null, "prices": {"draw": 3.31, "away": 3.67, "home": 2.18}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478670", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": -0.5, "prices": {"home": 1.793, "away": 1.97}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478670", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": -1.5, "prices": {"home": 1.917, "away": 1.884}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478670", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": -0.25, "prices": {"home": 2.25, "away": 1.699}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478670", "provider": "oddspapi", "book": "pinnacle", "market": "totals", "line": 2.25, "prices": {"over": 1.961, "under": 1.925}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478670", "provider": "oddspapi", "book": "pinnacle", "market": "totals", "line": 1.0, "prices": {"over": 2.11, "under": 1.751}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478670", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": -0.25, "prices": {"home": 1.869, "away": 2.04}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478670", "provider": "oddspapi", "book": "winamax", "market": "h2h", "line": null, "prices": {"away": 3.15, "home": 2.0, "draw": 2.95}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478670", "provider": "oddspapi", "book": "winamax", "market": "spreads", "line": 0.0, "prices": {"home": 1.47, "away": 2.1}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478670", "provider": "oddspapi", "book": "winamax", "market": "spreads", "line": -1.5, "prices": {"home": 3.8, "away": 1.17}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478670", "provider": "oddspapi", "book": "winamax", "market": "totals", "line": 2.0, "prices": {"over": 1.54, "under": 2.0}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478670", "provider": "oddspapi", "book": "winamax", "market": "totals", "line": 1.0, "prices": {"over": 1.94, "under": 1.58}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221368", "provider": "oddspapi", "book": "pinnacle", "market": "h2h", "line": null, "prices": {"away": 2.97, "draw": 3.7, "home": 2.35}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221368", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": -1.5, "prices": {"home": 1.961, "away": 1.833}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221368", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": 0.0, "prices": {"home": 1.757, "away": 2.15}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221368", "provider": "oddspapi", "book": "pinnacle", "market": "totals", "line": 1.25, "prices": {"over": 2.14, "under": 1.735}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221368", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": -0.5, "prices": {"home": 1.84, "away": 1.925}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221368", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": -0.25, "prices": {"home": 2.05, "away": 1.862}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221368", "provider": "oddspapi", "book": "pinnacle", "market": "totals", "line": 2.75, "prices": {"over": 1.943, "under": 1.943}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221368", "provider": "oddspapi", "book": "winamax", "market": "spreads", "line": -1.5, "prices": {"home": 3.75, "away": 1.17}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221368", "provider": "oddspapi", "book": "winamax", "market": "spreads", "line": 0.0, "prices": {"home": 1.58, "away": 1.92}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221368", "provider": "oddspapi", "book": "winamax", "market": "totals", "line": 1.0, "prices": {"over": 1.52, "under": 2.0}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221368", "provider": "oddspapi", "book": "winamax", "market": "totals", "line": 3.0, "prices": {"over": 1.92, "under": 1.58}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003572513304", "provider": "oddspapi", "book": "pinnacle", "market": "h2h", "line": null, "prices": {"home": 2.48, "away": 2.68, "draw": 3.67}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003572513304", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": 0.0, "prices": {"home": 1.854, "away": 2.01}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003572513304", "provider": "oddspapi", "book": "pinnacle", "market": "totals", "line": 3.0, "prices": {"over": 1.917, "under": 1.917}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003572513304", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": 0.0, "prices": {"home": 1.751, "away": 2.1}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003572513304", "provider": "oddspapi", "book": "pinnacle", "market": "totals", "line": 1.25, "prices": {"over": 1.917, "under": 1.869}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036290", "provider": "oddspapi", "book": "pinnacle", "market": "h2h", "line": null, "prices": {"draw": 3.7, "away": 3.34, "home": 2.08}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036290", "provider": "oddspapi", "book": "pinnacle", "market": "totals", "line": 3.0, "prices": {"over": 1.98, "under": 1.854}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036290", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": -0.5, "prices": {"home": 2.09, "away": 1.787}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036290", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": -0.25, "prices": {"home": 2.09, "away": 1.757}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036290", "provider": "oddspapi", "book": "pinnacle", "market": "totals", "line": 1.25, "prices": {"over": 1.961, "under": 1.826}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036290", "provider": "oddspapi", "book": "winamax", "market": "h2h", "line": null, "prices": {"away": 2.9, "home": 1.92, "draw": 3.45}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036290", "provider": "oddspapi", "book": "winamax", "market": "totals", "line": 1.5, "prices": {"over": 2.1, "under": 1.49}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036290", "provider": "oddspapi", "book": "winamax", "market": "totals", "line": 3.0, "prices": {"over": 1.76, "under": 1.7}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036290", "provider": "oddspapi", "book": "winamax", "market": "spreads", "line": -1.5, "prices": {"home": 3.3, "away": 1.22}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036290", "provider": "oddspapi", "book": "winamax", "market": "spreads", "line": 0.0, "prices": {"home": 1.49, "away": 2.1}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478700", "provider": "oddspapi", "book": "pinnacle", "market": "h2h", "line": null, "prices": {"draw": 3.26, "away": 3.65, "home": 2.13}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478700", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": -0.25, "prices": {"home": 2.18, "away": 1.699}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478700", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": -0.25, "prices": {"home": 1.826, "away": 2.04}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478700", "provider": "oddspapi", "book": "pinnacle", "market": "totals", "line": 2.25, "prices": {"over": 1.961, "under": 1.877}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478700", "provider": "oddspapi", "book": "pinnacle", "market": "totals", "line": 1.0, "prices": {"over": 2.11, "under": 1.714}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478700", "provider": "oddspapi", "book": "winamax", "market": "h2h", "line": null, "prices": {"home": 1.92, "away": 3.25, "draw": 3.05}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478700", "provider": "oddspapi", "book": "winamax", "market": "totals", "line": 2.5, "prices": {"over": 2.0, "under": 1.54}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478700", "provider": "oddspapi", "book": "winamax", "market": "spreads", "line": -1.5, "prices": {"home": 3.6, "away": 1.18}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478700", "provider": "oddspapi", "book": "winamax", "market": "spreads", "line": 0.0, "prices": {"home": 1.44, "away": 2.2}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478700", "provider": "oddspapi", "book": "winamax", "market": "totals", "line": 1.0, "prices": {"over": 1.9, "under": 1.6}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221378", "provider": "oddspapi", "book": "pinnacle", "market": "h2h", "line": null, "prices": {"away": 4.59, "home": 1.704, "draw": 4.02}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221378", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": -0.75, "prices": {"home": 1.909, "away": 1.943}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221378", "provider": "oddspapi", "book": "pinnacle", "market": "totals", "line": 2.75, "prices": {"over": 1.934, "under": 1.9}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221378", "provider": "oddspapi", "book": "pinnacle", "market": "totals", "line": 1.25, "prices": {"over": 2.14, "under": 1.699}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221378", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": -0.25, "prices": {"home": 1.787, "away": 2.05}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221378", "provider": "oddspapi", "book": "winamax", "market": "h2h", "line": null, "prices": {"draw": 3.6, "home": 1.6, "away": 3.95}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221378", "provider": "oddspapi", "book": "winamax", "market": "spreads", "line": -0.5, "prices": {"home": 2.0, "away": 1.52}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221378", "provider": "oddspapi", "book": "winamax", "market": "spreads", "line": -1.5, "prices": {"home": 2.6, "away": 1.33}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221378", "provider": "oddspapi", "book": "winamax", "market": "totals", "line": 2.5, "prices": {"over": 1.6, "under": 1.9}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221378", "provider": "oddspapi", "book": "winamax", "market": "totals", "line": 1.0, "prices": {"over": 1.54, "under": 2.0}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221384", "provider": "oddspapi", "book": "pinnacle", "market": "h2h", "line": null, "prices": {"home": 2.58, "away": 2.76, "draw": 3.35}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221384", "provider": "oddspapi", "book": "pinnacle", "market": "totals", "line": 1.0, "prices": {"over": 1.819, "under": 1.97}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221384", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": 0.0, "prices": {"home": 1.862, "away": 2.0}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221384", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": 0.0, "prices": {"home": 1.854, "away": 1.97}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221384", "provider": "oddspapi", "book": "pinnacle", "market": "totals", "line": 2.5, "prices": {"over": 1.934, "under": 1.9}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221384", "provider": "oddspapi", "book": "winamax", "market": "h2h", "line": null, "prices": {"draw": 3.15, "away": 2.4, "home": 2.35}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221384", "provider": "oddspapi", "book": "winamax", "market": "totals", "line": 1.0, "prices": {"over": 1.74, "under": 1.72}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221384", "provider": "oddspapi", "book": "winamax", "market": "spreads", "line": -1.5, "prices": {"home": 4.6, "away": 1.11}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221384", "provider": "oddspapi", "book": "winamax", "market": "totals", "line": 2.5, "prices": {"over": 1.8, "under": 1.68}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221384", "provider": "oddspapi", "book": "winamax", "market": "spreads", "line": 0.0, "prices": {"home": 1.72, "away": 1.74}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478694", "provider": "oddspapi", "book": "pinnacle", "market": "h2h", "line": null, "prices": {"home": 2.42, "draw": 3.51, "away": 2.84}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478694", "provider": "oddspapi", "book": "pinnacle", "market": "totals", "line": 1.25, "prices": {"over": 2.02, "under": 1.781}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478694", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": 0.0, "prices": {"home": 1.781, "away": 2.05}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478694", "provider": "oddspapi", "book": "pinnacle", "market": "totals", "line": 2.75, "prices": {"over": 1.826, "under": 2.02}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478694", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": -0.25, "prices": {"home": 2.11, "away": 1.775}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003572513292", "provider": "oddspapi", "book": "pinnacle", "market": "h2h", "line": null, "prices": {"home": 1.282, "draw": 6.26, "away": 8.06}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003572513292", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": -1.75, "prices": {"home": 1.961, "away": 1.877}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003572513292", "provider": "oddspapi", "book": "pinnacle", "market": "totals", "line": 1.5, "prices": {"over": 1.884, "under": 1.884}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003572513292", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": -0.75, "prices": {"home": 1.862, "away": 1.943}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003572513292", "provider": "oddspapi", "book": "pinnacle", "market": "totals", "line": 3.5, "prices": {"over": 1.806, "under": 2.02}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003572513292", "provider": "oddspapi", "book": "winamax", "market": "h2h", "line": null, "prices": {"away": 6.5, "home": 1.23, "draw": 5.3}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003572513292", "provider": "oddspapi", "book": "winamax", "market": "totals", "line": 1.5, "prices": {"over": 1.72, "under": 1.74}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003572513292", "provider": "oddspapi", "book": "winamax", "market": "spreads", "line": -1.5, "prices": {"home": 1.62, "away": 1.86}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003572513292", "provider": "oddspapi", "book": "winamax", "market": "spreads", "line": -0.5, "prices": {"home": 1.54, "away": 2.0}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003572513292", "provider": "oddspapi", "book": "winamax", "market": "totals", "line": 3.5, "prices": {"over": 1.68, "under": 1.78}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003572513294", "provider": "oddspapi", "book": "pinnacle", "market": "h2h", "line": null, "prices": {"home": 1.446, "away": 5.54, "draw": 5.39}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003572513294", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": -0.5, "prices": {"home": 1.833, "away": 1.99}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003572513294", "provider": "oddspapi", "book": "pinnacle", "market": "totals", "line": 3.75, "prices": {"over": 1.847, "under": 1.99}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003572513294", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": -1.25, "prices": {"home": 1.909, "away": 1.943}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003572513294", "provider": "oddspapi", "book": "pinnacle", "market": "totals", "line": 1.5, "prices": {"over": 1.793, "under": 2.0}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003572513294", "provider": "oddspapi", "book": "winamax", "market": "h2h", "line": null, "prices": {"home": 1.39, "draw": 4.6, "away": 4.6}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003572513294", "provider": "oddspapi", "book": "winamax", "market": "spreads", "line": -1.5, "prices": {"home": 1.9, "away": 1.6}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003572513294", "provider": "oddspapi", "book": "winamax", "market": "totals", "line": 1.5, "prices": {"over": 1.62, "under": 1.86}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003572513294", "provider": "oddspapi", "book": "winamax", "market": "spreads", "line": -0.5, "prices": {"home": 1.68, "away": 1.78}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003572513294", "provider": "oddspapi", "book": "winamax", "market": "totals", "line": 4.0, "prices": {"over": 1.86, "under": 1.62}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003572513302", "provider": "oddspapi", "book": "pinnacle", "market": "h2h", "line": null, "prices": {"away": 1.473, "draw": 5.75, "home": 4.88}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003572513302", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": 1.5, "prices": {"home": 1.769, "away": 2.11}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003572513302", "provider": "oddspapi", "book": "pinnacle", "market": "totals", "line": 1.75, "prices": {"over": 1.909, "under": 1.877}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003572513302", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": 0.5, "prices": {"home": 1.98, "away": 1.847}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003572513302", "provider": "oddspapi", "book": "pinnacle", "market": "totals", "line": 4.0, "prices": {"over": 1.813, "under": 2.04}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003572513302", "provider": "oddspapi", "book": "winamax", "market": "h2h", "line": null, "prices": {"draw": 5.0, "away": 1.35, "home": 4.6}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003572513302", "provider": "oddspapi", "book": "winamax", "market": "totals", "line": 1.5, "prices": {"over": 1.52, "under": 2.0}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003572513302", "provider": "oddspapi", "book": "winamax", "market": "totals", "line": 4.0, "prices": {"over": 1.64, "under": 1.84}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003572513302", "provider": "oddspapi", "book": "winamax", "market": "spreads", "line": 0.5, "prices": {"home": 1.82, "away": 1.64}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003572513302", "provider": "oddspapi", "book": "winamax", "market": "spreads", "line": 1.5, "prices": {"home": 1.66, "away": 1.82}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003572513308", "provider": "oddspapi", "book": "pinnacle", "market": "h2h", "line": null, "prices": {"home": 2.94, "away": 2.22, "draw": 3.84}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003572513308", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": 0.0, "prices": {"home": 2.16, "away": 1.714}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003572513308", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": 0.25, "prices": {"home": 1.892, "away": 1.961}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003572513308", "provider": "oddspapi", "book": "pinnacle", "market": "totals", "line": 3.25, "prices": {"over": 1.917, "under": 1.917}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003572513308", "provider": "oddspapi", "book": "pinnacle", "market": "totals", "line": 1.25, "prices": {"over": 1.769, "under": 2.04}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003572513308", "provider": "oddspapi", "book": "winamax", "market": "h2h", "line": null, "prices": {"home": 2.6, "away": 2.0, "draw": 3.55}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003572513308", "provider": "oddspapi", "book": "winamax", "market": "spreads", "line": 1.5, "prices": {"home": 1.2, "away": 3.45}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003572513308", "provider": "oddspapi", "book": "winamax", "market": "totals", "line": 3.5, "prices": {"over": 1.92, "under": 1.58}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003572513308", "provider": "oddspapi", "book": "winamax", "market": "totals", "line": 1.5, "prices": {"over": 1.92, "under": 1.58}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003572513308", "provider": "oddspapi", "book": "winamax", "market": "spreads", "line": 0.0, "prices": {"home": 1.94, "away": 1.58}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221372", "provider": "oddspapi", "book": "pinnacle", "market": "h2h", "line": null, "prices": {"draw": 8.64, "home": 1.132, "away": 16.99}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221372", "provider": "oddspapi", "book": "pinnacle", "market": "totals", "line": 1.25, "prices": {"over": 1.833, "under": 1.934}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221372", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": -1.0, "prices": {"home": 2.05, "away": 1.769}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221372", "provider": "oddspapi", "book": "pinnacle", "market": "totals", "line": 3.25, "prices": {"over": 2.02, "under": 1.806}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221372", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": -2.25, "prices": {"home": 2.05, "away": 1.8}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221372", "provider": "oddspapi", "book": "winamax", "market": "h2h", "line": null, "prices": {"draw": 6.25, "home": 1.1, "away": 11.0}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221372", "provider": "oddspapi", "book": "winamax", "market": "spreads", "line": -1.0, "prices": {"home": 1.84, "away": 1.64}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221372", "provider": "oddspapi", "book": "winamax", "market": "totals", "line": 3.0, "prices": {"over": 1.6, "under": 1.88}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221372", "provider": "oddspapi", "book": "winamax", "market": "totals", "line": 1.5, "prices": {"over": 1.92, "under": 1.58}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221372", "provider": "oddspapi", "book": "winamax", "market": "spreads", "line": -2.5, "prices": {"home": 2.05, "away": 1.5}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221380", "provider": "oddspapi", "book": "pinnacle", "market": "h2h", "line": null, "prices": {"away": 3.12, "draw": 3.55, "home": 2.24}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221380", "provider": "oddspapi", "book": "pinnacle", "market": "totals", "line": 1.25, "prices": {"over": 2.05, "under": 1.757}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221380", "provider": "oddspapi", "book": "pinnacle", "market": "totals", "line": 2.75, "prices": {"over": 1.862, "under": 1.97}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221380", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": 0.0, "prices": {"home": 1.675, "away": 2.22}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221380", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": -0.25, "prices": {"home": 1.952, "away": 1.9}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221380", "provider": "oddspapi", "book": "winamax", "market": "h2h", "line": null, "prices": {"draw": 3.3, "home": 2.05, "away": 2.75}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221380", "provider": "oddspapi", "book": "winamax", "market": "totals", "line": 1.0, "prices": {"over": 1.5, "under": 2.05}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221380", "provider": "oddspapi", "book": "winamax", "market": "spreads", "line": -1.5, "prices": {"home": 3.65, "away": 1.18}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221380", "provider": "oddspapi", "book": "winamax", "market": "totals", "line": 3.0, "prices": {"over": 1.9, "under": 1.6}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221380", "provider": "oddspapi", "book": "winamax", "market": "spreads", "line": 0.0, "prices": {"home": 1.56, "away": 1.96}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478692", "provider": "oddspapi", "book": "pinnacle", "market": "h2h", "line": null, "prices": {"away": 3.28, "draw": 3.5, "home": 2.18}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478692", "provider": "oddspapi", "book": "pinnacle", "market": "totals", "line": 2.5, "prices": {"over": 1.98, "under": 1.862}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478692", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": -0.25, "prices": {"home": 1.892, "away": 1.961}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478692", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": -0.25, "prices": {"home": 2.22, "away": 1.671}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478692", "provider": "oddspapi", "book": "pinnacle", "market": "totals", "line": 1.0, "prices": {"over": 1.884, "under": 1.9}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478692", "provider": "oddspapi", "book": "winamax", "market": "h2h", "line": null, "prices": {"home": 1.9, "draw": 3.3, "away": 3.1}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478692", "provider": "oddspapi", "book": "winamax", "market": "spreads", "line": -1.5, "prices": {"home": 3.5, "away": 1.2}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478692", "provider": "oddspapi", "book": "winamax", "market": "totals", "line": 1.0, "prices": {"over": 1.76, "under": 1.7}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478692", "provider": "oddspapi", "book": "winamax", "market": "spreads", "line": 0.0, "prices": {"home": 1.46, "away": 2.15}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478692", "provider": "oddspapi", "book": "winamax", "market": "totals", "line": 2.5, "prices": {"over": 1.82, "under": 1.66}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036276", "provider": "oddspapi", "book": "pinnacle", "market": "h2h", "line": null, "prices": {"home": 3.68, "draw": 3.81, "away": 1.925}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036276", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": 0.25, "prices": {"home": 1.826, "away": 2.0}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036276", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": 0.5, "prices": {"home": 1.917, "away": 1.934}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036276", "provider": "oddspapi", "book": "pinnacle", "market": "totals", "line": 2.75, "prices": {"over": 1.925, "under": 1.909}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036276", "provider": "oddspapi", "book": "pinnacle", "market": "totals", "line": 1.25, "prices": {"over": 2.12, "under": 1.709}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036276", "provider": "oddspapi", "book": "winamax", "market": "h2h", "line": null, "prices": {"away": 1.8, "home": 3.2, "draw": 3.45}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036276", "provider": "oddspapi", "book": "winamax", "market": "totals", "line": 2.5, "prices": {"over": 1.58, "under": 1.92}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036276", "provider": "oddspapi", "book": "winamax", "market": "spreads", "line": 0.5, "prices": {"home": 1.43, "away": 2.25}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036276", "provider": "oddspapi", "book": "winamax", "market": "totals", "line": 1.0, "prices": {"over": 1.54, "under": 1.98}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036276", "provider": "oddspapi", "book": "winamax", "market": "spreads", "line": 1.5, "prices": {"home": 1.24, "away": 3.1}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478696", "provider": "oddspapi", "book": "pinnacle", "market": "h2h", "line": null, "prices": {"home": 3.35, "draw": 3.36, "away": 2.2}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478696", "provider": "oddspapi", "book": "pinnacle", "market": "totals", "line": 2.25, "prices": {"over": 1.787, "under": 2.07}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478696", "provider": "oddspapi", "book": "pinnacle", "market": "totals", "line": 1.0, "prices": {"over": 1.917, "under": 1.862}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478696", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": 0.25, "prices": {"home": 1.952, "away": 1.9}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478696", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": 0.25, "prices": {"home": 1.671, "away": 2.22}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221388", "provider": "oddspapi", "book": "pinnacle", "market": "h2h", "line": null, "prices": {"home": 4.9, "draw": 4.06, "away": 1.653}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221388", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": 0.25, "prices": {"home": 2.11, "away": 1.74}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221388", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": 0.75, "prices": {"home": 2.02, "away": 1.84}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221388", "provider": "oddspapi", "book": "pinnacle", "market": "totals", "line": 3.0, "prices": {"over": 2.02, "under": 1.826}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221388", "provider": "oddspapi", "book": "pinnacle", "market": "totals", "line": 1.25, "prices": {"over": 2.0, "under": 1.8}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221388", "provider": "oddspapi", "book": "winamax", "market": "h2h", "line": null, "prices": {"draw": 3.75, "home": 4.0, "away": 1.54}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221388", "provider": "oddspapi", "book": "winamax", "market": "totals", "line": 3.0, "prices": {"over": 1.8, "under": 1.66}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221388", "provider": "oddspapi", "book": "winamax", "market": "totals", "line": 1.5, "prices": {"over": 2.1, "under": 1.48}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221388", "provider": "oddspapi", "book": "winamax", "market": "spreads", "line": 1.5, "prices": {"home": 1.37, "away": 2.4}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221388", "provider": "oddspapi", "book": "winamax", "market": "spreads", "line": 0.5, "prices": {"home": 1.56, "away": 1.94}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003572513296", "provider": "oddspapi", "book": "pinnacle", "market": "h2h", "line": null, "prices": {"home": 1.467, "draw": 5.18, "away": 5.47}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003572513296", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": -0.5, "prices": {"home": 1.854, "away": 1.961}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003572513296", "provider": "oddspapi", "book": "pinnacle", "market": "totals", "line": 3.5, "prices": {"over": 1.819, "under": 2.02}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003572513296", "provider": "oddspapi", "book": "pinnacle", "market": "totals", "line": 1.5, "prices": {"over": 1.892, "under": 1.892}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003572513296", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": -1.25, "prices": {"home": 1.952, "away": 1.9}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003572513296", "provider": "oddspapi", "book": "winamax", "market": "h2h", "line": null, "prices": {"away": 4.5, "draw": 4.6, "home": 1.39}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003572513296", "provider": "oddspapi", "book": "winamax", "market": "totals", "line": 1.5, "prices": {"over": 1.7, "under": 1.76}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003572513296", "provider": "oddspapi", "book": "winamax", "market": "spreads", "line": -1.5, "prices": {"home": 1.94, "away": 1.56}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003572513296", "provider": "oddspapi", "book": "winamax", "market": "spreads", "line": -0.5, "prices": {"home": 1.72, "away": 1.74}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003572513296", "provider": "oddspapi", "book": "winamax", "market": "totals", "line": 3.5, "prices": {"over": 1.66, "under": 1.82}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036286", "provider": "oddspapi", "book": "pinnacle", "market": "h2h", "line": null, "prices": {"home": 1.14, "draw": 9.52, "away": 13.02}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036286", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": -2.5, "prices": {"home": 2.12, "away": 1.751}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036286", "provider": "oddspapi", "book": "pinnacle", "market": "totals", "line": 1.5, "prices": {"over": 1.84, "under": 1.934}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036286", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": -1.0, "prices": {"home": 1.884, "away": 1.917}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036286", "provider": "oddspapi", "book": "pinnacle", "market": "totals", "line": 3.75, "prices": {"over": 1.917, "under": 1.9}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036286", "provider": "oddspapi", "book": "winamax", "market": "h2h", "line": null, "prices": {"home": 1.1, "away": 9.5, "draw": 6.75}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036286", "provider": "oddspapi", "book": "winamax", "market": "totals", "line": 3.5, "prices": {"over": 1.6, "under": 1.9}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036286", "provider": "oddspapi", "book": "winamax", "market": "spreads", "line": -1.0, "prices": {"home": 1.72, "away": 1.74}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036286", "provider": "oddspapi", "book": "winamax", "market": "totals", "line": 1.5, "prices": {"over": 1.64, "under": 1.84}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036286", "provider": "oddspapi", "book": "winamax", "market": "spreads", "line": -2.5, "prices": {"home": 1.9, "away": 1.6}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478702", "provider": "oddspapi", "book": "pinnacle", "market": "h2h", "line": null, "prices": {"away": 1.416, "home": 6.39, "draw": 5.13}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478702", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": 0.5, "prices": {"home": 1.99, "away": 1.833}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478702", "provider": "oddspapi", "book": "pinnacle", "market": "totals", "line": 3.25, "prices": {"over": 1.869, "under": 1.97}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478702", "provider": "oddspapi", "book": "pinnacle", "market": "totals", "line": 1.25, "prices": {"over": 1.746, "under": 2.06}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478702", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": 1.25, "prices": {"home": 1.952, "away": 1.9}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478702", "provider": "oddspapi", "book": "winamax", "market": "h2h", "line": null, "prices": {"home": 5.1, "away": 1.35, "draw": 4.6}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478702", "provider": "oddspapi", "book": "winamax", "market": "spreads", "line": 0.5, "prices": {"home": 1.78, "away": 1.68}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478702", "provider": "oddspapi", "book": "winamax", "market": "totals", "line": 3.5, "prices": {"over": 1.9, "under": 1.6}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478702", "provider": "oddspapi", "book": "winamax", "market": "spreads", "line": 1.5, "prices": {"home": 1.6, "away": 1.9}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478702", "provider": "oddspapi", "book": "winamax", "market": "totals", "line": 1.5, "prices": {"over": 1.88, "under": 1.62}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478690", "provider": "oddspapi", "book": "pinnacle", "market": "h2h", "line": null, "prices": {"draw": 3.72, "away": 2.06, "home": 3.38}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478690", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": 0.25, "prices": {"home": 1.751, "away": 2.1}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478690", "provider": "oddspapi", "book": "pinnacle", "market": "totals", "line": 2.75, "prices": {"over": 1.84, "under": 2.01}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478690", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": 0.5, "prices": {"home": 1.8, "away": 2.07}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478690", "provider": "oddspapi", "book": "pinnacle", "market": "totals", "line": 1.25, "prices": {"over": 2.04, "under": 1.769}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221374", "provider": "oddspapi", "book": "pinnacle", "market": "h2h", "line": null, "prices": {"home": 1.9, "away": 3.77, "draw": 3.82}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221374", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": -0.5, "prices": {"home": 1.909, "away": 1.943}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221374", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": -0.25, "prices": {"home": 1.952, "away": 1.862}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221374", "provider": "oddspapi", "book": "pinnacle", "market": "totals", "line": 2.75, "prices": {"over": 1.8, "under": 2.05}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221374", "provider": "oddspapi", "book": "pinnacle", "market": "totals", "line": 1.25, "prices": {"over": 2.0, "under": 1.793}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221374", "provider": "oddspapi", "book": "winamax", "market": "h2h", "line": null, "prices": {"away": 3.3, "draw": 3.5, "home": 1.76}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221374", "provider": "oddspapi", "book": "winamax", "market": "spreads", "line": -1.5, "prices": {"home": 2.9, "away": 1.27}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221374", "provider": "oddspapi", "book": "winamax", "market": "totals", "line": 1.5, "prices": {"over": 2.1, "under": 1.47}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221374", "provider": "oddspapi", "book": "winamax", "market": "spreads", "line": -0.5, "prices": {"home": 2.15, "away": 1.46}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221374", "provider": "oddspapi", "book": "winamax", "market": "totals", "line": 3.0, "prices": {"over": 1.82, "under": 1.66}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221376", "provider": "oddspapi", "book": "pinnacle", "market": "h2h", "line": null, "prices": {"draw": 4.04, "home": 4.5, "away": 1.709}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221376", "provider": "oddspapi", "book": "pinnacle", "market": "totals", "line": 1.25, "prices": {"over": 1.934, "under": 1.854}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221376", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": 0.75, "prices": {"home": 1.934, "away": 1.917}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221376", "provider": "oddspapi", "book": "pinnacle", "market": "totals", "line": 3.0, "prices": {"over": 1.934, "under": 1.9}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221376", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": 0.25, "prices": {"home": 2.02, "away": 1.806}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221382", "provider": "oddspapi", "book": "pinnacle", "market": "h2h", "line": null, "prices": {"away": 1.943, "draw": 3.67, "home": 3.77}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221382", "provider": "oddspapi", "book": "pinnacle", "market": "totals", "line": 2.75, "prices": {"over": 1.869, "under": 1.97}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221382", "provider": "oddspapi", "book": "pinnacle", "market": "totals", "line": 1.25, "prices": {"over": 2.06, "under": 1.751}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221382", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": 0.5, "prices": {"home": 1.9, "away": 1.952}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221382", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": 0.25, "prices": {"home": 1.833, "away": 1.99}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221382", "provider": "oddspapi", "book": "winamax", "market": "h2h", "line": null, "prices": {"draw": 3.4, "home": 3.2, "away": 1.8}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221382", "provider": "oddspapi", "book": "winamax", "market": "spreads", "line": 1.5, "prices": {"home": 1.25, "away": 3.05}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221382", "provider": "oddspapi", "book": "winamax", "market": "totals", "line": 3.0, "prices": {"over": 1.9, "under": 1.6}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221382", "provider": "oddspapi", "book": "winamax", "market": "totals", "line": 1.0, "prices": {"over": 1.5, "under": 2.05}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221382", "provider": "oddspapi", "book": "winamax", "market": "spreads", "line": 0.5, "prices": {"home": 1.44, "away": 2.2}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221390", "provider": "oddspapi", "book": "pinnacle", "market": "h2h", "line": null, "prices": {"away": 2.15, "draw": 3.54, "home": 3.29}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221390", "provider": "oddspapi", "book": "pinnacle", "market": "totals", "line": 2.5, "prices": {"over": 1.892, "under": 1.943}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221390", "provider": "oddspapi", "book": "pinnacle", "market": "totals", "line": 1.0, "prices": {"over": 1.854, "under": 1.934}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221390", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": 0.25, "prices": {"home": 1.98, "away": 1.877}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221390", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": 0.25, "prices": {"home": 1.671, "away": 2.22}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221390", "provider": "oddspapi", "book": "winamax", "market": "h2h", "line": null, "prices": {"away": 1.96, "draw": 3.2, "home": 2.95}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221390", "provider": "oddspapi", "book": "winamax", "market": "totals", "line": 2.5, "prices": {"over": 1.62, "under": 1.88}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221390", "provider": "oddspapi", "book": "winamax", "market": "spreads", "line": 1.5, "prices": {"home": 1.19, "away": 3.5}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221390", "provider": "oddspapi", "book": "winamax", "market": "spreads", "line": 0.0, "prices": {"home": 2.05, "away": 1.5}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221390", "provider": "oddspapi", "book": "winamax", "market": "totals", "line": 1.0, "prices": {"over": 1.56, "under": 1.96}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036288", "provider": "oddspapi", "book": "pinnacle", "market": "h2h", "line": null, "prices": {"away": 3.55, "draw": 3.7, "home": 2.01}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036288", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": -0.5, "prices": {"home": 2.01, "away": 1.847}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036288", "provider": "oddspapi", "book": "pinnacle", "market": "totals", "line": 3.0, "prices": {"over": 2.04, "under": 1.813}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036288", "provider": "oddspapi", "book": "pinnacle", "market": "totals", "line": 1.25, "prices": {"over": 2.0, "under": 1.8}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036288", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": -0.25, "prices": {"home": 2.03, "away": 1.8}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036288", "provider": "oddspapi", "book": "winamax", "market": "h2h", "line": null, "prices": {"away": 3.0, "draw": 3.45, "home": 1.86}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036288", "provider": "oddspapi", "book": "winamax", "market": "spreads", "line": 0.0, "prices": {"home": 1.47, "away": 2.15}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036288", "provider": "oddspapi", "book": "winamax", "market": "spreads", "line": -1.5, "prices": {"home": 3.2, "away": 1.23}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036288", "provider": "oddspapi", "book": "winamax", "market": "totals", "line": 3.0, "prices": {"over": 1.8, "under": 1.66}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036288", "provider": "oddspapi", "book": "winamax", "market": "totals", "line": 1.5, "prices": {"over": 2.1, "under": 1.48}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478698", "provider": "oddspapi", "book": "pinnacle", "market": "h2h", "line": null, "prices": {"draw": 3.85, "away": 3.95, "home": 1.854}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478698", "provider": "oddspapi", "book": "pinnacle", "market": "totals", "line": 1.25, "prices": {"over": 2.07, "under": 1.74}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478698", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": -0.5, "prices": {"home": 1.862, "away": 2.0}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478698", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": -0.25, "prices": {"home": 1.917, "away": 1.9}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478698", "provider": "oddspapi", "book": "pinnacle", "market": "totals", "line": 2.75, "prices": {"over": 1.869, "under": 1.97}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478698", "provider": "oddspapi", "book": "winamax", "market": "h2h", "line": null, "prices": {"away": 3.35, "draw": 3.45, "home": 1.76}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478698", "provider": "oddspapi", "book": "winamax", "market": "totals", "line": 1.0, "prices": {"over": 1.5, "under": 2.05}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478698", "provider": "oddspapi", "book": "winamax", "market": "spreads", "line": -0.5, "prices": {"home": 2.15, "away": 1.46}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478698", "provider": "oddspapi", "book": "winamax", "market": "totals", "line": 3.0, "prices": {"over": 1.88, "under": 1.6}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478698", "provider": "oddspapi", "book": "winamax", "market": "spreads", "line": -1.5, "prices": {"home": 2.9, "away": 1.27}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036274", "provider": "oddspapi", "book": "pinnacle", "market": "h2h", "line": null, "prices": {"away": 2.13, "draw": 3.53, "home": 3.35}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036274", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": 0.25, "prices": {"home": 2.0, "away": 1.854}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036274", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": 0.25, "prices": {"home": 1.714, "away": 2.15}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036274", "provider": "oddspapi", "book": "pinnacle", "market": "totals", "line": 2.5, "prices": {"over": 1.757, "under": 2.11}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036274", "provider": "oddspapi", "book": "pinnacle", "market": "totals", "line": 1.25, "prices": {"over": 2.13, "under": 1.704}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036274", "provider": "oddspapi", "book": "winamax", "market": "h2h", "line": null, "prices": {"home": 2.9, "away": 1.94, "draw": 3.35}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036274", "provider": "oddspapi", "book": "winamax", "market": "totals", "line": 1.0, "prices": {"over": 1.56, "under": 1.98}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036274", "provider": "oddspapi", "book": "winamax", "market": "spreads", "line": 1.5, "prices": {"home": 1.2, "away": 3.45}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036274", "provider": "oddspapi", "book": "winamax", "market": "spreads", "line": 0.0, "prices": {"home": 2.05, "away": 1.5}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036274", "provider": "oddspapi", "book": "winamax", "market": "totals", "line": 2.5, "prices": {"over": 1.58, "under": 1.9}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036278", "provider": "oddspapi", "book": "pinnacle", "market": "h2h", "line": null, "prices": {"home": 2.9, "draw": 3.65, "away": 2.32}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036278", "provider": "oddspapi", "book": "pinnacle", "market": "totals", "line": 1.25, "prices": {"over": 2.09, "under": 1.729}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036278", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": 0.0, "prices": {"home": 2.1, "away": 1.751}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036278", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": 0.25, "prices": {"home": 1.833, "away": 2.03}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036278", "provider": "oddspapi", "book": "pinnacle", "market": "totals", "line": 2.75, "prices": {"over": 1.892, "under": 1.943}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036278", "provider": "oddspapi", "book": "winamax", "market": "h2h", "line": null, "prices": {"away": 2.1, "home": 2.55, "draw": 3.4}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036278", "provider": "oddspapi", "book": "winamax", "market": "totals", "line": 2.5, "prices": {"over": 1.58, "under": 1.94}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036278", "provider": "oddspapi", "book": "winamax", "market": "totals", "line": 1.0, "prices": {"over": 1.54, "under": 1.98}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036278", "provider": "oddspapi", "book": "winamax", "market": "spreads", "line": 1.5, "prices": {"home": 1.16, "away": 3.85}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036278", "provider": "oddspapi", "book": "winamax", "market": "spreads", "line": 0.0, "prices": {"home": 1.88, "away": 1.6}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036280", "provider": "oddspapi", "book": "pinnacle", "market": "h2h", "line": null, "prices": {"draw": 3.32, "home": 2.72, "away": 2.63}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036280", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": 0.0, "prices": {"home": 1.961, "away": 1.892}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036280", "provider": "oddspapi", "book": "pinnacle", "market": "totals", "line": 1.0, "prices": {"over": 1.9, "under": 1.884}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036280", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": 0.0, "prices": {"home": 1.934, "away": 1.884}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036280", "provider": "oddspapi", "book": "pinnacle", "market": "totals", "line": 2.25, "prices": {"over": 1.763, "under": 2.1}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036280", "provider": "oddspapi", "book": "winamax", "market": "h2h", "line": null, "prices": {"home": 2.45, "draw": 3.1, "away": 2.35}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036280", "provider": "oddspapi", "book": "winamax", "market": "spreads", "line": 1.5, "prices": {"home": 1.11, "away": 4.6}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036280", "provider": "oddspapi", "book": "winamax", "market": "totals", "line": 1.0, "prices": {"over": 1.76, "under": 1.7}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036280", "provider": "oddspapi", "book": "winamax", "market": "spreads", "line": 0.0, "prices": {"home": 1.76, "away": 1.7}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036280", "provider": "oddspapi", "book": "winamax", "market": "totals", "line": 2.5, "prices": {"over": 1.82, "under": 1.64}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036282", "provider": "oddspapi", "book": "pinnacle", "market": "h2h", "line": null, "prices": {"away": 1.769, "draw": 4.2, "home": 4.01}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036282", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": 0.75, "prices": {"home": 1.854, "away": 2.0}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036282", "provider": "oddspapi", "book": "pinnacle", "market": "totals", "line": 3.0, "prices": {"over": 1.934, "under": 1.9}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036282", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": 0.25, "prices": {"home": 1.925, "away": 1.892}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036282", "provider": "oddspapi", "book": "pinnacle", "market": "totals", "line": 1.25, "prices": {"over": 1.934, "under": 1.854}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036282", "provider": "oddspapi", "book": "winamax", "market": "h2h", "line": null, "prices": {"home": 3.65, "away": 1.64, "draw": 3.7}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036282", "provider": "oddspapi", "book": "winamax", "market": "totals", "line": 1.5, "prices": {"over": 2.05, "under": 1.5}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036282", "provider": "oddspapi", "book": "winamax", "market": "spreads", "line": 0.5, "prices": {"home": 1.52, "away": 2.0}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036282", "provider": "oddspapi", "book": "winamax", "market": "spreads", "line": 1.5, "prices": {"home": 1.33, "away": 2.6}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036282", "provider": "oddspapi", "book": "winamax", "market": "totals", "line": 3.0, "prices": {"over": 1.74, "under": 1.72}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221386", "provider": "oddspapi", "book": "pinnacle", "market": "h2h", "line": null, "prices": {"draw": 3.81, "away": 3.05, "home": 2.17}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221386", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": 0.0, "prices": {"home": 1.689, "away": 2.2}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221386", "provider": "oddspapi", "book": "pinnacle", "market": "totals", "line": 3.0, "prices": {"over": 1.943, "under": 1.892}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221386", "provider": "oddspapi", "book": "pinnacle", "market": "totals", "line": 1.25, "prices": {"over": 1.943, "under": 1.84}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221386", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": -0.25, "prices": {"home": 1.917, "away": 1.934}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221386", "provider": "oddspapi", "book": "winamax", "market": "h2h", "line": null, "prices": {"away": 2.8, "home": 1.92, "draw": 3.55}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221386", "provider": "oddspapi", "book": "winamax", "market": "totals", "line": 1.5, "prices": {"over": 2.1, "under": 1.49}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221386", "provider": "oddspapi", "book": "winamax", "market": "spreads", "line": -1.5, "prices": {"home": 3.35, "away": 1.21}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221386", "provider": "oddspapi", "book": "winamax", "market": "totals", "line": 3.0, "prices": {"over": 1.76, "under": 1.7}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000001772221386", "provider": "oddspapi", "book": "winamax", "market": "spreads", "line": 0.0, "prices": {"home": 1.52, "away": 2.05}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003572513300", "provider": "oddspapi", "book": "pinnacle", "market": "h2h", "line": null, "prices": {"home": 1.497, "draw": 4.57, "away": 5.88}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003572513300", "provider": "oddspapi", "book": "pinnacle", "market": "totals", "line": 1.25, "prices": {"over": 1.943, "under": 1.84}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003572513300", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": -0.5, "prices": {"home": 1.952, "away": 1.869}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003572513300", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": -1.0, "prices": {"home": 1.813, "away": 2.05}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003572513300", "provider": "oddspapi", "book": "pinnacle", "market": "totals", "line": 3.0, "prices": {"over": 1.943, "under": 1.892}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478688", "provider": "oddspapi", "book": "pinnacle", "market": "h2h", "line": null, "prices": {"draw": 3.92, "away": 4.1, "home": 1.806}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478688", "provider": "oddspapi", "book": "pinnacle", "market": "totals", "line": 2.5, "prices": {"over": 1.833, "under": 2.01}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478688", "provider": "oddspapi", "book": "pinnacle", "market": "totals", "line": 1.0, "prices": {"over": 1.847, "under": 1.943}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478688", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": -0.75, "prices": {"home": 2.06, "away": 1.813}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478688", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": -0.25, "prices": {"home": 1.925, "away": 1.892}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478704", "provider": "oddspapi", "book": "pinnacle", "market": "h2h", "line": null, "prices": {"away": 6.68, "home": 1.473, "draw": 4.37}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478704", "provider": "oddspapi", "book": "pinnacle", "market": "totals", "line": 1.0, "prices": {"over": 1.8, "under": 2.0}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478704", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": -1.0, "prices": {"home": 1.806, "away": 2.06}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478704", "provider": "oddspapi", "book": "pinnacle", "market": "totals", "line": 2.5, "prices": {"over": 1.877, "under": 1.961}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478704", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": -0.5, "prices": {"home": 2.01, "away": 1.813}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478704", "provider": "oddspapi", "book": "winamax", "market": "h2h", "line": null, "prices": {"draw": 3.9, "home": 1.39, "away": 5.6}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478704", "provider": "oddspapi", "book": "winamax", "market": "totals", "line": 2.5, "prices": {"over": 1.74, "under": 1.72}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478704", "provider": "oddspapi", "book": "winamax", "market": "totals", "line": 1.0, "prices": {"over": 1.64, "under": 1.84}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478704", "provider": "oddspapi", "book": "winamax", "market": "spreads", "line": -0.5, "prices": {"home": 1.8, "away": 1.66}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478704", "provider": "oddspapi", "book": "winamax", "market": "spreads", "line": -1.5, "prices": {"home": 2.1, "away": 1.48}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003572513298", "provider": "oddspapi", "book": "pinnacle", "market": "h2h", "line": null, "prices": {"away": 4.63, "draw": 4.46, "home": 1.625}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003572513298", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": -1.0, "prices": {"home": 2.04, "away": 1.826}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003572513298", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": -0.5, "prices": {"home": 2.08, "away": 1.763}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003572513298", "provider": "oddspapi", "book": "pinnacle", "market": "totals", "line": 1.25, "prices": {"over": 1.793, "under": 2.0}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003572513298", "provider": "oddspapi", "book": "pinnacle", "market": "totals", "line": 3.25, "prices": {"over": 1.952, "under": 1.884}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003572513298", "provider": "oddspapi", "book": "winamax", "market": "h2h", "line": null, "prices": {"draw": 4.0, "home": 1.52, "away": 4.0}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003572513298", "provider": "oddspapi", "book": "winamax", "market": "spreads", "line": -0.5, "prices": {"home": 1.88, "away": 1.6}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003572513298", "provider": "oddspapi", "book": "winamax", "market": "totals", "line": 1.5, "prices": {"over": 1.9, "under": 1.6}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003572513298", "provider": "oddspapi", "book": "winamax", "market": "spreads", "line": -1.5, "prices": {"home": 2.3, "away": 1.41}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003572513298", "provider": "oddspapi", "book": "winamax", "market": "totals", "line": 3.5, "prices": {"over": 1.94, "under": 1.58}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036284", "provider": "oddspapi", "book": "pinnacle", "market": "h2h", "line": null, "prices": {"draw": 3.91, "away": 3.21, "home": 2.07}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036284", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": -0.25, "prices": {"home": 1.826, "away": 2.04}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036284", "provider": "oddspapi", "book": "pinnacle", "market": "totals", "line": 1.25, "prices": {"over": 1.8, "under": 2.0}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036284", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": -0.25, "prices": {"home": 2.09, "away": 1.757}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036284", "provider": "oddspapi", "book": "pinnacle", "market": "totals", "line": 3.25, "prices": {"over": 1.97, "under": 1.869}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036284", "provider": "oddspapi", "book": "winamax", "market": "h2h", "line": null, "prices": {"away": 2.8, "home": 1.9, "draw": 3.6}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036284", "provider": "oddspapi", "book": "winamax", "market": "totals", "line": 3.0, "prices": {"over": 1.56, "under": 1.94}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036284", "provider": "oddspapi", "book": "winamax", "market": "spreads", "line": -1.5, "prices": {"home": 3.2, "away": 1.23}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036284", "provider": "oddspapi", "book": "winamax", "market": "totals", "line": 1.5, "prices": {"over": 1.94, "under": 1.58}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003472036284", "provider": "oddspapi", "book": "winamax", "market": "spreads", "line": 0.0, "prices": {"home": 1.5, "away": 2.05}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478686", "provider": "oddspapi", "book": "pinnacle", "market": "h2h", "line": null, "prices": {"draw": 4.15, "away": 1.884, "home": 3.57}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478686", "provider": "oddspapi", "book": "pinnacle", "market": "totals", "line": 3.5, "prices": {"over": 1.869, "under": 1.97}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478686", "provider": "oddspapi", "book": "pinnacle", "market": "totals", "line": 1.5, "prices": {"over": 1.943, "under": 1.84}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478686", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": 0.5, "prices": {"home": 1.961, "away": 1.892}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000000872478686", "provider": "oddspapi", "book": "pinnacle", "market": "spreads", "line": 0.25, "prices": {"home": 1.847, "away": 1.97}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000002371945380", "provider": "oddspapi", "book": "winamax", "market": "h2h", "line": null, "prices": {"draw": 3.6, "away": 1.98, "home": 3.1}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000002371945380", "provider": "oddspapi", "book": "winamax", "market": "spreads", "line": 1.5, "prices": {"home": 1.22, "away": 3.3}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000002371945380", "provider": "oddspapi", "book": "winamax", "market": "spreads", "line": 0.0, "prices": {"home": 2.1, "away": 1.49}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000002371945380", "provider": "oddspapi", "book": "winamax", "market": "totals", "line": 1.0, "prices": {"over": 1.48, "under": 2.1}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000002371945380", "provider": "oddspapi", "book": "winamax", "market": "totals", "line": 3.0, "prices": {"over": 1.84, "under": 1.64}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003572513282", "provider": "oddspapi", "book": "winamax", "market": "h2h", "line": null, "prices": {"home": 2.4, "away": 2.45, "draw": 3.5}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003572513282", "provider": "oddspapi", "book": "winamax", "market": "totals", "line": 1.0, "prices": {"over": 1.5, "under": 2.05}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003572513282", "provider": "oddspapi", "book": "winamax", "market": "spreads", "line": -1.5, "prices": {"home": 4.2, "away": 1.13}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003572513282", "provider": "oddspapi", "book": "winamax", "market": "spreads", "line": 0.0, "prices": {"home": 1.72, "away": 1.74}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003572513282", "provider": "oddspapi", "book": "winamax", "market": "totals", "line": 3.0, "prices": {"over": 1.88, "under": 1.62}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003572513306", "provider": "oddspapi", "book": "winamax", "market": "h2h", "line": null, "prices": {"away": 1.56, "draw": 3.95, "home": 3.8}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003572513306", "provider": "oddspapi", "book": "winamax", "market": "spreads", "line": 1.5, "prices": {"home": 1.39, "away": 2.35}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003572513306", "provider": "oddspapi", "book": "winamax", "market": "totals", "line": 3.5, "prices": {"over": 1.82, "under": 1.66}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003572513306", "provider": "oddspapi", "book": "winamax", "market": "spreads", "line": 0.5, "prices": {"home": 1.58, "away": 1.92}}
+{"ts": "2026-10-28T10:46:20Z", "event_id": "op:id1000003572513306", "provider": "oddspapi", "book": "winamax", "market": "totals", "line": 1.5, "prices": {"over": 1.84, "under": 1.64}}
