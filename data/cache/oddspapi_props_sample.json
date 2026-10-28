@@ -1,407 +1,99 @@
 {
- "fetched_at": "2026-10-28T17:46:53Z",
+ "fetched_at": "2026-10-28T21:40:54Z",
  "data": {
   "pinnacle": {
-   "marketId": "15118",
+   "marketId": "111894",
    "raw": {
-    "bookmakerMarketId": "1638943018/6573817228/1639418772",
+    "bookmakerMarketId": "1639304026/6573756964/1639469246",
     "marketActive": true,
     "outcomes": {
-     "15119": {
+     "111894": {
       "players": {
-       "1770290": {
+       "607968": {
         "active": true,
         "betslip": null,
-        "bookmakerOutcomeId": "1639470315",
+        "bookmakerOutcomeId": "1639469253",
         "bookmakerChangedAt": null,
-        "changedAt": "2026-10-28T15:16:28.752Z",
-        "limit": 422.0,
-        "playerName": "Protas, Aliaksei",
-        "price": 1.296,
-        "priceAmerican": "-338",
-        "priceFractional": "29/98",
+        "changedAt": "2026-10-28T16:17:48.811Z",
+        "limit": 187.0,
+        "playerName": "McCollum, CJ",
+        "price": 2.16,
+        "priceAmerican": "116",
+        "priceFractional": "29/25",
         "mainLine": false,
         "exchangeMeta": null
        },
-       "2212668": {
+       "1307780": {
         "active": true,
         "betslip": null,
-        "bookmakerOutcomeId": "1639418798",
+        "bookmakerOutcomeId": "1639469274",
         "bookmakerChangedAt": null,
-        "changedAt": "2026-10-28T15:16:28.752Z",
-        "limit": 321.0,
-        "playerName": "Michkov, Matvei",
-        "price": 1.389,
-        "priceAmerican": "-257",
-        "priceFractional": "7/18",
+        "changedAt": "2026-10-28T14:19:19.910Z",
+        "limit": 187.0,
+        "playerName": "Alexander-Walker, Nickeil",
+        "price": 2.18,
+        "priceAmerican": "118",
+        "priceFractional": "59/50",
         "mainLine": false,
         "exchangeMeta": null
        },
-       "983719": {
+       "1124727": {
         "active": true,
         "betslip": null,
-        "bookmakerOutcomeId": "1639418750",
+        "bookmakerOutcomeId": "1639469247",
         "bookmakerChangedAt": null,
-        "changedAt": "2026-10-28T15:16:28.752Z",
-        "limit": 210.0,
-        "playerName": "Chychrun, Jakob",
-        "price": 1.595,
-        "priceAmerican": "-168",
-        "priceFractional": "47/79",
-        "mainLine": false,
-        "exchangeMeta": null
-       },
-       "852998": {
-        "active": true,
-        "betslip": null,
-        "bookmakerOutcomeId": "1639418702",
-        "bookmakerChangedAt": null,
-        "changedAt": "2026-10-28T15:16:28.752Z",
-        "limit": 196.0,
-        "playerName": "Strome, Dylan",
-        "price": 1.636,
-        "priceAmerican": "-157",
-        "priceFractional": "7/11",
-        "mainLine": false,
-        "exchangeMeta": null
-       },
-       "983709": {
-        "active": true,
-        "betslip": null,
-        "bookmakerOutcomeId": "1639418774",
-        "bookmakerChangedAt": null,
-        "changedAt": "2026-10-28T17:06:38.185Z",
-        "limit": 228.0,
-        "playerName": "Kyrou, Jordan",
-        "price": 1.546,
-        "priceAmerican": "-183",
-        "priceFractional": "53/97",
-        "mainLine": false,
-        "exchangeMeta": null
-       },
-       "1980389": {
-        "active": true,
-        "betslip": null,
-        "bookmakerOutcomeId": "1639470222",
-        "bookmakerChangedAt": null,
-        "changedAt": "2026-10-28T15:16:28.752Z",
-        "limit": 300.0,
-        "playerName": "Drysdale, Jamie",
-        "price": 1.416,
-        "priceAmerican": "-240",
-        "priceFractional": "37/89",
-        "mainLine": false,
-        "exchangeMeta": null
-       },
-       "1650171": {
-        "active": true,
-        "betslip": null,
-        "bookmakerOutcomeId": "1639418873",
-        "bookmakerChangedAt": null,
-        "changedAt": "2026-10-28T15:16:28.752Z",
-        "limit": 261.0,
-        "playerName": "Zegras, Trevor",
-        "price": 1.478,
-        "priceAmerican": "-209",
-        "priceFractional": "43/90",
-        "mainLine": false,
-        "exchangeMeta": null
-       },
-       "2787265": {
-        "active": true,
-        "betslip": null,
-        "bookmakerOutcomeId": "1639418687",
-        "bookmakerChangedAt": null,
-        "changedAt": "2026-10-28T15:16:28.752Z",
-        "limit": 244.0,
-        "playerName": "Hutson, Cole",
-        "price": 1.512,
-        "priceAmerican": "-195",
-        "priceFractional": "43/84",
-        "mainLine": false,
-        "exchangeMeta": null
-       },
-       "983715": {
-        "active": true,
-        "betslip": null,
-        "bookmakerOutcomeId": "1639418810",
-        "bookmakerChangedAt": null,
-        "changedAt": "2026-10-28T15:16:28.752Z",
-        "limit": 239.0,
-        "playerName": "Dubois, Pierre-Luc",
-        "price": 1.523,
-        "priceAmerican": "-191",
-        "priceFractional": "34/65",
-        "mainLine": false,
-        "exchangeMeta": null
-       },
-       "983445": {
-        "active": true,
-        "betslip": null,
-        "bookmakerOutcomeId": "1639418660",
-        "bookmakerChangedAt": null,
-        "changedAt": "2026-10-28T15:16:28.752Z",
-        "limit": 321.0,
-        "playerName": "Tuch, Alex",
-        "price": 1.389,
-        "priceAmerican": "-257",
-        "priceFractional": "7/18",
-        "mainLine": false,
-        "exchangeMeta": null
-       },
-       "31358": {
-        "active": true,
-        "betslip": null,
-        "bookmakerOutcomeId": "1639418642",
-        "bookmakerChangedAt": null,
-        "changedAt": "2026-10-28T15:16:28.752Z",
-        "limit": 370.0,
-        "playerName": "Ovechkin, Alex",
-        "price": 1.337,
-        "priceAmerican": "-297",
-        "priceFractional": "31/92",
-        "mainLine": false,
-        "exchangeMeta": null
-       },
-       "352188": {
-        "active": true,
-        "betslip": null,
-        "bookmakerOutcomeId": "1639418861",
-        "bookmakerChangedAt": null,
-        "changedAt": "2026-10-28T16:03:21.932Z",
-        "limit": 328.0,
-        "playerName": "Wilson, Tom",
-        "price": 1.38,
-        "priceAmerican": "-263",
-        "priceFractional": "19/50",
-        "mainLine": false,
-        "exchangeMeta": null
-       },
-       "2412807": {
-        "active": true,
-        "betslip": null,
-        "bookmakerOutcomeId": "1639418843",
-        "bookmakerChangedAt": null,
-        "changedAt": "2026-10-28T15:16:28.752Z",
-        "limit": 385.0,
-        "playerName": "Leonard, Ryan",
-        "price": 1.324,
-        "priceAmerican": "-309",
-        "priceFractional": "23/71",
-        "mainLine": false,
-        "exchangeMeta": null
-       },
-       "2921395": {
-        "active": true,
-        "betslip": null,
-        "bookmakerOutcomeId": "1639418831",
-        "bookmakerChangedAt": null,
-        "changedAt": "2026-10-28T15:16:28.752Z",
-        "limit": 381.0,
-        "playerName": "Martone, Porter",
-        "price": 1.328,
-        "priceAmerican": "-305",
-        "priceFractional": "21/64",
+        "changedAt": "2026-10-28T16:47:20.847Z",
+        "limit": 187.0,
+        "playerName": "Adebayo, Bam",
+        "price": 2.07,
+        "priceAmerican": "107",
+        "priceFractional": "107/100",
         "mainLine": false,
         "exchangeMeta": null
        }
       }
      },
-     "15118": {
+     "111895": {
       "players": {
-       "1770290": {
+       "607968": {
         "active": true,
         "betslip": null,
-        "bookmakerOutcomeId": "1639470314",
+        "bookmakerOutcomeId": "1639469254",
         "bookmakerChangedAt": null,
-        "changedAt": "2026-10-28T15:16:28.752Z",
-        "limit": 125.0,
-        "playerName": "Protas, Aliaksei",
-        "price": 3.35,
-        "priceAmerican": "235",
-        "priceFractional": "47/20",
+        "changedAt": "2026-10-28T16:17:48.811Z",
+        "limit": 290.0,
+        "playerName": "McCollum, CJ",
+        "price": 1.645,
+        "priceAmerican": "-155",
+        "priceFractional": "20/31",
         "mainLine": false,
         "exchangeMeta": null
        },
-       "983445": {
+       "1124727": {
         "active": true,
         "betslip": null,
-        "bookmakerOutcomeId": "1639418659",
+        "bookmakerOutcomeId": "1639469248",
         "bookmakerChangedAt": null,
-        "changedAt": "2026-10-28T15:16:28.752Z",
-        "limit": 125.0,
-        "playerName": "Tuch, Alex",
-        "price": 2.86,
-        "priceAmerican": "186",
-        "priceFractional": "93/50",
+        "changedAt": "2026-10-28T16:47:20.847Z",
+        "limit": 266.0,
+        "playerName": "Adebayo, Bam",
+        "price": 1.704,
+        "priceAmerican": "-142",
+        "priceFractional": "69/98",
         "mainLine": false,
         "exchangeMeta": null
        },
-       "983719": {
+       "1307780": {
         "active": true,
         "betslip": null,
-        "bookmakerOutcomeId": "1639418749",
+        "bookmakerOutcomeId": "1639469275",
         "bookmakerChangedAt": null,
-        "changedAt": "2026-10-28T15:16:28.752Z",
-        "limit": 125.0,
-        "playerName": "Chychrun, Jakob",
-        "price": 2.26,
-        "priceAmerican": "126",
-        "priceFractional": "63/50",
-        "mainLine": false,
-        "exchangeMeta": null
-       },
-       "2921395": {
-        "active": true,
-        "betslip": null,
-        "bookmakerOutcomeId": "1639418830",
-        "bookmakerChangedAt": null,
-        "changedAt": "2026-10-28T15:16:28.752Z",
-        "limit": 125.0,
-        "playerName": "Martone, Porter",
-        "price": 3.15,
-        "priceAmerican": "215",
-        "priceFractional": "43/20",
-        "mainLine": false,
-        "exchangeMeta": null
-       },
-       "2787265": {
-        "active": true,
-        "betslip": null,
-        "bookmakerOutcomeId": "1639418686",
-        "bookmakerChangedAt": null,
-        "changedAt": "2026-10-28T15:16:28.752Z",
-        "limit": 125.0,
-        "playerName": "Hutson, Cole",
-        "price": 2.45,
-        "priceAmerican": "145",
-        "priceFractional": "29/20",
-        "mainLine": false,
-        "exchangeMeta": null
-       },
-       "1980389": {
-        "active": true,
-        "betslip": null,
-        "bookmakerOutcomeId": "1639470221",
-        "bookmakerChangedAt": null,
-        "changedAt": "2026-10-28T15:16:28.752Z",
-        "limit": 125.0,
-        "playerName": "Drysdale, Jamie",
-        "price": 2.75,
-        "priceAmerican": "175",
-        "priceFractional": "7/4",
-        "mainLine": false,
-        "exchangeMeta": null
-       },
-       "352188": {
-        "active": true,
-        "betslip": null,
-        "bookmakerOutcomeId": "1639418860",
-        "bookmakerChangedAt": null,
-        "changedAt": "2026-10-28T16:03:21.932Z",
-        "limit": 125.0,
-        "playerName": "Wilson, Tom",
-        "price": 2.9,
-        "priceAmerican": "190",
-        "priceFractional": "19/10",
-        "mainLine": false,
-        "exchangeMeta": null
-       },
-       "1650171": {
-        "active": true,
-        "betslip": null,
-        "bookmakerOutcomeId": "1639418872",
-        "bookmakerChangedAt": null,
-        "changedAt": "2026-10-28T15:16:28.752Z",
-        "limit": 125.0,
-        "playerName": "Zegras, Trevor",
-        "price": 2.54,
-        "priceAmerican": "154",
-        "priceFractional": "77/50",
-        "mainLine": false,
-        "exchangeMeta": null
-       },
-       "2212668": {
-        "active": true,
-        "betslip": null,
-        "bookmakerOutcomeId": "1639418797",
-        "bookmakerChangedAt": null,
-        "changedAt": "2026-10-28T15:16:28.752Z",
-        "limit": 125.0,
-        "playerName": "Michkov, Matvei",
-        "price": 2.86,
-        "priceAmerican": "186",
-        "priceFractional": "93/50",
-        "mainLine": false,
-        "exchangeMeta": null
-       },
-       "983715": {
-        "active": true,
-        "betslip": null,
-        "bookmakerOutcomeId": "1639418809",
-        "bookmakerChangedAt": null,
-        "changedAt": "2026-10-28T15:16:28.752Z",
-        "limit": 125.0,
-        "playerName": "Dubois, Pierre-Luc",
-        "price": 2.42,
-        "priceAmerican": "142",
-        "priceFractional": "71/50",
-        "mainLine": false,
-        "exchangeMeta": null
-       },
-       "2412807": {
-        "active": true,
-        "betslip": null,
-        "bookmakerOutcomeId": "1639418842",
-        "bookmakerChangedAt": null,
-        "changedAt": "2026-10-28T15:16:28.752Z",
-        "limit": 125.0,
-        "playerName": "Leonard, Ryan",
-        "price": 3.18,
-        "priceAmerican": "218",
-        "priceFractional": "109/50",
-        "mainLine": false,
-        "exchangeMeta": null
-       },
-       "983709": {
-        "active": true,
-        "betslip": null,
-        "bookmakerOutcomeId": "1639418773",
-        "bookmakerChangedAt": null,
-        "changedAt": "2026-10-28T17:06:38.185Z",
-        "limit": 125.0,
-        "playerName": "Kyrou, Jordan",
-        "price": 2.36,
-        "priceAmerican": "136",
-        "priceFractional": "34/25",
-        "mainLine": false,
-        "exchangeMeta": null
-       },
-       "31358": {
-        "active": true,
-        "betslip": null,
-        "bookmakerOutcomeId": "1639418641",
-        "bookmakerChangedAt": null,
-        "changedAt": "2026-10-28T15:16:28.752Z",
-        "limit": 125.0,
-        "playerName": "Ovechkin, Alex",
-        "price": 3.1,
-        "priceAmerican": "210",
-        "priceFractional": "21/10",
-        "mainLine": false,
-        "exchangeMeta": null
-       },
-       "852998": {
-        "active": true,
-        "betslip": null,
-        "bookmakerOutcomeId": "1639418701",
-        "bookmakerChangedAt": null,
-        "changedAt": "2026-10-28T15:16:28.752Z",
-        "limit": 125.0,
-        "playerName": "Strome, Dylan",
-        "price": 2.18,
-        "priceAmerican": "118",
-        "priceFractional": "59/50",
+        "changedAt": "2026-10-28T14:19:19.910Z",
+        "limit": 296.0,
+        "playerName": "Alexander-Walker, Nickeil",
+        "price": 1.632,
+        "priceAmerican": "-158",
+        "priceFractional": "55/87",
         "mainLine": false,
         "exchangeMeta": null
        }
@@ -410,19 +102,79 @@
     }
    },
    "parsed": {
-    "ts": "2026-10-28T17:46:45Z",
-    "event_id": "op:id1500023472909246",
+    "ts": "2026-10-28T21:40:48Z",
+    "event_id": "op:id1100013273719428",
     "provider": "oddspapi",
     "book": "pinnacle",
-    "market": "prop:assists:1770290:0.5",
-    "line": 0.5,
+    "market": "prop:assists:607968:3.5",
+    "line": 3.5,
     "prices": {
-     "under": 1.296,
-     "over": 3.35
+     "over": 2.16,
+     "under": 1.645
     },
-    "player": "Aliaksei Protas",
-    "player_id": "1770290",
+    "player": "CJ McCollum",
+    "player_id": "607968",
     "stat": "assists"
+   }
+  },
+  "winamax": {
+   "marketId": "111780",
+   "raw": {
+    "bookmakerMarketId": "729608414",
+    "marketActive": true,
+    "outcomes": {
+     "111781": {
+      "players": {
+       "1124727": {
+        "active": true,
+        "betslip": null,
+        "bookmakerOutcomeId": "2261272610",
+        "bookmakerChangedAt": null,
+        "changedAt": "2026-10-28T15:25:02.429Z",
+        "limit": null,
+        "playerName": "Adebayo, Bam",
+        "price": 1.5,
+        "priceAmerican": "-200",
+        "priceFractional": "1/2",
+        "mainLine": false,
+        "exchangeMeta": null
+       }
+      }
+     },
+     "111780": {
+      "players": {
+       "1124727": {
+        "active": true,
+        "betslip": null,
+        "bookmakerOutcomeId": "2261272609",
+        "bookmakerChangedAt": null,
+        "changedAt": "2026-10-28T15:25:02.429Z",
+        "limit": null,
+        "playerName": "Adebayo, Bam",
+        "price": 2.0,
+        "priceAmerican": "100",
+        "priceFractional": "1/1",
+        "mainLine": false,
+        "exchangeMeta": null
+       }
+      }
+     }
+    }
+   },
+   "parsed": {
+    "ts": "2026-10-28T21:40:48Z",
+    "event_id": "op:id1100013273719428",
+    "provider": "oddspapi",
+    "book": "winamax",
+    "market": "prop:rebounds:1124727:9.5",
+    "line": 9.5,
+    "prices": {
+     "under": 1.5,
+     "over": 2.0
+    },
+    "player": "Bam Adebayo",
+    "player_id": "1124727",
+    "stat": "rebounds"
    }
   }
  }

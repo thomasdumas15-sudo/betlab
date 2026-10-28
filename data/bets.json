@@ -968,5 +968,41 @@
   "clv": null,
   "clv_book": null,
   "closing_source": null
+ },
+ {
+  "id": "622025f695bc",
+  "strategy": "favorites",
+  "event_id": "op:id1100013873263100",
+  "sport": "euroleague",
+  "match": "Maccabi Tel-Aviv – Paris Basketball",
+  "start": "2026-10-29T19:05:00Z",
+  "market": "h2h",
+  "line": null,
+  "player": null,
+  "stat": null,
+  "selection": "home",
+  "selection_name": "Maccabi Tel-Aviv",
+  "book": "winamax",
+  "odds": 1.39,
+  "fair_prob": 0.6647,
+  "edge": -0.0761,
+  "stake": 9.92,
+  "bankroll_before": 992.01,
+  "placed_at": "2026-10-28T21:41:33Z",
+  "quote_ts": "2026-10-28T21:40:48Z",
+  "ref_prices": {
+   "away": 2.87,
+   "home": 1.448
+  },
+  "note": "favori p=0.665",
+  "status": "open",
+  "pnl": null,
+  "settled_at": null,
+  "result": null,
+  "closing_odds": null,
+  "closing_ref": null,
+  "clv": null,
+  "clv_book": null,
+  "closing_source": null
  }
 ]

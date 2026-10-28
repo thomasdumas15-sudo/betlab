@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-28T20:43:25Z",
+ "generated_at": "2026-10-28T21:41:33Z",
  "bankroll_start": 1000.0,
  "bet_bookmaker": "Winamax",
  "reference_bookmaker": "Pinnacle",
@@ -86,16 +86,16 @@
    "roi": -0.1142,
    "roi_se": 0.3136,
    "z": -0.36,
-   "bets": 16,
-   "open": 9,
+   "bets": 17,
+   "open": 10,
    "settled": 7,
    "void": 0,
    "won": 4,
    "win_rate": 0.5714,
    "avg_odds": 1.521,
-   "avg_edge": -0.0566,
+   "avg_edge": -0.0577,
    "staked": 69.94,
-   "exposure": 90.18,
+   "exposure": 100.1,
    "max_drawdown": -0.0194,
    "clv": -0.0792,
    "clv_n": 7,
@@ -331,7 +331,7 @@
  },
  "upcoming_events": {
   "nba": 20,
-  "euroleague": 7,
+  "euroleague": 10,
   "serie_a": 12,
   "ligue1": 18,
   "bundesliga": 18,
@@ -341,15 +341,15 @@
   "nhl": 15,
   "lnb": 7
  },
- "events_tracked": 208,
- "bets_total": 26,
+ "events_tracked": 211,
+ "bets_total": 27,
  "budget": {
   "oddspapi": {
    "quota": 250,
-   "used": 32,
-   "remaining": 218,
-   "used_today": 10,
-   "daily_allowance": 48.2,
+   "used": 34,
+   "remaining": 216,
+   "used_today": 12,
+   "daily_allowance": 47.8,
    "reserve": 25,
    "denied": 0
   },
@@ -364,7 +364,7 @@
   }
  },
  "slots_done": {
-  "basketball:soir": "2026-10-27",
+  "basketball:soir": "2026-10-28",
   "basketball:matin": "2026-10-28",
   "football:midi": "2026-10-28",
   "us:soir": "2026-10-28"
@@ -485,19 +485,54 @@
    }
   ]
  },
- "last_run": "2026-10-28T20:43:25Z",
+ "last_run": "2026-10-28T21:41:33Z",
  "run": {
   "collect": {
-   "slots": [],
-   "events": 0,
-   "rows": 0
+   "slots": [
+    {
+     "slot": "basketball:soir",
+     "events": 37,
+     "rows": 902,
+     "ok": true
+    }
+   ],
+   "events": 37,
+   "rows": 902
   },
   "closing": 0,
   "settled": 0,
-  "placed": 0,
+  "placed": 1,
   "errors": []
  },
  "recent_bets": [
+  {
+   "id": "622025f695bc",
+   "strategy": "favorites",
+   "sport": "euroleague",
+   "match": "Maccabi Tel-Aviv – Paris Basketball",
+   "start": "2026-10-29T19:05:00Z",
+   "selection": "home",
+   "selection_name": "Maccabi Tel-Aviv",
+   "odds": 1.39,
+   "fair_prob": 0.6647,
+   "edge": -0.0761,
+   "stake": 9.92,
+   "placed_at": "2026-10-28T21:41:33Z",
+   "status": "open",
+   "result": null,
+   "pnl": null,
+   "clv": null,
+   "clv_book": null,
+   "closing_odds": null,
+   "note": "favori p=0.665",
+   "market": "h2h",
+   "line": null,
+   "player": null,
+   "stat": null,
+   "result_value": null,
+   "settled_at": null,
+   "sport_label": "Euroleague"
+  },
   {
    "id": "9c7dceb0615d",
    "strategy": "favorites",

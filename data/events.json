@@ -3896,5 +3896,56 @@
   },
   "status": "scheduled",
   "names_resolved": true
+ },
+ "op:id1100013873263104": {
+  "id": "op:id1100013873263104",
+  "sport": "euroleague",
+  "kind": "basketball",
+  "home": "Dubai Basketball",
+  "away": "Hapoel Tel-Aviv",
+  "start": "2026-10-30T16:00:00Z",
+  "ids": {
+   "oddspapi": "id1100013873263104",
+   "oddspapi_p1": "1149035",
+   "oddspapi_p2": "82179",
+   "oddspapi_tournament": 138,
+   "oddspapi_sport_id": 11
+  },
+  "status": "scheduled",
+  "names_resolved": true
+ },
+ "op:id1100013873263108": {
+  "id": "op:id1100013873263108",
+  "sport": "euroleague",
+  "kind": "basketball",
+  "home": "BC Zalgiris Kaunas",
+  "away": "KK Partizan Belgrade",
+  "start": "2026-10-30T18:00:00Z",
+  "ids": {
+   "oddspapi": "id1100013873263108",
+   "oddspapi_p1": "6662",
+   "oddspapi_p2": "6637",
+   "oddspapi_tournament": 138,
+   "oddspapi_sport_id": 11
+  },
+  "status": "scheduled",
+  "names_resolved": true
+ },
+ "op:id1100013873263116": {
+  "id": "op:id1100013873263116",
+  "sport": "euroleague",
+  "kind": "basketball",
+  "home": "Virtus Bologna",
+  "away": "Besiktas JK",
+  "start": "2026-10-30T19:30:00Z",
+  "ids": {
+   "oddspapi": "id1100013873263116",
+   "oddspapi_p1": "5621",
+   "oddspapi_p2": "6678",
+   "oddspapi_tournament": 138,
+   "oddspapi_sport_id": 11
+  },
+  "status": "scheduled",
+  "names_resolved": true
  }
 }
