@@ -2,9 +2,9 @@
  "budget": {
   "oddspapi": {
    "month": "2026-10",
-   "used": 22,
+   "used": 24,
    "today": "2026-10-28",
-   "used_today": 0,
+   "used_today": 2,
    "reported_remaining": null,
    "denied": 0
   }
@@ -16,7 +16,7 @@
    "winamax.fr"
   ]
  },
- "last_saved": "2026-10-28T07:47:09Z",
+ "last_saved": "2026-10-28T07:48:56Z",
  "slots": {
   "basketball:soir": "2026-10-27",
   "basketball:matin": "2026-10-27",
@@ -139,23 +139,23 @@
    }
   ]
  },
- "last_run": "2026-10-28T07:47:09Z",
+ "last_run": "2026-10-28T07:48:56Z",
  "last_run_summary": {
   "collect": {
    "slots": [
     {
-     "slot": "tennis:matin",
-     "events": 0,
-     "rows": 0,
-     "ok": false
+     "slot": "basketball:manuel",
+     "events": 37,
+     "rows": 365,
+     "ok": true
     }
    ],
-   "events": 0,
-   "rows": 0
+   "events": 37,
+   "rows": 365
   },
   "closing": 0,
   "settled": 0,
-  "placed": 0,
+  "placed": 11,
   "errors": []
  }
 }
