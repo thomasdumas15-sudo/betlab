@@ -924,5 +924,41 @@
   "clv": null,
   "clv_book": null,
   "closing_source": null
+ },
+ {
+  "id": "9c7dceb0615d",
+  "strategy": "favorites",
+  "event_id": "op:id1100013273719428",
+  "sport": "nba",
+  "match": "Atlanta Hawks – Miami Heat",
+  "start": "2026-10-28T23:00:00Z",
+  "market": "h2h",
+  "line": null,
+  "player": null,
+  "stat": null,
+  "selection": "home",
+  "selection_name": "Atlanta Hawks",
+  "book": "winamax",
+  "odds": 1.6,
+  "fair_prob": 0.5909,
+  "edge": -0.0546,
+  "stake": 10.02,
+  "bankroll_before": 1001.98,
+  "placed_at": "2026-10-28T08:54:17Z",
+  "quote_ts": "2026-10-28T08:53:03Z",
+  "ref_prices": {
+   "away": 2.37,
+   "home": 1.641
+  },
+  "note": "favori p=0.591",
+  "status": "open",
+  "pnl": null,
+  "settled_at": null,
+  "result": null,
+  "closing_odds": null,
+  "closing_ref": null,
+  "clv": null,
+  "clv_book": null,
+  "closing_source": null
  }
 ]

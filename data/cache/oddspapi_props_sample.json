@@ -1,156 +1,124 @@
 {
- "fetched_at": "2026-10-28T07:48:18Z",
+ "fetched_at": "2026-10-28T08:53:30Z",
  "data": {
-  "pinnacle": {
-   "marketId": "111900",
-   "raw": {
-    "bookmakerMarketId": "1639304026/6572663254/1639426922",
-    "marketActive": true,
-    "outcomes": {
-     "111901": {
-      "players": {
-       "2078875": {
-        "active": true,
-        "betslip": null,
-        "bookmakerOutcomeId": "1639426951",
-        "bookmakerChangedAt": null,
-        "changedAt": "2026-10-28T07:45:47.684Z",
-        "limit": 187.0,
-        "playerName": "Johnson, Jalen",
-        "price": 2.15,
-        "priceAmerican": "115",
-        "priceFractional": "23/20",
-        "mainLine": false,
-        "exchangeMeta": null
-       },
-       "1296164": {
-        "active": true,
-        "betslip": null,
-        "bookmakerOutcomeId": "1639426924",
-        "bookmakerChangedAt": null,
-        "changedAt": "2026-10-28T07:47:28.403Z",
-        "limit": 195.0,
-        "playerName": "Mitchell, Davion",
-        "price": 1.961,
-        "priceAmerican": "-104",
-        "priceFractional": "74/77",
-        "mainLine": false,
-        "exchangeMeta": null
-       }
-      }
-     },
-     "111900": {
-      "players": {
-       "1296164": {
-        "active": true,
-        "betslip": null,
-        "bookmakerOutcomeId": "1639426923",
-        "bookmakerChangedAt": null,
-        "changedAt": "2026-10-28T07:47:28.403Z",
-        "limit": 240.0,
-        "playerName": "Mitchell, Davion",
-        "price": 1.781,
-        "priceAmerican": "-128",
-        "priceFractional": "57/73",
-        "mainLine": false,
-        "exchangeMeta": null
-       },
-       "2078875": {
-        "active": true,
-        "betslip": null,
-        "bookmakerOutcomeId": "1639426950",
-        "bookmakerChangedAt": null,
-        "changedAt": "2026-10-28T07:45:47.684Z",
-        "limit": 287.0,
-        "playerName": "Johnson, Jalen",
-        "price": 1.653,
-        "priceAmerican": "-153",
-        "priceFractional": "32/49",
-        "mainLine": false,
-        "exchangeMeta": null
-       }
-      }
-     }
-    }
-   },
-   "parsed": {
-    "ts": "2026-10-28T07:48:12Z",
-    "event_id": "op:id1100013273719428",
-    "provider": "oddspapi",
-    "book": "pinnacle",
-    "market": "prop:assists:2078875:6.5",
-    "line": 6.5,
-    "prices": {
-     "under": 2.15,
-     "over": 1.653
-    },
-    "player": "Jalen Johnson",
-    "player_id": "2078875",
-    "stat": "assists"
-   }
-  },
   "winamax": {
-   "marketId": "111776",
+   "marketId": "111766",
    "raw": {
-    "bookmakerMarketId": "729607786",
+    "bookmakerMarketId": "729627214",
     "marketActive": true,
     "outcomes": {
-     "111776": {
+     "111767": {
       "players": {
-       "1880108": {
+       "1168504": {
         "active": true,
         "betslip": null,
-        "bookmakerOutcomeId": "2261271236",
+        "bookmakerOutcomeId": "2261317467",
         "bookmakerChangedAt": null,
-        "changedAt": "2026-10-28T07:46:01.142Z",
+        "changedAt": "2026-10-28T08:14:11.340Z",
         "limit": null,
-        "playerName": "Okongwu, Onyeka",
-        "price": 1.74,
-        "priceAmerican": "-135",
-        "priceFractional": "37/50",
+        "playerName": "Sestina, Nate",
+        "price": 2.0,
+        "priceAmerican": "100",
+        "priceFractional": "1/1",
         "mainLine": false,
         "exchangeMeta": null
        },
-       "2299167": {
+       "1607956": {
         "active": true,
         "betslip": null,
-        "bookmakerOutcomeId": "2261270959",
+        "bookmakerOutcomeId": "2261317469",
         "bookmakerChangedAt": null,
-        "changedAt": "2026-10-28T07:39:42.370Z",
+        "changedAt": "2026-10-28T08:14:11.340Z",
         "limit": null,
-        "playerName": "Daniels, Dyson",
+        "playerName": "Besson, Hugo",
         "price": 1.94,
         "priceAmerican": "-106",
         "priceFractional": "47/50",
         "mainLine": false,
         "exchangeMeta": null
+       },
+       "1164962": {
+        "active": true,
+        "betslip": null,
+        "bookmakerOutcomeId": "2261317471",
+        "bookmakerChangedAt": null,
+        "changedAt": "2026-10-28T08:14:11.340Z",
+        "limit": null,
+        "playerName": "Jones, Carlik",
+        "price": 1.94,
+        "priceAmerican": "-106",
+        "priceFractional": "47/50",
+        "mainLine": false,
+        "exchangeMeta": null
+       },
+       "1586664": {
+        "active": true,
+        "betslip": null,
+        "bookmakerOutcomeId": "2261317473",
+        "bookmakerChangedAt": null,
+        "changedAt": "2026-10-28T08:14:11.340Z",
+        "limit": null,
+        "playerName": "Thompson, Ethan",
+        "price": 1.74,
+        "priceAmerican": "-135",
+        "priceFractional": "37/50",
+        "mainLine": false,
+        "exchangeMeta": null
        }
       }
      },
-     "111777": {
+     "111766": {
       "players": {
-       "1880108": {
+       "1168504": {
         "active": true,
         "betslip": null,
-        "bookmakerOutcomeId": "2261271237",
+        "bookmakerOutcomeId": "2261317466",
         "bookmakerChangedAt": null,
-        "changedAt": "2026-10-28T07:46:01.142Z",
+        "changedAt": "2026-10-28T08:14:11.340Z",
         "limit": null,
-        "playerName": "Okongwu, Onyeka",
+        "playerName": "Sestina, Nate",
+        "price": 1.5,
+        "priceAmerican": "-200",
+        "priceFractional": "1/2",
+        "mainLine": false,
+        "exchangeMeta": null
+       },
+       "1164962": {
+        "active": true,
+        "betslip": null,
+        "bookmakerOutcomeId": "2261317470",
+        "bookmakerChangedAt": null,
+        "changedAt": "2026-10-28T08:14:11.340Z",
+        "limit": null,
+        "playerName": "Jones, Carlik",
+        "price": 1.54,
+        "priceAmerican": "-185",
+        "priceFractional": "27/50",
+        "mainLine": false,
+        "exchangeMeta": null
+       },
+       "1586664": {
+        "active": true,
+        "betslip": null,
+        "bookmakerOutcomeId": "2261317472",
+        "bookmakerChangedAt": null,
+        "changedAt": "2026-10-28T08:14:11.340Z",
+        "limit": null,
+        "playerName": "Thompson, Ethan",
         "price": 1.7,
         "priceAmerican": "-143",
         "priceFractional": "7/10",
         "mainLine": false,
         "exchangeMeta": null
        },
-       "2299167": {
+       "1607956": {
         "active": true,
         "betslip": null,
-        "bookmakerOutcomeId": "2261270960",
+        "bookmakerOutcomeId": "2261317468",
         "bookmakerChangedAt": null,
-        "changedAt": "2026-10-28T07:39:42.370Z",
+        "changedAt": "2026-10-28T08:14:11.340Z",
         "limit": null,
-        "playerName": "Daniels, Dyson",
+        "playerName": "Besson, Hugo",
         "price": 1.54,
         "priceAmerican": "-185",
         "priceFractional": "27/50",
@@ -162,18 +130,106 @@
     }
    },
    "parsed": {
-    "ts": "2026-10-28T07:48:12Z",
-    "event_id": "op:id1100013273719428",
+    "ts": "2026-10-28T08:53:03Z",
+    "event_id": "op:id1100013873263094",
     "provider": "oddspapi",
     "book": "winamax",
-    "market": "prop:rebounds:1880108:7.5",
-    "line": 7.5,
+    "market": "prop:rebounds:1168504:2.5",
+    "line": 2.5,
+    "prices": {
+     "under": 2.0,
+     "over": 1.5
+    },
+    "player": "Nate Sestina",
+    "player_id": "1168504",
+    "stat": "rebounds"
+   }
+  },
+  "pinnacle": {
+   "marketId": "111774",
+   "raw": {
+    "bookmakerMarketId": "1639304026/6572652535/1639426979",
+    "marketActive": true,
+    "outcomes": {
+     "111774": {
+      "players": {
+       "2299167": {
+        "active": true,
+        "betslip": null,
+        "bookmakerOutcomeId": "1639426935",
+        "bookmakerChangedAt": null,
+        "changedAt": "2026-10-28T07:47:32.602Z",
+        "limit": 253.0,
+        "playerName": "Daniels, Dyson",
+        "price": 1.74,
+        "priceAmerican": "-135",
+        "priceFractional": "37/50",
+        "mainLine": false,
+        "exchangeMeta": null
+       },
+       "1880108": {
+        "active": true,
+        "betslip": null,
+        "bookmakerOutcomeId": "1639426980",
+        "bookmakerChangedAt": null,
+        "changedAt": "2026-10-28T07:52:21.926Z",
+        "limit": 243.0,
+        "playerName": "Okongwu, Onyeka",
+        "price": 1.769,
+        "priceAmerican": "-130",
+        "priceFractional": "10/13",
+        "mainLine": false,
+        "exchangeMeta": null
+       }
+      }
+     },
+     "111775": {
+      "players": {
+       "2299167": {
+        "active": true,
+        "betslip": null,
+        "bookmakerOutcomeId": "1639426936",
+        "bookmakerChangedAt": null,
+        "changedAt": "2026-10-28T07:47:32.602Z",
+        "limit": 187.0,
+        "playerName": "Daniels, Dyson",
+        "price": 2.02,
+        "priceAmerican": "102",
+        "priceFractional": "51/50",
+        "mainLine": false,
+        "exchangeMeta": null
+       },
+       "1880108": {
+        "active": true,
+        "betslip": null,
+        "bookmakerOutcomeId": "1639426981",
+        "bookmakerChangedAt": null,
+        "changedAt": "2026-10-28T07:52:21.926Z",
+        "limit": 191.0,
+        "playerName": "Okongwu, Onyeka",
+        "price": 1.98,
+        "priceAmerican": "-102",
+        "priceFractional": "49/50",
+        "mainLine": false,
+        "exchangeMeta": null
+       }
+      }
+     }
+    }
+   },
+   "parsed": {
+    "ts": "2026-10-28T08:53:03Z",
+    "event_id": "op:id1100013273719428",
+    "provider": "oddspapi",
+    "book": "pinnacle",
+    "market": "prop:rebounds:2299167:6.5",
+    "line": 6.5,
     "prices": {
      "over": 1.74,
-     "under": 1.7
+     "under": 2.02
     },
-    "player": "Onyeka Okongwu",
-    "player_id": "1880108",
+    "player": "Dyson Daniels",
+    "player_id": "2299167",
     "stat": "rebounds"
    }
   }

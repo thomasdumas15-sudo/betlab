@@ -3397,5 +3397,22 @@
   },
   "status": "scheduled",
   "names_resolved": true
+ },
+ "op:id1100013873263114": {
+  "id": "op:id1100013873263114",
+  "sport": "euroleague",
+  "kind": "basketball",
+  "home": "FC Barcelona",
+  "away": "Valencia Basket",
+  "start": "2026-10-30T19:30:00Z",
+  "ids": {
+   "oddspapi": "id1100013873263114",
+   "oddspapi_p1": "3543",
+   "oddspapi_p2": "3545",
+   "oddspapi_tournament": 138,
+   "oddspapi_sport_id": 11
+  },
+  "status": "scheduled",
+  "names_resolved": true
  }
 }
