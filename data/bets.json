@@ -327,11 +327,14 @@
   "pnl": null,
   "settled_at": null,
   "result": null,
-  "closing_odds": null,
-  "closing_ref": null,
-  "clv": null,
-  "clv_book": null,
-  "closing_source": null
+  "closing_odds": 1.74,
+  "closing_ref": {
+   "home": 1.854,
+   "away": 2.0
+  },
+  "clv": -0.0244,
+  "clv_book": 0.0805,
+  "closing_source": "oddspapi_history"
  },
  {
   "id": "4269c269c3d7",
@@ -482,10 +485,10 @@
    "away": 5.45
   },
   "note": "favori p=0.585",
-  "status": "open",
-  "pnl": null,
-  "settled_at": null,
-  "result": null,
+  "status": "lost",
+  "pnl": -9.97,
+  "settled_at": "2026-10-28T19:48:42Z",
+  "result": "perdu",
   "closing_odds": 1.62,
   "closing_ref": {
    "home": 1.751,
@@ -494,7 +497,8 @@
   },
   "clv": -0.1382,
   "clv_book": -0.037,
-  "closing_source": "oddspapi_history"
+  "closing_source": "oddspapi_history",
+  "bankroll_after": 992.01
  },
  {
   "id": "2cf9a968770a",

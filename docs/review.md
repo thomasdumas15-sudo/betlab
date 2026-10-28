@@ -1,6 +1,6 @@
 # BetLab — revue
 
-_Générée le 2026-10-28T18:49:17Z — simulation, aucun argent réel._
+_Générée le 2026-10-28T19:49:20Z — simulation, aucun argent réel._
 
 ## Stratégies
 
@@ -8,10 +8,10 @@ _Générée le 2026-10-28T18:49:17Z — simulation, aucun argent réel._
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
 | Valeur Pinnacle | 1000,00 € | 0,00 € | — | 0 (0) | — | — (0) | — | +0,0 % |
 | Valeur consensus | 1000,00 € | 0,00 € | — | 0 (0) | — | — (0) | — | +0,0 % |
-| Favoris prudents | 1001,98 € | 1,98 € | +3,3 % | 16 (6) | 67 % | -7,9 % (7) | -5,3 | -1,5 % |
+| Favoris prudents | 992,01 € | -7,99 € | -11,4 % | 16 (7) | 57 % | -7,9 % (7) | -5,3 | -1,9 % |
 | Basket spécialiste | 1000,00 € | 0,00 € | — | 0 (0) | — | — (0) | — | +0,0 % |
 | Mouvement sharp | 1000,00 € | 0,00 € | — | 0 (0) | — | — (0) | — | +0,0 % |
-| Témoin | 1022,02 € | 22,02 € | +54,7 % | 10 (4) | 75 % | -4,3 % (5) | -6,8 | -1,0 % |
+| Témoin | 1022,02 € | 22,02 € | +54,7 % | 10 (4) | 75 % | -4,0 % (6) | -6,7 | -1,0 % |
 | Stats joueurs | 1000,00 € | 0,00 € | — | 0 (0) | — | — (0) | — | +0,0 % |
 
 ## Lecture
@@ -26,10 +26,10 @@ _Générée le 2026-10-28T18:49:17Z — simulation, aucun argent réel._
 ## Meilleurs CLV récents
 
 - Sassuolo Calcio – Lazio Rome → Lazio Rome @ 2.0 (control) : CLV -2,3 %
+- Virtus Bologna – BC Zalgiris Kaunas → Virtus Bologna @ 1.88 (control) : CLV -2,4 %
 - Charlotte Hornets – Washington Wizards → Charlotte Hornets @ 1.64 (favorites) : CLV -3,0 %
 - Panathinaikos BC – Olimpia Milano → Olimpia Milano @ 5.8 (control) : CLV -4,0 %
 - Miami Heat – Dallas Mavericks → Dallas Mavericks @ 3.15 (control) : CLV -4,0 %
-- Houston Rockets – Atlanta Hawks → Houston Rockets @ 1.5 (favorites) : CLV -4,3 %
 
 ## Pires CLV récents
 
