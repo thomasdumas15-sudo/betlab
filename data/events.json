@@ -1449,7 +1449,7 @@
   "kind": "soccer",
   "home": "OGC Nice",
   "away": "Stade Rennais FC",
-  "start": "2026-10-31T16:15:00Z",
+  "start": "2026-10-30T18:00:00Z",
   "ids": {
    "oddspapi": "id1000003472036266",
    "oddspapi_p1": "1661",
@@ -1534,7 +1534,7 @@
   "kind": "soccer",
   "home": "FC Lorient",
   "away": "Stade Brest 29",
-  "start": "2026-10-31T19:45:00Z",
+  "start": "2026-11-01T19:45:00Z",
   "ids": {
    "oddspapi": "id1000003472036260",
    "oddspapi_p1": "1656",
@@ -1551,7 +1551,7 @@
   "kind": "soccer",
   "home": "Olympique Lyon",
   "away": "Angers SCO",
-  "start": "2026-10-31T19:45:00Z",
+  "start": "2026-11-01T06:00:00Z",
   "ids": {
    "oddspapi": "id1000003472036262",
    "oddspapi_p1": "1649",

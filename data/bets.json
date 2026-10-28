@@ -887,5 +887,42 @@
   "clv": null,
   "clv_book": null,
   "closing_source": null
+ },
+ {
+  "id": "a834b2b03039",
+  "strategy": "control",
+  "event_id": "op:id1000002371945346",
+  "sport": "serie_a",
+  "match": "ACF Fiorentina – Atalanta BC",
+  "start": "2026-10-29T19:45:00Z",
+  "market": "h2h",
+  "line": null,
+  "player": null,
+  "stat": null,
+  "selection": "away",
+  "selection_name": "Atalanta BC",
+  "book": "winamax",
+  "odds": 2.85,
+  "fair_prob": 0.3021,
+  "edge": -0.139,
+  "stake": 10.22,
+  "bankroll_before": 1022.02,
+  "placed_at": "2026-10-28T07:50:00Z",
+  "quote_ts": "2026-10-28T07:49:16Z",
+  "ref_prices": {
+   "draw": 3.74,
+   "home": 2.2,
+   "away": 3.2
+  },
+  "note": "tirage au sort",
+  "status": "open",
+  "pnl": null,
+  "settled_at": null,
+  "result": null,
+  "closing_odds": null,
+  "closing_ref": null,
+  "clv": null,
+  "clv_book": null,
+  "closing_source": null
  }
 ]

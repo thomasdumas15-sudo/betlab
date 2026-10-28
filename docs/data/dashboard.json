@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-28T07:48:56Z",
+ "generated_at": "2026-10-28T07:50:00Z",
  "bankroll_start": 1000.0,
  "bet_bookmaker": "Winamax",
  "reference_bookmaker": "Pinnacle",
@@ -220,16 +220,16 @@
    "roi": 0.5472,
    "roi_se": 0.6724,
    "z": 0.81,
-   "bets": 9,
-   "open": 5,
+   "bets": 10,
+   "open": 6,
    "settled": 4,
    "void": 0,
    "won": 3,
    "win_rate": 0.75,
    "avg_odds": 1.885,
-   "avg_edge": -0.0581,
+   "avg_edge": -0.0662,
    "staked": 40.24,
-   "exposure": 50.9,
+   "exposure": 61.12,
    "max_drawdown": -0.0098,
    "clv": -0.0427,
    "clv_n": 5,
@@ -332,14 +332,14 @@
   "lnb": 7
  },
  "events_tracked": 182,
- "bets_total": 24,
+ "bets_total": 25,
  "budget": {
   "oddspapi": {
    "quota": 250,
-   "used": 24,
-   "remaining": 226,
-   "used_today": 2,
-   "daily_allowance": 50.2,
+   "used": 26,
+   "remaining": 224,
+   "used_today": 4,
+   "daily_allowance": 49.8,
    "reserve": 25,
    "denied": 0
   },
@@ -475,26 +475,54 @@
    }
   ]
  },
- "last_run": "2026-10-28T07:48:56Z",
+ "last_run": "2026-10-28T07:50:00Z",
  "run": {
   "collect": {
    "slots": [
     {
-     "slot": "basketball:manuel",
-     "events": 37,
-     "rows": 365,
+     "slot": "football:manuel",
+     "events": 93,
+     "rows": 924,
      "ok": true
     }
    ],
-   "events": 37,
-   "rows": 365
+   "events": 93,
+   "rows": 924
   },
   "closing": 0,
   "settled": 0,
-  "placed": 11,
+  "placed": 1,
   "errors": []
  },
  "recent_bets": [
+  {
+   "id": "a834b2b03039",
+   "strategy": "control",
+   "sport": "serie_a",
+   "match": "ACF Fiorentina – Atalanta BC",
+   "start": "2026-10-29T19:45:00Z",
+   "selection": "away",
+   "selection_name": "Atalanta BC",
+   "odds": 2.85,
+   "fair_prob": 0.3021,
+   "edge": -0.139,
+   "stake": 10.22,
+   "placed_at": "2026-10-28T07:50:00Z",
+   "status": "open",
+   "result": null,
+   "pnl": null,
+   "clv": null,
+   "clv_book": null,
+   "closing_odds": null,
+   "note": "tirage au sort",
+   "market": "h2h",
+   "line": null,
+   "player": null,
+   "stat": null,
+   "result_value": null,
+   "settled_at": null,
+   "sport_label": "Serie A"
+  },
   {
    "id": "2cf9a968770a",
    "strategy": "favorites",
