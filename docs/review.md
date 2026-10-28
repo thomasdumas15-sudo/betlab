@@ -1,6 +1,6 @@
 # BetLab — revue
 
-_Générée le 2026-10-27T23:34:25Z — simulation, aucun argent réel._
+_Générée le 2026-10-28T00:55:21Z — simulation, aucun argent réel._
 
 ## Stratégies
 
@@ -8,17 +8,17 @@ _Générée le 2026-10-27T23:34:25Z — simulation, aucun argent réel._
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
 | Valeur Pinnacle | 1000,00 € | 0,00 € | — | 0 (0) | — | — (0) | — | +0,0 % |
 | Valeur consensus | 1000,00 € | 0,00 € | — | 0 (0) | — | — (0) | — | +0,0 % |
-| Favoris prudents | 996,60 € | -3,40 € | -6,8 % | 7 (5) | 60 % | -7,0 % (5) | -4,3 | -1,5 % |
+| Favoris prudents | 996,60 € | -3,40 € | -6,8 % | 7 (5) | 60 % | -6,9 % (6) | -5,2 | -1,5 % |
 | Basket spécialiste | 1000,00 € | 0,00 € | — | 0 (0) | — | — (0) | — | +0,0 % |
 | Mouvement sharp | 1000,00 € | 0,00 € | — | 0 (0) | — | — (0) | — | +0,0 % |
-| Témoin | 1021,62 € | 21,62 € | +71,8 % | 6 (3) | 67 % | -4,1 % (4) | -5,2 | -1,0 % |
+| Témoin | 1021,62 € | 21,62 € | +71,8 % | 6 (3) | 67 % | -4,3 % (5) | -6,8 | -1,0 % |
 | Stats joueurs | 1000,00 € | 0,00 € | — | 0 (0) | — | — (0) | — | +0,0 % |
 
 ## Lecture
 
 - **Valeur Pinnacle** : 0 paris avec clôture — trop tôt pour conclure (objectif ≥ 200).
 - **Valeur consensus** : 0 paris avec clôture — trop tôt pour conclure (objectif ≥ 200).
-- **Favoris prudents** : 5 paris avec clôture — trop tôt pour conclure (objectif ≥ 200).
+- **Favoris prudents** : 6 paris avec clôture — trop tôt pour conclure (objectif ≥ 200).
 - **Basket spécialiste** : 0 paris avec clôture — trop tôt pour conclure (objectif ≥ 200).
 - **Mouvement sharp** : 0 paris avec clôture — trop tôt pour conclure (objectif ≥ 200).
 - **Stats joueurs** : 0 paris avec clôture — trop tôt pour conclure (objectif ≥ 200).
@@ -35,9 +35,9 @@ _Générée le 2026-10-27T23:34:25Z — simulation, aucun argent réel._
 
 - Cleveland Cavaliers – Minnesota Timberwolves → Cleveland Cavaliers @ 1.52 (favorites) : CLV -11,1 %
 - Milwaukee Bucks – Indiana Pacers → Indiana Pacers @ 1.54 (favorites) : CLV -10,4 %
+- New York Knicks – Detroit Pistons → New York Knicks @ 1.54 (favorites) : CLV -6,6 %
 - Denver Nuggets – Golden State Warriors → Denver Nuggets @ 1.35 (favorites) : CLV -6,2 %
 - Denver Nuggets – Golden State Warriors → Denver Nuggets @ 1.35 (control) : CLV -6,2 %
-- Houston Rockets – Atlanta Hawks → Houston Rockets @ 1.5 (favorites) : CLV -4,3 %
 
 ## Budget données
 
