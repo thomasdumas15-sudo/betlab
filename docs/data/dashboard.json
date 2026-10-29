@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-29T19:52:42Z",
+ "generated_at": "2026-10-29T20:45:25Z",
  "bankroll_start": 1000.0,
  "bet_bookmaker": "Winamax",
  "reference_bookmaker": "Pinnacle",
@@ -533,21 +533,14 @@
    }
   ]
  },
- "last_run": "2026-10-29T19:52:42Z",
+ "last_run": "2026-10-29T20:45:25Z",
  "run": {
   "collect": {
-   "slots": [
-    {
-     "slot": "us:soir",
-     "events": 0,
-     "rows": 0,
-     "ok": false
-    }
-   ],
+   "slots": [],
    "events": 0,
    "rows": 0
   },
-  "closing": 2,
+  "closing": 0,
   "settled": 0,
   "placed": 0,
   "errors": []
