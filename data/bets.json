@@ -926,10 +926,10 @@
    "home": 2.6
   },
   "note": "favori p=0.627",
-  "status": "open",
-  "pnl": null,
-  "settled_at": null,
-  "result": null,
+  "status": "won",
+  "pnl": 5.01,
+  "settled_at": "2026-10-29T05:45:05Z",
+  "result": "gagné",
   "closing_odds": 1.92,
   "closing_ref": {
    "home": 1.943,
@@ -937,7 +937,8 @@
   },
   "clv": -0.2535,
   "clv_book": -0.2188,
-  "closing_source": "oddspapi_history"
+  "closing_source": "oddspapi_history",
+  "bankroll_after": 989.11
  },
  {
   "id": "a834b2b03039",
