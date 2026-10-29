@@ -1,6 +1,6 @@
 # BetLab — revue
 
-_Générée le 2026-10-29T01:58:01Z — simulation, aucun argent réel._
+_Générée le 2026-10-29T02:49:43Z — simulation, aucun argent réel._
 
 ## Stratégies
 
@@ -8,17 +8,17 @@ _Générée le 2026-10-29T01:58:01Z — simulation, aucun argent réel._
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
 | Valeur Pinnacle | 1000,00 € | 0,00 € | — | 0 (0) | — | — (0) | — | +0,0 % |
 | Valeur consensus | 1000,00 € | 0,00 € | — | 0 (0) | — | — (0) | — | +0,0 % |
-| Favoris prudents | 990,81 € | -9,19 € | -9,2 % | 17 (10) | 60 % | -6,3 % (15) | -4,9 | -2,1 % |
+| Favoris prudents | 996,02 € | -3,98 € | -3,6 % | 17 (11) | 64 % | -7,5 % (16) | -4,4 | -2,1 % |
 | Basket spécialiste | 1000,00 € | 0,00 € | — | 0 (0) | — | — (0) | — | +0,0 % |
 | Mouvement sharp | 1000,00 € | 0,00 € | — | 0 (0) | — | — (0) | — | +0,0 % |
-| Témoin | 1022,02 € | 22,02 € | +54,7 % | 10 (4) | 75 % | -3,4 % (9) | -5,9 | -1,0 % |
+| Témoin | 1027,33 € | 27,33 € | +54,2 % | 10 (5) | 80 % | -3,4 % (9) | -5,9 | -1,0 % |
 | Stats joueurs | 1000,00 € | 0,00 € | — | 0 (0) | — | — (0) | — | +0,0 % |
 
 ## Lecture
 
 - **Valeur Pinnacle** : 0 paris avec clôture — trop tôt pour conclure (objectif ≥ 200).
 - **Valeur consensus** : 0 paris avec clôture — trop tôt pour conclure (objectif ≥ 200).
-- **Favoris prudents** : 15 paris avec clôture — trop tôt pour conclure (objectif ≥ 200).
+- **Favoris prudents** : 16 paris avec clôture — trop tôt pour conclure (objectif ≥ 200).
 - **Basket spécialiste** : 0 paris avec clôture — trop tôt pour conclure (objectif ≥ 200).
 - **Mouvement sharp** : 0 paris avec clôture — trop tôt pour conclure (objectif ≥ 200).
 - **Stats joueurs** : 0 paris avec clôture — trop tôt pour conclure (objectif ≥ 200).
@@ -33,11 +33,11 @@ _Générée le 2026-10-29T01:58:01Z — simulation, aucun argent réel._
 
 ## Pires CLV récents
 
+- LA Clippers – Los Angeles Lakers → Los Angeles Lakers @ 1.5 (favorites) : CLV -25,4 %
 - AC Milan – Bologna FC → AC Milan @ 1.56 (favorites) : CLV -13,8 %
 - New Orleans Pelicans – Denver Nuggets → Denver Nuggets @ 1.46 (favorites) : CLV -11,6 %
 - Cleveland Cavaliers – Minnesota Timberwolves → Cleveland Cavaliers @ 1.52 (favorites) : CLV -11,1 %
 - Milwaukee Bucks – Indiana Pacers → Indiana Pacers @ 1.54 (favorites) : CLV -10,4 %
-- Dallas Mavericks – Oklahoma City Thunder → Oklahoma City Thunder @ 1.44 (favorites) : CLV -10,3 %
 
 ## Budget données
 
