@@ -4257,5 +4257,56 @@
   },
   "status": "scheduled",
   "names_resolved": true
+ },
+ "op:id1100013273719452": {
+  "id": "op:id1100013273719452",
+  "sport": "nba",
+  "kind": "basketball",
+  "home": "Atlanta Hawks",
+  "away": "Cleveland Cavaliers",
+  "start": "2026-10-30T00:00:00Z",
+  "ids": {
+   "oddspapi": "id1100013273719452",
+   "oddspapi_p1": "3423",
+   "oddspapi_p2": "3432",
+   "oddspapi_tournament": 132,
+   "oddspapi_sport_id": 11
+  },
+  "status": "scheduled",
+  "names_resolved": true
+ },
+ "op:id1100013273719454": {
+  "id": "op:id1100013273719454",
+  "sport": "nba",
+  "kind": "basketball",
+  "home": "New Orleans Pelicans",
+  "away": "Sacramento Kings",
+  "start": "2026-10-30T00:00:00Z",
+  "ids": {
+   "oddspapi": "id1100013273719454",
+   "oddspapi_p1": "5539",
+   "oddspapi_p2": "3413",
+   "oddspapi_tournament": 132,
+   "oddspapi_sport_id": 11
+  },
+  "status": "scheduled",
+  "names_resolved": true
+ },
+ "op:id1100013273719456": {
+  "id": "op:id1100013273719456",
+  "sport": "nba",
+  "kind": "basketball",
+  "home": "Portland Trail Blazers",
+  "away": "Memphis Grizzlies",
+  "start": "2026-10-30T02:00:00Z",
+  "ids": {
+   "oddspapi": "id1100013273719456",
+   "oddspapi_p1": "3414",
+   "oddspapi_p2": "3415",
+   "oddspapi_tournament": 132,
+   "oddspapi_sport_id": 11
+  },
+  "status": "scheduled",
+  "names_resolved": true
  }
 }

@@ -1,156 +1,68 @@
 {
- "fetched_at": "2026-10-28T21:40:54Z",
+ "fetched_at": "2026-10-29T08:00:41Z",
  "data": {
-  "pinnacle": {
-   "marketId": "111894",
-   "raw": {
-    "bookmakerMarketId": "1639304026/6573756964/1639469246",
-    "marketActive": true,
-    "outcomes": {
-     "111894": {
-      "players": {
-       "607968": {
-        "active": true,
-        "betslip": null,
-        "bookmakerOutcomeId": "1639469253",
-        "bookmakerChangedAt": null,
-        "changedAt": "2026-10-28T16:17:48.811Z",
-        "limit": 187.0,
-        "playerName": "McCollum, CJ",
-        "price": 2.16,
-        "priceAmerican": "116",
-        "priceFractional": "29/25",
-        "mainLine": false,
-        "exchangeMeta": null
-       },
-       "1307780": {
-        "active": true,
-        "betslip": null,
-        "bookmakerOutcomeId": "1639469274",
-        "bookmakerChangedAt": null,
-        "changedAt": "2026-10-28T14:19:19.910Z",
-        "limit": 187.0,
-        "playerName": "Alexander-Walker, Nickeil",
-        "price": 2.18,
-        "priceAmerican": "118",
-        "priceFractional": "59/50",
-        "mainLine": false,
-        "exchangeMeta": null
-       },
-       "1124727": {
-        "active": true,
-        "betslip": null,
-        "bookmakerOutcomeId": "1639469247",
-        "bookmakerChangedAt": null,
-        "changedAt": "2026-10-28T16:47:20.847Z",
-        "limit": 187.0,
-        "playerName": "Adebayo, Bam",
-        "price": 2.07,
-        "priceAmerican": "107",
-        "priceFractional": "107/100",
-        "mainLine": false,
-        "exchangeMeta": null
-       }
-      }
-     },
-     "111895": {
-      "players": {
-       "607968": {
-        "active": true,
-        "betslip": null,
-        "bookmakerOutcomeId": "1639469254",
-        "bookmakerChangedAt": null,
-        "changedAt": "2026-10-28T16:17:48.811Z",
-        "limit": 290.0,
-        "playerName": "McCollum, CJ",
-        "price": 1.645,
-        "priceAmerican": "-155",
-        "priceFractional": "20/31",
-        "mainLine": false,
-        "exchangeMeta": null
-       },
-       "1124727": {
-        "active": true,
-        "betslip": null,
-        "bookmakerOutcomeId": "1639469248",
-        "bookmakerChangedAt": null,
-        "changedAt": "2026-10-28T16:47:20.847Z",
-        "limit": 266.0,
-        "playerName": "Adebayo, Bam",
-        "price": 1.704,
-        "priceAmerican": "-142",
-        "priceFractional": "69/98",
-        "mainLine": false,
-        "exchangeMeta": null
-       },
-       "1307780": {
-        "active": true,
-        "betslip": null,
-        "bookmakerOutcomeId": "1639469275",
-        "bookmakerChangedAt": null,
-        "changedAt": "2026-10-28T14:19:19.910Z",
-        "limit": 296.0,
-        "playerName": "Alexander-Walker, Nickeil",
-        "price": 1.632,
-        "priceAmerican": "-158",
-        "priceFractional": "55/87",
-        "mainLine": false,
-        "exchangeMeta": null
-       }
-      }
-     }
-    }
-   },
-   "parsed": {
-    "ts": "2026-10-28T21:40:48Z",
-    "event_id": "op:id1100013273719428",
-    "provider": "oddspapi",
-    "book": "pinnacle",
-    "market": "prop:assists:607968:3.5",
-    "line": 3.5,
-    "prices": {
-     "over": 2.16,
-     "under": 1.645
-    },
-    "player": "CJ McCollum",
-    "player_id": "607968",
-    "stat": "assists"
-   }
-  },
   "winamax": {
-   "marketId": "111780",
+   "marketId": "111770",
    "raw": {
-    "bookmakerMarketId": "729608414",
+    "bookmakerMarketId": "730440284",
     "marketActive": true,
     "outcomes": {
-     "111781": {
+     "111771": {
       "players": {
-       "1124727": {
+       "1160898": {
         "active": true,
         "betslip": null,
-        "bookmakerOutcomeId": "2261272610",
+        "bookmakerOutcomeId": "2263778910",
         "bookmakerChangedAt": null,
-        "changedAt": "2026-10-28T15:25:02.429Z",
+        "changedAt": "2026-10-29T06:51:26.905Z",
         "limit": null,
-        "playerName": "Adebayo, Bam",
+        "playerName": "Moneke, Chima",
         "price": 1.5,
         "priceAmerican": "-200",
         "priceFractional": "1/2",
         "mainLine": false,
         "exchangeMeta": null
+       },
+       "1304640": {
+        "active": true,
+        "betslip": null,
+        "bookmakerOutcomeId": "2263777513",
+        "bookmakerChangedAt": null,
+        "changedAt": "2026-10-29T06:49:37.060Z",
+        "limit": null,
+        "playerName": "Nwora, Jordan",
+        "price": 1.86,
+        "priceAmerican": "-116",
+        "priceFractional": "43/50",
+        "mainLine": false,
+        "exchangeMeta": null
        }
       }
      },
-     "111780": {
+     "111770": {
       "players": {
-       "1124727": {
+       "1304640": {
         "active": true,
         "betslip": null,
-        "bookmakerOutcomeId": "2261272609",
+        "bookmakerOutcomeId": "2263777512",
         "bookmakerChangedAt": null,
-        "changedAt": "2026-10-28T15:25:02.429Z",
+        "changedAt": "2026-10-29T06:49:37.060Z",
         "limit": null,
-        "playerName": "Adebayo, Bam",
+        "playerName": "Nwora, Jordan",
+        "price": 1.6,
+        "priceAmerican": "-167",
+        "priceFractional": "3/5",
+        "mainLine": false,
+        "exchangeMeta": null
+       },
+       "1160898": {
+        "active": true,
+        "betslip": null,
+        "bookmakerOutcomeId": "2263778909",
+        "bookmakerChangedAt": null,
+        "changedAt": "2026-10-29T06:51:26.905Z",
+        "limit": null,
+        "playerName": "Moneke, Chima",
         "price": 2.0,
         "priceAmerican": "100",
         "priceFractional": "1/1",
@@ -162,19 +74,79 @@
     }
    },
    "parsed": {
-    "ts": "2026-10-28T21:40:48Z",
-    "event_id": "op:id1100013273719428",
+    "ts": "2026-10-29T08:00:35Z",
+    "event_id": "op:id1100013873263098",
     "provider": "oddspapi",
     "book": "winamax",
-    "market": "prop:rebounds:1124727:9.5",
-    "line": 9.5,
+    "market": "prop:rebounds:1160898:4.5",
+    "line": 4.5,
     "prices": {
      "under": 1.5,
      "over": 2.0
     },
-    "player": "Bam Adebayo",
-    "player_id": "1124727",
+    "player": "Chima Moneke",
+    "player_id": "1160898",
     "stat": "rebounds"
+   }
+  },
+  "pinnacle": {
+   "marketId": "111900",
+   "raw": {
+    "bookmakerMarketId": "1639313823/6576410580/1639506126",
+    "marketActive": true,
+    "outcomes": {
+     "111900": {
+      "players": {
+       "607778": {
+        "active": true,
+        "betslip": null,
+        "bookmakerOutcomeId": "1639506127",
+        "bookmakerChangedAt": null,
+        "changedAt": "2026-10-29T07:24:31.713Z",
+        "limit": 234.0,
+        "playerName": "Harden, James",
+        "price": 1.8,
+        "priceAmerican": "-125",
+        "priceFractional": "4/5",
+        "mainLine": false,
+        "exchangeMeta": null
+       }
+      }
+     },
+     "111901": {
+      "players": {
+       "607778": {
+        "active": true,
+        "betslip": null,
+        "bookmakerOutcomeId": "1639506128",
+        "bookmakerChangedAt": null,
+        "changedAt": "2026-10-29T07:24:31.713Z",
+        "limit": 198.0,
+        "playerName": "Harden, James",
+        "price": 1.943,
+        "priceAmerican": "-106",
+        "priceFractional": "33/35",
+        "mainLine": false,
+        "exchangeMeta": null
+       }
+      }
+     }
+    }
+   },
+   "parsed": {
+    "ts": "2026-10-29T08:00:35Z",
+    "event_id": "op:id1100013273719452",
+    "provider": "oddspapi",
+    "book": "pinnacle",
+    "market": "prop:assists:607778:6.5",
+    "line": 6.5,
+    "prices": {
+     "over": 1.8,
+     "under": 1.943
+    },
+    "player": "James Harden",
+    "player_id": "607778",
+    "stat": "assists"
    }
   }
  }
