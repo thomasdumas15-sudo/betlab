@@ -1,0 +1,490 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BetLab — mon carnet</title>
+<meta name="description" content="Carnet personnel de paris : classement Safe / Moyen / Risqué, bankroll, ROI et historique.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="base.css">
+<style>
+  :root{--safe:var(--good);--safe-soft:var(--good-soft);--mid:var(--warn);--mid-soft:var(--warn-soft);--risk:var(--bad);--risk-soft:var(--bad-soft)}
+  .btn{border:1px solid var(--line);background:var(--card);color:var(--text);border-radius:8px;padding:7px 12px;font:inherit;font-size:13.5px;font-weight:600;cursor:pointer}
+  .btn:hover{border-color:var(--dim)}
+  .btn.primary{background:var(--accent);border-color:var(--accent);color:#fff}
+  .btn.sm{padding:4px 9px;font-size:12.5px}
+  .toolbar{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+  /* courbe */
+  .chart{padding:16px 18px}
+  .chart-head{display:flex;justify-content:space-between;align-items:baseline;gap:10px;flex-wrap:wrap}
+  .chart-head .big{font-size:28px;font-weight:700;letter-spacing:-.01em}
+  .curve{width:100%;height:200px;display:block;margin-top:10px}
+  .axis{display:flex;justify-content:space-between;font-size:12px;color:var(--dim)}
+  /* radar */
+  .radar{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+  @media (max-width:900px){.radar{grid-template-columns:1fr}}
+  .col{padding:0;overflow:hidden;display:flex;flex-direction:column;min-height:180px}
+  .col.drop{outline:2px dashed var(--c);outline-offset:-4px}
+  .col-head{padding:14px 16px;border-bottom:1px solid var(--line);background:var(--cs)}
+  .col-title{display:flex;justify-content:space-between;align-items:center;gap:8px}
+  .col-title b{font-size:16px;color:var(--c)}
+  .rate{font-size:22px;font-weight:700;color:var(--c)}
+  .col-meta{font-size:12.5px;color:var(--muted);margin-top:2px}
+  .col-body{padding:10px;display:flex;flex-direction:column;gap:8px;flex:1}
+  .bcard{border:1px solid var(--line);border-left:4px solid var(--c);border-radius:10px;padding:10px 12px;background:var(--card);cursor:grab}
+  .bcard .top{display:flex;justify-content:space-between;gap:8px;font-size:12.5px;color:var(--muted)}
+  .bcard .pick{font-weight:600;margin:2px 0}
+  .bcard .nums{display:flex;gap:14px;font-size:13px;color:var(--muted)}
+  .bcard .nums b{color:var(--text)}
+  .bcard .acts{display:flex;gap:6px;margin-top:8px;flex-wrap:wrap}
+  .col-empty{color:var(--dim);font-size:13px;text-align:center;padding:18px 8px}
+  .safe{--c:var(--safe);--cs:var(--safe-soft)} .mid{--c:var(--mid);--cs:var(--mid-soft)} .risk{--c:var(--risk);--cs:var(--risk-soft)}
+  .rchip{display:inline-block;padding:2px 8px;border-radius:999px;font-size:11.5px;font-weight:700;background:var(--cs);color:var(--c)}
+  /* formulaire */
+  form{padding:16px 18px}
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:12px}
+  label{display:flex;flex-direction:column;gap:4px;font-size:12.5px;font-weight:600;color:var(--muted)}
+  input,select,textarea{font:inherit;font-size:14px;padding:8px 10px;border-radius:8px;border:1px solid var(--line);background:var(--bg);color:var(--text);min-width:0}
+  input:focus,select:focus,textarea:focus{outline:2px solid var(--accent);outline-offset:-1px}
+  .wide{grid-column:1/-1}
+  .seg{display:flex;gap:6px;flex-wrap:wrap}
+  .seg input{position:absolute;opacity:0;pointer-events:none}
+  .seg label{flex-direction:row;align-items:center;padding:7px 14px;border-radius:8px;border:1px solid var(--line);cursor:pointer;color:var(--text);font-size:14px}
+  .seg input:checked+span{color:var(--c)}
+  .seg label:has(input:checked){border-color:var(--c);background:var(--cs)}
+  .hint{font-size:12.5px;color:var(--muted);margin-top:10px;min-height:1.2em}
+  .hint.warn{color:var(--warn)}
+  .form-foot{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;margin-top:14px}
+  /* historique */
+  .month{margin-top:14px}
+  .grp{display:flex;justify-content:space-between;align-items:center;padding:9px 14px;font-weight:700}
+  .grp.m{background:var(--soft);border-radius:10px;font-size:15px}
+  .grp.w{font-size:13.5px;color:var(--muted)}
+  .grp.d{font-size:13px;color:var(--muted);font-weight:600;border-bottom:1px solid var(--line)}
+  .hrow{display:grid;grid-template-columns:52px minmax(0,1fr) 64px 70px 78px 84px 80px auto;gap:10px;align-items:center;padding:10px 14px;border-bottom:1px solid var(--line);font-size:14px}
+  .hrow:last-child{border-bottom:0}
+  .hrow .l{font-size:11px;color:var(--dim);display:block}
+  .hrow .pick{font-weight:600}
+  .hrow .sub2{font-size:12.5px;color:var(--muted)}
+  .iconbtn{border:0;background:none;color:var(--muted);cursor:pointer;font-size:15px;padding:4px 6px;border-radius:6px}
+  .iconbtn:hover{background:var(--soft);color:var(--text)}
+  @media (max-width:760px){
+    .hrow{grid-template-columns:44px minmax(0,1fr) auto;row-gap:4px}
+    .hrow .xs{display:none}
+    .hrow .only-sm{display:block}
+  }
+  .only-sm{display:none}
+  .chip.pend{background:var(--accent-soft);color:var(--accent)}
+  dialog{border:1px solid var(--line);border-radius:14px;background:var(--card);color:var(--text);padding:20px;max-width:420px;width:calc(100% - 32px)}
+  dialog::backdrop{background:rgba(0,0,0,.45)}
+  .note{font-size:13px;color:var(--muted)}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="brand">
+      <div class="logo">B</div>
+      <div>
+        <h1>Mon carnet</h1>
+        <div class="sub">Tes vrais paris, rangés par niveau de risque</div>
+      </div>
+    </div>
+    <nav class="tabs" aria-label="Onglets"><a href="./">Agent</a><a href="carnet.html" aria-current="page">Mon carnet</a></nav>
+    <div class="right">
+      <button class="themebtn" id="theme" type="button" aria-label="Changer de thème">◐ Thème</button>
+    </div>
+  </header>
+
+  <div class="kpis" id="kpis"></div>
+
+  <section>
+    <div class="card chart">
+      <div class="chart-head">
+        <div><div class="sub">Bankroll</div><div class="big tnum" id="bk-now">—</div></div>
+        <div class="toolbar">
+          <span class="sub" id="bk-start"></span>
+          <button class="btn sm" type="button" id="open-settings">Réglages</button>
+        </div>
+      </div>
+      <div id="curve"></div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Radar de mes paris</h2>
+    <p class="lead">Tes paris en attente, rangés par niveau de risque. Glisse une carte d'une colonne à l'autre pour la reclasser. Le taux de réussite de chaque colonne se calcule sur tes paris déjà réglés.</p>
+    <div class="radar" id="radar"></div>
+  </section>
+
+  <section id="add">
+    <h2 id="form-title">Ajouter un pari</h2>
+    <p class="lead">Note chaque pari au moment où tu le joues sur Winamax. La catégorie te revient : la suggestion se base seulement sur la cote.</p>
+    <div class="card">
+      <form id="form" autocomplete="off">
+        <div class="grid">
+          <label>Date et heure<input type="datetime-local" name="date" required></label>
+          <label>Sport<select name="sport">
+            <option>Basket — NBA</option><option>Basket — Euroleague</option><option>Football</option><option>Tennis</option><option>Hockey — NHL</option><option>Football US — NFL</option><option>Autre</option>
+          </select></label>
+          <label>Type<select name="type"><option>Simple</option><option>Combiné</option></select></label>
+          <label class="wide">Match<input name="match" placeholder="Ex. Lakers – Celtics" maxlength="120"></label>
+          <label class="wide">Pari<input name="pick" placeholder="Ex. LeBron James +24,5 points" required maxlength="160"></label>
+          <label>Cote<input name="odds" type="number" inputmode="decimal" step="0.01" min="1.01" required placeholder="1,85"></label>
+          <label>Mise (€)<input name="stake" type="number" inputmode="decimal" step="0.01" min="0.1" required placeholder="2"></label>
+          <label>Statut<select name="status"><option value="pending">En attente</option><option value="won">Gagné</option><option value="lost">Perdu</option><option value="void">Annulé / remboursé</option></select></label>
+          <div class="wide">
+            <div class="sub" style="font-weight:600;font-size:12.5px;margin-bottom:6px">Catégorie</div>
+            <div class="seg">
+              <label class="safe"><input type="radio" name="risk" value="safe"><span>Safe</span></label>
+              <label class="mid"><input type="radio" name="risk" value="mid" checked><span>Moyen</span></label>
+              <label class="risk"><input type="radio" name="risk" value="risk"><span>Risqué</span></label>
+            </div>
+          </div>
+          <label class="wide">Note (pourquoi ce pari ?)<textarea name="note" rows="2" maxlength="400" placeholder="Ex. Pinnacle à 1,95, blessure côté adverse…"></textarea></label>
+        </div>
+        <div class="hint" id="hint"></div>
+        <div class="form-foot">
+          <span class="note" id="gain-preview"></span>
+          <div class="toolbar">
+            <button class="btn" type="button" id="cancel-edit" hidden>Annuler</button>
+            <button class="btn primary" type="submit" id="submit">Ajouter au carnet</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <section>
+    <h2>Idées de l'agent</h2>
+    <p class="lead">Les signaux de valeur repérés par l'agent (edge ≥ +4 %), à ajouter au carnet si tu décides de les jouer.</p>
+    <div class="card" id="ideas"><div class="empty">Chargement…</div></div>
+  </section>
+
+  <section>
+    <h2>Historique</h2>
+    <div class="filters">
+      <select id="f-risk" aria-label="Catégorie"><option value="all">Toutes catégories</option><option value="safe">Safe</option><option value="mid">Moyen</option><option value="risk">Risqué</option></select>
+      <select id="f-status" aria-label="Statut"><option value="all">Tous les statuts</option><option value="pending">En attente</option><option value="won">Gagnés</option><option value="lost">Perdus</option><option value="void">Annulés</option></select>
+    </div>
+    <div class="card" id="history"></div>
+  </section>
+
+  <section>
+    <div class="card">
+      <details>
+        <summary>Sauvegarde de tes données</summary>
+        <p>Le carnet est enregistré <b>uniquement dans ce navigateur</b>, sur cet appareil. Il n'est envoyé nulle part, pas même sur GitHub. Si tu vides les données du navigateur ou que tu changes d'appareil, il disparaît : exporte-le régulièrement.</p>
+        <div class="toolbar" style="margin-top:12px">
+          <button class="btn" type="button" id="export">Exporter (.json)</button>
+          <label class="btn" style="flex-direction:row;color:var(--text);font-size:13.5px">Importer<input type="file" id="import" accept="application/json,.json" hidden></label>
+        </div>
+      </details>
+    </div>
+  </section>
+
+  <footer>
+    « Safe » ne veut pas dire « sûr » : une cote de 1,40 perd environ une fois sur quatre. Fixe-toi une mise maximale et ne recharge pas après une perte.<br>
+    Jouer comporte des risques : endettement, isolement, dépendance. Appelez le 09 74 75 13 13 (appel non surtaxé).
+  </footer>
+</div>
+
+<dialog id="settings">
+  <form method="dialog" id="settings-form" style="padding:0">
+    <h2 style="margin-bottom:12px">Réglages</h2>
+    <div class="grid" style="grid-template-columns:1fr">
+      <label>Capital de départ (€)<input name="start" type="number" step="1" min="1" required></label>
+      <label>Ma mise maximale par pari (€)<input name="maxStake" type="number" step="0.5" min="0.5" required></label>
+    </div>
+    <p class="note">Le carnet te prévient quand une mise dépasse ce plafond.</p>
+    <div class="form-foot"><span></span><div class="toolbar"><button class="btn" value="cancel" formnovalidate>Annuler</button><button class="btn primary" value="ok">Enregistrer</button></div></div>
+  </form>
+</dialog>
+
+<script>
+const KEY='betlab-carnet-v1';
+const RISKS={safe:{label:'Safe',cls:'safe',guide:'cote ≤ 1,50 · proba ≥ 67 %'},mid:{label:'Moyen',cls:'mid',guide:'cote 1,50 à 2,20'},risk:{label:'Risqué',cls:'risk',guide:'cote > 2,20 · proba < 45 %'}};
+const STATUS={pending:['pend','En attente'],won:['good','Gagné'],lost:['bad','Perdu'],void:['void','Annulé']};
+const eur=n=>new Intl.NumberFormat('fr-FR',{style:'currency',currency:'EUR'}).format(n||0);
+const signed=n=>(n>0?'+':'')+eur(n);
+const pct=(x,d=1)=>x==null||!isFinite(x)?'—':((x>0?'+':'')+(x*100).toFixed(d).replace('.',',')+' %');
+const num=(x,d=2)=>Number(x).toFixed(d).replace('.',',');
+const tone=x=>Math.abs(x||0)<1e-9?'flat':(x>0?'good':'bad');
+const esc=s=>String(s==null?'':s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const uid=()=>Date.now().toString(36)+Math.random().toString(36).slice(2,7);
+const suggest=o=>o<=1.5?'safe':(o<=2.2?'mid':'risk');
+
+// thème partagé avec l'onglet Agent
+(function(){
+  const root=document.documentElement; let t=null;
+  try{ t=localStorage.getItem('betlab-theme'); }catch(e){}
+  if(t) root.dataset.theme=t;
+  document.getElementById('theme').addEventListener('click',()=>{
+    const dark=root.dataset.theme?root.dataset.theme==='dark':matchMedia('(prefers-color-scheme: dark)').matches;
+    root.dataset.theme=dark?'light':'dark';
+    try{ localStorage.setItem('betlab-theme',root.dataset.theme); }catch(e){}
+  });
+})();
+
+// ------------------------------------------------------------ données
+let db={version:1,settings:{start:100,maxStake:2},bets:[]};
+let storageOk=true;
+function load(){
+  try{
+    const raw=localStorage.getItem(KEY);
+    if(raw){ const d=JSON.parse(raw); if(d&&Array.isArray(d.bets)) db={...db,...d,settings:{...db.settings,...(d.settings||{})}}; }
+  }catch(e){ storageOk=false; }
+}
+function save(){
+  try{ localStorage.setItem(KEY,JSON.stringify(db)); storageOk=true; }catch(e){ storageOk=false; }
+  render();
+}
+const profit=b=>b.status==='won'?b.stake*(b.odds-1):(b.status==='lost'?-b.stake:0);
+const byDate=(a,b)=>(a.date||'').localeCompare(b.date||'');
+
+// ------------------------------------------------------------ rendu
+function stats(list){
+  const settled=list.filter(b=>b.status==='won'||b.status==='lost');
+  const won=settled.filter(b=>b.status==='won').length;
+  const staked=list.filter(b=>b.status!=='pending'&&b.status!=='void').reduce((a,b)=>a+b.stake,0);
+  const pnl=list.reduce((a,b)=>a+profit(b),0);
+  return {n:list.length,settled:settled.length,won,lost:settled.length-won,rate:settled.length?won/settled.length:null,pnl,staked,roi:staked?pnl/staked:null,
+          pending:list.filter(b=>b.status==='pending').length,pendingStake:list.filter(b=>b.status==='pending').reduce((a,b)=>a+b.stake,0)};
+}
+
+function render(){
+  const S=stats(db.bets), start=db.settings.start, bank=start+S.pnl;
+  document.getElementById('kpis').innerHTML=[
+    ['Paris',S.n,`${S.pending} en attente · ${eur(S.pendingStake)} engagés`],
+    ['Bénéfice',`<span class="${tone(S.pnl)}">${signed(S.pnl)}</span>`,`sur ${eur(S.staked)} misés`],
+    ['ROI',`<span class="${tone(S.roi)}">${pct(S.roi)}</span>`,'bénéfice ÷ total misé'],
+    ['Progression',`<span class="${tone(S.pnl)}">${pct(S.pnl/start)}</span>`,`depuis ${eur(start)}`],
+    ['Réussite',S.rate==null?'—':`${Math.round(S.rate*100)} %`,`${S.won} gagnés · ${S.lost} perdus`],
+  ].map(([l,v,h])=>`<div class="card kpi"><div class="l">${l}</div><div class="v tnum">${v}</div><div class="h">${h}</div></div>`).join('');
+  document.getElementById('bk-now').innerHTML=`${eur(bank)} <span class="${tone(S.pnl)}" style="font-size:15px">${signed(S.pnl)}</span>`;
+  document.getElementById('bk-start').textContent=`Départ ${eur(start)} · mise max ${eur(db.settings.maxStake)}${storageOk?'':' · ⚠ sauvegarde impossible dans ce navigateur'}`;
+  renderCurve(start);
+  renderRadar();
+  renderHistory();
+  updateHint();
+}
+
+function renderCurve(start){
+  const pts=[start]; let v=start;
+  db.bets.filter(b=>b.status!=='pending').sort(byDate).forEach(b=>{ v+=profit(b); pts.push(v); });
+  const el=document.getElementById('curve');
+  if(pts.length<2){ el.innerHTML='<div class="empty">La courbe apparaîtra dès ton premier pari réglé.</div>'; return; }
+  const W=800,H=200,min=Math.min(...pts),max=Math.max(...pts),span=(max-min)||1;
+  const x=i=>(i/(pts.length-1)*W).toFixed(1), y=p=>(H-8-(p-min)/span*(H-16)).toFixed(1);
+  const line=pts.map((p,i)=>`${x(i)},${y(p)}`).join(' L');
+  const c=v>=start?'var(--good)':'var(--bad)';
+  el.innerHTML=`<svg class="curve" viewBox="0 0 ${W} ${H}" preserveAspectRatio="none" role="img" aria-label="Évolution de la bankroll">
+      <defs><linearGradient id="fill" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="${c}" stop-opacity=".25"/><stop offset="1" stop-color="${c}" stop-opacity="0"/></linearGradient></defs>
+      <line x1="0" x2="${W}" y1="${y(start)}" y2="${y(start)}" stroke="var(--line)" stroke-dasharray="4 4" vector-effect="non-scaling-stroke"/>
+      <path d="M0,${H} L${line} L${W},${H} Z" fill="url(#fill)"/>
+      <path d="M${line}" fill="none" stroke="${c}" stroke-width="2.2" stroke-linejoin="round" vector-effect="non-scaling-stroke"/>
+    </svg><div class="axis"><span>min ${eur(min)}</span><span>${pts.length-1} paris réglés</span><span>max ${eur(max)}</span></div>`;
+}
+
+function renderRadar(){
+  document.getElementById('radar').innerHTML=Object.entries(RISKS).map(([k,r])=>{
+    const all=db.bets.filter(b=>b.risk===k), s=stats(all), pend=all.filter(b=>b.status==='pending').sort(byDate);
+    return `<div class="card col ${r.cls}" data-risk="${k}">
+      <div class="col-head">
+        <div class="col-title"><b>${r.label}</b><span class="rate tnum">${s.rate==null?'—':Math.round(s.rate*100)+' %'}</span></div>
+        <div class="col-meta">${r.guide}</div>
+        <div class="col-meta">${s.won} gagnés · ${s.lost} perdus · <span class="${tone(s.pnl)}">${signed(s.pnl)}</span>${s.roi!=null?` · ROI ${pct(s.roi)}`:''}</div>
+      </div>
+      <div class="col-body">${pend.length?pend.map(card).join(''):'<div class="col-empty">Aucun pari en attente.</div>'}</div>
+    </div>`;
+  }).join('');
+}
+
+function fmtDate(iso,opts){ const d=new Date(iso); return isNaN(d)?'—':d.toLocaleString('fr-FR',opts); }
+function card(b){
+  return `<div class="bcard" draggable="true" data-id="${b.id}">
+    <div class="top"><span>${fmtDate(b.date,{weekday:'short',day:'2-digit',month:'2-digit',hour:'2-digit',minute:'2-digit'})}</span><span>${esc(b.sport)}</span></div>
+    <div class="pick">${esc(b.pick)}</div>
+    ${b.match?`<div class="sub">${esc(b.match)}</div>`:''}
+    <div class="nums"><span>Cote <b class="tnum">${num(b.odds)}</b></span><span>Mise <b class="tnum">${eur(b.stake)}</b></span><span>Gain <b class="tnum">${eur(b.stake*b.odds)}</b></span></div>
+    <div class="acts">
+      <button class="btn sm" data-act="won" data-id="${b.id}" type="button">✓ Gagné</button>
+      <button class="btn sm" data-act="lost" data-id="${b.id}" type="button">✗ Perdu</button>
+      <button class="btn sm" data-act="void" data-id="${b.id}" type="button">Annulé</button>
+      <button class="iconbtn" data-act="edit" data-id="${b.id}" type="button" aria-label="Modifier">✎</button>
+    </div>
+  </div>`;
+}
+
+function isoWeek(d){
+  const t=new Date(Date.UTC(d.getFullYear(),d.getMonth(),d.getDate())); const day=t.getUTCDay()||7;
+  t.setUTCDate(t.getUTCDate()+4-day); const y0=new Date(Date.UTC(t.getUTCFullYear(),0,1));
+  return Math.ceil(((t-y0)/864e5+1)/7);
+}
+function renderHistory(){
+  const fr=document.getElementById('f-risk').value, fs=document.getElementById('f-status').value;
+  const list=db.bets.filter(b=>(fr==='all'||b.risk===fr)&&(fs==='all'||b.status===fs)).sort(byDate).reverse();
+  const el=document.getElementById('history');
+  if(!list.length){ el.innerHTML=`<div class="empty">${db.bets.length?'Aucun pari pour ces filtres.':'Ton carnet est vide. Ajoute ton premier pari avec le formulaire ci-dessus.'}</div>`; return; }
+  const groups=new Map();
+  list.forEach(b=>{
+    const d=new Date(b.date), m=fmtDate(b.date,{month:'long',year:'numeric'}), w='Semaine '+isoWeek(d), day=fmtDate(b.date,{weekday:'long',day:'numeric',month:'long'});
+    if(!groups.has(m)) groups.set(m,new Map()); const W=groups.get(m);
+    if(!W.has(w)) W.set(w,new Map()); const D=W.get(w);
+    if(!D.has(day)) D.set(day,[]); D.get(day).push(b);
+  });
+  const tot=arr=>arr.reduce((a,b)=>a+profit(b),0);
+  const flat=M=>[...M.values()].flatMap(v=>v instanceof Map?flat(v):v);
+  let h='';
+  groups.forEach((W,m)=>{
+    h+=`<div class="month"><div class="grp m"><span style="text-transform:capitalize">${m}</span><span class="${tone(tot(flat(W)))}">${signed(tot(flat(W)))}</span></div>`;
+    W.forEach((D,w)=>{
+      h+=`<div class="grp w"><span>${w}</span><span class="${tone(tot(flat(D)))}">${signed(tot(flat(D)))}</span></div>`;
+      D.forEach((arr,day)=>{
+        h+=`<div class="grp d"><span style="text-transform:capitalize">${day}</span><span class="${tone(tot(arr))}">${signed(tot(arr))}</span></div>`;
+        h+=arr.map(row).join('');
+      });
+    });
+    h+='</div>';
+  });
+  el.innerHTML=`<div style="padding:4px 8px 8px">${h}</div>`;
+}
+function row(b){
+  const r=RISKS[b.risk]||RISKS.mid, [cls,lab]=STATUS[b.status]||STATUS.pending, p=profit(b);
+  const gain=b.status==='won'?b.stake*b.odds:(b.status==='void'?b.stake:0);
+  return `<div class="hrow">
+    <span class="tnum sub2">${fmtDate(b.date,{hour:'2-digit',minute:'2-digit'})}</span>
+    <span><span class="pick">${esc(b.pick)}</span> <span class="rchip ${r.cls}">${r.label}</span><span class="sub2" style="display:block">${esc(b.type)} · ${esc(b.sport)}${b.match?' · '+esc(b.match):''}</span><span class="sub2 tnum only-sm">Cote ${num(b.odds)} · ${eur(b.stake)}${b.status==='pending'?'':` · <span class="${tone(p)}">${signed(p)}</span>`}</span>${b.note?`<span class="sub2" style="display:block;font-style:italic">${esc(b.note)}</span>`:''}</span>
+    <span class="tnum xs"><span class="l">Cote</span>${num(b.odds,3)}</span>
+    <span class="tnum xs"><span class="l">Mise</span>${eur(b.stake)}</span>
+    <span class="tnum xs"><span class="l">Gain</span>${b.status==='pending'?'—':eur(gain)}</span>
+    <span class="tnum xs ${tone(p)}"><span class="l">Bénéfice</span>${b.status==='pending'?'—':signed(p)}</span>
+    <span><span class="chip ${cls}">${lab}</span></span>
+    <span style="white-space:nowrap"><button class="iconbtn" data-act="edit" data-id="${b.id}" type="button" aria-label="Modifier">✎</button><button class="iconbtn" data-act="del" data-id="${b.id}" type="button" aria-label="Supprimer">🗑</button></span>
+  </div>`;
+}
+
+// ------------------------------------------------------------ formulaire
+const form=document.getElementById('form');
+let editing=null, riskTouched=false;
+function nowLocal(){ const d=new Date(); d.setMinutes(d.getMinutes()-d.getTimezoneOffset()); return d.toISOString().slice(0,16); }
+function resetForm(){
+  form.reset(); editing=null; riskTouched=false; form.date.value=nowLocal(); form.stake.value=db.settings.maxStake;
+  document.getElementById('form-title').textContent='Ajouter un pari';
+  document.getElementById('submit').textContent='Ajouter au carnet';
+  document.getElementById('cancel-edit').hidden=true; updateHint();
+}
+function updateHint(){
+  const o=parseFloat(form.odds.value), st=parseFloat(form.stake.value), h=document.getElementById('hint'), msgs=[]; let warn=false;
+  if(o>1){
+    const s=suggest(o);
+    msgs.push(`Probabilité implicite ${Math.round(100/o)} % · suggestion : ${RISKS[s].label}.`);
+    if(!riskTouched&&!editing) form.querySelector(`input[name=risk][value=${s}]`).checked=true;
+  }
+  if(st>db.settings.maxStake+1e-9){ msgs.push(`Au-dessus de ta mise max (${eur(db.settings.maxStake)}).`); warn=true; }
+  const bank=db.settings.start+stats(db.bets).pnl-stats(db.bets).pendingStake;
+  if(st>bank+1e-9){ msgs.push(`Plus que ta bankroll disponible (${eur(bank)}).`); warn=true; }
+  h.textContent=msgs.join(' '); h.className='hint'+(warn?' warn':'');
+  document.getElementById('gain-preview').textContent=o>1&&st>0?`Gain potentiel : ${eur(o*st)} (bénéfice ${signed(st*(o-1))})`:'';
+}
+form.addEventListener('input',e=>{ if(e.target.name==='risk') riskTouched=true; updateHint(); });
+form.addEventListener('submit',e=>{
+  e.preventDefault();
+  const f=new FormData(form);
+  const b={id:editing||uid(),date:f.get('date'),sport:f.get('sport'),type:f.get('type'),match:(f.get('match')||'').trim(),pick:(f.get('pick')||'').trim(),
+    odds:parseFloat(f.get('odds')),stake:parseFloat(f.get('stake')),status:f.get('status'),risk:f.get('risk')||'mid',note:(f.get('note')||'').trim()};
+  if(!b.pick||!(b.odds>1)||!(b.stake>0)) return;
+  const i=db.bets.findIndex(x=>x.id===b.id);
+  if(i>=0) db.bets[i]={...db.bets[i],...b}; else db.bets.push(b);
+  resetForm(); save();
+});
+document.getElementById('cancel-edit').addEventListener('click',resetForm);
+function edit(id){
+  const b=db.bets.find(x=>x.id===id); if(!b) return;
+  editing=id;
+  for(const k of ['date','sport','type','match','pick','odds','stake','status','note']) form[k].value=b[k]??'';
+  form.querySelector(`input[name=risk][value=${b.risk||'mid'}]`).checked=true;
+  document.getElementById('form-title').textContent='Modifier le pari';
+  document.getElementById('submit').textContent='Enregistrer';
+  document.getElementById('cancel-edit').hidden=false;
+  updateHint(); document.getElementById('add').scrollIntoView({behavior:'smooth'});
+}
+
+// actions (cartes et historique)
+document.addEventListener('click',e=>{
+  const t=e.target.closest('[data-act]'); if(!t) return;
+  const id=t.dataset.id, act=t.dataset.act, b=db.bets.find(x=>x.id===id);
+  if(act==='edit') return edit(id);
+  if(act==='del'){ if(b&&confirm(`Supprimer « ${b.pick} » ?`)){ db.bets=db.bets.filter(x=>x.id!==id); if(editing===id) resetForm(); save(); } return; }
+  if(act==='idea') return prefill(JSON.parse(t.dataset.bet));
+  if(b&&STATUS[act]){ b.status=act; save(); }
+});
+
+// glisser-déposer entre colonnes du radar
+let dragId=null;
+document.addEventListener('dragstart',e=>{ const c=e.target.closest&&e.target.closest('.bcard'); if(c){ dragId=c.dataset.id; e.dataTransfer.effectAllowed='move'; } });
+document.addEventListener('dragover',e=>{ const col=e.target.closest&&e.target.closest('.col'); if(col&&dragId){ e.preventDefault(); document.querySelectorAll('.col.drop').forEach(x=>x!==col&&x.classList.remove('drop')); col.classList.add('drop'); } });
+document.addEventListener('dragleave',e=>{ const col=e.target.closest&&e.target.closest('.col'); if(col&&!col.contains(e.relatedTarget)) col.classList.remove('drop'); });
+document.addEventListener('drop',e=>{
+  const col=e.target.closest&&e.target.closest('.col'); if(!col||!dragId) return; e.preventDefault();
+  const b=db.bets.find(x=>x.id===dragId); dragId=null; if(b&&b.risk!==col.dataset.risk){ b.risk=col.dataset.risk; save(); } else render();
+});
+document.addEventListener('dragend',()=>{ dragId=null; document.querySelectorAll('.col.drop').forEach(x=>x.classList.remove('drop')); });
+
+['f-risk','f-status'].forEach(id=>document.getElementById(id).addEventListener('change',renderHistory));
+
+// ------------------------------------------------------------ réglages, export, import
+const dlg=document.getElementById('settings'), sf=document.getElementById('settings-form');
+document.getElementById('open-settings').addEventListener('click',()=>{ sf.start.value=db.settings.start; sf.maxStake.value=db.settings.maxStake; dlg.showModal(); });
+dlg.addEventListener('close',()=>{
+  if(dlg.returnValue!=='ok') return;
+  const s=parseFloat(sf.start.value), m=parseFloat(sf.maxStake.value);
+  if(s>0) db.settings.start=s; if(m>0) db.settings.maxStake=m; save();
+});
+document.getElementById('export').addEventListener('click',()=>{
+  const blob=new Blob([JSON.stringify(db,null,2)],{type:'application/json'}), a=document.createElement('a');
+  a.href=URL.createObjectURL(blob); a.download=`betlab-carnet-${new Date().toISOString().slice(0,10)}.json`; a.click(); setTimeout(()=>URL.revokeObjectURL(a.href),1000);
+});
+document.getElementById('import').addEventListener('change',async e=>{
+  const file=e.target.files[0]; e.target.value=''; if(!file) return;
+  try{
+    const d=JSON.parse(await file.text());
+    if(!d||!Array.isArray(d.bets)) throw new Error('format');
+    const ok=d.bets.filter(b=>b&&b.id&&b.pick&&b.odds>1&&b.stake>0);
+    if(!confirm(`Importer ${ok.length} paris ? Ceux qui existent déjà seront mis à jour, les autres ajoutés.`)) return;
+    const m=new Map(db.bets.map(b=>[b.id,b])); ok.forEach(b=>m.set(b.id,{...m.get(b.id),...b}));
+    db.bets=[...m.values()]; if(d.settings) db.settings={...db.settings,...d.settings}; save();
+  }catch(err){ alert("Ce fichier n'est pas un export du carnet BetLab."); }
+});
+
+// ------------------------------------------------------------ idées de l'agent
+const VALUE=new Set(['value_sharp','value_consensus','basket','steam','player_props']);
+function prefill(i){
+  resetForm();
+  form.match.value=i.match||''; form.pick.value=i.pick||''; form.odds.value=i.odds||''; form.note.value=i.note||'';
+  const sp=[...form.sport.options].find(o=>o.value.toLowerCase().includes((i.sport||'').toLowerCase())); if(sp) form.sport.value=sp.value;
+  if(i.start){ const d=new Date(i.start); d.setMinutes(d.getMinutes()-d.getTimezoneOffset()); form.date.value=d.toISOString().slice(0,16); }
+  updateHint(); document.getElementById('add').scrollIntoView({behavior:'smooth'}); form.odds.focus();
+}
+fetch('data/dashboard.json?'+Date.now()).then(r=>r.json()).then(d=>{
+  const labels=Object.fromEntries((d.strategies||[]).map(s=>[s.key,s.label]));
+  const sig=(d.recent_bets||[]).filter(b=>b.status==='open'&&VALUE.has(b.strategy)&&(b.edge||0)>=0.04-1e-9).sort((a,b)=>(a.start||'').localeCompare(b.start||''));
+  const el=document.getElementById('ideas');
+  if(!sig.length){ el.innerHTML=`<div class="empty">Aucun signal de l'agent pour l'instant. Relevé du ${fmtDate(d.generated_at,{day:'2-digit',month:'2-digit',hour:'2-digit',minute:'2-digit'})}.</div>`; return; }
+  el.innerHTML=sig.map(b=>{
+    const idea={match:b.match,pick:b.selection_name,odds:b.odds,sport:(b.sport_label||'').split(' ')[0],start:b.start,note:`Signal agent (${labels[b.strategy]||b.strategy}), edge ${pct(b.edge)}`};
+    return `<div class="hrow" style="grid-template-columns:90px minmax(0,1fr) 70px 70px auto">
+      <span class="sub2 tnum">${fmtDate(b.start,{weekday:'short',hour:'2-digit',minute:'2-digit'})}</span>
+      <span><span class="pick">${esc(b.selection_name)}</span><span class="sub2" style="display:block">${esc(b.sport_label)} · ${esc(b.match)}</span></span>
+      <span class="tnum"><span class="l">Cote mini</span>${num(b.odds)}</span>
+      <span class="tnum good"><span class="l">Edge</span>${pct(b.edge)}</span>
+      <span><button class="btn sm" type="button" data-act="idea" data-bet="${esc(JSON.stringify(idea))}">Ajouter au carnet</button></span>
+    </div>`;
+  }).join('');
+}).catch(()=>{ document.getElementById('ideas').innerHTML='<div class="empty">Signaux de l\'agent indisponibles.</div>'; });
+
+load(); resetForm(); render();
+</script>
+</body>
+</html>
