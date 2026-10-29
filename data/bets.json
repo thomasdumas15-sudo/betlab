@@ -686,11 +686,14 @@
   "pnl": null,
   "settled_at": null,
   "result": null,
-  "closing_odds": null,
-  "closing_ref": null,
-  "clv": null,
-  "clv_book": null,
-  "closing_source": null
+  "closing_odds": 1.35,
+  "closing_ref": {
+   "home": 3.34,
+   "away": 1.371
+  },
+  "clv": -0.0429,
+  "clv_book": 0.0,
+  "closing_source": "oddspapi_history"
  },
  {
   "id": "766cfc8d8219",
@@ -722,11 +725,14 @@
   "pnl": null,
   "settled_at": null,
   "result": null,
-  "closing_odds": null,
-  "closing_ref": null,
-  "clv": null,
-  "clv_book": null,
-  "closing_source": null
+  "closing_odds": 1.56,
+  "closing_ref": {
+   "home": 1.657,
+   "away": 2.37
+  },
+  "clv": -0.0348,
+  "clv_book": 0.0513,
+  "closing_source": "oddspapi_history"
  },
  {
   "id": "8d1f978f4862",
@@ -758,11 +764,14 @@
   "pnl": null,
   "settled_at": null,
   "result": null,
-  "closing_odds": null,
-  "closing_ref": null,
-  "clv": null,
-  "clv_book": null,
-  "closing_source": null
+  "closing_odds": 1.56,
+  "closing_ref": {
+   "home": 2.47,
+   "away": 1.609
+  },
+  "clv": -0.1159,
+  "clv_book": -0.0641,
+  "closing_source": "oddspapi_history"
  },
  {
   "id": "1ddc95f34d8a",

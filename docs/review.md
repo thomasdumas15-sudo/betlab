@@ -1,6 +1,6 @@
 # BetLab — revue
 
-_Générée le 2026-10-28T23:40:06Z — simulation, aucun argent réel._
+_Générée le 2026-10-29T00:54:55Z — simulation, aucun argent réel._
 
 ## Stratégies
 
@@ -8,7 +8,7 @@ _Générée le 2026-10-28T23:40:06Z — simulation, aucun argent réel._
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
 | Valeur Pinnacle | 1000,00 € | 0,00 € | — | 0 (0) | — | — (0) | — | +0,0 % |
 | Valeur consensus | 1000,00 € | 0,00 € | — | 0 (0) | — | — (0) | — | +0,0 % |
-| Favoris prudents | 992,01 € | -7,99 € | -11,4 % | 17 (7) | 57 % | -5,8 % (11) | -3,6 | -1,9 % |
+| Favoris prudents | 992,01 € | -7,99 € | -11,4 % | 17 (7) | 57 % | -6,0 % (14) | -4,5 | -1,9 % |
 | Basket spécialiste | 1000,00 € | 0,00 € | — | 0 (0) | — | — (0) | — | +0,0 % |
 | Mouvement sharp | 1000,00 € | 0,00 € | — | 0 (0) | — | — (0) | — | +0,0 % |
 | Témoin | 1022,02 € | 22,02 € | +54,7 % | 10 (4) | 75 % | -4,0 % (7) | -7,8 | -1,0 % |
@@ -18,7 +18,7 @@ _Générée le 2026-10-28T23:40:06Z — simulation, aucun argent réel._
 
 - **Valeur Pinnacle** : 0 paris avec clôture — trop tôt pour conclure (objectif ≥ 200).
 - **Valeur consensus** : 0 paris avec clôture — trop tôt pour conclure (objectif ≥ 200).
-- **Favoris prudents** : 11 paris avec clôture — trop tôt pour conclure (objectif ≥ 200).
+- **Favoris prudents** : 14 paris avec clôture — trop tôt pour conclure (objectif ≥ 200).
 - **Basket spécialiste** : 0 paris avec clôture — trop tôt pour conclure (objectif ≥ 200).
 - **Mouvement sharp** : 0 paris avec clôture — trop tôt pour conclure (objectif ≥ 200).
 - **Stats joueurs** : 0 paris avec clôture — trop tôt pour conclure (objectif ≥ 200).
@@ -34,10 +34,10 @@ _Générée le 2026-10-28T23:40:06Z — simulation, aucun argent réel._
 ## Pires CLV récents
 
 - AC Milan – Bologna FC → AC Milan @ 1.56 (favorites) : CLV -13,8 %
+- New Orleans Pelicans – Denver Nuggets → Denver Nuggets @ 1.46 (favorites) : CLV -11,6 %
 - Cleveland Cavaliers – Minnesota Timberwolves → Cleveland Cavaliers @ 1.52 (favorites) : CLV -11,1 %
 - Milwaukee Bucks – Indiana Pacers → Indiana Pacers @ 1.54 (favorites) : CLV -10,4 %
 - Atlanta Hawks – Miami Heat → Atlanta Hawks @ 1.6 (favorites) : CLV -8,7 %
-- New York Knicks – Detroit Pistons → New York Knicks @ 1.54 (favorites) : CLV -6,6 %
 
 ## Budget données
 

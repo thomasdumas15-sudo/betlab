@@ -3439,7 +3439,29 @@
    "oddspapi_sport_id": 11
   },
   "status": "scheduled",
-  "names_resolved": true
+  "names_resolved": true,
+  "closing": {
+   "pinnacle": {
+    "home": 3.34,
+    "away": 1.371,
+    "ts": "2026-10-28T23:58:28Z",
+    "open": {
+     "home": 3.21,
+     "away": 1.384
+    }
+   },
+   "winamax": {
+    "home": 3.0,
+    "away": 1.35,
+    "ts": "2026-10-28T23:59:44Z",
+    "open": {
+     "home": 2.6,
+     "away": 1.31
+    }
+   }
+  },
+  "closing_source": "oddspapi_history",
+  "closing_fetched": "2026-10-29T00:53:39Z"
  },
  "op:id1100013273719440": {
   "id": "op:id1100013273719440",
@@ -3473,7 +3495,29 @@
    "oddspapi_sport_id": 11
   },
   "status": "scheduled",
-  "names_resolved": true
+  "names_resolved": true,
+  "closing": {
+   "pinnacle": {
+    "home": 1.657,
+    "away": 2.37,
+    "ts": "2026-10-28T23:58:28Z",
+    "open": {
+     "home": 1.662,
+     "away": 2.34
+    }
+   },
+   "winamax": {
+    "home": 1.56,
+    "away": 2.3,
+    "ts": "2026-10-28T23:59:45Z",
+    "open": {
+     "home": 1.35,
+     "away": 2.45
+    }
+   }
+  },
+  "closing_source": "oddspapi_history",
+  "closing_fetched": "2026-10-29T00:53:29Z"
  },
  "op:id1100013273719444": {
   "id": "op:id1100013273719444",
@@ -3490,7 +3534,29 @@
    "oddspapi_sport_id": 11
   },
   "status": "scheduled",
-  "names_resolved": true
+  "names_resolved": true,
+  "closing": {
+   "pinnacle": {
+    "home": 2.47,
+    "away": 1.609,
+    "ts": "2026-10-28T23:57:31Z",
+    "open": {
+     "home": 2.61,
+     "away": 1.543
+    }
+   },
+   "winamax": {
+    "home": 2.3,
+    "away": 1.56,
+    "ts": "2026-10-28T23:59:44Z",
+    "open": {
+     "home": 2.35,
+     "away": 1.39
+    }
+   }
+  },
+  "closing_source": "oddspapi_history",
+  "closing_fetched": "2026-10-29T00:53:34Z"
  },
  "op:id1100013273719446": {
   "id": "op:id1100013273719446",

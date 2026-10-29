@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-28T23:40:06Z",
+ "generated_at": "2026-10-29T00:54:55Z",
  "bankroll_start": 1000.0,
  "bet_bookmaker": "Winamax",
  "reference_bookmaker": "Pinnacle",
@@ -97,11 +97,11 @@
    "staked": 69.94,
    "exposure": 100.1,
    "max_drawdown": -0.0194,
-   "clv": -0.0584,
-   "clv_n": 11,
-   "clv_se": 0.0162,
-   "clv_z": -3.61,
-   "clv_book": -0.0014,
+   "clv": -0.0597,
+   "clv_n": 14,
+   "clv_se": 0.0134,
+   "clv_z": -4.45,
+   "clv_book": -0.002,
    "by_sport": {
     "nba": {
      "n": 6,
@@ -331,14 +331,14 @@
  },
  "upcoming_events": {
   "euroleague": 10,
-  "nba": 15,
+  "nba": 11,
   "serie_a": 12,
   "ligue1": 18,
   "bundesliga": 18,
   "laliga": 20,
   "premier_league": 20,
   "nfl": 28,
-  "nhl": 14,
+  "nhl": 13,
   "lnb": 7
  },
  "events_tracked": 211,
@@ -348,8 +348,8 @@
    "quota": 250,
    "used": 34,
    "remaining": 216,
-   "used_today": 12,
-   "daily_allowance": 47.8,
+   "used_today": 0,
+   "daily_allowance": 63.7,
    "reserve": 25,
    "denied": 0
   },
@@ -358,7 +358,7 @@
    "used": 0,
    "remaining": 500,
    "used_today": 0,
-   "daily_allowance": 105.0,
+   "daily_allowance": 140.0,
    "reserve": 80,
    "denied": 0
   }
@@ -485,14 +485,14 @@
    }
   ]
  },
- "last_run": "2026-10-28T23:40:06Z",
+ "last_run": "2026-10-29T00:54:55Z",
  "run": {
   "collect": {
    "slots": [],
    "events": 0,
    "rows": 0
   },
-  "closing": 4,
+  "closing": 3,
   "settled": 0,
   "placed": 0,
   "errors": []
@@ -710,9 +710,9 @@
    "status": "open",
    "result": null,
    "pnl": null,
-   "clv": null,
-   "clv_book": null,
-   "closing_odds": null,
+   "clv": -0.0429,
+   "clv_book": 0.0,
+   "closing_odds": 1.35,
    "note": "favori p=0.693",
    "market": "h2h",
    "line": null,
@@ -738,9 +738,9 @@
    "status": "open",
    "result": null,
    "pnl": null,
-   "clv": null,
-   "clv_book": null,
-   "closing_odds": null,
+   "clv": -0.0348,
+   "clv_book": 0.0513,
+   "closing_odds": 1.56,
    "note": "favori p=0.593",
    "market": "h2h",
    "line": null,
@@ -766,9 +766,9 @@
    "status": "open",
    "result": null,
    "pnl": null,
-   "clv": null,
-   "clv_book": null,
-   "closing_odds": null,
+   "clv": -0.1159,
+   "clv_book": -0.0641,
+   "closing_odds": 1.56,
    "note": "favori p=0.640",
    "market": "h2h",
    "line": null,
