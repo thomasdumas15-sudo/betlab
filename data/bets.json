@@ -1274,10 +1274,10 @@
    "away": 2.19
   },
   "note": "tirage au sort",
-  "status": "open",
-  "pnl": null,
-  "settled_at": null,
-  "result": null,
+  "status": "lost",
+  "pnl": -10.46,
+  "settled_at": "2026-10-30T21:39:29Z",
+  "result": "perdu",
   "closing_odds": 2.05,
   "closing_ref": {
    "draw": 3.93,
@@ -1286,7 +1286,8 @@
   },
   "clv": -0.0944,
   "clv_book": 0.0,
-  "closing_source": "snapshot"
+  "closing_source": "snapshot",
+  "bankroll_after": 1072.01
  },
  {
   "id": "7a4d76bbb0b7",
