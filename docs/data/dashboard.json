@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-30T18:47:38Z",
+ "generated_at": "2026-10-30T19:49:33Z",
  "bankroll_start": 1000.0,
  "bet_bookmaker": "Winamax",
  "reference_bookmaker": "Pinnacle",
@@ -281,11 +281,11 @@
    "staked": 102.04,
    "exposure": 82.62,
    "max_drawdown": -0.0098,
-   "clv": -0.0504,
-   "clv_n": 13,
-   "clv_se": 0.0089,
-   "clv_z": -5.67,
-   "clv_book": 0.0221,
+   "clv": -0.0535,
+   "clv_n": 14,
+   "clv_se": 0.0088,
+   "clv_z": -6.08,
+   "clv_book": 0.0132,
    "by_sport": {
     "nba": {
      "n": 8,
@@ -394,15 +394,14 @@
   "wta": "WTA"
  },
  "upcoming_events": {
-  "euroleague": 4,
   "nba": 8,
-  "bundesliga": 18,
   "laliga": 20,
   "ligue1": 16,
   "premier_league": 20,
   "serie_a": 10,
+  "bundesliga": 17,
   "nfl": 27,
-  "lnb": 7
+  "lnb": 6
  },
  "events_tracked": 214,
  "bets_total": 38,
@@ -549,7 +548,7 @@
    }
   ]
  },
- "last_run": "2026-10-30T18:47:38Z",
+ "last_run": "2026-10-30T19:49:33Z",
  "run": {
   "collect": {
    "slots": [
@@ -563,7 +562,7 @@
    "events": 0,
    "rows": 0
   },
-  "closing": 1,
+  "closing": 3,
   "settled": 0,
   "placed": 0,
   "errors": []
@@ -641,9 +640,9 @@
    "status": "open",
    "result": null,
    "pnl": null,
-   "clv": null,
-   "clv_book": null,
-   "closing_odds": null,
+   "clv": -0.0944,
+   "clv_book": 0.0,
+   "closing_odds": 2.05,
    "note": "tirage au sort",
    "market": "h2h",
    "line": null,
@@ -838,8 +837,8 @@
    "result": null,
    "pnl": null,
    "clv": null,
-   "clv_book": null,
-   "closing_odds": null,
+   "clv_book": -0.0357,
+   "closing_odds": 1.68,
    "note": "tirage au sort",
    "market": "h2h",
    "line": null,
@@ -866,8 +865,8 @@
    "result": null,
    "pnl": null,
    "clv": null,
-   "clv_book": null,
-   "closing_odds": null,
+   "clv_book": -0.04,
+   "closing_odds": 2.0,
    "note": "tirage au sort",
    "market": "h2h",
    "line": null,
