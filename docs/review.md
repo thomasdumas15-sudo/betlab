@@ -1,6 +1,6 @@
 # BetLab — revue
 
-_Générée le 2026-10-30T01:57:49Z — simulation, aucun argent réel._
+_Générée le 2026-10-30T02:50:12Z — simulation, aucun argent réel._
 
 ## Stratégies
 
@@ -11,7 +11,7 @@ _Générée le 2026-10-30T01:57:49Z — simulation, aucun argent réel._
 | Favoris prudents | 989,11 € | -10,89 € | -6,8 % | 20 (16) | 62 % | -7,3 % (18) | -4,8 | -2,7 % |
 | Basket spécialiste | 1000,00 € | 0,00 € | — | 0 (0) | — | — (0) | — | +0,0 % |
 | Mouvement sharp | 1000,00 € | 0,00 € | — | 0 (0) | — | — (0) | — | +0,0 % |
-| Témoin | 1035,50 € | 35,50 € | +43,8 % | 18 (8) | 75 % | -4,0 % (11) | -6,4 | -1,0 % |
+| Témoin | 1035,50 € | 35,50 € | +43,8 % | 18 (8) | 75 % | -4,5 % (12) | -5,8 | -1,0 % |
 | Stats joueurs | 1000,00 € | 0,00 € | — | 0 (0) | — | — (0) | — | +0,0 % |
 
 ## Lecture
@@ -37,7 +37,7 @@ _Générée le 2026-10-30T01:57:49Z — simulation, aucun argent réel._
 - AC Milan – Bologna FC → AC Milan @ 1.56 (favorites) : CLV -13,8 %
 - New Orleans Pelicans – Denver Nuggets → Denver Nuggets @ 1.46 (favorites) : CLV -11,6 %
 - Cleveland Cavaliers – Minnesota Timberwolves → Cleveland Cavaliers @ 1.52 (favorites) : CLV -11,1 %
-- Milwaukee Bucks – Indiana Pacers → Indiana Pacers @ 1.54 (favorites) : CLV -10,4 %
+- Portland Trail Blazers – Memphis Grizzlies → Memphis Grizzlies @ 3.1 (control) : CLV -10,5 %
 
 ## Budget données
 

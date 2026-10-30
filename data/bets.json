@@ -1235,11 +1235,14 @@
   "pnl": null,
   "settled_at": null,
   "result": null,
-  "closing_odds": null,
-  "closing_ref": null,
-  "clv": null,
-  "clv_book": null,
-  "closing_source": null
+  "closing_odds": 3.1,
+  "closing_ref": {
+   "away": 3.35,
+   "home": 1.359
+  },
+  "clv": -0.1054,
+  "clv_book": 0.0,
+  "closing_source": "snapshot"
  },
  {
   "id": "f16c4cceb26b",
