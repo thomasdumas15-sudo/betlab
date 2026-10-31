@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-31T14:38:02Z",
+ "generated_at": "2026-10-31T15:37:57Z",
  "bankroll_start": 1000.0,
  "bet_bookmaker": "Winamax",
  "reference_bookmaker": "Pinnacle",
@@ -36,7 +36,7 @@
    "clv_book": null,
    "by_sport": {},
    "equity": [],
-   "vs_control_pnl": -123.26
+   "vs_control_pnl": -112.8
   },
   {
    "key": "value_consensus",
@@ -70,7 +70,7 @@
    "clv_book": null,
    "by_sport": {},
    "equity": [],
-   "vs_control_pnl": -123.26
+   "vs_control_pnl": -112.8
   },
   {
    "key": "favorites",
@@ -80,22 +80,22 @@
     "Cote Winamax entre 1,35 et 1,90.",
     "Mise fixe : 1 % de la bankroll. Témoin du « parieur raisonnable » : attendu légèrement perdant."
    ],
-   "bankroll": 983.57,
-   "pnl": -16.43,
-   "pnl_pct": -0.0164,
-   "roi": -0.0913,
-   "roi_se": 0.1763,
-   "z": -0.52,
+   "bankroll": 988.52,
+   "pnl": -11.48,
+   "pnl_pct": -0.0115,
+   "roi": -0.0605,
+   "roi_se": 0.1697,
+   "z": -0.36,
    "bets": 20,
-   "open": 2,
-   "settled": 18,
+   "open": 1,
+   "settled": 19,
    "void": 0,
-   "won": 11,
-   "win_rate": 0.6111,
-   "avg_odds": 1.491,
+   "won": 12,
+   "win_rate": 0.6316,
+   "avg_odds": 1.492,
    "avg_edge": -0.0587,
-   "staked": 179.9,
-   "exposure": 19.81,
+   "staked": 189.79,
+   "exposure": 9.92,
    "max_drawdown": -0.0277,
    "clv": -0.0734,
    "clv_n": 20,
@@ -116,10 +116,10 @@
      "roi": -1.0
     },
     "laliga": {
-     "n": 1,
-     "pnl": -9.89,
-     "staked": 9.89,
-     "roi": -1.0
+     "n": 2,
+     "pnl": -4.94,
+     "staked": 19.78,
+     "roi": -0.2497
     }
    },
    "equity": [
@@ -194,9 +194,13 @@
     [
      "2026-10-30",
      983.57
+    ],
+    [
+     "2026-10-31",
+     988.52
     ]
    ],
-   "vs_control_pnl": -139.69
+   "vs_control_pnl": -124.28
   },
   {
    "key": "basket",
@@ -230,7 +234,7 @@
    "clv_book": null,
    "by_sport": {},
    "equity": [],
-   "vs_control_pnl": -123.26
+   "vs_control_pnl": -112.8
   },
   {
    "key": "steam",
@@ -264,7 +268,7 @@
    "clv_book": null,
    "by_sport": {},
    "equity": [],
-   "vs_control_pnl": -123.26
+   "vs_control_pnl": -112.8
   },
   {
    "key": "control",
@@ -274,22 +278,22 @@
     "Mise fixe : 1 % de la bankroll.",
     "Si aucune stratégie ne bat le Témoin, c'est qu'elle ne vaut pas mieux que le hasard."
    ],
-   "bankroll": 1123.26,
-   "pnl": 123.26,
-   "pnl_pct": 0.1233,
-   "roi": 0.9238,
-   "roi_se": 0.4548,
-   "z": 2.03,
+   "bankroll": 1112.8,
+   "pnl": 112.8,
+   "pnl_pct": 0.1128,
+   "roi": 0.784,
+   "roi_se": 0.4428,
+   "z": 1.77,
    "bets": 18,
-   "open": 5,
-   "settled": 13,
+   "open": 4,
+   "settled": 14,
    "void": 0,
    "won": 10,
-   "win_rate": 0.7692,
-   "avg_odds": 2.396,
+   "win_rate": 0.7143,
+   "avg_odds": 2.546,
    "avg_edge": -0.0764,
-   "staked": 133.42,
-   "exposure": 51.24,
+   "staked": 143.88,
+   "exposure": 40.78,
    "max_drawdown": -0.0098,
    "clv": -0.0686,
    "clv_n": 16,
@@ -322,10 +326,10 @@
      "roi": -1.0
     },
     "laliga": {
-     "n": 1,
-     "pnl": 51.25,
-     "staked": 10.46,
-     "roi": 4.8996
+     "n": 2,
+     "pnl": 40.79,
+     "staked": 20.92,
+     "roi": 1.9498
     }
    },
    "equity": [
@@ -380,6 +384,10 @@
     [
      "2026-10-30",
      1123.26
+    ],
+    [
+     "2026-10-31",
+     1112.8
     ]
    ],
    "vs_control_pnl": null
@@ -416,7 +424,7 @@
    "clv_book": null,
    "by_sport": {},
    "equity": [],
-   "vs_control_pnl": -123.26
+   "vs_control_pnl": -112.8
   }
  ],
  "sports": {
@@ -435,9 +443,9 @@
  },
  "upcoming_events": {
   "nba": 5,
-  "premier_league": 19,
-  "laliga": 18,
   "serie_a": 9,
+  "laliga": 17,
+  "premier_league": 14,
   "bundesliga": 12,
   "ligue1": 15,
   "nfl": 27,
@@ -588,7 +596,7 @@
    }
   ]
  },
- "last_run": "2026-10-31T14:38:02Z",
+ "last_run": "2026-10-31T15:37:57Z",
  "run": {
   "collect": {
    "slots": [],
@@ -596,7 +604,7 @@
    "rows": 0
   },
   "closing": 0,
-  "settled": 0,
+  "settled": 2,
   "placed": 0,
   "errors": []
  },
@@ -614,9 +622,9 @@
    "edge": -0.0819,
    "stake": 9.89,
    "placed_at": "2026-10-29T21:43:41Z",
-   "status": "open",
-   "result": null,
-   "pnl": null,
+   "status": "won",
+   "result": "gagné",
+   "pnl": 4.95,
    "clv": -0.0819,
    "clv_book": 0.0,
    "closing_odds": 1.5,
@@ -626,7 +634,7 @@
    "player": null,
    "stat": null,
    "result_value": null,
-   "settled_at": null,
+   "settled_at": "2026-10-31T15:37:42Z",
    "sport_label": "LaLiga"
   },
   {
@@ -642,9 +650,9 @@
    "edge": -0.15,
    "stake": 10.46,
    "placed_at": "2026-10-29T21:43:41Z",
-   "status": "open",
-   "result": null,
-   "pnl": null,
+   "status": "lost",
+   "result": "perdu",
+   "pnl": -10.46,
    "clv": -0.15,
    "clv_book": 0.0,
    "closing_odds": 4.5,
@@ -654,7 +662,7 @@
    "player": null,
    "stat": null,
    "result_value": null,
-   "settled_at": null,
+   "settled_at": "2026-10-31T15:37:42Z",
    "sport_label": "LaLiga"
   },
   {

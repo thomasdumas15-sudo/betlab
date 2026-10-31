@@ -1413,7 +1413,7 @@
    "oddspapi_tournament": 8,
    "oddspapi_sport_id": 10
   },
-  "status": "scheduled",
+  "status": "finished",
   "names_resolved": true,
   "closing": {
    "winamax": {
@@ -1430,7 +1430,16 @@
    }
   },
   "closing_source": "snapshot",
-  "closing_fetched": "2026-10-31T13:46:00Z"
+  "closing_fetched": "2026-10-31T13:46:00Z",
+  "result": {
+   "winner": "away",
+   "status": "settled",
+   "home_score": 0,
+   "away_score": 2,
+   "source": "espn",
+   "espn_id": "401882820",
+   "at": "2026-10-31T15:37:42Z"
+  }
  },
  "op:id1000002371945368": {
   "id": "op:id1000002371945368",
