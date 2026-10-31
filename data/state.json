@@ -3,7 +3,7 @@
   "oddspapi": {
    "month": "2026-10",
    "used": 38,
-   "today": "2026-10-30",
+   "today": "2026-10-31",
    "used_today": 0,
    "reported_remaining": null,
    "denied": 0
@@ -16,7 +16,7 @@
    "winamax.fr"
   ]
  },
- "last_saved": "2026-10-30T23:38:31Z",
+ "last_saved": "2026-10-31T00:57:36Z",
  "slots": {
   "basketball:soir": "2026-10-28",
   "basketball:matin": "2026-10-29",
@@ -140,7 +140,7 @@
    }
   ]
  },
- "last_run": "2026-10-30T23:38:31Z",
+ "last_run": "2026-10-31T00:57:36Z",
  "last_run_summary": {
   "collect": {
    "slots": [],
