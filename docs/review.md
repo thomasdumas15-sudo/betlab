@@ -1,6 +1,6 @@
 # BetLab — revue
 
-_Générée le 2026-10-31T12:48:44Z — simulation, aucun argent réel._
+_Générée le 2026-10-31T13:46:45Z — simulation, aucun argent réel._
 
 ## Stratégies
 
@@ -8,17 +8,17 @@ _Générée le 2026-10-31T12:48:44Z — simulation, aucun argent réel._
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
 | Valeur Pinnacle | 1000,00 € | 0,00 € | — | 0 (0) | — | — (0) | — | +0,0 % |
 | Valeur consensus | 1000,00 € | 0,00 € | — | 0 (0) | — | — (0) | — | +0,0 % |
-| Favoris prudents | 983,57 € | -16,43 € | -9,1 % | 20 (18) | 61 % | -7,3 % (19) | -5,1 | -2,8 % |
+| Favoris prudents | 983,57 € | -16,43 € | -9,1 % | 20 (18) | 61 % | -7,3 % (20) | -5,4 | -2,8 % |
 | Basket spécialiste | 1000,00 € | 0,00 € | — | 0 (0) | — | — (0) | — | +0,0 % |
 | Mouvement sharp | 1000,00 € | 0,00 € | — | 0 (0) | — | — (0) | — | +0,0 % |
-| Témoin | 1123,26 € | 123,26 € | +92,4 % | 18 (13) | 77 % | -6,3 % (15) | -5,0 | -1,0 % |
+| Témoin | 1123,26 € | 123,26 € | +92,4 % | 18 (13) | 77 % | -6,9 % (16) | -5,3 | -1,0 % |
 | Stats joueurs | 1000,00 € | 0,00 € | — | 0 (0) | — | — (0) | — | +0,0 % |
 
 ## Lecture
 
 - **Valeur Pinnacle** : 0 paris avec clôture — trop tôt pour conclure (objectif ≥ 200).
 - **Valeur consensus** : 0 paris avec clôture — trop tôt pour conclure (objectif ≥ 200).
-- **Favoris prudents** : 19 paris avec clôture — trop tôt pour conclure (objectif ≥ 200).
+- **Favoris prudents** : 20 paris avec clôture — trop tôt pour conclure (objectif ≥ 200).
 - **Basket spécialiste** : 0 paris avec clôture — trop tôt pour conclure (objectif ≥ 200).
 - **Mouvement sharp** : 0 paris avec clôture — trop tôt pour conclure (objectif ≥ 200).
 - **Stats joueurs** : 0 paris avec clôture — trop tôt pour conclure (objectif ≥ 200).
@@ -35,9 +35,9 @@ _Générée le 2026-10-31T12:48:44Z — simulation, aucun argent réel._
 
 - LA Clippers – Los Angeles Lakers → Los Angeles Lakers @ 1.5 (favorites) : CLV -25,4 %
 - Villarreal CF – Espanyol Barcelona → Espanyol Barcelona @ 5.9 (control) : CLV -19,8 %
+- Levante UD – Atletico Madrid → Levante UD @ 4.5 (control) : CLV -15,0 %
 - AC Milan – Bologna FC → AC Milan @ 1.56 (favorites) : CLV -13,8 %
 - New Orleans Pelicans – Denver Nuggets → Denver Nuggets @ 1.46 (favorites) : CLV -11,6 %
-- OGC Nice – Stade Rennais FC → OGC Nice @ 2.55 (control) : CLV -11,2 %
 
 ## Budget données
 

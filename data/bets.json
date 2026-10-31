@@ -1446,11 +1446,15 @@
   "pnl": null,
   "settled_at": null,
   "result": null,
-  "closing_odds": null,
-  "closing_ref": null,
-  "clv": null,
-  "clv_book": null,
-  "closing_source": null
+  "closing_odds": 1.5,
+  "closing_ref": {
+   "away": 1.574,
+   "home": 5.1,
+   "draw": 4.84
+  },
+  "clv": -0.0819,
+  "clv_book": 0.0,
+  "closing_source": "snapshot"
  },
  {
   "id": "d3ad4e3875b2",
@@ -1483,10 +1487,14 @@
   "pnl": null,
   "settled_at": null,
   "result": null,
-  "closing_odds": null,
-  "closing_ref": null,
-  "clv": null,
-  "clv_book": null,
-  "closing_source": null
+  "closing_odds": 4.5,
+  "closing_ref": {
+   "away": 1.574,
+   "home": 5.1,
+   "draw": 4.84
+  },
+  "clv": -0.15,
+  "clv_book": 0.0,
+  "closing_source": "snapshot"
  }
 ]

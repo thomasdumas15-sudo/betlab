@@ -1414,7 +1414,23 @@
    "oddspapi_sport_id": 10
   },
   "status": "scheduled",
-  "names_resolved": true
+  "names_resolved": true,
+  "closing": {
+   "winamax": {
+    "home": 4.5,
+    "draw": 4.5,
+    "away": 1.5,
+    "ts": "2026-10-29T10:48:34Z"
+   },
+   "pinnacle": {
+    "away": 1.574,
+    "home": 5.1,
+    "draw": 4.84,
+    "ts": "2026-10-29T10:48:34Z"
+   }
+  },
+  "closing_source": "snapshot",
+  "closing_fetched": "2026-10-31T13:46:00Z"
  },
  "op:id1000002371945368": {
   "id": "op:id1000002371945368",
