@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-31T07:53:24Z",
+ "generated_at": "2026-10-31T08:45:16Z",
  "bankroll_start": 1000.0,
  "bet_bookmaker": "Winamax",
  "reference_bookmaker": "Pinnacle",
@@ -588,10 +588,17 @@
    }
   ]
  },
- "last_run": "2026-10-31T07:53:24Z",
+ "last_run": "2026-10-31T08:45:16Z",
  "run": {
   "collect": {
-   "slots": [],
+   "slots": [
+    {
+     "slot": "basketball:matin",
+     "events": 0,
+     "rows": 0,
+     "ok": false
+    }
+   ],
    "events": 0,
    "rows": 0
   },
