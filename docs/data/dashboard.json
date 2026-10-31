@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-31T01:56:51Z",
+ "generated_at": "2026-10-31T02:48:01Z",
  "bankroll_start": 1000.0,
  "bet_bookmaker": "Winamax",
  "reference_bookmaker": "Pinnacle",
@@ -434,7 +434,7 @@
   "wta": "WTA"
  },
  "upcoming_events": {
-  "nba": 7,
+  "nba": 5,
   "premier_league": 20,
   "laliga": 19,
   "serie_a": 10,
@@ -588,7 +588,7 @@
    }
   ]
  },
- "last_run": "2026-10-31T01:56:51Z",
+ "last_run": "2026-10-31T02:48:01Z",
  "run": {
   "collect": {
    "slots": [],
