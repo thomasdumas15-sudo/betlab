@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-31T19:40:02Z",
+ "generated_at": "2026-10-31T20:37:34Z",
  "bankroll_start": 1000.0,
  "bet_bookmaker": "Winamax",
  "reference_bookmaker": "Pinnacle",
@@ -443,10 +443,10 @@
  },
  "upcoming_events": {
   "nba": 5,
-  "ligue1": 15,
-  "laliga": 16,
-  "premier_league": 13,
-  "serie_a": 8,
+  "ligue1": 14,
+  "serie_a": 7,
+  "laliga": 15,
+  "premier_league": 12,
   "bundesliga": 11,
   "nfl": 27,
   "lnb": 1
@@ -596,17 +596,10 @@
    }
   ]
  },
- "last_run": "2026-10-31T19:40:02Z",
+ "last_run": "2026-10-31T20:37:34Z",
  "run": {
   "collect": {
-   "slots": [
-    {
-     "slot": "us:soir",
-     "events": 0,
-     "rows": 0,
-     "ok": false
-    }
-   ],
+   "slots": [],
    "events": 0,
    "rows": 0
   },
