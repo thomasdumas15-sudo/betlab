@@ -1,71 +1,43 @@
 {
- "fetched_at": "2026-10-29T08:00:41Z",
+ "fetched_at": "2026-11-01T08:49:32Z",
  "data": {
-  "winamax": {
-   "marketId": "111770",
+  "pinnacle": {
+   "marketId": "111774",
    "raw": {
-    "bookmakerMarketId": "730440284",
+    "bookmakerMarketId": "1639304030/6593121159/1639769764",
     "marketActive": true,
     "outcomes": {
-     "111771": {
+     "111775": {
       "players": {
-       "1160898": {
+       "1478984": {
         "active": true,
         "betslip": null,
-        "bookmakerOutcomeId": "2263778910",
+        "bookmakerOutcomeId": "1639769766",
         "bookmakerChangedAt": null,
-        "changedAt": "2026-10-29T06:51:26.905Z",
-        "limit": null,
-        "playerName": "Moneke, Chima",
-        "price": 1.5,
-        "priceAmerican": "-200",
-        "priceFractional": "1/2",
-        "mainLine": false,
-        "exchangeMeta": null
-       },
-       "1304640": {
-        "active": true,
-        "betslip": null,
-        "bookmakerOutcomeId": "2263777513",
-        "bookmakerChangedAt": null,
-        "changedAt": "2026-10-29T06:49:37.060Z",
-        "limit": null,
-        "playerName": "Nwora, Jordan",
-        "price": 1.86,
-        "priceAmerican": "-116",
-        "priceFractional": "43/50",
+        "changedAt": "2026-11-01T06:52:10.601Z",
+        "limit": 213.0,
+        "playerName": "Robinson, Mitchell",
+        "price": 1.877,
+        "priceAmerican": "-114",
+        "priceFractional": "57/65",
         "mainLine": false,
         "exchangeMeta": null
        }
       }
      },
-     "111770": {
+     "111774": {
       "players": {
-       "1304640": {
+       "1478984": {
         "active": true,
         "betslip": null,
-        "bookmakerOutcomeId": "2263777512",
+        "bookmakerOutcomeId": "1639769765",
         "bookmakerChangedAt": null,
-        "changedAt": "2026-10-29T06:49:37.060Z",
-        "limit": null,
-        "playerName": "Nwora, Jordan",
-        "price": 1.6,
-        "priceAmerican": "-167",
-        "priceFractional": "3/5",
-        "mainLine": false,
-        "exchangeMeta": null
-       },
-       "1160898": {
-        "active": true,
-        "betslip": null,
-        "bookmakerOutcomeId": "2263778909",
-        "bookmakerChangedAt": null,
-        "changedAt": "2026-10-29T06:51:26.905Z",
-        "limit": null,
-        "playerName": "Moneke, Chima",
-        "price": 2.0,
-        "priceAmerican": "100",
-        "priceFractional": "1/1",
+        "changedAt": "2026-11-01T06:52:10.601Z",
+        "limit": 217.0,
+        "playerName": "Robinson, Mitchell",
+        "price": 1.862,
+        "priceAmerican": "-116",
+        "priceFractional": "25/29",
         "mainLine": false,
         "exchangeMeta": null
        }
@@ -74,58 +46,58 @@
     }
    },
    "parsed": {
-    "ts": "2026-10-29T08:00:35Z",
-    "event_id": "op:id1100013873263098",
+    "ts": "2026-11-01T08:49:26Z",
+    "event_id": "op:id1100013273719476",
     "provider": "oddspapi",
-    "book": "winamax",
-    "market": "prop:rebounds:1160898:4.5",
-    "line": 4.5,
+    "book": "pinnacle",
+    "market": "prop:rebounds:1478984:6.5",
+    "line": 6.5,
     "prices": {
-     "under": 1.5,
-     "over": 2.0
+     "under": 1.877,
+     "over": 1.862
     },
-    "player": "Chima Moneke",
-    "player_id": "1160898",
+    "player": "Mitchell Robinson",
+    "player_id": "1478984",
     "stat": "rebounds"
    }
   },
-  "pinnacle": {
-   "marketId": "111900",
+  "winamax": {
+   "marketId": "111794",
    "raw": {
-    "bookmakerMarketId": "1639313823/6576410580/1639506126",
+    "bookmakerMarketId": "732904364",
     "marketActive": true,
     "outcomes": {
-     "111900": {
+     "111794": {
       "players": {
-       "607778": {
+       "1604398": {
         "active": true,
         "betslip": null,
-        "bookmakerOutcomeId": "1639506127",
+        "bookmakerOutcomeId": "2271399090",
         "bookmakerChangedAt": null,
-        "changedAt": "2026-10-29T07:24:31.713Z",
-        "limit": 234.0,
-        "playerName": "Harden, James",
-        "price": 1.8,
-        "priceAmerican": "-125",
-        "priceFractional": "4/5",
+        "changedAt": "2026-11-01T08:49:16.114Z",
+        "limit": null,
+        "playerName": "Wagner, Franz",
+        "price": 1.7,
+        "priceAmerican": "-143",
+        "priceFractional": "7/10",
         "mainLine": false,
         "exchangeMeta": null
        }
       }
      },
-     "111901": {
+     "111795": {
       "players": {
-       "607778": {
+       "1604398": {
         "active": true,
         "betslip": null,
-        "bookmakerOutcomeId": "1639506128",
+        "bookmakerOutcomeId": "2271399091",
         "bookmakerChangedAt": null,
-        "changedAt": "2026-10-29T07:24:31.713Z",
-        "limit": 198.0,
-        "playerName": "Harden, James",
-        "price": 1.943,
-        "priceAmerican": "-106",
-        "priceFractional": "33/35",
+        "changedAt": "2026-11-01T08:49:16.114Z",
+        "limit": null,
+        "playerName": "Wagner, Franz",
+        "price": 1.76,
+        "priceAmerican": "-132",
+        "priceFractional": "19/25",
         "mainLine": false,
         "exchangeMeta": null
        }
@@ -134,19 +106,19 @@
     }
    },
    "parsed": {
-    "ts": "2026-10-29T08:00:35Z",
-    "event_id": "op:id1100013273719452",
+    "ts": "2026-11-01T08:49:26Z",
+    "event_id": "op:id1100013273719476",
     "provider": "oddspapi",
-    "book": "pinnacle",
-    "market": "prop:assists:607778:6.5",
-    "line": 6.5,
+    "book": "winamax",
+    "market": "prop:threes:1604398:1.5",
+    "line": 1.5,
     "prices": {
-     "over": 1.8,
-     "under": 1.943
+     "over": 1.7,
+     "under": 1.76
     },
-    "player": "James Harden",
-    "player_id": "607778",
-    "stat": "assists"
+    "player": "Franz Wagner",
+    "player_id": "1604398",
+    "stat": "threes"
    }
   }
  }
