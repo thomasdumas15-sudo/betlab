@@ -2277,7 +2277,33 @@
    "oddspapi_sport_id": 10
   },
   "status": "scheduled",
-  "names_resolved": true
+  "names_resolved": true,
+  "closing": {
+   "pinnacle": {
+    "home": 1.952,
+    "draw": 3.76,
+    "away": 4.03,
+    "ts": "2026-11-01T19:59:21Z",
+    "open": {
+     "home": 1.763,
+     "draw": 3.72,
+     "away": 4.35
+    }
+   },
+   "winamax": {
+    "home": 1.84,
+    "draw": 3.6,
+    "away": 3.5,
+    "ts": "2026-11-01T19:57:49Z",
+    "open": {
+     "home": 1.7,
+     "draw": 3.4,
+     "away": 3.6
+    }
+   }
+  },
+  "closing_source": "oddspapi_history",
+  "closing_fetched": "2026-11-01T20:37:45Z"
  },
  "op:id1000002371945382": {
   "id": "op:id1000002371945382",
@@ -4768,7 +4794,29 @@
    "oddspapi_sport_id": 11
   },
   "status": "scheduled",
-  "names_resolved": true
+  "names_resolved": true,
+  "closing": {
+   "pinnacle": {
+    "home": 3.32,
+    "away": 1.374,
+    "ts": "2026-11-01T20:21:38Z",
+    "open": {
+     "home": 3.21,
+     "away": 1.383
+    }
+   },
+   "winamax": {
+    "home": 3.2,
+    "away": 1.31,
+    "ts": "2026-11-01T20:29:44Z",
+    "open": {
+     "home": 2.55,
+     "away": 1.31
+    }
+   }
+  },
+  "closing_source": "oddspapi_history",
+  "closing_fetched": "2026-11-01T20:37:57Z"
  },
  "op:id1100013273719478": {
   "id": "op:id1100013273719478",

@@ -1,6 +1,6 @@
 # BetLab — revue
 
-_Générée le 2026-11-01T19:40:17Z — simulation, aucun argent réel._
+_Générée le 2026-11-01T20:37:57Z — simulation, aucun argent réel._
 
 ## Stratégies
 
@@ -8,17 +8,17 @@ _Générée le 2026-11-01T19:40:17Z — simulation, aucun argent réel._
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
 | Valeur Pinnacle | 1000,00 € | 0,00 € | — | 0 (0) | — | — (0) | — | +0,0 % |
 | Valeur consensus | 1000,00 € | 0,00 € | — | 0 (0) | — | — (0) | — | +0,0 % |
-| Favoris prudents | 996,63 € | -3,37 € | -1,6 % | 27 (21) | 67 % | -7,2 % (23) | -6,0 | -2,8 % |
+| Favoris prudents | 996,63 € | -3,37 € | -1,6 % | 27 (21) | 67 % | -7,1 % (24) | -6,2 | -2,8 % |
 | Basket spécialiste | 1000,00 € | 0,00 € | — | 0 (0) | — | — (0) | — | +0,0 % |
 | Mouvement sharp | 1000,00 € | 0,00 € | — | 0 (0) | — | — (0) | — | +0,0 % |
-| Témoin | 1105,57 € | 105,57 € | +59,6 % | 26 (17) | 65 % | -7,5 % (19) | -5,7 | -1,9 % |
+| Témoin | 1105,57 € | 105,57 € | +59,6 % | 26 (17) | 65 % | -8,3 % (20) | -5,7 | -1,9 % |
 | Stats joueurs | 1000,00 € | 0,00 € | — | 0 (0) | — | — (0) | — | +0,0 % |
 
 ## Lecture
 
 - **Valeur Pinnacle** : 0 paris avec clôture — trop tôt pour conclure (objectif ≥ 200).
 - **Valeur consensus** : 0 paris avec clôture — trop tôt pour conclure (objectif ≥ 200).
-- **Favoris prudents** : 23 paris avec clôture — trop tôt pour conclure (objectif ≥ 200).
+- **Favoris prudents** : 24 paris avec clôture — trop tôt pour conclure (objectif ≥ 200).
 - **Basket spécialiste** : 0 paris avec clôture — trop tôt pour conclure (objectif ≥ 200).
 - **Mouvement sharp** : 0 paris avec clôture — trop tôt pour conclure (objectif ≥ 200).
 - **Stats joueurs** : 0 paris avec clôture — trop tôt pour conclure (objectif ≥ 200).
@@ -34,14 +34,14 @@ _Générée le 2026-11-01T19:40:17Z — simulation, aucun argent réel._
 ## Pires CLV récents
 
 - LA Clippers – Los Angeles Lakers → Los Angeles Lakers @ 1.5 (favorites) : CLV -25,4 %
+- Athletic Bilbao – Real Sociedad San Sebastian → Real Sociedad San Sebastian @ 3.2 (control) : CLV -22,6 %
 - US Lecce – Genoa CFC → US Lecce @ 2.95 (control) : CLV -20,1 %
 - Villarreal CF – Espanyol Barcelona → Espanyol Barcelona @ 5.9 (control) : CLV -19,8 %
 - Levante UD – Atletico Madrid → Levante UD @ 4.5 (control) : CLV -15,0 %
-- AC Milan – Bologna FC → AC Milan @ 1.56 (favorites) : CLV -13,8 %
 
 ## Budget données
 
-- oddspapi : 7/250 ce mois (refus : 9)
+- oddspapi : 7/250 ce mois (refus : 12)
 - theoddsapi : 0/500 ce mois (refus : 0)
 - Des relevés ont été refusés faute de budget : réduire les sports suivis ou passer un fournisseur en payant.
 
