@@ -5395,5 +5395,22 @@
   },
   "status": "scheduled",
   "names_resolved": true
+ },
+ "op:id1100013873263130": {
+  "id": "op:id1100013873263130",
+  "sport": "euroleague",
+  "kind": "basketball",
+  "home": "Besiktas JK",
+  "away": "BC Zalgiris Kaunas",
+  "start": "2026-11-06T17:00:00Z",
+  "ids": {
+   "oddspapi": "id1100013873263130",
+   "oddspapi_p1": "6678",
+   "oddspapi_p2": "6662",
+   "oddspapi_tournament": 138,
+   "oddspapi_sport_id": 11
+  },
+  "status": "scheduled",
+  "names_resolved": true
  }
 }

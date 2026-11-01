@@ -1,6 +1,6 @@
 # BetLab — revue
 
-_Générée le 2026-11-01T20:37:57Z — simulation, aucun argent réel._
+_Générée le 2026-11-01T21:38:05Z — simulation, aucun argent réel._
 
 ## Stratégies
 
@@ -41,7 +41,7 @@ _Générée le 2026-11-01T20:37:57Z — simulation, aucun argent réel._
 
 ## Budget données
 
-- oddspapi : 7/250 ce mois (refus : 12)
+- oddspapi : 9/250 ce mois (refus : 15)
 - theoddsapi : 0/500 ce mois (refus : 0)
 - Des relevés ont été refusés faute de budget : réduire les sports suivis ou passer un fournisseur en payant.
 
