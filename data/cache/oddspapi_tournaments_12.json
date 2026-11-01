@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-10-26T20:34:01Z",
+ "fetched_at": "2026-11-01T06:55:49Z",
  "data": [
   {
    "tournamentId": 591,
@@ -158,7 +158,7 @@
    "categorySlug": "federation-cup",
    "categoryName": "Billie Jean King Cup",
    "futureFixtures": 0,
-   "upcomingFixtures": 1,
+   "upcomingFixtures": 0,
    "liveFixtures": 0
   },
   {
@@ -537,9 +537,9 @@
    "tournamentName": "ATP Basel, Switzerland Men Singles",
    "categorySlug": "atp",
    "categoryName": "ATP",
-   "futureFixtures": 15,
-   "upcomingFixtures": 0,
-   "liveFixtures": 0
+   "futureFixtures": 13,
+   "upcomingFixtures": 6,
+   "liveFixtures": 1
   },
   {
    "tournamentId": 2615,
@@ -548,7 +548,7 @@
    "categorySlug": "atp",
    "categoryName": "ATP",
    "futureFixtures": 7,
-   "upcomingFixtures": 0,
+   "upcomingFixtures": 4,
    "liveFixtures": 0
   },
   {
@@ -677,7 +677,7 @@
    "tournamentName": "ATP Paris, France Men Singles",
    "categorySlug": "atp",
    "categoryName": "ATP",
-   "futureFixtures": 0,
+   "futureFixtures": 31,
    "upcomingFixtures": 0,
    "liveFixtures": 0
   },
@@ -687,7 +687,7 @@
    "tournamentName": "ATP Paris, France Men Doubles",
    "categorySlug": "atp",
    "categoryName": "ATP",
-   "futureFixtures": 0,
+   "futureFixtures": 15,
    "upcomingFixtures": 0,
    "liveFixtures": 0
   },
@@ -2097,9 +2097,9 @@
    "tournamentName": "WTA Guangzhou, China Women Singles",
    "categorySlug": "wta",
    "categoryName": "WTA",
-   "futureFixtures": 15,
-   "upcomingFixtures": 0,
-   "liveFixtures": 0
+   "futureFixtures": 11,
+   "upcomingFixtures": 3,
+   "liveFixtures": 1
   },
   {
    "tournamentId": 3015,
@@ -2107,8 +2107,8 @@
    "tournamentName": "WTA Guangzhou, China Women Doubles",
    "categorySlug": "wta",
    "categoryName": "WTA",
-   "futureFixtures": 7,
-   "upcomingFixtures": 0,
+   "futureFixtures": 5,
+   "upcomingFixtures": 2,
    "liveFixtures": 0
   },
   {
@@ -2277,8 +2277,8 @@
    "tournamentName": "WTA Osaka, Japan Women Singles",
    "categorySlug": "wta",
    "categoryName": "WTA",
-   "futureFixtures": 5,
-   "upcomingFixtures": 2,
+   "futureFixtures": 0,
+   "upcomingFixtures": 0,
    "liveFixtures": 0
   },
   {
@@ -2287,7 +2287,7 @@
    "tournamentName": "WTA Osaka, Japan Women Doubles",
    "categorySlug": "wta",
    "categoryName": "WTA",
-   "futureFixtures": 2,
+   "futureFixtures": 0,
    "upcomingFixtures": 0,
    "liveFixtures": 0
   },
@@ -2339,7 +2339,7 @@
    "categoryName": "ATP",
    "futureFixtures": 0,
    "upcomingFixtures": 0,
-   "liveFixtures": 1
+   "liveFixtures": 0
   },
   {
    "tournamentId": 3087,
@@ -2397,9 +2397,9 @@
    "tournamentName": "ATP Lyon, France Men Singles",
    "categorySlug": "atp",
    "categoryName": "ATP",
-   "futureFixtures": 7,
-   "upcomingFixtures": 2,
-   "liveFixtures": 1
+   "futureFixtures": 0,
+   "upcomingFixtures": 0,
+   "liveFixtures": 0
   },
   {
    "tournamentId": 3099,
@@ -2407,7 +2407,7 @@
    "tournamentName": "ATP Lyon, France Men Doubles",
    "categorySlug": "atp",
    "categoryName": "ATP",
-   "futureFixtures": 3,
+   "futureFixtures": 0,
    "upcomingFixtures": 0,
    "liveFixtures": 0
   },
@@ -2427,8 +2427,8 @@
    "tournamentName": "ATP Vienna, Austria Men Singles",
    "categorySlug": "atp",
    "categoryName": "ATP",
-   "futureFixtures": 15,
-   "upcomingFixtures": 0,
+   "futureFixtures": 13,
+   "upcomingFixtures": 6,
    "liveFixtures": 0
   },
   {
@@ -2437,8 +2437,8 @@
    "tournamentName": "ATP Vienna, Austria Men Doubles",
    "categorySlug": "atp",
    "categoryName": "ATP",
-   "futureFixtures": 7,
-   "upcomingFixtures": 0,
+   "futureFixtures": 10,
+   "upcomingFixtures": 5,
    "liveFixtures": 0
   },
   {
@@ -2697,7 +2697,7 @@
    "tournamentName": "ATP Challenger Charlottesville, USA Men Doubles",
    "categorySlug": "challenger",
    "categoryName": "Challenger",
-   "futureFixtures": 0,
+   "futureFixtures": 7,
    "upcomingFixtures": 0,
    "liveFixtures": 0
   },
@@ -2707,7 +2707,7 @@
    "tournamentName": "ATP Challenger Charlottesville, USA Men Singles",
    "categorySlug": "challenger",
    "categoryName": "Challenger",
-   "futureFixtures": 0,
+   "futureFixtures": 15,
    "upcomingFixtures": 0,
    "liveFixtures": 0
   },
@@ -4747,9 +4747,9 @@
    "tournamentName": "ATP Challenger Cali, Colombia Men Singles",
    "categorySlug": "challenger",
    "categoryName": "Challenger",
-   "futureFixtures": 7,
-   "upcomingFixtures": 3,
-   "liveFixtures": 3
+   "futureFixtures": 0,
+   "upcomingFixtures": 0,
+   "liveFixtures": 0
   },
   {
    "tournamentId": 3863,
@@ -4757,8 +4757,8 @@
    "tournamentName": "ATP Challenger Cali, Colombia Men Doubles",
    "categorySlug": "challenger",
    "categoryName": "Challenger",
-   "futureFixtures": 7,
-   "upcomingFixtures": 3,
+   "futureFixtures": 0,
+   "upcomingFixtures": 0,
    "liveFixtures": 0
   },
   {
@@ -5037,8 +5037,8 @@
    "tournamentName": "ATP Challenger Guayaquil, Ecuador Men Singles",
    "categorySlug": "challenger",
    "categoryName": "Challenger",
-   "futureFixtures": 15,
-   "upcomingFixtures": 0,
+   "futureFixtures": 10,
+   "upcomingFixtures": 10,
    "liveFixtures": 0
   },
   {
@@ -5048,7 +5048,7 @@
    "categorySlug": "challenger",
    "categoryName": "Challenger",
    "futureFixtures": 7,
-   "upcomingFixtures": 0,
+   "upcomingFixtures": 7,
    "liveFixtures": 0
   },
   {
@@ -6577,9 +6577,9 @@
    "tournamentName": "ATP Challenger Guangzhou, China Men Singles",
    "categorySlug": "challenger",
    "categoryName": "Challenger",
-   "futureFixtures": 7,
+   "futureFixtures": 0,
    "upcomingFixtures": 0,
-   "liveFixtures": 1
+   "liveFixtures": 0
   },
   {
    "tournamentId": 4633,
@@ -6587,7 +6587,7 @@
    "tournamentName": "ATP Challenger Guangzhou, China Men Doubles",
    "categorySlug": "challenger",
    "categoryName": "Challenger",
-   "futureFixtures": 3,
+   "futureFixtures": 0,
    "upcomingFixtures": 0,
    "liveFixtures": 0
   },
@@ -8787,8 +8787,8 @@
    "tournamentName": "ATP Challenger Ningbo, China Men Singles",
    "categorySlug": "challenger",
    "categoryName": "Challenger",
-   "futureFixtures": 15,
-   "upcomingFixtures": 0,
+   "futureFixtures": 10,
+   "upcomingFixtures": 1,
    "liveFixtures": 0
   },
   {
@@ -8797,9 +8797,9 @@
    "tournamentName": "ATP Challenger Ningbo, China Men Doubles",
    "categorySlug": "challenger",
    "categoryName": "Challenger",
-   "futureFixtures": 7,
-   "upcomingFixtures": 0,
-   "liveFixtures": 0
+   "futureFixtures": 3,
+   "upcomingFixtures": 7,
+   "liveFixtures": 2
   },
   {
    "tournamentId": 5801,
@@ -9097,9 +9097,9 @@
    "tournamentName": "WTA Tokyo, Japan Women Singles",
    "categorySlug": "wta",
    "categoryName": "WTA",
-   "futureFixtures": 15,
-   "upcomingFixtures": 0,
-   "liveFixtures": 0
+   "futureFixtures": 8,
+   "upcomingFixtures": 4,
+   "liveFixtures": 1
   },
   {
    "tournamentId": 5945,
@@ -9107,8 +9107,8 @@
    "tournamentName": "WTA Tokyo, Japan Women Doubles",
    "categorySlug": "wta",
    "categoryName": "WTA",
-   "futureFixtures": 7,
-   "upcomingFixtures": 0,
+   "futureFixtures": 6,
+   "upcomingFixtures": 2,
    "liveFixtures": 0
   },
   {
@@ -9437,9 +9437,9 @@
    "tournamentName": "ATP Challenger Seoul, Korea Republic Men Doubles",
    "categorySlug": "challenger",
    "categoryName": "Challenger",
-   "futureFixtures": 7,
-   "upcomingFixtures": 0,
-   "liveFixtures": 0
+   "futureFixtures": 5,
+   "upcomingFixtures": 2,
+   "liveFixtures": 1
   },
   {
    "tournamentId": 6111,
@@ -9447,8 +9447,8 @@
    "tournamentName": "ATP Challenger Seoul, Korea Republic Men Singles",
    "categorySlug": "challenger",
    "categoryName": "Challenger",
-   "futureFixtures": 15,
-   "upcomingFixtures": 0,
+   "futureFixtures": 7,
+   "upcomingFixtures": 4,
    "liveFixtures": 0
   },
   {
@@ -15457,7 +15457,7 @@
    "tournamentName": "WTA 125K Cali, Colombia Women Singles",
    "categorySlug": "wta-125k",
    "categoryName": "WTA 125K",
-   "futureFixtures": 0,
+   "futureFixtures": 15,
    "upcomingFixtures": 0,
    "liveFixtures": 0
   },
@@ -15467,7 +15467,7 @@
    "tournamentName": "WTA 125K Cali, Colombia Women Doubles",
    "categorySlug": "wta-125k",
    "categoryName": "WTA 125K",
-   "futureFixtures": 0,
+   "futureFixtures": 3,
    "upcomingFixtures": 0,
    "liveFixtures": 0
   },
@@ -18437,7 +18437,7 @@
    "tournamentName": "WTA Hong Kong, Hong Kong Women Singles",
    "categorySlug": "wta",
    "categoryName": "WTA",
-   "futureFixtures": 0,
+   "futureFixtures": 15,
    "upcomingFixtures": 0,
    "liveFixtures": 0
   },
@@ -18447,7 +18447,7 @@
    "tournamentName": "WTA Hong Kong, Hong Kong Women Doubles",
    "categorySlug": "wta",
    "categoryName": "WTA",
-   "futureFixtures": 0,
+   "futureFixtures": 7,
    "upcomingFixtures": 0,
    "liveFixtures": 0
   },
@@ -19167,7 +19167,7 @@
    "tournamentName": "ATP Challenger Taipei, Chinese Taipei Men Singles",
    "categorySlug": "challenger",
    "categoryName": "Challenger",
-   "futureFixtures": 0,
+   "futureFixtures": 15,
    "upcomingFixtures": 0,
    "liveFixtures": 0
   },
@@ -19177,7 +19177,7 @@
    "tournamentName": "ATP Challenger Taipei, Chinese Taipei Men Doubles",
    "categorySlug": "challenger",
    "categoryName": "Challenger",
-   "futureFixtures": 0,
+   "futureFixtures": 7,
    "upcomingFixtures": 0,
    "liveFixtures": 0
   },
@@ -22307,8 +22307,8 @@
    "tournamentName": "ATP Challenger Brest, France Men Singles",
    "categorySlug": "challenger",
    "categoryName": "Challenger",
-   "futureFixtures": 15,
-   "upcomingFixtures": 0,
+   "futureFixtures": 11,
+   "upcomingFixtures": 7,
    "liveFixtures": 0
   },
   {
@@ -22318,7 +22318,7 @@
    "categorySlug": "challenger",
    "categoryName": "Challenger",
    "futureFixtures": 7,
-   "upcomingFixtures": 0,
+   "upcomingFixtures": 3,
    "liveFixtures": 0
   },
   {
@@ -27187,7 +27187,7 @@
    "tournamentName": "ATP Challenger Lisbon, Portugal Men Singles",
    "categorySlug": "challenger",
    "categoryName": "Challenger",
-   "futureFixtures": 7,
+   "futureFixtures": 0,
    "upcomingFixtures": 0,
    "liveFixtures": 0
   },
@@ -27197,7 +27197,7 @@
    "tournamentName": "ATP Challenger Lisbon, Portugal Men Doubles",
    "categorySlug": "challenger",
    "categoryName": "Challenger",
-   "futureFixtures": 3,
+   "futureFixtures": 0,
    "upcomingFixtures": 0,
    "liveFixtures": 0
   },
@@ -60167,9 +60167,9 @@
    "tournamentName": "ATP Challenger Florence, Italy Men Singles",
    "categorySlug": "challenger",
    "categoryName": "Challenger",
-   "futureFixtures": 7,
+   "futureFixtures": 0,
    "upcomingFixtures": 0,
-   "liveFixtures": 2
+   "liveFixtures": 0
   },
   {
    "tournamentId": 26140,
@@ -60177,9 +60177,9 @@
    "tournamentName": "ATP Challenger Florence, Italy Men Doubles",
    "categorySlug": "challenger",
    "categoryName": "Challenger",
-   "futureFixtures": 7,
-   "upcomingFixtures": 6,
-   "liveFixtures": 1
+   "futureFixtures": 0,
+   "upcomingFixtures": 0,
+   "liveFixtures": 0
   },
   {
    "tournamentId": 26142,
@@ -66907,7 +66907,7 @@
    "tournamentName": "ATP Challenger Bratislava II, Slovakia Men Singles",
    "categorySlug": "challenger",
    "categoryName": "Challenger",
-   "futureFixtures": 0,
+   "futureFixtures": 15,
    "upcomingFixtures": 0,
    "liveFixtures": 0
   },
@@ -66917,7 +66917,7 @@
    "tournamentName": "ATP Challenger Bratislava II, Slovakia Men Doubles",
    "categorySlug": "challenger",
    "categoryName": "Challenger",
-   "futureFixtures": 0,
+   "futureFixtures": 7,
    "upcomingFixtures": 0,
    "liveFixtures": 0
   },
@@ -73887,7 +73887,7 @@
    "tournamentName": "WTA Chennai, India, Women Singles",
    "categorySlug": "wta",
    "categoryName": "WTA",
-   "futureFixtures": 0,
+   "futureFixtures": 15,
    "upcomingFixtures": 0,
    "liveFixtures": 0
   },
@@ -74347,7 +74347,7 @@
    "tournamentName": "ATP Challenger Villa Maria, Argentina Men Singles",
    "categorySlug": "challenger",
    "categoryName": "Challenger",
-   "futureFixtures": 0,
+   "futureFixtures": 15,
    "upcomingFixtures": 0,
    "liveFixtures": 0
   },
@@ -74357,7 +74357,7 @@
    "tournamentName": "ATP Challenger Villa Maria, Argentina Men Doubles",
    "categorySlug": "challenger",
    "categoryName": "Challenger",
-   "futureFixtures": 0,
+   "futureFixtures": 7,
    "upcomingFixtures": 0,
    "liveFixtures": 0
   },
@@ -78077,7 +78077,7 @@
    "tournamentName": "WTA Ningbo, China Women Singles",
    "categorySlug": "wta",
    "categoryName": "WTA",
-   "futureFixtures": 7,
+   "futureFixtures": 0,
    "upcomingFixtures": 0,
    "liveFixtures": 0
   },
@@ -78087,8 +78087,8 @@
    "tournamentName": "WTA Ningbo, China Women Doubles",
    "categorySlug": "wta",
    "categoryName": "WTA",
-   "futureFixtures": 3,
-   "upcomingFixtures": 1,
+   "futureFixtures": 0,
+   "upcomingFixtures": 0,
    "liveFixtures": 0
   },
   {
@@ -78909,7 +78909,7 @@
    "categoryName": "Challenger",
    "futureFixtures": 0,
    "upcomingFixtures": 0,
-   "liveFixtures": 0
+   "liveFixtures": 1
   },
   {
    "tournamentId": 40711,
@@ -81527,7 +81527,7 @@
    "tournamentName": "ATP Almaty, Kazakhstan Men Singles",
    "categorySlug": "atp",
    "categoryName": "ATP",
-   "futureFixtures": 7,
+   "futureFixtures": 0,
    "upcomingFixtures": 0,
    "liveFixtures": 0
   },
@@ -81537,7 +81537,7 @@
    "tournamentName": "ATP Almaty, Kazakhstan Men Doubles",
    "categorySlug": "atp",
    "categoryName": "ATP",
-   "futureFixtures": 4,
+   "futureFixtures": 0,
    "upcomingFixtures": 0,
    "liveFixtures": 0
   },
@@ -84457,9 +84457,9 @@
    "tournamentName": "ATP Challenger Sioux Falls, USA Men Singles",
    "categorySlug": "challenger",
    "categoryName": "Challenger",
-   "futureFixtures": 15,
-   "upcomingFixtures": 0,
-   "liveFixtures": 0
+   "futureFixtures": 11,
+   "upcomingFixtures": 4,
+   "liveFixtures": 3
   },
   {
    "tournamentId": 43505,
@@ -84468,7 +84468,7 @@
    "categorySlug": "challenger",
    "categoryName": "Challenger",
    "futureFixtures": 7,
-   "upcomingFixtures": 0,
+   "upcomingFixtures": 8,
    "liveFixtures": 0
   },
   {
@@ -89697,7 +89697,7 @@
    "tournamentName": "ATP Brussels, Belgium Singles",
    "categorySlug": "atp",
    "categoryName": "ATP",
-   "futureFixtures": 7,
+   "futureFixtures": 0,
    "upcomingFixtures": 0,
    "liveFixtures": 1
   },
@@ -89707,7 +89707,7 @@
    "tournamentName": "ATP Brussels, Belgium Doubles",
    "categorySlug": "atp",
    "categoryName": "ATP",
-   "futureFixtures": 4,
+   "futureFixtures": 0,
    "upcomingFixtures": 0,
    "liveFixtures": 0
   },
@@ -93847,8 +93847,8 @@
    "tournamentName": "WTA 125K Queretaro, Mexico Women Singles",
    "categorySlug": "wta-125k",
    "categoryName": "WTA 125K",
-   "futureFixtures": 15,
-   "upcomingFixtures": 0,
+   "futureFixtures": 12,
+   "upcomingFixtures": 3,
    "liveFixtures": 0
   },
   {
@@ -93857,8 +93857,8 @@
    "tournamentName": "WTA 125K Queretaro, Mexico Women Doubles",
    "categorySlug": "wta-125k",
    "categoryName": "WTA 125K",
-   "futureFixtures": 3,
-   "upcomingFixtures": 0,
+   "futureFixtures": 4,
+   "upcomingFixtures": 3,
    "liveFixtures": 0
   },
   {
@@ -94307,7 +94307,7 @@
    "tournamentName": "ATP Challenger Costa do Sauipe, Brazil Men Singles",
    "categorySlug": "challenger",
    "categoryName": "Challenger",
-   "futureFixtures": 0,
+   "futureFixtures": 15,
    "upcomingFixtures": 0,
    "liveFixtures": 0
   },
@@ -94317,7 +94317,7 @@
    "tournamentName": "ATP Challenger Costa do Sauipe, Brazil Men Doubles",
    "categorySlug": "challenger",
    "categoryName": "Challenger",
-   "futureFixtures": 0,
+   "futureFixtures": 7,
    "upcomingFixtures": 0,
    "liveFixtures": 0
   },
@@ -95347,9 +95347,9 @@
    "tournamentName": "UTR PTT Knoxville Women 04",
    "categorySlug": "utr-women",
    "categoryName": "UTR Women",
-   "futureFixtures": 0,
-   "upcomingFixtures": 0,
-   "liveFixtures": 0
+   "futureFixtures": 8,
+   "upcomingFixtures": 8,
+   "liveFixtures": 1
   },
   {
    "tournamentId": 49126,
@@ -96207,8 +96207,8 @@
    "tournamentName": "UTR PTT Knoxville Men 05",
    "categorySlug": "utr-men",
    "categoryName": "UTR Men",
-   "futureFixtures": 0,
-   "upcomingFixtures": 0,
+   "futureFixtures": 8,
+   "upcomingFixtures": 8,
    "liveFixtures": 0
   },
   {
@@ -96237,7 +96237,7 @@
    "tournamentName": "UTR PTT Carvoeiro Men 07",
    "categorySlug": "utr-men",
    "categoryName": "UTR Men",
-   "futureFixtures": 8,
+   "futureFixtures": 0,
    "upcomingFixtures": 0,
    "liveFixtures": 0
   },
@@ -96277,7 +96277,7 @@
    "tournamentName": "UTR PTT Carvoeiro Women 07",
    "categorySlug": "utr-women",
    "categoryName": "UTR Women",
-   "futureFixtures": 8,
+   "futureFixtures": 0,
    "upcomingFixtures": 0,
    "liveFixtures": 0
   },
@@ -96474,7 +96474,7 @@
   {
    "tournamentId": 49890,
    "tournamentSlug": "utr-ptt-carvoeiro-women-h-08",
-   "tournamentName": "UTR PTT Carvoeiro Women +H 08",
+   "tournamentName": "UTR PTT Carvoeiro Women 08",
    "categorySlug": "utr-women",
    "categoryName": "UTR Women",
    "futureFixtures": 0,
@@ -99977,8 +99977,8 @@
    "tournamentName": "WTA 125K Curitiba, Brazil Women Singles",
    "categorySlug": "wta-125k",
    "categoryName": "WTA 125K",
-   "futureFixtures": 15,
-   "upcomingFixtures": 0,
+   "futureFixtures": 10,
+   "upcomingFixtures": 5,
    "liveFixtures": 0
   },
   {
@@ -99987,8 +99987,8 @@
    "tournamentName": "WTA 125K Curitiba, Brazil Women Doubles",
    "categorySlug": "wta-125k",
    "categoryName": "WTA 125K",
-   "futureFixtures": 3,
-   "upcomingFixtures": 0,
+   "futureFixtures": 5,
+   "upcomingFixtures": 2,
    "liveFixtures": 0
   },
   {
@@ -100007,8 +100007,8 @@
    "tournamentName": "WTA 125K Courmayeur, Italy Women Singles",
    "categorySlug": "wta-125k",
    "categoryName": "WTA 125K",
-   "futureFixtures": 15,
-   "upcomingFixtures": 0,
+   "futureFixtures": 11,
+   "upcomingFixtures": 8,
    "liveFixtures": 0
   },
   {
@@ -100017,8 +100017,8 @@
    "tournamentName": "WTA 125K Courmayeur, Italy Women Doubles",
    "categorySlug": "wta-125k",
    "categoryName": "WTA 125K",
-   "futureFixtures": 3,
-   "upcomingFixtures": 0,
+   "futureFixtures": 5,
+   "upcomingFixtures": 2,
    "liveFixtures": 0
   },
   {
@@ -100037,7 +100037,7 @@
    "tournamentName": "WTA 125K Luanda, Angola Women Singles",
    "categorySlug": "wta-125k",
    "categoryName": "WTA 125K",
-   "futureFixtures": 0,
+   "futureFixtures": 15,
    "upcomingFixtures": 0,
    "liveFixtures": 0
   },
@@ -100047,7 +100047,7 @@
    "tournamentName": "WTA 125K Luanda, Angola Women Doubles",
    "categorySlug": "wta-125k",
    "categoryName": "WTA 125K",
-   "futureFixtures": 0,
+   "futureFixtures": 7,
    "upcomingFixtures": 0,
    "liveFixtures": 0
   },
@@ -101027,8 +101027,8 @@
    "tournamentName": "ATP Challenger Fort Worth, USA Men Singles",
    "categorySlug": "challenger",
    "categoryName": "Challenger",
-   "futureFixtures": 7,
-   "upcomingFixtures": 4,
+   "futureFixtures": 0,
+   "upcomingFixtures": 0,
    "liveFixtures": 0
   },
   {
@@ -101037,8 +101037,8 @@
    "tournamentName": "ATP Challenger Fort Worth, USA Men Doubles",
    "categorySlug": "challenger",
    "categoryName": "Challenger",
-   "futureFixtures": 3,
-   "upcomingFixtures": 4,
+   "futureFixtures": 0,
+   "upcomingFixtures": 0,
    "liveFixtures": 0
   },
   {
@@ -101287,7 +101287,7 @@
    "tournamentName": "ATP Challenger Taranto, Italy Men Singles",
    "categorySlug": "challenger",
    "categoryName": "Challenger",
-   "futureFixtures": 0,
+   "futureFixtures": 15,
    "upcomingFixtures": 0,
    "liveFixtures": 0
   },
@@ -101297,7 +101297,7 @@
    "tournamentName": "ATP Challenger Taranto, Italy Men Doubles",
    "categorySlug": "challenger",
    "categoryName": "Challenger",
-   "futureFixtures": 0,
+   "futureFixtures": 7,
    "upcomingFixtures": 0,
    "liveFixtures": 0
   },
@@ -101447,8 +101447,8 @@
    "tournamentName": "UTR PTT Lubbock Men 01",
    "categorySlug": "utr-men",
    "categoryName": "UTR Men",
-   "futureFixtures": 8,
-   "upcomingFixtures": 8,
+   "futureFixtures": 0,
+   "upcomingFixtures": 0,
    "liveFixtures": 0
   },
   {
@@ -101457,8 +101457,8 @@
    "tournamentName": "UTR PTT Newport Beach Men 25",
    "categorySlug": "utr-men",
    "categoryName": "UTR Men",
-   "futureFixtures": 4,
-   "upcomingFixtures": 6,
+   "futureFixtures": 0,
+   "upcomingFixtures": 0,
    "liveFixtures": 0
   },
   {
@@ -101468,7 +101468,7 @@
    "categorySlug": "utr-women",
    "categoryName": "UTR Women",
    "futureFixtures": 0,
-   "upcomingFixtures": 10,
+   "upcomingFixtures": 0,
    "liveFixtures": 0
   },
   {
@@ -101477,8 +101477,8 @@
    "tournamentName": "UTR PTT Lubbock Women 01",
    "categorySlug": "utr-women",
    "categoryName": "UTR Women",
-   "futureFixtures": 8,
-   "upcomingFixtures": 8,
+   "futureFixtures": 0,
+   "upcomingFixtures": 0,
    "liveFixtures": 0
   },
   {
@@ -101487,8 +101487,8 @@
    "tournamentName": "UTR PTT Newport Beach Women 25",
    "categorySlug": "utr-women",
    "categoryName": "UTR Women",
-   "futureFixtures": 4,
-   "upcomingFixtures": 5,
+   "futureFixtures": 0,
+   "upcomingFixtures": 0,
    "liveFixtures": 0
   },
   {
@@ -101497,8 +101497,8 @@
    "tournamentName": "SRL Fall Invitational Kansas City, KS, Women",
    "categorySlug": "simulated-reality",
    "categoryName": "Simulated Reality",
-   "futureFixtures": 3,
-   "upcomingFixtures": 4,
+   "futureFixtures": 0,
+   "upcomingFixtures": 0,
    "liveFixtures": 0
   },
   {
@@ -101507,8 +101507,8 @@
    "tournamentName": "SRL Fall Invitational Topeka, KS, Women",
    "categorySlug": "simulated-reality",
    "categoryName": "Simulated Reality",
-   "futureFixtures": 3,
-   "upcomingFixtures": 4,
+   "futureFixtures": 0,
+   "upcomingFixtures": 0,
    "liveFixtures": 0
   },
   {
@@ -101518,8 +101518,8 @@
    "categorySlug": "utr-men",
    "categoryName": "UTR Men",
    "futureFixtures": 0,
-   "upcomingFixtures": 0,
-   "liveFixtures": 0
+   "upcomingFixtures": 8,
+   "liveFixtures": 2
   },
   {
    "tournamentId": 53860,
@@ -101527,9 +101527,9 @@
    "tournamentName": "UTR PTT Trnava Men 04",
    "categorySlug": "utr-men",
    "categoryName": "UTR Men",
-   "futureFixtures": 0,
-   "upcomingFixtures": 0,
-   "liveFixtures": 0
+   "futureFixtures": 16,
+   "upcomingFixtures": 6,
+   "liveFixtures": 2
   },
   {
    "tournamentId": 53862,
@@ -101537,8 +101537,8 @@
    "tournamentName": "UTR PTT Philadelphia Men 03",
    "categorySlug": "utr-men",
    "categoryName": "UTR Men",
-   "futureFixtures": 0,
-   "upcomingFixtures": 0,
+   "futureFixtures": 16,
+   "upcomingFixtures": 8,
    "liveFixtures": 0
   },
   {
@@ -101547,9 +101547,9 @@
    "tournamentName": "UTR PTT Trnava Women 05",
    "categorySlug": "utr-women",
    "categoryName": "UTR Women",
-   "futureFixtures": 0,
-   "upcomingFixtures": 0,
-   "liveFixtures": 0
+   "futureFixtures": 16,
+   "upcomingFixtures": 6,
+   "liveFixtures": 2
   },
   {
    "tournamentId": 53866,
@@ -101557,8 +101557,8 @@
    "tournamentName": "UTR PTT Columbia Women 01",
    "categorySlug": "utr-women",
    "categoryName": "UTR Women",
-   "futureFixtures": 0,
-   "upcomingFixtures": 0,
+   "futureFixtures": 16,
+   "upcomingFixtures": 8,
    "liveFixtures": 0
   },
   {
@@ -101647,9 +101647,9 @@
    "tournamentName": "SRL Fall Invitational Chiba, JPN",
    "categorySlug": "simulated-reality",
    "categoryName": "Simulated Reality",
-   "futureFixtures": 31,
-   "upcomingFixtures": 0,
-   "liveFixtures": 0
+   "futureFixtures": 5,
+   "upcomingFixtures": 2,
+   "liveFixtures": 1
   },
   {
    "tournamentId": 53954,
@@ -101657,8 +101657,8 @@
    "tournamentName": "SRL Fall Invitational Overland Park (KS), USA, Women",
    "categorySlug": "simulated-reality-women",
    "categoryName": "Simulated Reality Women",
-   "futureFixtures": 31,
-   "upcomingFixtures": 0,
+   "futureFixtures": 7,
+   "upcomingFixtures": 8,
    "liveFixtures": 0
   },
   {
@@ -101747,6 +101747,76 @@
    "tournamentName": "WTA Manila, Philippines Women Doubles",
    "categorySlug": "wta",
    "categoryName": "WTA",
+   "futureFixtures": 0,
+   "upcomingFixtures": 0,
+   "liveFixtures": 0
+  },
+  {
+   "tournamentId": 54026,
+   "tournamentSlug": "srl-fall-invitational-sendai-jpn",
+   "tournamentName": "SRL Fall Invitational Sendai, JPN",
+   "categorySlug": "simulated-reality",
+   "categoryName": "Simulated Reality",
+   "futureFixtures": 0,
+   "upcomingFixtures": 0,
+   "liveFixtures": 0
+  },
+  {
+   "tournamentId": 54028,
+   "tournamentSlug": "srl-fall-invitational-gresham-or-usa-women",
+   "tournamentName": "SRL Fall Invitational Gresham, (OR), USA, Women",
+   "categorySlug": "simulated-reality-women",
+   "categoryName": "Simulated Reality Women",
+   "futureFixtures": 0,
+   "upcomingFixtures": 0,
+   "liveFixtures": 0
+  },
+  {
+   "tournamentId": 54040,
+   "tournamentSlug": "utr-ptt-gold-coast-men-07",
+   "tournamentName": "UTR PTT Gold Coast Men 07",
+   "categorySlug": "utr-men",
+   "categoryName": "UTR Men",
+   "futureFixtures": 0,
+   "upcomingFixtures": 0,
+   "liveFixtures": 0
+  },
+  {
+   "tournamentId": 54042,
+   "tournamentSlug": "utr-ptt-trnava-men-05",
+   "tournamentName": "UTR PTT Trnava Men 05",
+   "categorySlug": "utr-men",
+   "categoryName": "UTR Men",
+   "futureFixtures": 0,
+   "upcomingFixtures": 0,
+   "liveFixtures": 0
+  },
+  {
+   "tournamentId": 54044,
+   "tournamentSlug": "utr-ptt-carvoeiro-men-06",
+   "tournamentName": "UTR PTT Carvoeiro Men 06",
+   "categorySlug": "utr-men",
+   "categoryName": "UTR Men",
+   "futureFixtures": 0,
+   "upcomingFixtures": 0,
+   "liveFixtures": 0
+  },
+  {
+   "tournamentId": 54046,
+   "tournamentSlug": "utr-ptt-houston-men-02",
+   "tournamentName": "UTR PTT Houston Men 02",
+   "categorySlug": "utr-men",
+   "categoryName": "UTR Men",
+   "futureFixtures": 0,
+   "upcomingFixtures": 0,
+   "liveFixtures": 0
+  },
+  {
+   "tournamentId": 54048,
+   "tournamentSlug": "utr-ptt-gold-coast-women-07",
+   "tournamentName": "UTR PTT Gold Coast Women 07",
+   "categorySlug": "utr-women",
+   "categoryName": "UTR Women",
    "futureFixtures": 0,
    "upcomingFixtures": 0,
    "liveFixtures": 0
@@ -102178,7 +102248,7 @@
    "categorySlug": "itf-women",
    "categoryName": "ITF Women",
    "futureFixtures": 0,
-   "upcomingFixtures": 0,
+   "upcomingFixtures": 9,
    "liveFixtures": 0
   },
   {
@@ -102188,7 +102258,7 @@
    "categorySlug": "itf-women",
    "categoryName": "ITF Women",
    "futureFixtures": 0,
-   "upcomingFixtures": 6,
+   "upcomingFixtures": 0,
    "liveFixtures": 0
   },
   {
@@ -102227,8 +102297,8 @@
    "tournamentName": "Toronto",
    "categorySlug": "itf-women",
    "categoryName": "ITF Women",
-   "futureFixtures": 0,
-   "upcomingFixtures": 0,
+   "futureFixtures": 1,
+   "upcomingFixtures": 10,
    "liveFixtures": 0
   },
   {
@@ -102277,8 +102347,8 @@
    "tournamentName": "Glasgow",
    "categorySlug": "itf-women",
    "categoryName": "ITF Women",
-   "futureFixtures": 0,
-   "upcomingFixtures": 0,
+   "futureFixtures": 1,
+   "upcomingFixtures": 9,
    "liveFixtures": 0
   },
   {
@@ -102338,7 +102408,7 @@
    "categorySlug": "itf-women",
    "categoryName": "ITF Women",
    "futureFixtures": 0,
-   "upcomingFixtures": 8,
+   "upcomingFixtures": 0,
    "liveFixtures": 0
   },
   {
@@ -102398,7 +102468,7 @@
    "categorySlug": "itf-women",
    "categoryName": "ITF Women",
    "futureFixtures": 0,
-   "upcomingFixtures": 0,
+   "upcomingFixtures": 14,
    "liveFixtures": 28
   },
   {
@@ -102868,7 +102938,7 @@
    "categorySlug": "itf-women",
    "categoryName": "ITF Women",
    "futureFixtures": 0,
-   "upcomingFixtures": 0,
+   "upcomingFixtures": 12,
    "liveFixtures": 0
   },
   {
@@ -102947,8 +103017,8 @@
    "tournamentName": "Singapore",
    "categorySlug": "itf-women",
    "categoryName": "ITF Women",
-   "futureFixtures": 4,
-   "upcomingFixtures": 1,
+   "futureFixtures": 0,
+   "upcomingFixtures": 0,
    "liveFixtures": 0
   },
   {
@@ -103048,7 +103118,7 @@
    "categorySlug": "itf-women",
    "categoryName": "ITF Women",
    "futureFixtures": 0,
-   "upcomingFixtures": 8,
+   "upcomingFixtures": 12,
    "liveFixtures": 121
   },
   {
@@ -103898,7 +103968,7 @@
    "categorySlug": "itf-men",
    "categoryName": "ITF Men",
    "futureFixtures": 0,
-   "upcomingFixtures": 8,
+   "upcomingFixtures": 14,
    "liveFixtures": 120
   },
   {
@@ -104067,8 +104137,8 @@
    "tournamentName": "Sarreguemines",
    "categorySlug": "itf-men",
    "categoryName": "ITF Men",
-   "futureFixtures": 2,
-   "upcomingFixtures": 8,
+   "futureFixtures": 0,
+   "upcomingFixtures": 0,
    "liveFixtures": 0
   },
   {
@@ -104087,8 +104157,8 @@
    "tournamentName": "Heraklion",
    "categorySlug": "itf-men",
    "categoryName": "ITF Men",
-   "futureFixtures": 4,
-   "upcomingFixtures": 8,
+   "futureFixtures": 0,
+   "upcomingFixtures": 7,
    "liveFixtures": 0
   },
   {
@@ -104337,8 +104407,8 @@
    "tournamentName": "Villena",
    "categorySlug": "itf-women",
    "categoryName": "ITF Women",
-   "futureFixtures": 2,
-   "upcomingFixtures": 4,
+   "futureFixtures": 0,
+   "upcomingFixtures": 0,
    "liveFixtures": 0
   },
   {
@@ -106118,7 +106188,7 @@
    "categorySlug": "itf-women",
    "categoryName": "ITF Women",
    "futureFixtures": 0,
-   "upcomingFixtures": 8,
+   "upcomingFixtures": 0,
    "liveFixtures": 0
   },
   {
@@ -106148,7 +106218,7 @@
    "categorySlug": "itf-men",
    "categoryName": "ITF Men",
    "futureFixtures": 0,
-   "upcomingFixtures": 7,
+   "upcomingFixtures": 0,
    "liveFixtures": 0
   },
   {
@@ -106258,7 +106328,7 @@
    "categorySlug": "itf-women",
    "categoryName": "ITF Women",
    "futureFixtures": 0,
-   "upcomingFixtures": 4,
+   "upcomingFixtures": 0,
    "liveFixtures": 0
   },
   {
@@ -106298,7 +106368,7 @@
    "categorySlug": "itf-men",
    "categoryName": "ITF Men",
    "futureFixtures": 0,
-   "upcomingFixtures": 0,
+   "upcomingFixtures": 8,
    "liveFixtures": 0
   },
   {
@@ -106968,7 +107038,7 @@
    "categorySlug": "itf-men",
    "categoryName": "ITF Men",
    "futureFixtures": 0,
-   "upcomingFixtures": 4,
+   "upcomingFixtures": 0,
    "liveFixtures": 0
   },
   {
@@ -108248,7 +108318,7 @@
    "categorySlug": "itf-men",
    "categoryName": "ITF Men",
    "futureFixtures": 0,
-   "upcomingFixtures": 0,
+   "upcomingFixtures": 8,
    "liveFixtures": 0
   },
   {
@@ -108368,7 +108438,7 @@
    "categorySlug": "itf-men",
    "categoryName": "ITF Men",
    "futureFixtures": 0,
-   "upcomingFixtures": 0,
+   "upcomingFixtures": 12,
    "liveFixtures": 0
   },
   {
@@ -108378,7 +108448,7 @@
    "categorySlug": "itf-women",
    "categoryName": "ITF Women",
    "futureFixtures": 0,
-   "upcomingFixtures": 4,
+   "upcomingFixtures": 10,
    "liveFixtures": 0
   },
   {
@@ -108457,8 +108527,8 @@
    "tournamentName": "Mumbai",
    "categorySlug": "itf-men",
    "categoryName": "ITF Men",
-   "futureFixtures": 4,
-   "upcomingFixtures": 5,
+   "futureFixtures": 0,
+   "upcomingFixtures": 0,
    "liveFixtures": 0
   },
   {
@@ -108917,8 +108987,8 @@
    "tournamentName": "Singapore",
    "categorySlug": "itf-men",
    "categoryName": "ITF Men",
-   "futureFixtures": 4,
-   "upcomingFixtures": 7,
+   "futureFixtures": 0,
+   "upcomingFixtures": 11,
    "liveFixtures": 0
   },
   {
@@ -110158,7 +110228,7 @@
    "categorySlug": "itf-women",
    "categoryName": "ITF Women",
    "futureFixtures": 0,
-   "upcomingFixtures": 6,
+   "upcomingFixtures": 0,
    "liveFixtures": 0
   },
   {
@@ -110208,7 +110278,7 @@
    "categorySlug": "itf-men",
    "categoryName": "ITF Men",
    "futureFixtures": 0,
-   "upcomingFixtures": 0,
+   "upcomingFixtures": 12,
    "liveFixtures": 0
   },
   {
@@ -110478,7 +110548,7 @@
    "categorySlug": "itf-men",
    "categoryName": "ITF Men",
    "futureFixtures": 0,
-   "upcomingFixtures": 0,
+   "upcomingFixtures": 12,
    "liveFixtures": 0
   },
   {
@@ -110567,8 +110637,8 @@
    "tournamentName": "Morelia",
    "categorySlug": "itf-women",
    "categoryName": "ITF Women",
-   "futureFixtures": 0,
-   "upcomingFixtures": 0,
+   "futureFixtures": 6,
+   "upcomingFixtures": 2,
    "liveFixtures": 0
   },
   {
@@ -110648,7 +110718,7 @@
    "categorySlug": "itf-men",
    "categoryName": "ITF Men",
    "futureFixtures": 0,
-   "upcomingFixtures": 8,
+   "upcomingFixtures": 0,
    "liveFixtures": 0
   },
   {
@@ -110767,8 +110837,8 @@
    "tournamentName": "Bol",
    "categorySlug": "itf-men",
    "categoryName": "ITF Men",
-   "futureFixtures": 1,
-   "upcomingFixtures": 4,
+   "futureFixtures": 0,
+   "upcomingFixtures": 0,
    "liveFixtures": 32
   },
   {
@@ -111187,8 +111257,8 @@
    "tournamentName": "Kunshan",
    "categorySlug": "itf-women",
    "categoryName": "ITF Women",
-   "futureFixtures": 0,
-   "upcomingFixtures": 0,
+   "futureFixtures": 5,
+   "upcomingFixtures": 8,
    "liveFixtures": 0
   },
   {
@@ -111368,7 +111438,7 @@
    "categorySlug": "itf-women",
    "categoryName": "ITF Women",
    "futureFixtures": 0,
-   "upcomingFixtures": 6,
+   "upcomingFixtures": 0,
    "liveFixtures": 0
   },
   {
@@ -111747,7 +111817,7 @@
    "tournamentName": "Shenzhen",
    "categorySlug": "itf-men",
    "categoryName": "ITF Men",
-   "futureFixtures": 4,
+   "futureFixtures": 0,
    "upcomingFixtures": 0,
    "liveFixtures": 0
   },
@@ -112297,7 +112367,7 @@
    "tournamentName": "Tamworth",
    "categorySlug": "itf-men",
    "categoryName": "ITF Men",
-   "futureFixtures": 0,
+   "futureFixtures": 3,
    "upcomingFixtures": 9,
    "liveFixtures": 0
   },
@@ -112518,7 +112588,7 @@
    "categorySlug": "itf-women",
    "categoryName": "ITF Women",
    "futureFixtures": 0,
-   "upcomingFixtures": 0,
+   "upcomingFixtures": 8,
    "liveFixtures": 0
   },
   {
@@ -112527,8 +112597,8 @@
    "tournamentName": "Cherbourg-en-Cotentin",
    "categorySlug": "itf-women",
    "categoryName": "ITF Women",
-   "futureFixtures": 3,
-   "upcomingFixtures": 8,
+   "futureFixtures": 0,
+   "upcomingFixtures": 0,
    "liveFixtures": 0
   },
   {
@@ -112557,8 +112627,8 @@
    "tournamentName": "Tanagura",
    "categorySlug": "itf-men",
    "categoryName": "ITF Men",
-   "futureFixtures": 3,
-   "upcomingFixtures": 1,
+   "futureFixtures": 0,
+   "upcomingFixtures": 0,
    "liveFixtures": 0
   },
   {
@@ -112568,7 +112638,7 @@
    "categorySlug": "itf-women",
    "categoryName": "ITF Women",
    "futureFixtures": 0,
-   "upcomingFixtures": 8,
+   "upcomingFixtures": 0,
    "liveFixtures": 0
   },
   {
@@ -112578,7 +112648,7 @@
    "categorySlug": "itf-women",
    "categoryName": "ITF Women",
    "futureFixtures": 0,
-   "upcomingFixtures": 7,
+   "upcomingFixtures": 0,
    "liveFixtures": 34
   },
   {
@@ -112597,8 +112667,8 @@
    "tournamentName": "Istanbul",
    "categorySlug": "itf-women",
    "categoryName": "ITF Women",
-   "futureFixtures": 0,
-   "upcomingFixtures": 0,
+   "futureFixtures": 4,
+   "upcomingFixtures": 8,
    "liveFixtures": 0
   },
   {
@@ -112628,7 +112698,7 @@
    "categorySlug": "itf-women",
    "categoryName": "ITF Women",
    "futureFixtures": 0,
-   "upcomingFixtures": 0,
+   "upcomingFixtures": 12,
    "liveFixtures": 0
   },
   {
@@ -112638,7 +112708,7 @@
    "categorySlug": "itf-women",
    "categoryName": "ITF Women",
    "futureFixtures": 0,
-   "upcomingFixtures": 0,
+   "upcomingFixtures": 15,
    "liveFixtures": 0
   },
   {
@@ -112648,7 +112718,7 @@
    "categorySlug": "itf-men",
    "categoryName": "ITF Men",
    "futureFixtures": 0,
-   "upcomingFixtures": 0,
+   "upcomingFixtures": 15,
    "liveFixtures": 0
   },
   {
@@ -112658,7 +112728,7 @@
    "categorySlug": "itf-women",
    "categoryName": "ITF Women",
    "futureFixtures": 0,
-   "upcomingFixtures": 0,
+   "upcomingFixtures": 7,
    "liveFixtures": 0
   },
   {
@@ -112768,7 +112838,7 @@
    "categorySlug": "itf-men",
    "categoryName": "ITF Men",
    "futureFixtures": 0,
-   "upcomingFixtures": 8,
+   "upcomingFixtures": 0,
    "liveFixtures": 0
   },
   {
@@ -114377,8 +114447,8 @@
    "tournamentName": "Karlovy Vary",
    "categorySlug": "itf-women",
    "categoryName": "ITF Women",
-   "futureFixtures": 2,
-   "upcomingFixtures": 4,
+   "futureFixtures": 0,
+   "upcomingFixtures": 0,
    "liveFixtures": 0
   },
   {
@@ -114387,8 +114457,8 @@
    "tournamentName": "Redbridge",
    "categorySlug": "itf-men",
    "categoryName": "ITF Men",
-   "futureFixtures": 2,
-   "upcomingFixtures": 4,
+   "futureFixtures": 0,
+   "upcomingFixtures": 0,
    "liveFixtures": 0
   },
   {
@@ -114398,7 +114468,7 @@
    "categorySlug": "itf-women",
    "categoryName": "ITF Women",
    "futureFixtures": 0,
-   "upcomingFixtures": 8,
+   "upcomingFixtures": 0,
    "liveFixtures": 0
   },
   {
@@ -114408,7 +114478,7 @@
    "categorySlug": "itf-men",
    "categoryName": "ITF Men",
    "futureFixtures": 0,
-   "upcomingFixtures": 0,
+   "upcomingFixtures": 8,
    "liveFixtures": 0
   },
   {
@@ -114418,7 +114488,7 @@
    "categorySlug": "itf-men",
    "categoryName": "ITF Men",
    "futureFixtures": 0,
-   "upcomingFixtures": 0,
+   "upcomingFixtures": 9,
    "liveFixtures": 0
   },
   {
@@ -114428,7 +114498,27 @@
    "categorySlug": "itf-men",
    "categoryName": "ITF Men",
    "futureFixtures": 0,
-   "upcomingFixtures": 0,
+   "upcomingFixtures": 12,
+   "liveFixtures": 0
+  },
+  {
+   "tournamentId": 905550,
+   "tournamentSlug": "new-braunfels",
+   "tournamentName": "New Braunfels",
+   "categorySlug": "itf-women",
+   "categoryName": "ITF Women",
+   "futureFixtures": 0,
+   "upcomingFixtures": 12,
+   "liveFixtures": 0
+  },
+  {
+   "tournamentId": 905551,
+   "tournamentSlug": "pembroke",
+   "tournamentName": "Pembroke",
+   "categorySlug": "itf-men",
+   "categoryName": "ITF Men",
+   "futureFixtures": 0,
+   "upcomingFixtures": 12,
    "liveFixtures": 0
   }
  ]

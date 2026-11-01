@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-01T05:48:20Z",
+ "generated_at": "2026-11-01T06:57:43Z",
  "bankroll_start": 1000.0,
  "bet_bookmaker": "Winamax",
  "reference_bookmaker": "Pinnacle",
@@ -456,9 +456,9 @@
  "budget": {
   "oddspapi": {
    "quota": 250,
-   "used": 0,
-   "remaining": 250,
-   "used_today": 0,
+   "used": 1,
+   "remaining": 249,
+   "used_today": 1,
    "daily_allowance": 7.5,
    "reserve": 25,
    "denied": 0
@@ -504,46 +504,41 @@
   ],
   "atp": [
    {
+    "id": 2661,
+    "name": "ATP Paris, France Men Singles",
+    "future": 31
+   },
+   {
     "id": 2613,
     "name": "ATP Basel, Switzerland Men Singles",
-    "future": 15
+    "future": 13
    },
    {
     "id": 3103,
     "name": "ATP Vienna, Austria Men Singles",
-    "future": 15
-   },
-   {
-    "id": 3097,
-    "name": "ATP Lyon, France Men Singles",
-    "future": 7
-   },
-   {
-    "id": 41959,
-    "name": "ATP Almaty, Kazakhstan Men Singles",
-    "future": 7
+    "future": 13
    }
   ],
   "wta": [
    {
+    "id": 11111,
+    "name": "WTA Hong Kong, Hong Kong Women Singles",
+    "future": 15
+   },
+   {
+    "id": 37307,
+    "name": "WTA Chennai, India, Women Singles",
+    "future": 15
+   },
+   {
     "id": 3013,
     "name": "WTA Guangzhou, China Women Singles",
-    "future": 15
+    "future": 11
    },
    {
     "id": 5943,
     "name": "WTA Tokyo, Japan Women Singles",
-    "future": 15
-   },
-   {
-    "id": 40065,
-    "name": "WTA Ningbo, China Women Singles",
-    "future": 7
-   },
-   {
-    "id": 3061,
-    "name": "WTA Osaka, Japan Women Singles",
-    "future": 5
+    "future": 8
    }
   ],
   "ligue1": [
@@ -596,10 +591,17 @@
    }
   ]
  },
- "last_run": "2026-11-01T05:48:20Z",
+ "last_run": "2026-11-01T06:57:43Z",
  "run": {
   "collect": {
-   "slots": [],
+   "slots": [
+    {
+     "slot": "tennis:matin",
+     "events": 0,
+     "rows": 0,
+     "ok": false
+    }
+   ],
    "events": 0,
    "rows": 0
   },
