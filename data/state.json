@@ -6,7 +6,7 @@
    "today": "2026-11-01",
    "used_today": 7,
    "reported_remaining": null,
-   "denied": 6
+   "denied": 9
   }
  },
  "oddspapi_slugs": {
@@ -16,7 +16,7 @@
    "winamax.fr"
   ]
  },
- "last_saved": "2026-11-01T18:43:18Z",
+ "last_saved": "2026-11-01T19:40:17Z",
  "slots": {
   "basketball:soir": "2026-10-28",
   "basketball:matin": "2026-11-01",
@@ -135,7 +135,7 @@
    }
   ]
  },
- "last_run": "2026-11-01T18:43:18Z",
+ "last_run": "2026-11-01T19:40:17Z",
  "last_run_summary": {
   "collect": {
    "slots": [],

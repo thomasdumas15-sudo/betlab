@@ -286,11 +286,11 @@
    "away": 6.14,
    "home": 1.144
   },
-  "note": "tirage au sort",
-  "status": "open",
-  "pnl": null,
-  "settled_at": null,
-  "result": null,
+  "note": "tirage au sort | aucun résultat trouvé",
+  "status": "void",
+  "pnl": 0.0,
+  "settled_at": "2026-11-01T19:40:17Z",
+  "result": "annulé",
   "closing_odds": 5.9,
   "closing_ref": {
    "home": 1.155,
@@ -1951,10 +1951,10 @@
    "draw": 3.05
   },
   "note": "tirage au sort",
-  "status": "open",
-  "pnl": null,
-  "settled_at": null,
-  "result": null,
+  "status": "lost",
+  "pnl": -11.13,
+  "settled_at": "2026-11-01T19:40:17Z",
+  "result": "perdu",
   "closing_odds": 3.1,
   "closing_ref": {
    "home": 3.6,
@@ -1963,7 +1963,8 @@
   },
   "clv": -0.201,
   "clv_book": -0.0484,
-  "closing_source": "oddspapi_history"
+  "closing_source": "oddspapi_history",
+  "bankroll_after": 1105.57
  },
  {
   "id": "fce84ebc0444",
