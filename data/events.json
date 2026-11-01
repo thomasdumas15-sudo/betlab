@@ -4721,5 +4721,345 @@
   },
   "status": "scheduled",
   "names_resolved": true
+ },
+ "op:id1000002371945404": {
+  "id": "op:id1000002371945404",
+  "sport": "serie_a",
+  "kind": "soccer",
+  "home": "Venezia FC",
+  "away": "Udinese Calcio",
+  "start": "2026-11-06T19:45:00Z",
+  "ids": {
+   "oddspapi": "id1000002371945404",
+   "oddspapi_p1": "2688",
+   "oddspapi_p2": "2695",
+   "oddspapi_tournament": 23,
+   "oddspapi_sport_id": 10
+  },
+  "status": "scheduled",
+  "names_resolved": true
+ },
+ "op:id1000002371945386": {
+  "id": "op:id1000002371945386",
+  "sport": "serie_a",
+  "kind": "soccer",
+  "home": "Cagliari Calcio",
+  "away": "Frosinone Calcio",
+  "start": "2026-11-07T14:00:00Z",
+  "ids": {
+   "oddspapi": "id1000002371945386",
+   "oddspapi_p1": "2719",
+   "oddspapi_p2": "2801",
+   "oddspapi_tournament": 23,
+   "oddspapi_sport_id": 10
+  },
+  "status": "scheduled",
+  "names_resolved": true
+ },
+ "op:id1000002371945402": {
+  "id": "op:id1000002371945402",
+  "sport": "serie_a",
+  "kind": "soccer",
+  "home": "Torino FC",
+  "away": "US Lecce",
+  "start": "2026-11-07T14:00:00Z",
+  "ids": {
+   "oddspapi": "id1000002371945402",
+   "oddspapi_p1": "2696",
+   "oddspapi_p2": "2689",
+   "oddspapi_tournament": 23,
+   "oddspapi_sport_id": 10
+  },
+  "status": "scheduled",
+  "names_resolved": true
+ },
+ "op:id1000002371945398": {
+  "id": "op:id1000002371945398",
+  "sport": "serie_a",
+  "kind": "soccer",
+  "home": "Parma Calcio",
+  "away": "Bologna FC",
+  "start": "2026-11-07T17:00:00Z",
+  "ids": {
+   "oddspapi": "id1000002371945398",
+   "oddspapi_p1": "2690",
+   "oddspapi_p2": "2685",
+   "oddspapi_tournament": 23,
+   "oddspapi_sport_id": 10
+  },
+  "status": "scheduled",
+  "names_resolved": true
+ },
+ "op:id1000002371945400": {
+  "id": "op:id1000002371945400",
+  "sport": "serie_a",
+  "kind": "soccer",
+  "home": "AS Roma",
+  "away": "Sassuolo Calcio",
+  "start": "2026-11-07T19:45:00Z",
+  "ids": {
+   "oddspapi": "id1000002371945400",
+   "oddspapi_p1": "2702",
+   "oddspapi_p2": "2793",
+   "oddspapi_tournament": 23,
+   "oddspapi_sport_id": 10
+  },
+  "status": "scheduled",
+  "names_resolved": true
+ },
+ "op:id1000002371945396": {
+  "id": "op:id1000002371945396",
+  "sport": "serie_a",
+  "kind": "soccer",
+  "home": "SSC Napoli",
+  "away": "Lazio Rome",
+  "start": "2026-11-08T11:30:00Z",
+  "ids": {
+   "oddspapi": "id1000002371945396",
+   "oddspapi_p1": "2714",
+   "oddspapi_p2": "2699",
+   "oddspapi_tournament": 23,
+   "oddspapi_sport_id": 10
+  },
+  "status": "scheduled",
+  "names_resolved": true
+ },
+ "op:id1000002371945390": {
+  "id": "op:id1000002371945390",
+  "sport": "serie_a",
+  "kind": "soccer",
+  "home": "Genoa CFC",
+  "away": "AC Milan",
+  "start": "2026-11-08T14:00:00Z",
+  "ids": {
+   "oddspapi": "id1000002371945390",
+   "oddspapi_p1": "2713",
+   "oddspapi_p2": "2692",
+   "oddspapi_tournament": 23,
+   "oddspapi_sport_id": 10
+  },
+  "status": "scheduled",
+  "names_resolved": true
+ },
+ "op:id1000002371945394": {
+  "id": "op:id1000002371945394",
+  "sport": "serie_a",
+  "kind": "soccer",
+  "home": "AC Monza",
+  "away": "Atalanta BC",
+  "start": "2026-11-08T14:00:00Z",
+  "ids": {
+   "oddspapi": "id1000002371945394",
+   "oddspapi_p1": "2729",
+   "oddspapi_p2": "2686",
+   "oddspapi_tournament": 23,
+   "oddspapi_sport_id": 10
+  },
+  "status": "scheduled",
+  "names_resolved": true
+ },
+ "op:id1000002371945392": {
+  "id": "op:id1000002371945392",
+  "sport": "serie_a",
+  "kind": "soccer",
+  "home": "Inter Milano",
+  "away": "Como 1907",
+  "start": "2026-11-08T17:00:00Z",
+  "ids": {
+   "oddspapi": "id1000002371945392",
+   "oddspapi_p1": "2697",
+   "oddspapi_p2": "2704",
+   "oddspapi_tournament": 23,
+   "oddspapi_sport_id": 10
+  },
+  "status": "scheduled",
+  "names_resolved": true
+ },
+ "op:id1000002371945388": {
+  "id": "op:id1000002371945388",
+  "sport": "serie_a",
+  "kind": "soccer",
+  "home": "ACF Fiorentina",
+  "away": "Juventus Turin",
+  "start": "2026-11-08T19:45:00Z",
+  "ids": {
+   "oddspapi": "id1000002371945388",
+   "oddspapi_p1": "2693",
+   "oddspapi_p2": "2687",
+   "oddspapi_tournament": 23,
+   "oddspapi_sport_id": 10
+  },
+  "status": "scheduled",
+  "names_resolved": true
+ },
+ "op:id1000001772221406": {
+  "id": "op:id1000001772221406",
+  "sport": "premier_league",
+  "kind": "soccer",
+  "home": "Manchester City",
+  "away": "Fulham FC",
+  "start": "2026-11-21T12:30:00Z",
+  "ids": {
+   "oddspapi": "id1000001772221406",
+   "oddspapi_p1": "17",
+   "oddspapi_p2": "43",
+   "oddspapi_tournament": 17,
+   "oddspapi_sport_id": 10
+  },
+  "status": "scheduled",
+  "names_resolved": true
+ },
+ "op:id1000001772221392": {
+  "id": "op:id1000001772221392",
+  "sport": "premier_league",
+  "kind": "soccer",
+  "home": "Aston Villa",
+  "away": "Sunderland AFC",
+  "start": "2026-11-21T15:00:00Z",
+  "ids": {
+   "oddspapi": "id1000001772221392",
+   "oddspapi_p1": "40",
+   "oddspapi_p2": "41",
+   "oddspapi_tournament": 17,
+   "oddspapi_sport_id": 10
+  },
+  "status": "scheduled",
+  "names_resolved": true
+ },
+ "op:id1000001772221394": {
+  "id": "op:id1000001772221394",
+  "sport": "premier_league",
+  "kind": "soccer",
+  "home": "AFC Bournemouth",
+  "away": "Nottingham Forest",
+  "start": "2026-11-21T15:00:00Z",
+  "ids": {
+   "oddspapi": "id1000001772221394",
+   "oddspapi_p1": "60",
+   "oddspapi_p2": "14",
+   "oddspapi_tournament": 17,
+   "oddspapi_sport_id": 10
+  },
+  "status": "scheduled",
+  "names_resolved": true
+ },
+ "op:id1000001772221398": {
+  "id": "op:id1000001772221398",
+  "sport": "premier_league",
+  "kind": "soccer",
+  "home": "Chelsea FC",
+  "away": "Leeds United",
+  "start": "2026-11-21T15:00:00Z",
+  "ids": {
+   "oddspapi": "id1000001772221398",
+   "oddspapi_p1": "38",
+   "oddspapi_p2": "34",
+   "oddspapi_tournament": 17,
+   "oddspapi_sport_id": 10
+  },
+  "status": "scheduled",
+  "names_resolved": true
+ },
+ "op:id1000001772221400": {
+  "id": "op:id1000001772221400",
+  "sport": "premier_league",
+  "kind": "soccer",
+  "home": "Coventry City",
+  "away": "Crystal Palace",
+  "start": "2026-11-21T15:00:00Z",
+  "ids": {
+   "oddspapi": "id1000001772221400",
+   "oddspapi_p1": "11",
+   "oddspapi_p2": "7",
+   "oddspapi_tournament": 17,
+   "oddspapi_sport_id": 10
+  },
+  "status": "scheduled",
+  "names_resolved": true
+ },
+ "op:id1000001772221410": {
+  "id": "op:id1000001772221410",
+  "sport": "premier_league",
+  "kind": "soccer",
+  "home": "Tottenham Hotspur",
+  "away": "Ipswich Town",
+  "start": "2026-11-21T15:00:00Z",
+  "ids": {
+   "oddspapi": "id1000001772221410",
+   "oddspapi_p1": "33",
+   "oddspapi_p2": "32",
+   "oddspapi_tournament": 17,
+   "oddspapi_sport_id": 10
+  },
+  "status": "scheduled",
+  "names_resolved": true
+ },
+ "op:id1000001772221408": {
+  "id": "op:id1000001772221408",
+  "sport": "premier_league",
+  "kind": "soccer",
+  "home": "Newcastle United",
+  "away": "Arsenal FC",
+  "start": "2026-11-21T17:30:00Z",
+  "ids": {
+   "oddspapi": "id1000001772221408",
+   "oddspapi_p1": "39",
+   "oddspapi_p2": "42",
+   "oddspapi_tournament": 17,
+   "oddspapi_sport_id": 10
+  },
+  "status": "scheduled",
+  "names_resolved": true
+ },
+ "op:id1000001772221402": {
+  "id": "op:id1000001772221402",
+  "sport": "premier_league",
+  "kind": "soccer",
+  "home": "Hull City",
+  "away": "Brighton & Hove Albion",
+  "start": "2026-11-22T14:00:00Z",
+  "ids": {
+   "oddspapi": "id1000001772221402",
+   "oddspapi_p1": "96",
+   "oddspapi_p2": "30",
+   "oddspapi_tournament": 17,
+   "oddspapi_sport_id": 10
+  },
+  "status": "scheduled",
+  "names_resolved": true
+ },
+ "op:id1000001772221404": {
+  "id": "op:id1000001772221404",
+  "sport": "premier_league",
+  "kind": "soccer",
+  "home": "Liverpool FC",
+  "away": "Manchester United",
+  "start": "2026-11-22T16:30:00Z",
+  "ids": {
+   "oddspapi": "id1000001772221404",
+   "oddspapi_p1": "44",
+   "oddspapi_p2": "35",
+   "oddspapi_tournament": 17,
+   "oddspapi_sport_id": 10
+  },
+  "status": "scheduled",
+  "names_resolved": true
+ },
+ "op:id1000001772221396": {
+  "id": "op:id1000001772221396",
+  "sport": "premier_league",
+  "kind": "soccer",
+  "home": "Brentford FC",
+  "away": "Everton FC",
+  "start": "2026-11-23T20:00:00Z",
+  "ids": {
+   "oddspapi": "id1000001772221396",
+   "oddspapi_p1": "50",
+   "oddspapi_p2": "48",
+   "oddspapi_tournament": 17,
+   "oddspapi_sport_id": 10
+  },
+  "status": "scheduled",
+  "names_resolved": true
  }
 }
