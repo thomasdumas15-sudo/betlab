@@ -1,6 +1,6 @@
 # BetLab — revue
 
-_Générée le 2026-11-01T17:36:03Z — simulation, aucun argent réel._
+_Générée le 2026-11-01T18:43:18Z — simulation, aucun argent réel._
 
 ## Stratégies
 
@@ -8,10 +8,10 @@ _Générée le 2026-11-01T17:36:03Z — simulation, aucun argent réel._
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
 | Valeur Pinnacle | 1000,00 € | 0,00 € | — | 0 (0) | — | — (0) | — | +0,0 % |
 | Valeur consensus | 1000,00 € | 0,00 € | — | 0 (0) | — | — (0) | — | +0,0 % |
-| Favoris prudents | 992,87 € | -7,13 € | -3,6 % | 27 (20) | 65 % | -7,2 % (23) | -6,0 | -2,8 % |
+| Favoris prudents | 996,63 € | -3,37 € | -1,6 % | 27 (21) | 67 % | -7,2 % (23) | -6,0 | -2,8 % |
 | Basket spécialiste | 1000,00 € | 0,00 € | — | 0 (0) | — | — (0) | — | +0,0 % |
 | Mouvement sharp | 1000,00 € | 0,00 € | — | 0 (0) | — | — (0) | — | +0,0 % |
-| Témoin | 1101,67 € | 101,67 € | +65,6 % | 26 (15) | 67 % | -7,5 % (19) | -5,7 | -1,9 % |
+| Témoin | 1116,70 € | 116,70 € | +70,2 % | 26 (16) | 69 % | -7,5 % (19) | -5,7 | -1,9 % |
 | Stats joueurs | 1000,00 € | 0,00 € | — | 0 (0) | — | — (0) | — | +0,0 % |
 
 ## Lecture
@@ -41,8 +41,9 @@ _Générée le 2026-11-01T17:36:03Z — simulation, aucun argent réel._
 
 ## Budget données
 
-- oddspapi : 7/250 ce mois (refus : 3)
+- oddspapi : 7/250 ce mois (refus : 6)
 - theoddsapi : 0/500 ce mois (refus : 0)
+- Des relevés ont été refusés faute de budget : réduire les sports suivis ou passer un fournisseur en payant.
 
 ## Questions à se poser
 
