@@ -1,6 +1,6 @@
 # BetLab — revue
 
-_Générée le 2026-11-01T16:40:46Z — simulation, aucun argent réel._
+_Générée le 2026-11-01T17:36:03Z — simulation, aucun argent réel._
 
 ## Stratégies
 
@@ -11,7 +11,7 @@ _Générée le 2026-11-01T16:40:46Z — simulation, aucun argent réel._
 | Favoris prudents | 992,87 € | -7,13 € | -3,6 % | 27 (20) | 65 % | -7,2 % (23) | -6,0 | -2,8 % |
 | Basket spécialiste | 1000,00 € | 0,00 € | — | 0 (0) | — | — (0) | — | +0,0 % |
 | Mouvement sharp | 1000,00 € | 0,00 € | — | 0 (0) | — | — (0) | — | +0,0 % |
-| Témoin | 1101,67 € | 101,67 € | +65,6 % | 26 (15) | 67 % | -6,8 % (18) | -5,8 | -1,9 % |
+| Témoin | 1101,67 € | 101,67 € | +65,6 % | 26 (15) | 67 % | -7,5 % (19) | -5,7 | -1,9 % |
 | Stats joueurs | 1000,00 € | 0,00 € | — | 0 (0) | — | — (0) | — | +0,0 % |
 
 ## Lecture
@@ -34,14 +34,14 @@ _Générée le 2026-11-01T16:40:46Z — simulation, aucun argent réel._
 ## Pires CLV récents
 
 - LA Clippers – Los Angeles Lakers → Los Angeles Lakers @ 1.5 (favorites) : CLV -25,4 %
+- US Lecce – Genoa CFC → US Lecce @ 2.95 (control) : CLV -20,1 %
 - Villarreal CF – Espanyol Barcelona → Espanyol Barcelona @ 5.9 (control) : CLV -19,8 %
 - Levante UD – Atletico Madrid → Levante UD @ 4.5 (control) : CLV -15,0 %
 - AC Milan – Bologna FC → AC Milan @ 1.56 (favorites) : CLV -13,8 %
-- New Orleans Pelicans – Denver Nuggets → Denver Nuggets @ 1.46 (favorites) : CLV -11,6 %
 
 ## Budget données
 
-- oddspapi : 5/250 ce mois (refus : 0)
+- oddspapi : 7/250 ce mois (refus : 3)
 - theoddsapi : 0/500 ce mois (refus : 0)
 
 ## Questions à se poser

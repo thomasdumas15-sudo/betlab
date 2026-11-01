@@ -2156,7 +2156,33 @@
    "oddspapi_sport_id": 10
   },
   "status": "scheduled",
-  "names_resolved": true
+  "names_resolved": true,
+  "closing": {
+   "pinnacle": {
+    "home": 3.6,
+    "draw": 3.02,
+    "away": 2.4,
+    "ts": "2026-11-01T16:58:58Z",
+    "open": {
+     "home": 2.86,
+     "draw": 2.99,
+     "away": 2.66
+    }
+   },
+   "winamax": {
+    "home": 3.1,
+    "draw": 2.9,
+    "away": 2.25,
+    "ts": "2026-11-01T16:57:42Z",
+    "open": {
+     "home": 2.4,
+     "draw": 2.95,
+     "away": 2.45
+    }
+   }
+  },
+  "closing_source": "oddspapi_history",
+  "closing_fetched": "2026-11-01T17:36:03Z"
  },
  "op:id1000000872478672": {
   "id": "op:id1000000872478672",
@@ -5206,6 +5232,91 @@
    "oddspapi_p2": "48",
    "oddspapi_tournament": 17,
    "oddspapi_sport_id": 10
+  },
+  "status": "scheduled",
+  "names_resolved": true
+ },
+ "op:id1500023472909298": {
+  "id": "op:id1500023472909298",
+  "sport": "nhl",
+  "kind": "ice_hockey",
+  "home": "Carolina Hurricanes",
+  "away": "Winnipeg Jets",
+  "start": "2026-11-01T18:00:00Z",
+  "ids": {
+   "oddspapi": "id1500023472909298",
+   "oddspapi_p1": "3680",
+   "oddspapi_p2": "3676",
+   "oddspapi_tournament": 234,
+   "oddspapi_sport_id": 15
+  },
+  "status": "scheduled",
+  "names_resolved": true
+ },
+ "op:id1500023472909300": {
+  "id": "op:id1500023472909300",
+  "sport": "nhl",
+  "kind": "ice_hockey",
+  "home": "Washington Capitals",
+  "away": "Minnesota Wild",
+  "start": "2026-11-01T20:30:00Z",
+  "ids": {
+   "oddspapi": "id1500023472909300",
+   "oddspapi_p1": "3691",
+   "oddspapi_p2": "3689",
+   "oddspapi_tournament": 234,
+   "oddspapi_sport_id": 15
+  },
+  "status": "scheduled",
+  "names_resolved": true
+ },
+ "op:id1500023472909302": {
+  "id": "op:id1500023472909302",
+  "sport": "nhl",
+  "kind": "ice_hockey",
+  "home": "Philadelphia Flyers",
+  "away": "Utah Mammoth",
+  "start": "2026-11-01T21:00:00Z",
+  "ids": {
+   "oddspapi": "id1500023472909302",
+   "oddspapi_p1": "3699",
+   "oddspapi_p2": "1148725",
+   "oddspapi_tournament": 234,
+   "oddspapi_sport_id": 15
+  },
+  "status": "scheduled",
+  "names_resolved": true
+ },
+ "op:id1500023472909304": {
+  "id": "op:id1500023472909304",
+  "sport": "nhl",
+  "kind": "ice_hockey",
+  "home": "New York Rangers",
+  "away": "Edmonton Oilers",
+  "start": "2026-11-01T23:00:00Z",
+  "ids": {
+   "oddspapi": "id1500023472909304",
+   "oddspapi_p1": "3701",
+   "oddspapi_p2": "3686",
+   "oddspapi_tournament": 234,
+   "oddspapi_sport_id": 15
+  },
+  "status": "scheduled",
+  "names_resolved": true
+ },
+ "op:id1500023472909296": {
+  "id": "op:id1500023472909296",
+  "sport": "nhl",
+  "kind": "ice_hockey",
+  "home": "Anaheim Ducks",
+  "away": "Ottawa Senators",
+  "start": "2026-11-02T01:00:00Z",
+  "ids": {
+   "oddspapi": "id1500023472909296",
+   "oddspapi_p1": "3675",
+   "oddspapi_p2": "3700",
+   "oddspapi_tournament": 234,
+   "oddspapi_sport_id": 15
   },
   "status": "scheduled",
   "names_resolved": true
