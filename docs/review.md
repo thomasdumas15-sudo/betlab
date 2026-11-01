@@ -1,6 +1,6 @@
 # BetLab — revue
 
-_Générée le 2026-11-01T21:38:05Z — simulation, aucun argent réel._
+_Générée le 2026-11-01T22:37:29Z — simulation, aucun argent réel._
 
 ## Stratégies
 
@@ -8,17 +8,17 @@ _Générée le 2026-11-01T21:38:05Z — simulation, aucun argent réel._
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
 | Valeur Pinnacle | 1000,00 € | 0,00 € | — | 0 (0) | — | — (0) | — | +0,0 % |
 | Valeur consensus | 1000,00 € | 0,00 € | — | 0 (0) | — | — (0) | — | +0,0 % |
-| Favoris prudents | 996,63 € | -3,37 € | -1,6 % | 27 (21) | 67 % | -7,1 % (24) | -6,2 | -2,8 % |
+| Favoris prudents | 996,63 € | -3,37 € | -1,6 % | 27 (21) | 67 % | -7,2 % (25) | -6,5 | -2,8 % |
 | Basket spécialiste | 1000,00 € | 0,00 € | — | 0 (0) | — | — (0) | — | +0,0 % |
 | Mouvement sharp | 1000,00 € | 0,00 € | — | 0 (0) | — | — (0) | — | +0,0 % |
-| Témoin | 1105,57 € | 105,57 € | +59,6 % | 26 (17) | 65 % | -8,3 % (20) | -5,7 | -1,9 % |
+| Témoin | 1094,44 € | 94,44 € | +50,1 % | 26 (18) | 61 % | -8,0 % (21) | -5,6 | -2,6 % |
 | Stats joueurs | 1000,00 € | 0,00 € | — | 0 (0) | — | — (0) | — | +0,0 % |
 
 ## Lecture
 
 - **Valeur Pinnacle** : 0 paris avec clôture — trop tôt pour conclure (objectif ≥ 200).
 - **Valeur consensus** : 0 paris avec clôture — trop tôt pour conclure (objectif ≥ 200).
-- **Favoris prudents** : 24 paris avec clôture — trop tôt pour conclure (objectif ≥ 200).
+- **Favoris prudents** : 25 paris avec clôture — trop tôt pour conclure (objectif ≥ 200).
 - **Basket spécialiste** : 0 paris avec clôture — trop tôt pour conclure (objectif ≥ 200).
 - **Mouvement sharp** : 0 paris avec clôture — trop tôt pour conclure (objectif ≥ 200).
 - **Stats joueurs** : 0 paris avec clôture — trop tôt pour conclure (objectif ≥ 200).
@@ -27,9 +27,9 @@ _Générée le 2026-11-01T21:38:05Z — simulation, aucun argent réel._
 
 - Indiana Pacers – Philadelphia 76ers → Philadelphia 76ers @ 1.5 (favorites) : CLV +5,8 %
 - Dallas Mavericks – Oklahoma City Thunder → Dallas Mavericks @ 2.65 (control) : CLV +0,0 %
+- Indiana Pacers – Brooklyn Nets → Brooklyn Nets @ 2.35 (control) : CLV -1,7 %
 - Detroit Pistons – Charlotte Hornets → Detroit Pistons @ 1.38 (favorites) : CLV -2,0 %
 - Sassuolo Calcio – Lazio Rome → Lazio Rome @ 2.0 (control) : CLV -2,3 %
-- Virtus Bologna – BC Zalgiris Kaunas → Virtus Bologna @ 1.88 (control) : CLV -2,4 %
 
 ## Pires CLV récents
 
@@ -41,7 +41,7 @@ _Générée le 2026-11-01T21:38:05Z — simulation, aucun argent réel._
 
 ## Budget données
 
-- oddspapi : 9/250 ce mois (refus : 15)
+- oddspapi : 9/250 ce mois (refus : 18)
 - theoddsapi : 0/500 ce mois (refus : 0)
 - Des relevés ont été refusés faute de budget : réduire les sports suivis ou passer un fournisseur en payant.
 

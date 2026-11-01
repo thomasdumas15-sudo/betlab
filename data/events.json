@@ -2276,7 +2276,7 @@
    "oddspapi_tournament": 8,
    "oddspapi_sport_id": 10
   },
-  "status": "scheduled",
+  "status": "finished",
   "names_resolved": true,
   "closing": {
    "pinnacle": {
@@ -2303,7 +2303,16 @@
    }
   },
   "closing_source": "oddspapi_history",
-  "closing_fetched": "2026-11-01T20:37:45Z"
+  "closing_fetched": "2026-11-01T20:37:45Z",
+  "result": {
+   "winner": "home",
+   "status": "settled",
+   "home_score": 2,
+   "away_score": 1,
+   "source": "espn",
+   "espn_id": "401882826",
+   "at": "2026-11-01T22:37:29Z"
+  }
  },
  "op:id1000002371945382": {
   "id": "op:id1000002371945382",
@@ -4833,7 +4842,29 @@
    "oddspapi_sport_id": 11
   },
   "status": "scheduled",
-  "names_resolved": true
+  "names_resolved": true,
+  "closing": {
+   "pinnacle": {
+    "home": 1.675,
+    "away": 2.33,
+    "ts": "2026-11-01T21:57:36Z",
+    "open": {
+     "home": 1.564,
+     "away": 2.55
+    }
+   },
+   "winamax": {
+    "home": 1.6,
+    "away": 2.2,
+    "ts": "2026-11-01T21:59:45Z",
+    "open": {
+     "home": 1.45,
+     "away": 2.15
+    }
+   }
+  },
+  "closing_source": "oddspapi_history",
+  "closing_fetched": "2026-11-01T22:37:29Z"
  },
  "op:id1100013273719480": {
   "id": "op:id1100013273719480",
