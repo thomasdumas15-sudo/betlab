@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-01T22:37:29Z",
+ "generated_at": "2026-11-01T23:36:44Z",
  "bankroll_start": 1000.0,
  "bet_bookmaker": "Winamax",
  "reference_bookmaker": "Pinnacle",
@@ -80,22 +80,22 @@
     "Cote Winamax entre 1,35 et 1,90.",
     "Mise fixe : 1 % de la bankroll. Témoin du « parieur raisonnable » : attendu légèrement perdant."
    ],
-   "bankroll": 996.63,
-   "pnl": -3.37,
-   "pnl_pct": -0.0034,
-   "roi": -0.0161,
-   "roi_se": 0.1562,
-   "z": -0.1,
+   "bankroll": 1000.19,
+   "pnl": 0.19,
+   "pnl_pct": 0.0002,
+   "roi": 0.0009,
+   "roi_se": 0.1499,
+   "z": 0.01,
    "bets": 27,
-   "open": 6,
-   "settled": 21,
+   "open": 5,
+   "settled": 22,
    "void": 0,
-   "won": 14,
-   "win_rate": 0.6667,
-   "avg_odds": 1.484,
+   "won": 15,
+   "win_rate": 0.6818,
+   "avg_odds": 1.478,
    "avg_edge": -0.0604,
-   "staked": 209.57,
-   "exposure": 59.37,
+   "staked": 219.46,
+   "exposure": 49.48,
    "max_drawdown": -0.0277,
    "clv": -0.0725,
    "clv_n": 25,
@@ -104,10 +104,10 @@
    "clv_book": -0.0095,
    "by_sport": {
     "nba": {
-     "n": 16,
-     "pnl": 3.43,
-     "staked": 160.04,
-     "roi": 0.0214
+     "n": 17,
+     "pnl": 6.99,
+     "staked": 169.93,
+     "roi": 0.0411
     },
     "serie_a": {
      "n": 2,
@@ -212,9 +212,13 @@
     [
      "2026-11-01",
      996.63
+    ],
+    [
+     "2026-11-01",
+     1000.19
     ]
    ],
-   "vs_control_pnl": -97.81
+   "vs_control_pnl": -94.25
   },
   {
    "key": "basket",
@@ -480,7 +484,7 @@
   "bundesliga": 9,
   "nfl": 16,
   "euroleague": 7,
-  "nhl": 2
+  "nhl": 1
  },
  "events_tracked": 251,
  "bets_total": 53,
@@ -492,7 +496,7 @@
    "used_today": 9,
    "daily_allowance": 7.2,
    "reserve": 25,
-   "denied": 18
+   "denied": 21
   },
   "theoddsapi": {
    "quota": 500,
@@ -622,14 +626,14 @@
    }
   ]
  },
- "last_run": "2026-11-01T22:37:29Z",
+ "last_run": "2026-11-01T23:36:44Z",
  "run": {
   "collect": {
    "slots": [],
    "events": 0,
    "rows": 0
   },
-  "closing": 1,
+  "closing": 0,
   "settled": 1,
   "placed": 0,
   "errors": []
@@ -900,9 +904,9 @@
    "edge": -0.055,
    "stake": 9.89,
    "placed_at": "2026-11-01T08:51:26Z",
-   "status": "open",
-   "result": null,
-   "pnl": null,
+   "status": "won",
+   "result": "gagné",
+   "pnl": 3.56,
    "clv": -0.0381,
    "clv_book": 0.0382,
    "closing_odds": 1.31,
@@ -912,7 +916,7 @@
    "player": null,
    "stat": null,
    "result_value": null,
-   "settled_at": null,
+   "settled_at": "2026-11-01T23:36:43Z",
    "sport_label": "NBA"
   },
   {
