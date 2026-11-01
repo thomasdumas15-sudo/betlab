@@ -1787,7 +1787,33 @@
    "oddspapi_sport_id": 10
   },
   "status": "scheduled",
-  "names_resolved": true
+  "names_resolved": true,
+  "closing": {
+   "pinnacle": {
+    "home": 1.454,
+    "draw": 4.87,
+    "away": 7.17,
+    "ts": "2026-11-01T16:14:41Z",
+    "open": {
+     "home": 1.396,
+     "draw": 4.81,
+     "away": 6.84
+    }
+   },
+   "winamax": {
+    "home": 1.37,
+    "draw": 4.6,
+    "away": 6.5,
+    "ts": "2026-11-01T16:14:49Z",
+    "open": {
+     "home": 1.32,
+     "draw": 4.4,
+     "away": 5.7
+    }
+   }
+  },
+  "closing_source": "oddspapi_history",
+  "closing_fetched": "2026-11-01T16:38:36Z"
  },
  "op:id1000003472036272": {
   "id": "op:id1000003472036272",
@@ -1940,7 +1966,7 @@
    "oddspapi_tournament": 23,
    "oddspapi_sport_id": 10
   },
-  "status": "scheduled",
+  "status": "finished",
   "names_resolved": true,
   "closing": {
    "pinnacle": {
@@ -1967,7 +1993,16 @@
    }
   },
   "closing_source": "oddspapi_history",
-  "closing_fetched": "2026-11-01T14:38:33Z"
+  "closing_fetched": "2026-11-01T14:38:33Z",
+  "result": {
+   "winner": "home",
+   "status": "settled",
+   "home_score": 2,
+   "away_score": 1,
+   "source": "espn",
+   "espn_id": "401874983",
+   "at": "2026-11-01T16:39:31Z"
+  }
  },
  "op:id1000003472036270": {
   "id": "op:id1000003472036270",
@@ -2018,7 +2053,33 @@
    "oddspapi_sport_id": 10
   },
   "status": "scheduled",
-  "names_resolved": true
+  "names_resolved": true,
+  "closing": {
+   "pinnacle": {
+    "home": 2.55,
+    "draw": 3.51,
+    "away": 2.87,
+    "ts": "2026-11-01T16:12:02Z",
+    "open": {
+     "home": 2.65,
+     "draw": 3.52,
+     "away": 2.51
+    }
+   },
+   "winamax": {
+    "home": 2.35,
+    "draw": 3.4,
+    "away": 2.6,
+    "ts": "2026-11-01T16:04:42Z",
+    "open": {
+     "home": 2.1,
+     "draw": 3.35,
+     "away": 2.6
+    }
+   }
+  },
+  "closing_source": "oddspapi_history",
+  "closing_fetched": "2026-11-01T16:38:49Z"
  },
  "op:id1000001772221364": {
   "id": "op:id1000001772221364",
@@ -2052,7 +2113,33 @@
    "oddspapi_sport_id": 10
   },
   "status": "scheduled",
-  "names_resolved": true
+  "names_resolved": true,
+  "closing": {
+   "pinnacle": {
+    "home": 1.505,
+    "draw": 4.99,
+    "away": 6.1,
+    "ts": "2026-11-01T16:28:20Z",
+    "open": {
+     "home": 1.666,
+     "draw": 4.29,
+     "away": 4.28
+    }
+   },
+   "winamax": {
+    "home": 1.44,
+    "draw": 4.7,
+    "away": 5.0,
+    "ts": "2026-11-01T16:27:36Z",
+    "open": {
+     "home": 1.5,
+     "draw": 4.1,
+     "away": 4.0
+    }
+   }
+  },
+  "closing_source": "oddspapi_history",
+  "closing_fetched": "2026-11-01T16:38:54Z"
  },
  "op:id1000002371945378": {
   "id": "op:id1000002371945378",

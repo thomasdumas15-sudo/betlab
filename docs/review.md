@@ -1,6 +1,6 @@
 # BetLab — revue
 
-_Générée le 2026-11-01T15:38:39Z — simulation, aucun argent réel._
+_Générée le 2026-11-01T16:40:46Z — simulation, aucun argent réel._
 
 ## Stratégies
 
@@ -8,17 +8,17 @@ _Générée le 2026-11-01T15:38:39Z — simulation, aucun argent réel._
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
 | Valeur Pinnacle | 1000,00 € | 0,00 € | — | 0 (0) | — | — (0) | — | +0,0 % |
 | Valeur consensus | 1000,00 € | 0,00 € | — | 0 (0) | — | — (0) | — | +0,0 % |
-| Favoris prudents | 988,52 € | -11,48 € | -6,0 % | 27 (19) | 63 % | -7,3 % (21) | -5,7 | -2,8 % |
+| Favoris prudents | 992,87 € | -7,13 € | -3,6 % | 27 (20) | 65 % | -7,2 % (23) | -6,0 | -2,8 % |
 | Basket spécialiste | 1000,00 € | 0,00 € | — | 0 (0) | — | — (0) | — | +0,0 % |
 | Mouvement sharp | 1000,00 € | 0,00 € | — | 0 (0) | — | — (0) | — | +0,0 % |
-| Témoin | 1101,67 € | 101,67 € | +65,6 % | 26 (15) | 67 % | -6,6 % (17) | -5,3 | -1,9 % |
+| Témoin | 1101,67 € | 101,67 € | +65,6 % | 26 (15) | 67 % | -6,8 % (18) | -5,8 | -1,9 % |
 | Stats joueurs | 1000,00 € | 0,00 € | — | 0 (0) | — | — (0) | — | +0,0 % |
 
 ## Lecture
 
 - **Valeur Pinnacle** : 0 paris avec clôture — trop tôt pour conclure (objectif ≥ 200).
 - **Valeur consensus** : 0 paris avec clôture — trop tôt pour conclure (objectif ≥ 200).
-- **Favoris prudents** : 21 paris avec clôture — trop tôt pour conclure (objectif ≥ 200).
+- **Favoris prudents** : 23 paris avec clôture — trop tôt pour conclure (objectif ≥ 200).
 - **Basket spécialiste** : 0 paris avec clôture — trop tôt pour conclure (objectif ≥ 200).
 - **Mouvement sharp** : 0 paris avec clôture — trop tôt pour conclure (objectif ≥ 200).
 - **Stats joueurs** : 0 paris avec clôture — trop tôt pour conclure (objectif ≥ 200).
