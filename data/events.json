@@ -1872,7 +1872,33 @@
    "oddspapi_sport_id": 10
   },
   "status": "scheduled",
-  "names_resolved": true
+  "names_resolved": true,
+  "closing": {
+   "pinnacle": {
+    "home": 3.73,
+    "draw": 2.97,
+    "away": 2.38,
+    "ts": "2026-11-01T12:58:51Z",
+    "open": {
+     "home": 2.51,
+     "draw": 2.86,
+     "away": 3.21
+    }
+   },
+   "winamax": {
+    "home": 3.2,
+    "draw": 2.9,
+    "away": 2.2,
+    "ts": "2026-11-01T12:57:21Z",
+    "open": {
+     "home": 2.5,
+     "draw": 2.75,
+     "away": 2.5
+    }
+   }
+  },
+  "closing_source": "oddspapi_history",
+  "closing_fetched": "2026-11-01T13:47:22Z"
  },
  "op:id1000002371945372": {
   "id": "op:id1000002371945372",
