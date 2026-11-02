@@ -1565,10 +1565,10 @@
    "away": 2.41
   },
   "note": "favori p=0.597",
-  "status": "open",
-  "pnl": null,
-  "settled_at": null,
-  "result": null,
+  "status": "lost",
+  "pnl": -9.89,
+  "settled_at": "2026-11-02T01:01:34Z",
+  "result": "perdu",
   "closing_odds": 1.6,
   "closing_ref": {
    "home": 1.675,
@@ -1576,7 +1576,8 @@
   },
   "clv": -0.1157,
   "clv_book": -0.05,
-  "closing_source": "oddspapi_history"
+  "closing_source": "oddspapi_history",
+  "bankroll_after": 995.15
  },
  {
   "id": "3dd71b53edb8",
@@ -1604,10 +1605,10 @@
    "away": 2.41
   },
   "note": "tirage au sort",
-  "status": "open",
-  "pnl": null,
-  "settled_at": null,
-  "result": null,
+  "status": "won",
+  "pnl": 15.03,
+  "settled_at": "2026-11-02T01:01:34Z",
+  "result": "gagné",
   "closing_odds": 2.2,
   "closing_ref": {
    "home": 1.675,
@@ -1615,7 +1616,8 @@
   },
   "clv": -0.0172,
   "clv_book": 0.0682,
-  "closing_source": "oddspapi_history"
+  "closing_source": "oddspapi_history",
+  "bankroll_after": 1109.47
  },
  {
   "id": "64af0d74163b",
@@ -1920,10 +1922,10 @@
    "away": 5.64
   },
   "note": "favori p=0.625",
-  "status": "open",
-  "pnl": null,
-  "settled_at": null,
-  "result": null,
+  "status": "won",
+  "pnl": 4.85,
+  "settled_at": "2026-11-02T01:01:34Z",
+  "result": "gagné",
   "closing_odds": 1.44,
   "closing_ref": {
    "home": 1.505,
@@ -1932,7 +1934,8 @@
   },
   "clv": -0.0377,
   "clv_book": 0.0347,
-  "closing_source": "oddspapi_history"
+  "closing_source": "oddspapi_history",
+  "bankroll_after": 1005.04
  },
  {
   "id": "6b5bca539cf7",
