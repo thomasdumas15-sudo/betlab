@@ -2060,10 +2060,10 @@
    "away": 6.21
   },
   "note": "favori p=0.637",
-  "status": "open",
-  "pnl": null,
-  "settled_at": null,
-  "result": null,
+  "status": "lost",
+  "pnl": -9.89,
+  "settled_at": "2026-11-02T22:42:28Z",
+  "result": "perdu",
   "closing_odds": 1.44,
   "closing_ref": {
    "draw": 4.71,
@@ -2072,7 +2072,8 @@
   },
   "clv": -0.072,
   "clv_book": 0.0208,
-  "closing_source": "snapshot"
+  "closing_source": "snapshot",
+  "bankroll_after": 990.21
  },
  {
   "id": "a554b9a58880",
@@ -2101,10 +2102,10 @@
    "away": 6.21
   },
   "note": "tirage au sort",
-  "status": "open",
-  "pnl": null,
-  "settled_at": null,
-  "result": null,
+  "status": "lost",
+  "pnl": -11.13,
+  "settled_at": "2026-11-02T22:42:28Z",
+  "result": "perdu",
   "closing_odds": 4.5,
   "closing_ref": {
    "draw": 4.71,
@@ -2113,7 +2114,8 @@
   },
   "clv": -0.0918,
   "clv_book": -0.0222,
-  "closing_source": "snapshot"
+  "closing_source": "snapshot",
+  "bankroll_after": 1111.26
  },
  {
   "id": "0379c2bdb475",
