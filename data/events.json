@@ -5529,5 +5529,311 @@
   },
   "status": "scheduled",
   "names_resolved": true
+ },
+ "op:id1100013273719484": {
+  "id": "op:id1100013273719484",
+  "sport": "nba",
+  "kind": "basketball",
+  "home": "Cleveland Cavaliers",
+  "away": "Oklahoma City Thunder",
+  "start": "2026-11-03T00:00:00Z",
+  "ids": {
+   "oddspapi": "id1100013273719484",
+   "oddspapi_p1": "3432",
+   "oddspapi_p2": "3418",
+   "oddspapi_tournament": 132,
+   "oddspapi_sport_id": 11
+  },
+  "status": "scheduled",
+  "names_resolved": true
+ },
+ "op:id1100013273719486": {
+  "id": "op:id1100013273719486",
+  "sport": "nba",
+  "kind": "basketball",
+  "home": "Charlotte Hornets",
+  "away": "Detroit Pistons",
+  "start": "2026-11-03T00:30:00Z",
+  "ids": {
+   "oddspapi": "id1100013273719486",
+   "oddspapi_p1": "3430",
+   "oddspapi_p2": "3424",
+   "oddspapi_tournament": 132,
+   "oddspapi_sport_id": 11
+  },
+  "status": "scheduled",
+  "names_resolved": true
+ },
+ "op:id1100013273719488": {
+  "id": "op:id1100013273719488",
+  "sport": "nba",
+  "kind": "basketball",
+  "home": "Indiana Pacers",
+  "away": "Atlanta Hawks",
+  "start": "2026-11-03T00:30:00Z",
+  "ids": {
+   "oddspapi": "id1100013273719488",
+   "oddspapi_p1": "3419",
+   "oddspapi_p2": "3423",
+   "oddspapi_tournament": 132,
+   "oddspapi_sport_id": 11
+  },
+  "status": "scheduled",
+  "names_resolved": true
+ },
+ "op:id1100013273719490": {
+  "id": "op:id1100013273719490",
+  "sport": "nba",
+  "kind": "basketball",
+  "home": "New York Knicks",
+  "away": "Brooklyn Nets",
+  "start": "2026-11-03T00:30:00Z",
+  "ids": {
+   "oddspapi": "id1100013273719490",
+   "oddspapi_p1": "3421",
+   "oddspapi_p2": "3436",
+   "oddspapi_tournament": 132,
+   "oddspapi_sport_id": 11
+  },
+  "status": "scheduled",
+  "names_resolved": true
+ },
+ "op:id1100013273719492": {
+  "id": "op:id1100013273719492",
+  "sport": "nba",
+  "kind": "basketball",
+  "home": "Orlando Magic",
+  "away": "Washington Wizards",
+  "start": "2026-11-03T00:30:00Z",
+  "ids": {
+   "oddspapi": "id1100013273719492",
+   "oddspapi_p1": "3437",
+   "oddspapi_p2": "3431",
+   "oddspapi_tournament": 132,
+   "oddspapi_sport_id": 11
+  },
+  "status": "scheduled",
+  "names_resolved": true
+ },
+ "op:id1100013273719494": {
+  "id": "op:id1100013273719494",
+  "sport": "nba",
+  "kind": "basketball",
+  "home": "Philadelphia 76ers",
+  "away": "Chicago Bulls",
+  "start": "2026-11-03T00:30:00Z",
+  "ids": {
+   "oddspapi": "id1100013273719494",
+   "oddspapi_p1": "3420",
+   "oddspapi_p2": "3409",
+   "oddspapi_tournament": 132,
+   "oddspapi_sport_id": 11
+  },
+  "status": "scheduled",
+  "names_resolved": true
+ },
+ "op:id1100013273719496": {
+  "id": "op:id1100013273719496",
+  "sport": "nba",
+  "kind": "basketball",
+  "home": "Dallas Mavericks",
+  "away": "Sacramento Kings",
+  "start": "2026-11-03T01:00:00Z",
+  "ids": {
+   "oddspapi": "id1100013273719496",
+   "oddspapi_p1": "3411",
+   "oddspapi_p2": "3413",
+   "oddspapi_tournament": 132,
+   "oddspapi_sport_id": 11
+  },
+  "status": "scheduled",
+  "names_resolved": true
+ },
+ "op:id1100013273719498": {
+  "id": "op:id1100013273719498",
+  "sport": "nba",
+  "kind": "basketball",
+  "home": "Memphis Grizzlies",
+  "away": "New Orleans Pelicans",
+  "start": "2026-11-03T01:00:00Z",
+  "ids": {
+   "oddspapi": "id1100013273719498",
+   "oddspapi_p1": "3415",
+   "oddspapi_p2": "5539",
+   "oddspapi_tournament": 132,
+   "oddspapi_sport_id": 11
+  },
+  "status": "scheduled",
+  "names_resolved": true
+ },
+ "op:id1100013273719500": {
+  "id": "op:id1100013273719500",
+  "sport": "nba",
+  "kind": "basketball",
+  "home": "Minnesota Timberwolves",
+  "away": "Milwaukee Bucks",
+  "start": "2026-11-03T01:00:00Z",
+  "ids": {
+   "oddspapi": "id1100013273719500",
+   "oddspapi_p1": "3426",
+   "oddspapi_p2": "3410",
+   "oddspapi_tournament": 132,
+   "oddspapi_sport_id": 11
+  },
+  "status": "scheduled",
+  "names_resolved": true
+ },
+ "op:id1100013273719502": {
+  "id": "op:id1100013273719502",
+  "sport": "nba",
+  "kind": "basketball",
+  "home": "Houston Rockets",
+  "away": "Boston Celtics",
+  "start": "2026-11-03T01:30:00Z",
+  "ids": {
+   "oddspapi": "id1100013273719502",
+   "oddspapi_p1": "3412",
+   "oddspapi_p2": "3422",
+   "oddspapi_tournament": 132,
+   "oddspapi_sport_id": 11
+  },
+  "status": "scheduled",
+  "names_resolved": true
+ },
+ "op:id1100013273719506": {
+  "id": "op:id1100013273719506",
+  "sport": "nba",
+  "kind": "basketball",
+  "home": "San Antonio Spurs",
+  "away": "Utah Jazz",
+  "start": "2026-11-03T01:30:00Z",
+  "ids": {
+   "oddspapi": "id1100013273719506",
+   "oddspapi_p1": "3429",
+   "oddspapi_p2": "3434",
+   "oddspapi_tournament": 132,
+   "oddspapi_sport_id": 11
+  },
+  "status": "scheduled",
+  "names_resolved": true
+ },
+ "op:id1100013273719508": {
+  "id": "op:id1100013273719508",
+  "sport": "nba",
+  "kind": "basketball",
+  "home": "Denver Nuggets",
+  "away": "Portland Trail Blazers",
+  "start": "2026-11-03T02:00:00Z",
+  "ids": {
+   "oddspapi": "id1100013273719508",
+   "oddspapi_p1": "3417",
+   "oddspapi_p2": "3414",
+   "oddspapi_tournament": 132,
+   "oddspapi_sport_id": 11
+  },
+  "status": "scheduled",
+  "names_resolved": true
+ },
+ "op:id1100013273719510": {
+  "id": "op:id1100013273719510",
+  "sport": "nba",
+  "kind": "basketball",
+  "home": "Golden State Warriors",
+  "away": "Phoenix Suns",
+  "start": "2026-11-03T03:00:00Z",
+  "ids": {
+   "oddspapi": "id1100013273719510",
+   "oddspapi_p1": "3428",
+   "oddspapi_p2": "3416",
+   "oddspapi_tournament": 132,
+   "oddspapi_sport_id": 11
+  },
+  "status": "scheduled",
+  "names_resolved": true
+ },
+ "op:id1100013273719512": {
+  "id": "op:id1100013273719512",
+  "sport": "nba",
+  "kind": "basketball",
+  "home": "LA Clippers",
+  "away": "Toronto Raptors",
+  "start": "2026-11-03T03:00:00Z",
+  "ids": {
+   "oddspapi": "id1100013273719512",
+   "oddspapi_p1": "3425",
+   "oddspapi_p2": "3433",
+   "oddspapi_tournament": 132,
+   "oddspapi_sport_id": 11
+  },
+  "status": "scheduled",
+  "names_resolved": true
+ },
+ "op:id1100013273719514": {
+  "id": "op:id1100013273719514",
+  "sport": "nba",
+  "kind": "basketball",
+  "home": "Los Angeles Lakers",
+  "away": "Miami Heat",
+  "start": "2026-11-03T03:00:00Z",
+  "ids": {
+   "oddspapi": "id1100013273719514",
+   "oddspapi_p1": "3427",
+   "oddspapi_p2": "3435",
+   "oddspapi_tournament": 132,
+   "oddspapi_sport_id": 11
+  },
+  "status": "scheduled",
+  "names_resolved": true
+ },
+ "op:id1100013873263132": {
+  "id": "op:id1100013873263132",
+  "sport": "euroleague",
+  "kind": "basketball",
+  "home": "BC Olympiakos Piraeus",
+  "away": "KK Crvena zvezda Belgrade",
+  "start": "2026-11-06T19:15:00Z",
+  "ids": {
+   "oddspapi": "id1100013873263132",
+   "oddspapi_p1": "3501",
+   "oddspapi_p2": "57183",
+   "oddspapi_tournament": 138,
+   "oddspapi_sport_id": 11
+  },
+  "status": "scheduled",
+  "names_resolved": true
+ },
+ "op:id1100013873263134": {
+  "id": "op:id1100013873263134",
+  "sport": "euroleague",
+  "kind": "basketball",
+  "home": "Virtus Bologna",
+  "away": "Dubai Basketball",
+  "start": "2026-11-06T19:30:00Z",
+  "ids": {
+   "oddspapi": "id1100013873263134",
+   "oddspapi_p1": "5621",
+   "oddspapi_p2": "1149035",
+   "oddspapi_tournament": 138,
+   "oddspapi_sport_id": 11
+  },
+  "status": "scheduled",
+  "names_resolved": true
+ },
+ "op:id1100013873263136": {
+  "id": "op:id1100013873263136",
+  "sport": "euroleague",
+  "kind": "basketball",
+  "home": "KK Partizan Belgrade",
+  "away": "Maccabi Tel-Aviv",
+  "start": "2026-11-06T19:45:00Z",
+  "ids": {
+   "oddspapi": "id1100013873263136",
+   "oddspapi_p1": "6637",
+   "oddspapi_p2": "6655",
+   "oddspapi_tournament": 138,
+   "oddspapi_sport_id": 11
+  },
+  "status": "scheduled",
+  "names_resolved": true
  }
 }

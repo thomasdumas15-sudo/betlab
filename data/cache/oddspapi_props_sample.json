@@ -1,103 +1,71 @@
 {
- "fetched_at": "2026-11-01T21:38:05Z",
+ "fetched_at": "2026-11-02T09:02:21Z",
  "data": {
-  "pinnacle": {
-   "marketId": "111792",
-   "raw": {
-    "bookmakerMarketId": "1639313821/6598456158/1639791593",
-    "marketActive": true,
-    "outcomes": {
-     "111793": {
-      "players": {
-       "1177150": {
-        "active": true,
-        "betslip": null,
-        "bookmakerOutcomeId": "1639791595",
-        "bookmakerChangedAt": null,
-        "changedAt": "2026-11-01T21:18:38.873Z",
-        "limit": 187.0,
-        "playerName": "Wagner, Moritz",
-        "price": 2.02,
-        "priceAmerican": "102",
-        "priceFractional": "51/50",
-        "mainLine": false,
-        "exchangeMeta": null
-       }
-      }
-     },
-     "111792": {
-      "players": {
-       "1177150": {
-        "active": true,
-        "betslip": null,
-        "bookmakerOutcomeId": "1639791594",
-        "bookmakerChangedAt": null,
-        "changedAt": "2026-11-01T21:18:38.873Z",
-        "limit": 253.0,
-        "playerName": "Wagner, Moritz",
-        "price": 1.74,
-        "priceAmerican": "-135",
-        "priceFractional": "37/50",
-        "mainLine": false,
-        "exchangeMeta": null
-       }
-      }
-     }
-    }
-   },
-   "parsed": {
-    "ts": "2026-11-01T21:37:36Z",
-    "event_id": "op:id1100013273719478",
-    "provider": "oddspapi",
-    "book": "pinnacle",
-    "market": "prop:threes:1177150:0.5",
-    "line": 0.5,
-    "prices": {
-     "under": 2.02,
-     "over": 1.74
-    },
-    "player": "Moritz Wagner",
-    "player_id": "1177150",
-    "stat": "threes"
-   }
-  },
   "winamax": {
-   "marketId": "111778",
+   "marketId": "111768",
    "raw": {
-    "bookmakerMarketId": "732914820",
+    "bookmakerMarketId": "733644805",
     "marketActive": true,
     "outcomes": {
-     "111779": {
+     "111768": {
       "players": {
-       "2078557": {
+       "2226562": {
         "active": true,
         "betslip": null,
-        "bookmakerOutcomeId": "2271424457",
+        "bookmakerOutcomeId": "2273688218",
         "bookmakerChangedAt": null,
-        "changedAt": "2026-11-01T20:49:22.793Z",
+        "changedAt": "2026-11-02T06:18:49.909Z",
         "limit": null,
-        "playerName": "Sharpe, Day'Ron",
-        "price": 1.64,
-        "priceAmerican": "-156",
-        "priceFractional": "16/25",
+        "playerName": "Mitchell, Ajay",
+        "price": 1.9,
+        "priceAmerican": "-111",
+        "priceFractional": "9/10",
+        "mainLine": false,
+        "exchangeMeta": null
+       },
+       "1307702": {
+        "active": true,
+        "betslip": null,
+        "bookmakerOutcomeId": "2273688216",
+        "bookmakerChangedAt": null,
+        "changedAt": "2026-11-02T06:18:49.909Z",
+        "limit": null,
+        "playerName": "Gilgeous-Alexander, Shai",
+        "price": 1.5,
+        "priceAmerican": "-200",
+        "priceFractional": "1/2",
         "mainLine": false,
         "exchangeMeta": null
        }
       }
      },
-     "111778": {
+     "111769": {
       "players": {
-       "2078557": {
+       "2226562": {
         "active": true,
         "betslip": null,
-        "bookmakerOutcomeId": "2271424456",
+        "bookmakerOutcomeId": "2273688219",
         "bookmakerChangedAt": null,
-        "changedAt": "2026-11-01T20:49:22.793Z",
+        "changedAt": "2026-11-02T06:18:49.909Z",
         "limit": null,
-        "playerName": "Sharpe, Day'Ron",
-        "price": 1.82,
-        "priceAmerican": "-122",
-        "priceFractional": "41/50",
+        "playerName": "Mitchell, Ajay",
+        "price": 1.56,
+        "priceAmerican": "-179",
+        "priceFractional": "14/25",
+        "mainLine": false,
+        "exchangeMeta": null
+       },
+       "1307702": {
+        "active": true,
+        "betslip": null,
+        "bookmakerOutcomeId": "2273688217",
+        "bookmakerChangedAt": null,
+        "changedAt": "2026-11-02T06:18:49.909Z",
+        "limit": null,
+        "playerName": "Gilgeous-Alexander, Shai",
+        "price": 2.0,
+        "priceAmerican": "100",
+        "priceFractional": "1/1",
         "mainLine": false,
         "exchangeMeta": null
        }
@@ -106,18 +74,18 @@
     }
    },
    "parsed": {
-    "ts": "2026-11-01T21:37:36Z",
-    "event_id": "op:id1100013273719478",
+    "ts": "2026-11-02T09:02:15Z",
+    "event_id": "op:id1100013273719484",
     "provider": "oddspapi",
     "book": "winamax",
-    "market": "prop:rebounds:2078557:8.5",
-    "line": 8.5,
+    "market": "prop:rebounds:2226562:3.5",
+    "line": 3.5,
     "prices": {
-     "under": 1.64,
-     "over": 1.82
+     "over": 1.9,
+     "under": 1.56
     },
-    "player": "Day'Ron Sharpe",
-    "player_id": "2078557",
+    "player": "Ajay Mitchell",
+    "player_id": "2226562",
     "stat": "rebounds"
    }
   }
