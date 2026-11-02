@@ -322,11 +322,11 @@
   "placed_at": "2026-10-27T08:43:25Z",
   "quote_ts": "2026-10-27T08:43:18Z",
   "ref_prices": null,
-  "note": "tirage au sort",
-  "status": "open",
-  "pnl": null,
-  "settled_at": null,
-  "result": null,
+  "note": "tirage au sort | aucun résultat trouvé",
+  "status": "void",
+  "pnl": 0.0,
+  "settled_at": "2026-11-02T19:54:48Z",
+  "result": "annulé",
   "closing_odds": 1.74,
   "closing_ref": {
    "home": 1.854,
@@ -2064,11 +2064,15 @@
   "pnl": null,
   "settled_at": null,
   "result": null,
-  "closing_odds": null,
-  "closing_ref": null,
-  "clv": null,
-  "clv_book": null,
-  "closing_source": null
+  "closing_odds": 1.44,
+  "closing_ref": {
+   "draw": 4.71,
+   "home": 1.54,
+   "away": 5.99
+  },
+  "clv": -0.072,
+  "clv_book": 0.0208,
+  "closing_source": "snapshot"
  },
  {
   "id": "a554b9a58880",
@@ -2101,11 +2105,15 @@
   "pnl": null,
   "settled_at": null,
   "result": null,
-  "closing_odds": null,
-  "closing_ref": null,
-  "clv": null,
-  "clv_book": null,
-  "closing_source": null
+  "closing_odds": 4.5,
+  "closing_ref": {
+   "draw": 4.71,
+   "home": 1.54,
+   "away": 5.99
+  },
+  "clv": -0.0918,
+  "clv_book": -0.0222,
+  "closing_source": "snapshot"
  },
  {
   "id": "0379c2bdb475",

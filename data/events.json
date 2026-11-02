@@ -544,7 +544,7 @@
    "oddspapi_tournament": 138,
    "oddspapi_sport_id": 11
   },
-  "status": "scheduled",
+  "status": "unknown",
   "names_resolved": true,
   "closing": {
    "pinnacle": {
@@ -2352,7 +2352,23 @@
    "oddspapi_sport_id": 10
   },
   "status": "scheduled",
-  "names_resolved": true
+  "names_resolved": true,
+  "closing": {
+   "pinnacle": {
+    "draw": 4.71,
+    "home": 1.54,
+    "away": 5.99,
+    "ts": "2026-11-02T10:04:27Z"
+   },
+   "winamax": {
+    "draw": 4.5,
+    "home": 1.44,
+    "away": 5.2,
+    "ts": "2026-11-02T10:04:27Z"
+   }
+  },
+  "closing_source": "snapshot",
+  "closing_fetched": "2026-11-02T19:54:03Z"
  },
  "op:id1000000872478670": {
   "id": "op:id1000000872478670",
