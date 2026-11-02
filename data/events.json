@@ -5835,5 +5835,481 @@
   },
   "status": "scheduled",
   "names_resolved": true
+ },
+ "op:id1000003572513310": {
+  "id": "op:id1000003572513310",
+  "sport": "bundesliga",
+  "kind": "soccer",
+  "home": "Bayern Munich",
+  "away": "1. FC Cologne",
+  "start": "2026-11-20T19:30:00Z",
+  "ids": {
+   "oddspapi": "id1000003572513310",
+   "oddspapi_p1": "2672",
+   "oddspapi_p2": "2671",
+   "oddspapi_tournament": 35,
+   "oddspapi_sport_id": 10
+  },
+  "status": "scheduled",
+  "names_resolved": true
+ },
+ "op:id1000003472036308": {
+  "id": "op:id1000003472036308",
+  "sport": "ligue1",
+  "kind": "soccer",
+  "home": "ESTAC Troyes",
+  "away": "Le Havre AC",
+  "start": "2026-11-20T19:45:00Z",
+  "ids": {
+   "oddspapi": "id1000003472036308",
+   "oddspapi_p1": "1652",
+   "oddspapi_p2": "1662",
+   "oddspapi_tournament": 34,
+   "oddspapi_sport_id": 10
+  },
+  "status": "scheduled",
+  "names_resolved": true
+ },
+ "op:id1000002371945410": {
+  "id": "op:id1000002371945410",
+  "sport": "serie_a",
+  "kind": "soccer",
+  "home": "Como 1907",
+  "away": "Cagliari Calcio",
+  "start": "2026-11-21T14:00:00Z",
+  "ids": {
+   "oddspapi": "id1000002371945410",
+   "oddspapi_p1": "2704",
+   "oddspapi_p2": "2719",
+   "oddspapi_tournament": 23,
+   "oddspapi_sport_id": 10
+  },
+  "status": "scheduled",
+  "names_resolved": true
+ },
+ "op:id1000002371945414": {
+  "id": "op:id1000002371945414",
+  "sport": "serie_a",
+  "kind": "soccer",
+  "home": "Lazio Rome",
+  "away": "US Lecce",
+  "start": "2026-11-21T14:00:00Z",
+  "ids": {
+   "oddspapi": "id1000002371945414",
+   "oddspapi_p1": "2699",
+   "oddspapi_p2": "2689",
+   "oddspapi_tournament": 23,
+   "oddspapi_sport_id": 10
+  },
+  "status": "scheduled",
+  "names_resolved": true
+ },
+ "op:id1000003572513312": {
+  "id": "op:id1000003572513312",
+  "sport": "bundesliga",
+  "kind": "soccer",
+  "home": "Bayer Leverkusen",
+  "away": "SC Paderborn 07",
+  "start": "2026-11-21T14:30:00Z",
+  "ids": {
+   "oddspapi": "id1000003572513312",
+   "oddspapi_p1": "2681",
+   "oddspapi_p2": "2561",
+   "oddspapi_tournament": 35,
+   "oddspapi_sport_id": 10
+  },
+  "status": "scheduled",
+  "names_resolved": true
+ },
+ "op:id1000003572513314": {
+  "id": "op:id1000003572513314",
+  "sport": "bundesliga",
+  "kind": "soccer",
+  "home": "Eintracht Frankfurt",
+  "away": "TSG Hoffenheim",
+  "start": "2026-11-21T14:30:00Z",
+  "ids": {
+   "oddspapi": "id1000003572513314",
+   "oddspapi_p1": "2674",
+   "oddspapi_p2": "2569",
+   "oddspapi_tournament": 35,
+   "oddspapi_sport_id": 10
+  },
+  "status": "scheduled",
+  "names_resolved": true
+ },
+ "op:id1000003572513318": {
+  "id": "op:id1000003572513318",
+  "sport": "bundesliga",
+  "kind": "soccer",
+  "home": "Union Berlin",
+  "away": "RB Leipzig",
+  "start": "2026-11-21T14:30:00Z",
+  "ids": {
+   "oddspapi": "id1000003572513318",
+   "oddspapi_p1": "2547",
+   "oddspapi_p2": "36360",
+   "oddspapi_tournament": 35,
+   "oddspapi_sport_id": 10
+  },
+  "status": "scheduled",
+  "names_resolved": true
+ },
+ "op:id1000003572513320": {
+  "id": "op:id1000003572513320",
+  "sport": "bundesliga",
+  "kind": "soccer",
+  "home": "Borussia Monchengladbach",
+  "away": "Borussia Dortmund",
+  "start": "2026-11-21T14:30:00Z",
+  "ids": {
+   "oddspapi": "id1000003572513320",
+   "oddspapi_p1": "2527",
+   "oddspapi_p2": "2673",
+   "oddspapi_tournament": 35,
+   "oddspapi_sport_id": 10
+  },
+  "status": "scheduled",
+  "names_resolved": true
+ },
+ "op:id1000003572513326": {
+  "id": "op:id1000003572513326",
+  "sport": "bundesliga",
+  "kind": "soccer",
+  "home": "SV 07 Elversberg",
+  "away": "SC Freiburg",
+  "start": "2026-11-21T14:30:00Z",
+  "ids": {
+   "oddspapi": "id1000003572513326",
+   "oddspapi_p1": "2598",
+   "oddspapi_p2": "2538",
+   "oddspapi_tournament": 35,
+   "oddspapi_sport_id": 10
+  },
+  "status": "scheduled",
+  "names_resolved": true
+ },
+ "op:id1000003472036302": {
+  "id": "op:id1000003472036302",
+  "sport": "ligue1",
+  "kind": "soccer",
+  "home": "OGC Nice",
+  "away": "Paris Saint-Germain",
+  "start": "2026-11-21T16:15:00Z",
+  "ids": {
+   "oddspapi": "id1000003472036302",
+   "oddspapi_p1": "1661",
+   "oddspapi_p2": "1644",
+   "oddspapi_tournament": 34,
+   "oddspapi_sport_id": 10
+  },
+  "status": "scheduled",
+  "names_resolved": true
+ },
+ "op:id1000002371945422": {
+  "id": "op:id1000002371945422",
+  "sport": "serie_a",
+  "kind": "soccer",
+  "home": "Parma Calcio",
+  "away": "AS Roma",
+  "start": "2026-11-21T17:00:00Z",
+  "ids": {
+   "oddspapi": "id1000002371945422",
+   "oddspapi_p1": "2690",
+   "oddspapi_p2": "2702",
+   "oddspapi_tournament": 23,
+   "oddspapi_sport_id": 10
+  },
+  "status": "scheduled",
+  "names_resolved": true
+ },
+ "op:id1000003572513324": {
+  "id": "op:id1000003572513324",
+  "sport": "bundesliga",
+  "kind": "soccer",
+  "home": "Schalke 04",
+  "away": "VfB Stuttgart",
+  "start": "2026-11-21T17:30:00Z",
+  "ids": {
+   "oddspapi": "id1000003572513324",
+   "oddspapi_p1": "2530",
+   "oddspapi_p2": "2677",
+   "oddspapi_tournament": 35,
+   "oddspapi_sport_id": 10
+  },
+  "status": "scheduled",
+  "names_resolved": true
+ },
+ "op:id1000002371945420": {
+  "id": "op:id1000002371945420",
+  "sport": "serie_a",
+  "kind": "soccer",
+  "home": "SSC Napoli",
+  "away": "Torino FC",
+  "start": "2026-11-21T19:45:00Z",
+  "ids": {
+   "oddspapi": "id1000002371945420",
+   "oddspapi_p1": "2714",
+   "oddspapi_p2": "2696",
+   "oddspapi_tournament": 23,
+   "oddspapi_sport_id": 10
+  },
+  "status": "scheduled",
+  "names_resolved": true
+ },
+ "op:id1000003472036292": {
+  "id": "op:id1000003472036292",
+  "sport": "ligue1",
+  "kind": "soccer",
+  "home": "Racing Club De Lens",
+  "away": "Toulouse FC",
+  "start": "2026-11-21T19:45:00Z",
+  "ids": {
+   "oddspapi": "id1000003472036292",
+   "oddspapi_p1": "1648",
+   "oddspapi_p2": "1681",
+   "oddspapi_tournament": 34,
+   "oddspapi_sport_id": 10
+  },
+  "status": "scheduled",
+  "names_resolved": true
+ },
+ "op:id1000003472036294": {
+  "id": "op:id1000003472036294",
+  "sport": "ligue1",
+  "kind": "soccer",
+  "home": "Lille OSC",
+  "away": "Olympique Lyon",
+  "start": "2026-11-21T19:45:00Z",
+  "ids": {
+   "oddspapi": "id1000003472036294",
+   "oddspapi_p1": "1643",
+   "oddspapi_p2": "1649",
+   "oddspapi_tournament": 34,
+   "oddspapi_sport_id": 10
+  },
+  "status": "scheduled",
+  "names_resolved": true
+ },
+ "op:id1000003472036300": {
+  "id": "op:id1000003472036300",
+  "sport": "ligue1",
+  "kind": "soccer",
+  "home": "AS Monaco",
+  "away": "AJ Auxerre",
+  "start": "2026-11-21T19:45:00Z",
+  "ids": {
+   "oddspapi": "id1000003472036300",
+   "oddspapi_p1": "1653",
+   "oddspapi_p2": "1646",
+   "oddspapi_tournament": 34,
+   "oddspapi_sport_id": 10
+  },
+  "status": "scheduled",
+  "names_resolved": true
+ },
+ "op:id1000003472036306": {
+  "id": "op:id1000003472036306",
+  "sport": "ligue1",
+  "kind": "soccer",
+  "home": "Strasbourg Alsace",
+  "away": "Stade Brest 29",
+  "start": "2026-11-21T19:45:00Z",
+  "ids": {
+   "oddspapi": "id1000003472036306",
+   "oddspapi_p1": "1659",
+   "oddspapi_p2": "1715",
+   "oddspapi_tournament": 34,
+   "oddspapi_sport_id": 10
+  },
+  "status": "scheduled",
+  "names_resolved": true
+ },
+ "op:id1000002371945412": {
+  "id": "op:id1000002371945412",
+  "sport": "serie_a",
+  "kind": "soccer",
+  "home": "Juventus Turin",
+  "away": "Venezia FC",
+  "start": "2026-11-22T11:30:00Z",
+  "ids": {
+   "oddspapi": "id1000002371945412",
+   "oddspapi_p1": "2687",
+   "oddspapi_p2": "2688",
+   "oddspapi_tournament": 23,
+   "oddspapi_sport_id": 10
+  },
+  "status": "scheduled",
+  "names_resolved": true
+ },
+ "op:id1000002371945408": {
+  "id": "op:id1000002371945408",
+  "sport": "serie_a",
+  "kind": "soccer",
+  "home": "Bologna FC",
+  "away": "Udinese Calcio",
+  "start": "2026-11-22T14:00:00Z",
+  "ids": {
+   "oddspapi": "id1000002371945408",
+   "oddspapi_p1": "2685",
+   "oddspapi_p2": "2695",
+   "oddspapi_tournament": 23,
+   "oddspapi_sport_id": 10
+  },
+  "status": "scheduled",
+  "names_resolved": true
+ },
+ "op:id1000002371945424": {
+  "id": "op:id1000002371945424",
+  "sport": "serie_a",
+  "kind": "soccer",
+  "home": "Sassuolo Calcio",
+  "away": "Genoa CFC",
+  "start": "2026-11-22T14:00:00Z",
+  "ids": {
+   "oddspapi": "id1000002371945424",
+   "oddspapi_p1": "2793",
+   "oddspapi_p2": "2713",
+   "oddspapi_tournament": 23,
+   "oddspapi_sport_id": 10
+  },
+  "status": "scheduled",
+  "names_resolved": true
+ },
+ "op:id1000003472036304": {
+  "id": "op:id1000003472036304",
+  "sport": "ligue1",
+  "kind": "soccer",
+  "home": "Paris FC",
+  "away": "Angers SCO",
+  "start": "2026-11-22T14:00:00Z",
+  "ids": {
+   "oddspapi": "id1000003472036304",
+   "oddspapi_p1": "6070",
+   "oddspapi_p2": "1684",
+   "oddspapi_tournament": 34,
+   "oddspapi_sport_id": 10
+  },
+  "status": "scheduled",
+  "names_resolved": true
+ },
+ "op:id1000003572513316": {
+  "id": "op:id1000003572513316",
+  "sport": "bundesliga",
+  "kind": "soccer",
+  "home": "FC Augsburg",
+  "away": "FSV Mainz",
+  "start": "2026-11-22T14:30:00Z",
+  "ids": {
+   "oddspapi": "id1000003572513316",
+   "oddspapi_p1": "2600",
+   "oddspapi_p2": "2556",
+   "oddspapi_tournament": 35,
+   "oddspapi_sport_id": 10
+  },
+  "status": "scheduled",
+  "names_resolved": true
+ },
+ "op:id1000003472036296": {
+  "id": "op:id1000003472036296",
+  "sport": "ligue1",
+  "kind": "soccer",
+  "home": "FC Lorient",
+  "away": "Stade Rennais FC",
+  "start": "2026-11-22T16:15:00Z",
+  "ids": {
+   "oddspapi": "id1000003472036296",
+   "oddspapi_p1": "1656",
+   "oddspapi_p2": "1658",
+   "oddspapi_tournament": 34,
+   "oddspapi_sport_id": 10
+  },
+  "status": "scheduled",
+  "names_resolved": true
+ },
+ "op:id1000003572513322": {
+  "id": "op:id1000003572513322",
+  "sport": "bundesliga",
+  "kind": "soccer",
+  "home": "Werder Bremen",
+  "away": "Hamburger SV",
+  "start": "2026-11-22T16:30:00Z",
+  "ids": {
+   "oddspapi": "id1000003572513322",
+   "oddspapi_p1": "2534",
+   "oddspapi_p2": "2676",
+   "oddspapi_tournament": 35,
+   "oddspapi_sport_id": 10
+  },
+  "status": "scheduled",
+  "names_resolved": true
+ },
+ "op:id1000002371945416": {
+  "id": "op:id1000002371945416",
+  "sport": "serie_a",
+  "kind": "soccer",
+  "home": "AC Milan",
+  "away": "Frosinone Calcio",
+  "start": "2026-11-22T17:00:00Z",
+  "ids": {
+   "oddspapi": "id1000002371945416",
+   "oddspapi_p1": "2692",
+   "oddspapi_p2": "2801",
+   "oddspapi_tournament": 23,
+   "oddspapi_sport_id": 10
+  },
+  "status": "scheduled",
+  "names_resolved": true
+ },
+ "op:id1000002371945406": {
+  "id": "op:id1000002371945406",
+  "sport": "serie_a",
+  "kind": "soccer",
+  "home": "Atalanta BC",
+  "away": "Inter Milano",
+  "start": "2026-11-22T19:45:00Z",
+  "ids": {
+   "oddspapi": "id1000002371945406",
+   "oddspapi_p1": "2686",
+   "oddspapi_p2": "2697",
+   "oddspapi_tournament": 23,
+   "oddspapi_sport_id": 10
+  },
+  "status": "scheduled",
+  "names_resolved": true
+ },
+ "op:id1000003472036298": {
+  "id": "op:id1000003472036298",
+  "sport": "ligue1",
+  "kind": "soccer",
+  "home": "Olympique Marseille",
+  "away": "Le Mans FC",
+  "start": "2026-11-22T19:45:00Z",
+  "ids": {
+   "oddspapi": "id1000003472036298",
+   "oddspapi_p1": "1641",
+   "oddspapi_p2": "1672",
+   "oddspapi_tournament": 34,
+   "oddspapi_sport_id": 10
+  },
+  "status": "scheduled",
+  "names_resolved": true
+ },
+ "op:id1000002371945418": {
+  "id": "op:id1000002371945418",
+  "sport": "serie_a",
+  "kind": "soccer",
+  "home": "AC Monza",
+  "away": "ACF Fiorentina",
+  "start": "2026-11-23T19:45:00Z",
+  "ids": {
+   "oddspapi": "id1000002371945418",
+   "oddspapi_p1": "2729",
+   "oddspapi_p2": "2693",
+   "oddspapi_tournament": 23,
+   "oddspapi_sport_id": 10
+  },
+  "status": "scheduled",
+  "names_resolved": true
  }
 }
