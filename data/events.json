@@ -648,7 +648,7 @@
    "oddspapi_tournament": 138,
    "oddspapi_sport_id": 11
   },
-  "status": "scheduled",
+  "status": "unknown",
   "names_resolved": true,
   "closing": {
    "pinnacle": {

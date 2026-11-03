@@ -1047,11 +1047,11 @@
    "away": 2.87,
    "home": 1.448
   },
-  "note": "favori p=0.665",
-  "status": "open",
-  "pnl": null,
-  "settled_at": null,
-  "result": null,
+  "note": "favori p=0.665 | aucun résultat trouvé",
+  "status": "void",
+  "pnl": 0.0,
+  "settled_at": "2026-11-03T19:54:08Z",
+  "result": "annulé",
   "closing_odds": 1.39,
   "closing_ref": {
    "away": 2.83,
