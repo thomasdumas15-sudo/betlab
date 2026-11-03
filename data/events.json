@@ -5934,7 +5934,7 @@
    "oddspapi_tournament": 132,
    "oddspapi_sport_id": 11
   },
-  "status": "scheduled",
+  "status": "finished",
   "names_resolved": true,
   "closing": {
    "pinnacle": {
@@ -5949,7 +5949,16 @@
    }
   },
   "closing_source": "snapshot",
-  "closing_fetched": "2026-11-03T03:52:56Z"
+  "closing_fetched": "2026-11-03T03:52:56Z",
+  "result": {
+   "winner": "home",
+   "status": "settled",
+   "home_score": 116,
+   "away_score": 113,
+   "source": "espn",
+   "espn_id": "401909919",
+   "at": "2026-11-03T05:55:17Z"
+  }
  },
  "op:id1100013273719512": {
   "id": "op:id1100013273719512",
