@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-03T01:00:58Z",
+ "generated_at": "2026-11-03T02:01:15Z",
  "bankroll_start": 1000.0,
  "bet_bookmaker": "Winamax",
  "reference_bookmaker": "Pinnacle",
@@ -97,11 +97,11 @@
    "staked": 259.02,
    "exposure": 89.92,
    "max_drawdown": -0.0277,
-   "clv": -0.0709,
-   "clv_n": 30,
-   "clv_se": 0.0095,
-   "clv_z": -7.47,
-   "clv_book": -0.0089,
+   "clv": -0.0698,
+   "clv_n": 32,
+   "clv_se": 0.009,
+   "clv_z": -7.77,
+   "clv_book": -0.0083,
    "by_sport": {
     "nba": {
      "n": 19,
@@ -335,11 +335,11 @@
    "staked": 232.92,
    "exposure": 76.64,
    "max_drawdown": -0.0257,
-   "clv": -0.0833,
-   "clv_n": 26,
-   "clv_se": 0.0118,
-   "clv_z": -7.05,
-   "clv_book": 0.002,
+   "clv": -0.083,
+   "clv_n": 27,
+   "clv_se": 0.0114,
+   "clv_z": -7.3,
+   "clv_book": 0.0019,
    "by_sport": {
     "nba": {
      "n": 11,
@@ -514,12 +514,12 @@
   "wta": "WTA"
  },
  "upcoming_events": {
-  "nba": 11,
+  "nba": 8,
   "bundesliga": 18,
   "ligue1": 18,
   "laliga": 10,
   "premier_league": 20,
-  "nfl": 15,
+  "nfl": 14,
   "euroleague": 10,
   "serie_a": 20
  },
@@ -663,14 +663,14 @@
    }
   ]
  },
- "last_run": "2026-11-03T01:00:58Z",
+ "last_run": "2026-11-03T02:01:15Z",
  "run": {
   "collect": {
    "slots": [],
    "events": 0,
    "rows": 0
   },
-  "closing": 4,
+  "closing": 2,
   "settled": 0,
   "placed": 0,
   "errors": []
@@ -832,9 +832,9 @@
    "status": "open",
    "result": null,
    "pnl": null,
-   "clv": null,
-   "clv_book": null,
-   "closing_odds": null,
+   "clv": -0.0314,
+   "clv_book": 0.0,
+   "closing_odds": 1.43,
    "note": "favori p=0.677",
    "market": "h2h",
    "line": null,
@@ -860,9 +860,9 @@
    "status": "open",
    "result": null,
    "pnl": null,
-   "clv": null,
-   "clv_book": null,
-   "closing_odds": null,
+   "clv": -0.0742,
+   "clv_book": 0.0,
+   "closing_odds": 1.47,
    "note": "favori p=0.630",
    "market": "h2h",
    "line": null,
@@ -888,9 +888,9 @@
    "status": "open",
    "result": null,
    "pnl": null,
-   "clv": null,
-   "clv_book": null,
-   "closing_odds": null,
+   "clv": -0.0742,
+   "clv_book": 0.0,
+   "closing_odds": 1.47,
    "note": "tirage au sort",
    "market": "h2h",
    "line": null,

@@ -2342,11 +2342,14 @@
   "pnl": null,
   "settled_at": null,
   "result": null,
-  "closing_odds": null,
-  "closing_ref": null,
-  "clv": null,
-  "clv_book": null,
-  "closing_source": null
+  "closing_odds": 1.43,
+  "closing_ref": {
+   "away": 3.0,
+   "home": 1.429
+  },
+  "clv": -0.0314,
+  "clv_book": 0.0,
+  "closing_source": "snapshot"
  },
  {
   "id": "2889d9953b5d",
@@ -2378,11 +2381,14 @@
   "pnl": null,
   "settled_at": null,
   "result": null,
-  "closing_odds": null,
-  "closing_ref": null,
-  "clv": null,
-  "clv_book": null,
-  "closing_source": null
+  "closing_odds": 1.47,
+  "closing_ref": {
+   "away": 2.62,
+   "home": 1.54
+  },
+  "clv": -0.0742,
+  "clv_book": 0.0,
+  "closing_source": "snapshot"
  },
  {
   "id": "e5ad7e01699b",
@@ -2414,11 +2420,14 @@
   "pnl": null,
   "settled_at": null,
   "result": null,
-  "closing_odds": null,
-  "closing_ref": null,
-  "clv": null,
-  "clv_book": null,
-  "closing_source": null
+  "closing_odds": 1.47,
+  "closing_ref": {
+   "away": 2.62,
+   "home": 1.54
+  },
+  "clv": -0.0742,
+  "clv_book": 0.0,
+  "closing_source": "snapshot"
  },
  {
   "id": "872065aef778",
