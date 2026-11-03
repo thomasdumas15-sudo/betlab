@@ -2143,10 +2143,10 @@
    "home": 1.588
   },
   "note": "favori p=0.611",
-  "status": "open",
-  "pnl": null,
-  "settled_at": null,
-  "result": null,
+  "status": "lost",
+  "pnl": -10.0,
+  "settled_at": "2026-11-03T02:53:16Z",
+  "result": "perdu",
   "closing_odds": 1.54,
   "closing_ref": {
    "away": 2.49,
@@ -2154,7 +2154,8 @@
   },
   "clv": -0.0597,
   "clv_book": 0.0,
-  "closing_source": "snapshot"
+  "closing_source": "snapshot",
+  "bankroll_after": 980.21
  },
  {
   "id": "0bb16551811c",
@@ -2459,11 +2460,14 @@
   "pnl": null,
   "settled_at": null,
   "result": null,
-  "closing_odds": null,
-  "closing_ref": null,
-  "clv": null,
-  "clv_book": null,
-  "closing_source": null
+  "closing_odds": 1.54,
+  "closing_ref": {
+   "away": 2.55,
+   "home": 1.564
+  },
+  "clv": -0.0455,
+  "clv_book": 0.0,
+  "closing_source": "snapshot"
  },
  {
   "id": "f1a021a1760e",
@@ -2495,11 +2499,14 @@
   "pnl": null,
   "settled_at": null,
   "result": null,
-  "closing_odds": null,
-  "closing_ref": null,
-  "clv": null,
-  "clv_book": null,
-  "closing_source": null
+  "closing_odds": 2.3,
+  "closing_ref": {
+   "away": 2.55,
+   "home": 1.564
+  },
+  "clv": -0.1256,
+  "clv_book": 0.0,
+  "closing_source": "snapshot"
  },
  {
   "id": "29284f752c31",
