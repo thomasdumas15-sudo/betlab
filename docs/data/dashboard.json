@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-03T03:53:40Z",
+ "generated_at": "2026-11-03T04:55:58Z",
  "bankroll_start": 1000.0,
  "bet_bookmaker": "Winamax",
  "reference_bookmaker": "Pinnacle",
@@ -36,7 +36,7 @@
    "clv_book": null,
    "by_sport": {},
    "equity": [],
-   "vs_control_pnl": -101.72
+   "vs_control_pnl": -121.58
   },
   {
    "key": "value_consensus",
@@ -70,7 +70,7 @@
    "clv_book": null,
    "by_sport": {},
    "equity": [],
-   "vs_control_pnl": -101.72
+   "vs_control_pnl": -121.58
   },
   {
    "key": "favorites",
@@ -80,23 +80,23 @@
     "Cote Winamax entre 1,35 et 1,90.",
     "Mise fixe : 1 % de la bankroll. Témoin du « parieur raisonnable » : attendu légèrement perdant."
    ],
-   "bankroll": 980.41,
-   "pnl": -19.59,
-   "pnl_pct": -0.0196,
-   "roi": -0.0655,
-   "roi_se": 0.1325,
-   "z": -0.49,
+   "bankroll": 975.11,
+   "pnl": -24.89,
+   "pnl_pct": -0.0249,
+   "roi": -0.078,
+   "roi_se": 0.1287,
+   "z": -0.61,
    "bets": 35,
-   "open": 5,
-   "settled": 30,
+   "open": 3,
+   "settled": 32,
    "void": 0,
-   "won": 19,
-   "win_rate": 0.6333,
-   "avg_odds": 1.483,
+   "won": 20,
+   "win_rate": 0.625,
+   "avg_odds": 1.484,
    "avg_edge": -0.0574,
-   "staked": 299.02,
-   "exposure": 49.92,
-   "max_drawdown": -0.031,
+   "staked": 319.02,
+   "exposure": 29.92,
+   "max_drawdown": -0.0407,
    "clv": -0.0676,
    "clv_n": 35,
    "clv_se": 0.0083,
@@ -104,10 +104,10 @@
    "clv_book": -0.0076,
    "by_sport": {
     "nba": {
-     "n": 23,
-     "pnl": -7.75,
-     "staked": 229.71,
-     "roi": -0.0337
+     "n": 25,
+     "pnl": -13.05,
+     "staked": 249.71,
+     "roi": -0.0523
     },
     "serie_a": {
      "n": 3,
@@ -254,9 +254,17 @@
     [
      "2026-11-03",
      980.41
+    ],
+    [
+     "2026-11-03",
+     970.41
+    ],
+    [
+     "2026-11-03",
+     975.11
     ]
    ],
-   "vs_control_pnl": -121.31
+   "vs_control_pnl": -146.47
   },
   {
    "key": "basket",
@@ -290,7 +298,7 @@
    "clv_book": null,
    "by_sport": {},
    "equity": [],
-   "vs_control_pnl": -101.72
+   "vs_control_pnl": -121.58
   },
   {
    "key": "steam",
@@ -324,7 +332,7 @@
    "clv_book": null,
    "by_sport": {},
    "equity": [],
-   "vs_control_pnl": -101.72
+   "vs_control_pnl": -121.58
   },
   {
    "key": "control",
@@ -334,22 +342,22 @@
     "Mise fixe : 1 % de la bankroll.",
     "Si aucune stratégie ne bat le Témoin, c'est qu'elle ne vaut pas mieux que le hasard."
    ],
-   "bankroll": 1101.72,
-   "pnl": 101.72,
-   "pnl_pct": 0.1017,
-   "roi": 0.3983,
-   "roi_se": 0.2992,
-   "z": 1.33,
+   "bankroll": 1121.58,
+   "pnl": 121.58,
+   "pnl_pct": 0.1216,
+   "roi": 0.4377,
+   "roi_se": 0.2779,
+   "z": 1.58,
    "bets": 31,
-   "open": 5,
-   "settled": 24,
+   "open": 3,
+   "settled": 26,
    "void": 2,
-   "won": 15,
-   "win_rate": 0.625,
-   "avg_odds": 2.519,
+   "won": 17,
+   "win_rate": 0.6538,
+   "avg_odds": 2.47,
    "avg_edge": -0.084,
-   "staked": 255.36,
-   "exposure": 54.2,
+   "staked": 277.8,
+   "exposure": 31.76,
    "max_drawdown": -0.0257,
    "clv": -0.0863,
    "clv_n": 29,
@@ -358,10 +366,10 @@
    "clv_book": 0.0018,
    "by_sport": {
     "nba": {
-     "n": 13,
-     "pnl": 84.77,
-     "staked": 137.53,
-     "roi": 0.6164
+     "n": 15,
+     "pnl": 104.63,
+     "staked": 159.97,
+     "roi": 0.6541
     },
     "serie_a": {
      "n": 4,
@@ -484,6 +492,14 @@
     [
      "2026-11-03",
      1101.72
+    ],
+    [
+     "2026-11-03",
+     1116.31
+    ],
+    [
+     "2026-11-03",
+     1121.58
     ]
    ],
    "vs_control_pnl": null
@@ -520,7 +536,7 @@
    "clv_book": null,
    "by_sport": {},
    "equity": [],
-   "vs_control_pnl": -101.72
+   "vs_control_pnl": -121.58
   }
  ],
  "sports": {
@@ -687,15 +703,15 @@
    }
   ]
  },
- "last_run": "2026-11-03T03:53:40Z",
+ "last_run": "2026-11-03T04:55:58Z",
  "run": {
   "collect": {
    "slots": [],
    "events": 0,
    "rows": 0
   },
-  "closing": 2,
-  "settled": 5,
+  "closing": 0,
+  "settled": 4,
   "placed": 0,
   "errors": []
  },
@@ -881,9 +897,9 @@
    "edge": -0.0742,
    "stake": 10.0,
    "placed_at": "2026-11-02T09:04:14Z",
-   "status": "open",
-   "result": null,
-   "pnl": null,
+   "status": "won",
+   "result": "gagné",
+   "pnl": 4.7,
    "clv": -0.0742,
    "clv_book": 0.0,
    "closing_odds": 1.47,
@@ -893,7 +909,7 @@
    "player": null,
    "stat": null,
    "result_value": null,
-   "settled_at": null,
+   "settled_at": "2026-11-03T04:55:58Z",
    "sport_label": "NBA"
   },
   {
@@ -909,9 +925,9 @@
    "edge": -0.0742,
    "stake": 11.22,
    "placed_at": "2026-11-02T09:04:14Z",
-   "status": "open",
-   "result": null,
-   "pnl": null,
+   "status": "won",
+   "result": "gagné",
+   "pnl": 5.27,
    "clv": -0.0742,
    "clv_book": 0.0,
    "closing_odds": 1.47,
@@ -921,7 +937,7 @@
    "player": null,
    "stat": null,
    "result_value": null,
-   "settled_at": null,
+   "settled_at": "2026-11-03T04:55:58Z",
    "sport_label": "NBA"
   },
   {
@@ -937,9 +953,9 @@
    "edge": -0.0455,
    "stake": 10.0,
    "placed_at": "2026-11-02T09:04:14Z",
-   "status": "open",
-   "result": null,
-   "pnl": null,
+   "status": "lost",
+   "result": "perdu",
+   "pnl": -10.0,
    "clv": -0.0455,
    "clv_book": 0.0,
    "closing_odds": 1.54,
@@ -949,7 +965,7 @@
    "player": null,
    "stat": null,
    "result_value": null,
-   "settled_at": null,
+   "settled_at": "2026-11-03T04:55:43Z",
    "sport_label": "NBA"
   },
   {
@@ -965,9 +981,9 @@
    "edge": -0.1256,
    "stake": 11.22,
    "placed_at": "2026-11-02T09:04:14Z",
-   "status": "open",
-   "result": null,
-   "pnl": null,
+   "status": "won",
+   "result": "gagné",
+   "pnl": 14.59,
    "clv": -0.1256,
    "clv_book": 0.0,
    "closing_odds": 2.3,
@@ -977,7 +993,7 @@
    "player": null,
    "stat": null,
    "result_value": null,
-   "settled_at": null,
+   "settled_at": "2026-11-03T04:55:43Z",
    "sport_label": "NBA"
   },
   {
