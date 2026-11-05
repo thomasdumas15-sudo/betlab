@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-05T11:58:19Z",
+ "generated_at": "2026-11-05T13:08:09Z",
  "bankroll_start": 1000.0,
  "bet_bookmaker": "Winamax",
  "reference_bookmaker": "Pinnacle",
@@ -715,7 +715,7 @@
    }
   ]
  },
- "last_run": "2026-11-05T11:58:19Z",
+ "last_run": "2026-11-05T13:08:09Z",
  "run": {
   "collect": {
    "slots": [],
