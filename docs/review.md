@@ -1,6 +1,6 @@
 # BetLab — revue
 
-_Générée le 2026-11-06T14:16:15Z — simulation, aucun argent réel._
+_Générée le 2026-11-06T15:50:57Z — simulation, aucun argent réel._
 
 ## Stratégies
 
