@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-09T23:41:43Z",
+ "generated_at": "2026-11-10T01:00:03Z",
  "bankroll_start": 1000.0,
  "bet_bookmaker": "Winamax",
  "reference_bookmaker": "Pinnacle",
@@ -581,7 +581,7 @@
    "used": 14,
    "remaining": 236,
    "used_today": 0,
-   "daily_allowance": 9.6,
+   "daily_allowance": 10.0,
    "reserve": 25,
    "denied": 21
   },
@@ -590,7 +590,7 @@
    "used": 0,
    "remaining": 500,
    "used_today": 0,
-   "daily_allowance": 19.1,
+   "daily_allowance": 20.0,
    "reserve": 80,
    "denied": 0
   }
@@ -713,7 +713,7 @@
    }
   ]
  },
- "last_run": "2026-11-09T23:41:43Z",
+ "last_run": "2026-11-10T01:00:03Z",
  "run": {
   "collect": {
    "slots": [],
