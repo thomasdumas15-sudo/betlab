@@ -16,7 +16,7 @@
    "winamax.fr"
   ]
  },
- "last_saved": "2026-11-13T17:52:26Z",
+ "last_saved": "2026-11-13T18:53:05Z",
  "slots": {
   "basketball:soir": "2026-11-12",
   "basketball:matin": "2026-11-13",
@@ -135,17 +135,10 @@
    }
   ]
  },
- "last_run": "2026-11-13T17:52:26Z",
+ "last_run": "2026-11-13T18:53:05Z",
  "last_run_summary": {
   "collect": {
-   "slots": [
-    {
-     "slot": "us:soir",
-     "events": 0,
-     "rows": 0,
-     "ok": true
-    }
-   ],
+   "slots": [],
    "events": 0,
    "rows": 0
   },
