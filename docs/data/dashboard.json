@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-13T06:00:01Z",
+ "generated_at": "2026-11-13T07:14:44Z",
  "bankroll_start": 1000.0,
  "bet_bookmaker": "Winamax",
  "reference_bookmaker": "Pinnacle",
@@ -599,7 +599,7 @@
   "basketball:matin": "2026-11-12",
   "football:midi": "2026-11-12",
   "us:soir": "2026-11-12",
-  "tennis:matin": "2026-11-12"
+  "tennis:matin": "2026-11-13"
  },
  "tournaments": {
   "nba": [
@@ -712,10 +712,17 @@
    }
   ]
  },
- "last_run": "2026-11-13T06:00:01Z",
+ "last_run": "2026-11-13T07:14:44Z",
  "run": {
   "collect": {
-   "slots": [],
+   "slots": [
+    {
+     "slot": "tennis:matin",
+     "events": 0,
+     "rows": 0,
+     "ok": true
+    }
+   ],
    "events": 0,
    "rows": 0
   },
