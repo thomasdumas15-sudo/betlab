@@ -3,7 +3,7 @@
   "oddspapi": {
    "month": "2026-11",
    "used": 14,
-   "today": "2026-11-16",
+   "today": "2026-11-17",
    "used_today": 0,
    "reported_remaining": null,
    "denied": 21
@@ -16,13 +16,13 @@
    "winamax.fr"
   ]
  },
- "last_saved": "2026-11-17T06:00:09Z",
+ "last_saved": "2026-11-17T07:18:28Z",
  "slots": {
   "basketball:soir": "2026-11-16",
   "basketball:matin": "2026-11-16",
   "football:midi": "2026-11-16",
   "us:soir": "2026-11-16",
-  "tennis:matin": "2026-11-15"
+  "tennis:matin": "2026-11-17"
  },
  "oddspapi_tournaments": {
   "nba": [
@@ -135,10 +135,17 @@
    }
   ]
  },
- "last_run": "2026-11-17T06:00:09Z",
+ "last_run": "2026-11-17T07:18:28Z",
  "last_run_summary": {
   "collect": {
-   "slots": [],
+   "slots": [
+    {
+     "slot": "tennis:matin",
+     "events": 0,
+     "rows": 0,
+     "ok": true
+    }
+   ],
    "events": 0,
    "rows": 0
   },
