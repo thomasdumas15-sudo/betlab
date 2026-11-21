@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-21T09:39:06Z",
+ "generated_at": "2026-11-21T17:23:13Z",
  "bankroll_start": 1000.0,
  "bet_bookmaker": "Winamax",
  "reference_bookmaker": "Pinnacle",
@@ -567,10 +567,10 @@
  },
  "upcoming_events": {
   "nba": 5,
-  "premier_league": 10,
-  "serie_a": 10,
-  "bundesliga": 8,
-  "ligue1": 8
+  "premier_league": 4,
+  "bundesliga": 3,
+  "serie_a": 7,
+  "ligue1": 7
  },
  "events_tracked": 297,
  "bets_total": 66,
@@ -598,7 +598,7 @@
   "basketball:soir": "2026-11-18",
   "basketball:matin": "2026-11-21",
   "football:midi": "2026-11-20",
-  "us:soir": "2026-11-20",
+  "us:soir": "2026-11-21",
   "tennis:matin": "2026-11-19"
  },
  "tournaments": {
@@ -712,12 +712,12 @@
    }
   ]
  },
- "last_run": "2026-11-21T09:39:06Z",
+ "last_run": "2026-11-21T17:23:13Z",
  "run": {
   "collect": {
    "slots": [
     {
-     "slot": "basketball:matin",
+     "slot": "us:soir",
      "events": 0,
      "rows": 0,
      "ok": true
